@@ -19,7 +19,7 @@
 	
 	<div id="wrapper">
 		<div id="album-name">
-			<a href="#" target="_blank" id="artwork-link"><img src="http://placehold.it/103" id="album-artwork"></a>
+			<a href="#" target="_blank" id="artwork-link"><img src="#" id="album-artwork"></a>
 			<div id="album-id">MONSTERCAT 000</div>
 			<div id="album-title">XXX</div>
 		</div>
@@ -269,7 +269,7 @@
 			else document.getElementById("track-" + i).className = "mix active";
 			
 			var request = new XMLHttpRequest();
-			request.open('GET', 'http://api.soundcloud.com/resolve.json?url=' + url + '&client_id=aa5f438c7671dcdd963f0161b2ca5ad7', true);
+			request.open('GET', 'https://api.soundcloud.com/resolve.json?url=' + url + '&client_id=aa5f438c7671dcdd963f0161b2ca5ad7', true);
 			
 			request.onload = function() {
 				if(request.status >= 200 && request.status < 400) {
