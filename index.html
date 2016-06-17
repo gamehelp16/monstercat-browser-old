@@ -1,0 +1,326 @@
+<!doctype html>
+<html>
+<head>
+	<title>Monstercat Album Browser</title>
+	<link rel="icon" href="logo.png">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	
+	<!--img src="027 - Cataclysm.png" id="bg"-->
+	
+	<div id="player-div">
+		<div id="now-playing"></div>
+		<audio id="soundcloud-player" controls></audio>
+	</div>
+	
+	<a id="prev-a" href="#" onclick="navigate(-1)"><div id="prev-album"><span>&lsaquo;</span></div></a>
+	<a id="next-a" href="#" onclick="navigate(1)"><div id="next-album"><span>&rsaquo;</span></div></a>
+	
+	<div id="wrapper">
+		<div id="album-name">
+			<a href="#" target="_blank" id="artwork-link"><img src="http://placehold.it/103" id="album-artwork"></a>
+			<div id="album-id">MONSTERCAT 000</div>
+			<div id="album-title">XXX</div>
+		</div>
+		<div id="genre-count"></div>
+		<div style="clear: both;"></div>
+		<div id="tracklist"></div>
+		<div id="album-mixes">
+			<div id="includes"></div>
+			<div id="mixes"></div>
+		</div>
+		<div id="danyka-nadeau"></div>
+		<div id="spacer"></div>
+	</div>
+	
+	<div id="introduction">
+		<h1>WELCOME!</h1>
+		<p>On this Monstercat Album Browser, you can browse tracklists from Monstercat's compilation albums and navigate through them. Click on each track to play them right on this page, or click the genre circles on the top right corner to filter the tracklist by track genres. Right now you can only browse through albums 025 - 027 (no SoundCloud link for 025 yet) because the data for other albums aren't added yet (<a href="albumdata.html" target="_blank">click here</a> if you want to help with adding album data).</p>
+		<p>This album browser is inspired by <a href="https://www.reddit.com/r/Monstercat/comments/4m0t3q/monstercat_027_cataclysm_bloqs_visual_tracklist/" target="_blank">/u/Bloq's Visual Tracklist</a> from Reddit, go check it out! If you have some feedback about this project feel free to tell me at <a href="https://www.reddit.com/user/gamehelp16/" target="_blank">/u/gamehelp16!</a></p>
+		<button id="dismiss">CLOSE</button>
+	</div>
+	<div id="modal"></div>
+	
+	<script>
+		
+		var genres = ["trap", "dnb", "house", "electro", "hard-dance", "glitch-hop", "nu-disco", "future-bass", "trance", "dubstep", "drumstep", "electronic"];
+		
+		var selectedGenre,
+			genreCount,
+			data,
+			danykaCounter,
+			selectedTrack,
+			currentAlbum,
+			latest = "027",
+			loadingAlbum = true;
+		
+		var albumToLoad = document.URL.split("#")[1];
+		if(!(parseInt(albumToLoad) > 0 && parseInt(albumToLoad) <= parseInt(latest))) albumToLoad = latest;
+		loadAlbum(albumToLoad);
+		
+		if(localStorage.showintroduction === undefined || new Date().getTime() > localStorage.showintroduction) {
+			document.getElementById("introduction").style.display = "block";
+			document.getElementById("modal").style.display = "block";
+		}
+		
+		function loadAlbum(number) {
+			
+			loadingAlbum = true;
+			
+			document.getElementById("album-artwork").src = "";
+			document.getElementById("wrapper").style.opacity = 0.5;
+			
+			var request = new XMLHttpRequest();
+			request.open('GET', 'albums/' + number + '.json', true);
+			
+			request.onload = function() {
+			
+				currentAlbum = number;
+				
+				if(number == "001") document.getElementById("prev-album").style.display = "none";
+				else document.getElementById("prev-album").style.display = "table";
+				
+				if(number == latest) document.getElementById("next-album").style.display = "none";
+				else document.getElementById("next-album").style.display = "table";
+				
+				if(number != "001") {
+					var albumid = parseInt(number);
+					var pad = "0";
+					albumid--;
+					if(albumid > 99) pad = "";
+					document.getElementById("prev-a").href = "#" + pad + albumid;
+				}
+				
+				if(number != latest) {
+					var albumid = parseInt(number);
+					var pad = "0";
+					albumid++;
+					if(albumid > 99) pad = "";
+					document.getElementById("next-a").href = "#" + pad + albumid;
+				}
+				
+				loadingAlbum = false;
+				data = JSON.parse(request.responseText);
+				
+				genreCount = [
+					{ genre: 0, count: 0 },
+					{ genre: 1, count: 0 },
+					{ genre: 2, count: 0 },
+					{ genre: 3, count: 0 },
+					{ genre: 4, count: 0 },
+					{ genre: 5, count: 0 },
+					{ genre: 6, count: 0 },
+					{ genre: 7, count: 0 },
+					{ genre: 8, count: 0 },
+					{ genre: 9, count: 0 },
+					{ genre: 10, count: 0 },
+					{ genre: 11, count: 0 }
+				];
+				
+				danykaCounter = 0;
+				selectedTrack = 99;
+				includesText = "";
+				
+				document.title = "Monstercat " + data.album_number + " - " + data.album_title + " Tracklist";
+				document.getElementById("album-id").innerHTML = "Monstercat " + data.album_number;
+				document.getElementById("album-title").innerHTML = data.album_title;
+				document.getElementById("album-artwork").src = data.album_artwork_thumb;
+				document.getElementById("artwork-link").href = data.album_artwork_full;
+				document.getElementById("tracklist").innerHTML = "";
+				document.getElementById("genre-count").innerHTML = "";
+				document.getElementById("mixes").innerHTML = "";
+				
+				if(data.album_number == "005") includesText = "INCLUDES 2 PART ALBUM MIX";
+				else if(data.mixes.length == 1) includesText = "INCLUDES 1 HOUR ALBUM MIX";
+				else if(data.mixes.length > 1) includesText = "INCLUDES " + toText(data.mixes.length) + " 1 HOUR ALBUM MIXES";
+				
+				document.getElementById("includes").innerHTML = includesText;
+				
+				for(z=0;z<data.mixes.length;z++) {
+					var thetrack = z+90;
+					document.getElementById("mixes").innerHTML += '<div class="mix" id="track-' + thetrack + '" onclick="playSoundCloud(' + thetrack + ', \'' + data.mixes[z].soundcloud_url + '\');"></div>';
+					document.getElementById("track-" + thetrack).className = "mix";
+					document.getElementById("track-" + thetrack).innerHTML = data.mixes[z].name;
+				}
+				
+				for(i=0;i<data.tracks.length;i++) {
+					var track = data.tracks[i];
+					document.getElementById("tracklist").innerHTML += showTrack(i, track);
+					genreCount[track.genre].count++;
+					if(track.feat.toLowerCase().indexOf("danyka nadeau") > -1) danykaCounter++;
+				}
+				
+				genreCount.sort(function(x,y){return y.count - x.count;});
+				
+				for(i=0;i<12;i++) {
+					if(i==6) document.getElementById("genre-count").innerHTML += '<div style="clear: both;"></div>';
+					document.getElementById("genre-count").innerHTML += '<div class="genre-wrapper" id="genre-' + genreCount[i].genre + '" onclick="filter(' + genreCount[i].genre + ')">\n\
+						<div class="genre-img ' + genres[genreCount[i].genre] + '"></div>\n\
+						<div class="genre-num"> ' + genreCount[i].count + '</div>\n\
+					</div>';
+				}
+				
+				document.getElementById("danyka-nadeau").innerHTML = "Danyka Nadeau is featured " + danykaCounter + " time(s) on this album.";
+				
+				document.getElementById("wrapper").style.opacity = 1;
+				
+			};
+			
+			request.onerror = function() {
+				loadingAlbum = false;
+				var albumid = parseInt(currentAlbum);
+				var pad = "0";
+				if(albumid > 99) pad = "";
+				window.location.href = "#" + pad + albumid;
+				document.getElementById("album-artwork").src = data.album_artwork_thumb;
+				alert('Error: Cannot retrieve album data (or album data isn\'t available yet).');
+				document.getElementById("wrapper").style.opacity = 1;
+			};
+
+			request.send();
+			
+		}
+		
+		function navigate(what) {
+			
+			if(loadingAlbum) return;
+			
+			var albumid = parseInt(currentAlbum);
+			var pad = "0";
+			
+			if(what == -1) {
+				if(albumid < 2) return;
+				albumid += what;
+				if(albumid > 99) pad = "";
+				loadAlbum(pad + albumid);
+			}
+			else if(what == 1) {
+				if(albumid >= parseInt(latest)) return;
+				albumid += what;
+				if(albumid > 99) pad = "";
+				loadAlbum(pad + albumid);
+			}
+			
+		}
+		
+		// TODO: introduction box
+		
+		function filter(genre) {
+			var tracks = 0;
+			document.getElementById("tracklist").innerHTML = "";
+			if(selectedGenre == genre) {
+				document.getElementById("genre-" + genre).className = "genre-wrapper";
+				document.getElementById("album-mixes").style.display = "block";
+				selectedGenre = 99;
+			}
+			else {
+				if(selectedGenre < 99) document.getElementById("genre-" + selectedGenre).className = "genre-wrapper";
+				document.getElementById("genre-" + genre).className = "genre-wrapper active";
+				document.getElementById("album-mixes").style.display = "none";
+				selectedGenre = genre;
+			}
+			for(i=0;i<data.tracks.length;i++) {
+				var track = data.tracks[i];
+				if(track.genre == genre || selectedGenre == 99) {
+					data.tracks[i].number = i;
+					document.getElementById("tracklist").innerHTML += showTrack(i, track);
+					tracks++;
+				}
+			}
+			if(tracks == 0) {
+				document.getElementById("tracklist").innerHTML += '<div class="track no-tracks">No tracks found.</div>';
+			}
+		}
+		
+		function showTrack(i, track) {
+			var output = "";
+			var feat = "";
+			if(i == selectedTrack) active = " active";
+			else active = "";
+			if(track.feat != "") feat = '<div class="track-info">(feat. ' + track.feat + ')</div>';
+			output = '<div class="track' + active + '" onclick="playSoundCloud(' + i + ', \'' + track.soundcloud_url + '\')" id="track-' + i + '">\n\
+				<div class="track-number">' + (i+1) + '</div>\n\
+				<div class="track-genre"><div class="genre-img ' + genres[track.genre] + '"></div></div>\n\
+				<div class="track-artist">' + track.artist + '</div>\n\
+				<div class="track-title">' + track.title + '</div>' + feat + '\n\
+			</div>';
+			return output;
+		}
+		
+		function playSoundCloud(i, url) {
+			
+			if(url == "") {
+				alert('SoundCloud link for track not added yet.');
+				return;
+			}
+			if(i == selectedTrack) return;
+			
+			if(selectedTrack<99) {
+				document.getElementById("soundcloud-player").pause();
+				document.getElementById("now-playing").innerHTML = "Now Playing: <b>...</b>";
+				if(document.getElementById("track-" + selectedTrack) !== null) {
+					if(selectedTrack<90) document.getElementById("track-" + selectedTrack).className = "track";
+					else document.getElementById("track-" + selectedTrack).className = "mix";
+				}
+			}
+			selectedTrack = i;
+			if(i<90) document.getElementById("track-" + i).className = "track active";
+			else document.getElementById("track-" + i).className = "mix active";
+			
+			var request = new XMLHttpRequest();
+			request.open('GET', 'http://api.soundcloud.com/resolve.json?url=' + url + '&client_id=aa5f438c7671dcdd963f0161b2ca5ad7', true);
+			
+			request.onload = function() {
+				if(request.status >= 200 && request.status < 400) {
+					var response = JSON.parse(request.responseText);
+					if(response.kind === "track"){
+						
+						if(i > 89) var nowplaying = response.title;
+						else {
+							var track = data.tracks[i];
+							var nowplaying = track.artist + " - " + track.title;
+							if(track.feat != "") nowplaying += " (feat. " + track.feat + ")";
+						}
+						
+						var stream = response.stream_url + "?client_id=aa5f438c7671dcdd963f0161b2ca5ad7";
+						document.getElementById("soundcloud-player").src = stream;
+						document.getElementById("soundcloud-player").play();
+						document.getElementById("now-playing").innerHTML = "Now Playing: <b>" + nowplaying + "</b>";
+						document.getElementById("player-div").style.display = "block";
+						document.getElementById("spacer").style.display = "block";
+						
+					}
+				}
+				else {
+					alert('Error: Cannot load music.');
+				}
+			};
+
+			request.onerror = function() {
+				alert('Error: Cannot connect to SoundCloud server.');
+			};
+
+			request.send();
+			
+		}
+		
+		function toText(num) {
+			var text = ["ZERO", "ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE", "TEN"];
+			return text[num];
+		}
+		
+		document.getElementById("dismiss").onclick = function() {
+			document.getElementById("introduction").style.opacity = 0;
+			document.getElementById("modal").style.opacity = 0;
+			localStorage.showintroduction = new Date().getTime() + 60 * 60 * 1000;
+			setTimeout(function() {
+				document.getElementById("introduction").style.display = "none";
+				document.getElementById("modal").style.display = "none";
+			}, 1000);
+		};
+		
+	</script>
+	
+</body>
+</html>

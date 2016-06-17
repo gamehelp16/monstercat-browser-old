@@ -1,0 +1,266 @@
+{
+	
+	"album_number": "027",
+	"album_title": "Cataclysm",
+	"album_artwork_thumb": "http://i.imgur.com/j1fZsYBm.jpg",
+	"album_artwork_full": "http://i.imgur.com/j1fZsYB.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Pegboard Nerds & NGHTMRE",
+			"title": "Superstar",
+			"genre": 9,
+			"feat": "Krewella",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-nghtmre-superstar"
+		},
+
+		{
+			"artist": "Marshmello",
+			"title": "Alone",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/marshmello-alone"
+		},
+
+		{
+			"artist": "Unlike Pluto",
+			"title": "Waiting For You",
+			"genre": 11,
+			"feat": "Joanna Jones",
+			"soundcloud_url": "https://soundcloud.com/monstercat/unlike-pluto-waiting-for-you"
+		},
+
+		{
+			"artist": "Slushii",
+			"title": "Emptiness",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/slushii-emptiness"
+		},
+
+		{
+			"artist": "Slips & Slurs x Mihka!",
+			"title": "WiFi Tears",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/slips-slurs-x-mihka-wifi-tears"
+		},
+
+		{
+			"artist": "Conro",
+			"title": "City Lights",
+			"genre": 7,
+			"feat": "Royal",
+			"soundcloud_url": "https://soundcloud.com/monstercat/conro-city-lights"
+		},
+
+		{
+			"artist": "Rootkit",
+			"title": "Strung Out",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rootkit-strung-out"
+		},
+
+		{
+			"artist": "PIXL",
+			"title": "Sadbot",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pixl-sadbot"
+		},
+
+		{
+			"artist": "Noisestorm",
+			"title": "Leaving Now",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/noisestorm-leaving-now"
+		},
+
+		{
+			"artist": "Stonebank",
+			"title": "Never Looking Back",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stonebank-never-looking-back"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Children of Hell",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-children-of-hell"
+		},
+
+		{
+			"artist": "Melano",
+			"title": "Don't Fight It",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/melano-dont-fight-it"
+		},
+
+		{
+			"artist": "Mr FijiWiji, Direct, & Aruna",
+			"title": "Time To Say Goodbye",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-direct-aruna-time-to-say-goodbye"
+		},
+
+		{
+			"artist": "LVTHER",
+			"title": "Some Kind of Magic",
+			"genre": 6,
+			"feat": "MYZICA",
+			"soundcloud_url": "https://soundcloud.com/monstercat/lvther-some-kind-of-magic"
+		},
+
+		{
+			"artist": "Nitro Fun & Hyper Potions",
+			"title": "Checkpoint",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nitro-fun-hyper-potions-checkpoint"
+		},
+
+		{
+			"artist": "Rich Edwards",
+			"title": "Where I'll Be Waiting",
+			"genre": 2,
+			"feat": "Cozi Zuehlsdorff",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rich-edwards-where-ill-be-waiting"
+		},
+
+		{
+			"artist": "Hush",
+			"title": "Tentakel",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hush-tentakel"
+		},
+
+		{
+			"artist": "Notaker",
+			"title": "Infinite",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/notaker-infinite"
+		},
+
+		{
+			"artist": "Summer Was Fun",
+			"title": "Hold On",
+			"genre": 6,
+			"feat": "Q'AILA",
+			"soundcloud_url": "https://soundcloud.com/monstercat/summer-was-fun-hold-on"
+		},
+
+		{
+			"artist": "Rameses B",
+			"title": "Neon Rainbow",
+			"genre": 1,
+			"feat": "Anna Yvette",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rameses-b-neon-rainbow"
+		},
+
+		{
+			"artist": "Protostar",
+			"title": "No Turning Back",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/protostar-no-turning-back"
+		},
+
+		{
+			"artist": "Stonebank",
+			"title": "Be Alright",
+			"genre": 4,
+			"feat": "EMEL",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stonebank-be-alright"
+		},
+
+		{
+			"artist": "Hyper Potions",
+			"title": "Unbreakable",
+			"genre": 2,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hyper-potions-unbreakable"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Turtle Town",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-turtle-town"
+		},
+
+		{
+			"artist": "Unlike Pluto",
+			"title": "Searching For You",
+			"genre": 2,
+			"feat": "KARRA and Eric Zayne",
+			"soundcloud_url": "https://soundcloud.com/monstercat/unlike-pluto-searching-for-you"
+		},
+
+		{
+			"artist": "Trivecta",
+			"title": "Into The Limelight",
+			"genre": 2,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/trivecta-into-the-limelight"
+		},
+
+		{
+			"artist": "Melano",
+			"title": "Traveller",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/melano-traveller"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Sacred Woods",
+			"genre": 11,
+			"feat": "Skyelle",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-sacred-woods"
+		},
+
+		{
+			"artist": "Conro",
+			"title": "The Saint",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/conro-the-saint"
+		},
+
+		{
+			"artist": "PYLOT",
+			"title": "The Place I Once Knew",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pylot-the-place-i-once-knew"
+		}
+
+	],
+	
+	"mixes": [
+		
+		{
+			"name": "Trials",
+			"soundcloud_url": "https://soundcloud.com/monstercat/monstercat-trials-album-mix"
+		},
+		
+		{
+			"name": "Tribulations",
+			"soundcloud_url": "https://soundcloud.com/monstercat/monstercat-tribulations-album-mix"
+		}
+		
+	]
+	
+}

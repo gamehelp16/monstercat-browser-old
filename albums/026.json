@@ -1,0 +1,266 @@
+{
+	
+	"album_number": "026",
+	"album_title": "Resistance",
+	"album_artwork_thumb": "http://i.imgur.com/KSHsKFMm.jpg",
+	"album_artwork_full": "http://i.imgur.com/KSHsKFM.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Haywyre",
+			"title": "Do You Don't You",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/haywyre/haywyre-do-you-dont-you"
+		},
+
+		{
+			"artist": "Hellberg",
+			"title": "Synchronize",
+			"genre": 2,
+			"feat": "Aaron Richards",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hellberg-synchronize"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Devotion",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-devotion"
+		},
+
+		{
+			"artist": "Pegboard Nerds & Grabbitz",
+			"title": "All Alone",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-grabbitz-all-alone"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Greatness",
+			"genre": 11,
+			"feat": "Talib Kweli",
+			"soundcloud_url": "https://soundcloud.com/karmafields/greatness"
+		},
+
+		{
+			"artist": "Noisestorm",
+			"title": "Antihero",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/noisestorm-antihero"
+		},
+
+		{
+			"artist": "San Holo",
+			"title": "They Just Haven't Seen It",
+			"genre": 7,
+			"feat": "The Nicholas",
+			"soundcloud_url": "https://soundcloud.com/monstercat/san-holo-they-just-havent-seen-it"
+		},
+
+		{
+			"artist": "Snavs",
+			"title": "Into the Wild",
+			"genre": 0,
+			"feat": "Sebastian Lind",
+			"soundcloud_url": "https://soundcloud.com/snavs/snavs-into-the-wild-feat-sebastian-lind"
+		},
+
+		{
+			"artist": "Conro",
+			"title": "On My Way Up",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/conro-on-my-way-up"
+		},
+
+		{
+			"artist": "Loosid",
+			"title": "Clouds",
+			"genre": 11,
+			"feat": "Raycee Jones",
+			"soundcloud_url": "https://soundcloud.com/monstercat/loosid-clouds"
+		},
+
+		{
+			"artist": "Haywyre",
+			"title": "I Am You",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/haywyre/i-am-you"
+		},
+
+		{
+			"artist": "Melano",
+			"title": "On Fire",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/melano-on-fire"
+		},
+
+		{
+			"artist": "Slips & Slurs",
+			"title": "Malicious",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/slips-slurs-malicious"
+		},
+
+		{
+			"artist": "Hush",
+			"title": "Fopspeen",
+			"genre": 7,
+			"feat": "All About She",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hush-fopspeen-bound-2-u"
+		},
+
+		{
+			"artist": "WRLD",
+			"title": "Awake",
+			"genre": 6,
+			"feat": "Colordrive",
+			"soundcloud_url": "https://soundcloud.com/monstercat/wrld-awake"
+		},
+
+		{
+			"artist": "Puppet & Cormak",
+			"title": "Enough Is Enough",
+			"genre": 6,
+			"feat": "Richard Caddock",
+			"soundcloud_url": "https://soundcloud.com/monstercat/puppet-cormak-enough-is-enough"
+		},
+
+		{
+			"artist": "PYLOT",
+			"title": "A Race Against Time",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pylot-a-race-against-time"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Edge of the World",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/karmafields/edge-of-the-world"
+		},
+
+		{
+			"artist": "Rezonate",
+			"title": "X-Ray",
+			"genre": 7,
+			"feat": "Jhyve",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rezonate-x-ray"
+		},
+
+		{
+			"artist": "San Holo",
+			"title": "New Sky",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/san-holo-new-sky"
+		},
+
+		{
+			"artist": "Summer Was Fun",
+			"title": "Pick Up the Phone",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/summer-was-fun-pick-up-the-phone"
+		},
+
+		{
+			"artist": "Puppet",
+			"title": "Vagabond",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/puppet-vagabond"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Fell Down",
+			"genre": 9,
+			"feat": "Holly Drummond",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-fell-down"
+		},
+
+		{
+			"artist": "Stonebank",
+			"title": "All Night",
+			"genre": 4,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stonebank-all-night"
+		},
+
+		{
+			"artist": "Trivecta",
+			"title": "The Vale",
+			"genre": 5,
+			"feat": "Miyoki",
+			"soundcloud_url": "https://soundcloud.com/monstercat/trivecta-the-vale"
+		},
+
+		{
+			"artist": "Draper",
+			"title": "All I See",
+			"genre": 6,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "https://soundcloud.com/monstercat/draper-all-i-see"
+		},
+
+		{
+			"artist": "WRLD",
+			"title": "Drowning",
+			"genre": 11,
+			"feat": "Ehiorobo",
+			"soundcloud_url": "https://soundcloud.com/monstercat/wrld-drowning"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "It Came From Planet Earth",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-it-came-from-planet-earth"
+		},
+
+		{
+			"artist": "Eminence & Supermans Feinde",
+			"title": "Night Goes On",
+			"genre": 2,
+			"feat": "Q'AILA",
+			"soundcloud_url": "https://soundcloud.com/monstercat/eminence-supermans-feinde-night-goes-on"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Queen of Your Heart",
+			"genre": 11,
+			"feat": "Augustus Ghost",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-queen-of-your-heart"
+		}
+
+	],
+	
+	"mixes": [
+		
+		{
+			"name": "Defiance",
+			"soundcloud_url": "https://soundcloud.com/monstercat/monstercat-defiance-album-mix"
+		},
+		
+		{
+			"name": "Submission",
+			"soundcloud_url": "https://soundcloud.com/monstercat/monstercat-submission-mix"
+		}
+		
+	]
+	
+}

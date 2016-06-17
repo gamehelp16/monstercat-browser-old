@@ -1,0 +1,342 @@
+@font-face {
+    font-family: Gotham Bold;
+    src: url(gotham_bold.ttf);
+}
+
+@font-face {
+    font-family: Gotham Book;
+    src: url(gotham_book.ttf);
+}
+
+body {
+	margin: 0;
+	background: rgb(18, 21, 23);
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	overflow-y: scroll;
+}
+
+#wrapper {
+	margin: 20px auto;
+	width: 764px;
+}
+
+#spacer {
+	height: 80px;
+	display: none;
+}
+
+#album-name {
+	margin-top: 26px;
+	float: left;
+}
+
+#album-artwork {
+	float: left;
+	margin-right: 11px;
+	width: 103px;
+	height: 103px;
+}
+
+#album-id {
+	font-family: Gotham Bold;
+	font-size: 31px;
+	letter-spacing: -2px;
+	padding-top: 17px;
+	float: left;
+	text-transform: uppercase;
+}
+
+#album-title {
+	font-family: Gotham Book;
+	font-size: 24px;
+	letter-spacing: -2.3px;
+	text-transform: uppercase;
+}
+
+#genre-count {
+	float: right;
+	margin-top: 20px;
+}
+
+.genre-wrapper {
+	float: left;
+	margin: 0 0 4px 1px;
+	font-size: 17px;
+	cursor: pointer;
+	padding: 7px;
+}
+
+.genre-wrapper:hover {
+	background: #333;
+}
+
+.genre-wrapper.active {
+	background: #555;
+}
+
+.genre-img {
+	border-radius: 100%;
+	width: 33px;
+	height: 33px;
+	background: url(mcat.png) 5px 4px no-repeat;
+	background-size: 23px 25px;
+	margin-bottom: 0px;
+}
+
+.trap { background-color: #8C0F27; }
+.dnb { background-color: #F21904; }
+.house { background-color: #EA8C00; }
+.electro { background-color: #E6CE00; }
+.hard-dance { background-color: #019700; }
+.glitch-hop { background-color: #0B9757; }
+.nu-disco { background-color: #1CABB3; }
+.future-bass { background-color: #9A98FC; }
+.trance { background-color: #007EE7; }
+.dubstep { background-color: #8D04E1; }
+.drumstep { background-color: #F32188; }
+.electronic { background-color: #C1C1C1; }
+
+.genre-num {
+	text-align: center;
+	font-family: Gotham Book;
+	margin-top: 3px;
+}
+
+#tracklist {
+	margin-top: 20px;
+}
+
+.track:first-child {
+	border-top: 1px solid rgb(28, 28, 28);
+}
+
+.track {
+	border-bottom: 1px solid rgb(28, 28, 28);
+	padding: 5px;
+	cursor: pointer;
+}
+
+.track:hover {
+	background: rgb(50, 50, 50);
+}
+
+.track.active {
+	background: #444;
+}
+
+.track div {
+	display: inline-block;
+	font-family: Gotham Book;
+	vertical-align: middle;
+	letter-spacing: -1px;
+}
+
+.track-number {
+	width: 42px;
+	color: rgb(80, 80, 80);
+	text-align: center;
+	font-size: 23px;
+}
+
+.track-genre {
+	margin: 2px 0;
+}
+
+.track-artist {
+	color: rgb(213, 213, 213);
+	margin-left: 9px;
+	width: 302px;
+}
+
+.track-title {
+	color: rgb(213, 213, 213);
+	font-size: 15px;
+	margin-right: 10px;
+}
+
+.track-info {
+	color: rgb(99, 99, 99);
+	font-size: 13px;
+}
+
+.no-tracks {
+	font-family: Gotham Book;
+	text-align: center;
+	color: rgb(213, 213, 213);
+	height: 51px;
+	box-sizing: border-box;
+	letter-spacing: -1px;
+	padding-top: 15px;
+}
+
+#album-mixes {
+	font-family: Gotham Bold;
+	text-align: center;
+	padding: 30px 0 10px 0;
+}
+
+#mixes {
+	margin-top: 4px;
+}
+
+.mix {
+	border: 2px solid white;
+	width: 161px;
+	height: 37px;
+	display: inline-block;
+	margin: 6px;
+	font-size: 18px;
+	padding: 6px;
+	text-transform: uppercase;
+	cursor: pointer;
+	box-sizing: border-box;
+	-webkit-transition: .15s all linear;
+	   -moz-transition: .15s all linear;
+	        transition: .15s all linear;
+}
+
+.mix:hover, .mix.active {
+	background: white;
+	color: black;
+}
+
+#danyka-nadeau {
+	font-family: Gotham Book;
+	letter-spacing: -1px;
+	text-align: center;
+	color: transparent;
+}
+
+#player-div {
+	width: 764px;
+	margin-left: -382px;
+	background: rgb(18, 21, 23);
+	padding-top: 5px;
+	position: fixed;
+	left: 50%;
+	bottom: 0;
+	display: none;
+	z-index: 1000;
+}
+
+#now-playing {
+	font-family: Gotham Book;
+	letter-spacing: -1px;
+	padding: 10px 0;
+}
+
+#soundcloud-player, #now-playing {
+	width: 764px;
+	margin-left: -382px;
+	position: relative;
+	left: 50%;
+}
+
+#now-playing b {
+	font-family: Gotham Bold;
+	font-weight: normal;
+}
+
+#prev-album, #next-album {
+	position: fixed;
+	left: 50%;
+	width: 74px;
+	height: 100%;
+	cursor: pointer;
+	margin-top: -25px;
+	color: #888;
+	font-size: 75px;
+	text-align: center;
+	display: table;
+}
+
+#prev-album {
+	margin-left: -496px;
+}
+
+#next-album {
+	margin-left: 422px;
+}
+
+#prev-album:hover, #next-album:hover {
+	color: #eee;
+}
+
+#prev-album span, #next-album span {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#introduction {
+	font-family: Gotham Book;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	background: white;
+	color: black;
+	letter-spacing: -1px;
+	padding: 30px;
+	width: 500px;
+	border-radius: 3px;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	-webkit-transition: .3s linear all;
+	    -moz-transform: .3s linear all;
+	         transform: .3s linear all;
+	z-index: 10001;
+	display: none;
+}
+
+#introduction h1 {
+	font-family: Gotham Bold;
+	margin-top: 0;
+}
+
+#introduction a {
+	color: black;
+}
+
+#modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	z-index: 10000;
+	display: none;
+	-webkit-transition: .3s linear all;
+	    -moz-transform: .3s linear all;
+	         transform: .3s linear all;
+}
+
+#dismiss {
+	font-family: Gotham Bold;
+	float: right;
+	border: 2px solid black;
+	background: white;
+	width: 161px;
+	height: 37px;
+	font-size: 18px;
+	padding: 6px;
+	text-transform: uppercase;
+	cursor: pointer;
+	box-sizing: border-box;
+	-webkit-transition: .15s all linear;
+	   -moz-transition: .15s all linear;
+	        transition: .15s all linear;
+}
+
+#dismiss:hover {
+	background: black;
+	color: white;
+}
+
+/*#bg {
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	z-index: -1;
+}*/

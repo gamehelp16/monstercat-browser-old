@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+	body { font-family: Helvetica; }
+	</style>
+</head>
+<body>
+
+	Contributing an album data to the site is actually quite simple, simple PM me at <a href="https://www.reddit.com/user/gamehelp16/" target="_blank">/u/gamehelp16</a> and include these information:<br><br>
+	
+	1. Album number and name (example: 027 - Cataclysm).<br>
+	2. Upload the large version of the album art to imgur and include the link on the PM (example: http://i.imgur.com/j1fZsYB.jpg). Album art should be at least 1000x1000px in size and make sure it doesn't contain the monstercat logo on the top right corner.<br>
+	3. Go to the <a href="http://monstercat.wikia.com/" target="_blank">Monstercat Wiki</a> page of the album and copy the table of the tracklist so the copied data looks like what you see below, make sure that you did NOT copy the album mixes!<br><br>
+	Copied data should look like this:<br>
+<pre>1	Grabbitz	Float Away	Indie Dance	3:14	
+2	Tristam	The Vine	Drumstep	3:59	
+3	Project 46	Signs	House	3:15	feat. Shantee
+4	Savoy	Your Time	Dubstep	4:36	feat. KIELY
+5	Haywyre	Endlessly	Glitch Hop	4:59	
+6	Karma Fields & MORTEN	Stickup	Trap	4:48	feat. Juliette Lewis
+7	Botnek & I See Monstas	Deeper Love	Drum & Bass	4:13	
+8	Aero Chord & Klaypex	Be Free	Trap	2:58	
+9	Stonebank	Lost Without You	Electro	4:50	
+10	Pierce Fulton & Puppet	Boy and the Beast	Electro	4:33	
+11	Snavs	Time	Trap	3:06	
+12	Muzzy	Calling Out	Drum & Bass	5:36	feat. KG & Skyelle
+13	Nitro Fun & Subtact	Come With Me	Glitch Hop	3:35	feat. Anna Yvette
+14	WRLD	Fighter	Indie Dance	4:00	
+15	Rogue	Drive Away	Electronic	4:58	
+16	LVTHER	Dots	Indie Dance	3:41	feat. Jenny Broke the Window
+17	F.O.O.L	Need You	Electro	3:33	
+18	Tut Tut Child	Talking of Axes	Electronic	3:18	feat. Jim Davies
+19	Televisor	Dangerous	Nu Disco	4:28	feat. Danyka Nadeau
+20	Savoy	Love Is Killing Me	Electronic	3:49	feat. Chali 2na
+21	Laszlo	Home	House	4:52	feat. Richard Caddock
+22	Rootkit	Elevate	House	4:27	
+23	Case & Point	Paradigm	Electro	4:49	
+24	Mr Fijiwiji & Varien	We Are The Lights	Chillout	4:06	
+25	Stephen Walking	Porkchop Express	Electronic	3:33	
+26	Grabbitz	Better With Time	Electronic	4:03	
+27	PIXL	Here For You	House	4:40	feat. Q'AILA
+28	Openwater & Matt Vice	No Regrets	Chillout	4:35	
+29	Au5 & Fractal	Ison	Dubstep	5:32	
+30	Direct	Lark	Chillout	4:10	</pre><br>
+	
+	4. Insert the data into the input field and press the button.<br><br>
+	
+	<textarea id="input" style="width:300px;height:200px" placeholder="input field (see input example above)"></textarea><br>
+	<input type="button" value="Process" onclick="process()"><br><br>
+	<textarea id="output" style="width:300px;height:200px" placeholder="output"></textarea><br><br>
+	
+	5. If you take a look at the generated data there are a lot of text saying "&lt;soundcloud link for '(song name)'&gt;", replace those with the SoundCloud url for the track mentioned (example: https://soundcloud.com/monstercat/unlike-pluto-waiting-for-you).<br>
+	6. After putting the SoundCloud link, copy the data generated to a site like pastebin.com and include the link to the PM.<br>
+	7. Last, include on the PM the name and the SoundCloud URL of album mixes of the album.<br><br>
+
+	That's it, thank you for your contribution!<br><br>
+	
+	PS: If you know what JSON is and have a GitHub account, you can make my job easier by constructing the whole JSON file of the album data and submit a pull request to https://github.com/gamehelp16/monstercat-browser. You can take a look at examples of finished album data (<a href="albums/026.json">026</a> or <a href="albums/027.json">027</a>) or start from a <a href="albums/blank.json">blank</a> template.
+	
+	<script>
+		
+		var genres = ["trap", "dnb", "house", "electro", "hard-dance", "glitch-hop", "nu-disco", "future-bass", "trance", "dubstep", "drumstep", "electronic"];
+		
+		var genresearch = [
+			['trap', 0],
+			['drum & bass', 1],
+			['house', 2],
+			['hard dance', 4],
+			['glitch hop', 5],
+			['110 bpm', 5],
+			['nu disco', 6],
+			['indie dance', 6],
+			['future bass', 7],
+			['trance', 8],
+			['dubstep', 9],
+			['drumstep', 10],
+			['electronic', 11],
+			['electro', 3],
+			['chillout', 11],
+		];
+		
+		function process() {
+			
+			var input = document.getElementById("input").value.split("\n");
+			document.getElementById("output").value = "";
+			
+			for(i=0;i<input.length;i++) {
+				
+				var line = input[i].split("\t");
+				var genre = line[3].toLowerCase();
+				
+				for(j=0;j<genresearch.length;j++) {
+					if(genre.indexOf(genresearch[j][0]) > -1) {
+						genre = genresearch[j][1];
+						break;
+					}
+				}
+				
+				var comma = ",";
+				if(i==input.length-1) comma = "";
+				
+				document.getElementById("output").value += '\t\t{\n\t\t\t"artist": "'+line[1]+'",\n\t\t\t"title": "'+line[2]+'",\n\t\t\t"genre": '+genre+',\n\t\t\t"feat": "'+line[5].replace("feat. ","")+'",\n\t\t\t"soundcloud_url": "<soundcloud link for \''+line[2]+'\'>"\n\t\t}'+comma+'\n\n';
+				
+			}
+			
+		}
+		
+	</script>
+	
+</body>
+</html>
