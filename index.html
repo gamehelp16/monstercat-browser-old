@@ -36,12 +36,13 @@
 	
 	<div id="introduction">
 		<h1>WELCOME!</h1>
-		<p>On this Monstercat Album Browser, you can browse tracklists from Monstercat's compilation albums and navigate through them. Click on each track to play them right on this page, or click the genre circles on the top right corner to filter the tracklist by track genres. Right now you can only browse through albums 025 - 027 (no SoundCloud link for 025 yet) because the data for other albums aren't added yet (<a href="albumdata.html" target="_blank">click here</a> if you want to help with adding album data).</p>
+		<p>On this Monstercat Album Browser, you can browse tracklists from Monstercat's compilation albums and navigate through them. Click on each track to play them right on this page, or click the genre circles on the top right corner to filter the tracklist by track genres. Right now you can only browse through albums <span id="available-albums"></span> because the data for other albums aren't added yet (<a href="albumdata.html" target="_blank">click here</a> if you want to help with adding album data).</p>
 		<p>This album browser is inspired by <a href="https://www.reddit.com/r/Monstercat/comments/4m0t3q/monstercat_027_cataclysm_bloqs_visual_tracklist/" target="_blank">/u/Bloq's Visual Tracklist</a> from Reddit, go check it out! If you have some feedback about this project feel free to tell me at <a href="https://www.reddit.com/user/gamehelp16/" target="_blank">/u/gamehelp16!</a></p>
 		<button id="dismiss">CLOSE</button>
 	</div>
 	<div id="modal"></div>
 	
+	<script src="albums.js"></script>
 	<script>
 		
 		var genres = ["trap", "dnb", "house", "electro", "hard-dance", "glitch-hop", "nu-disco", "future-bass", "trance", "dubstep", "drumstep", "electronic"];
@@ -52,14 +53,16 @@
 			danykaCounter,
 			selectedTrack,
 			currentAlbum,
-			latest = "027",
+			currentAlbumIndex,
 			loadingAlbum = true;
 		
 		var albumToLoad = document.URL.split("#")[1];
-		if(!(parseInt(albumToLoad) > 0 && parseInt(albumToLoad) <= parseInt(latest))) albumToLoad = latest;
+		if(albumIndex(albumToLoad) < 0) albumToLoad = availableAlbums[availableAlbums.length-1];
+		
 		loadAlbum(albumToLoad);
 		
 		if(localStorage.showintroduction === undefined || new Date().getTime() > localStorage.showintroduction) {
+			document.getElementById("available-albums").innerHTML = availableAlbums.join(", ");
 			document.getElementById("introduction").style.display = "block";
 			document.getElementById("modal").style.display = "block";
 		}
@@ -77,25 +80,24 @@
 			request.onload = function() {
 			
 				currentAlbum = number;
+				currentAlbumIndex = albumIndex(number);
 				
-				if(number == "001") document.getElementById("prev-album").style.display = "none";
+				if(currentAlbumIndex == 0) document.getElementById("prev-album").style.display = "none";
 				else document.getElementById("prev-album").style.display = "table";
 				
-				if(number == latest) document.getElementById("next-album").style.display = "none";
+				if(currentAlbumIndex == availableAlbums.length-1) document.getElementById("next-album").style.display = "none";
 				else document.getElementById("next-album").style.display = "table";
 				
-				if(number != "001") {
-					var albumid = parseInt(number);
+				if(currentAlbumIndex > 0) {
+					var albumid = parseInt(availableAlbums[currentAlbumIndex-1]);
 					var pad = "0";
-					albumid--;
 					if(albumid > 99) pad = "";
 					document.getElementById("prev-a").href = "#" + pad + albumid;
 				}
 				
-				if(number != latest) {
-					var albumid = parseInt(number);
+				if(currentAlbumIndex < availableAlbums.length-1) {
+					var albumid = parseInt(availableAlbums[currentAlbumIndex+1]);
 					var pad = "0";
-					albumid++;
 					if(albumid > 99) pad = "";
 					document.getElementById("next-a").href = "#" + pad + albumid;
 				}
@@ -186,25 +188,15 @@
 			
 			if(loadingAlbum) return;
 			
-			var albumid = parseInt(currentAlbum);
-			var pad = "0";
+			if(what == -1 && currentAlbumIndex < 1) return;
+			if(what == 1 && currentAlbumIndex == availableAlbums.length-1) return;
 			
-			if(what == -1) {
-				if(albumid < 2) return;
-				albumid += what;
-				if(albumid > 99) pad = "";
-				loadAlbum(pad + albumid);
-			}
-			else if(what == 1) {
-				if(albumid >= parseInt(latest)) return;
-				albumid += what;
-				if(albumid > 99) pad = "";
-				loadAlbum(pad + albumid);
-			}
+			var albumid = parseInt(availableAlbums[currentAlbumIndex+what]);
+			var pad = "0";
+			if(albumid > 99) pad = "";
+			loadAlbum(pad + albumid);
 			
 		}
-		
-		// TODO: introduction box
 		
 		function filter(genre) {
 			var tracks = 0;
@@ -234,18 +226,27 @@
 		}
 		
 		function showTrack(i, track) {
+		
 			var output = "";
-			var feat = "";
+			var info = "";
+			var title = track.title.replace(/\([a-zA-Z0-9 _\-\&]* (Remix|Mix)\)/g, "");
+			
 			if(i == selectedTrack) active = " active";
 			else active = "";
-			if(track.feat != "") feat = '<div class="track-info">(feat. ' + track.feat + ')</div>';
+			if(track.feat != "") info = '(feat. ' + track.feat + ')';
+			
+			var search = track.title.search(/\([a-zA-Z0-9 _\-\&]* (Remix|Mix)\)/g);
+			if(search > -1) info += " " + track.title.substr(search);
+			
 			output = '<div class="track' + active + '" onclick="playSoundCloud(' + i + ', \'' + track.soundcloud_url + '\')" id="track-' + i + '">\n\
 				<div class="track-number">' + (i+1) + '</div>\n\
 				<div class="track-genre"><div class="genre-img ' + genres[track.genre] + '"></div></div>\n\
 				<div class="track-artist">' + track.artist + '</div>\n\
-				<div class="track-title">' + track.title + '</div>' + feat + '\n\
+				<div class="track-title">' + title + '</div><div class="track-info">' + info + '</div>\n\
 			</div>';
+			
 			return output;
+			
 		}
 		
 		function playSoundCloud(i, url) {
@@ -308,6 +309,13 @@
 		function toText(num) {
 			var text = ["ZERO", "ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE", "TEN"];
 			return text[num];
+		}
+		
+		function albumIndex(num) {
+			for(i=0;i<availableAlbums.length;i++) {
+				if(num === availableAlbums[i]) return i;
+			}
+			return -1;
 		}
 		
 		document.getElementById("dismiss").onclick = function() {

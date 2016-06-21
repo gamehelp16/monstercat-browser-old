@@ -6,7 +6,15 @@
 	</style>
 </head>
 <body>
-
+	
+	<script src="albums.js"></script>
+	
+	Albums that are available on the browser right now: <span id="available-albums"></span><br><br>
+	
+	<script>
+		document.getElementById("available-albums").innerHTML = availableAlbums.join(", ");
+	</script>
+	
 	Contributing an album data to the site is actually quite simple, simple PM me at <a href="https://www.reddit.com/user/gamehelp16/" target="_blank">/u/gamehelp16</a> and include these information:<br><br>
 	
 	1. Album number and name (example: 027 - Cataclysm).<br>
