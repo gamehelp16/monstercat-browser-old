@@ -8,4 +8,4 @@
 
 <b>Thanks to these people who have helped with the album data:</b>
 
-- <a href="https://www.reddit.com/user/ItsFlero/" target="_blank">/u/ItsFlero</a> (015)
+- <a href="https://www.reddit.com/user/ItsFlero/" target="_blank">/u/ItsFlero</a> (001, 015)

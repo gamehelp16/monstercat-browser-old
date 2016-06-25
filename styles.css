@@ -17,7 +17,7 @@ body {
 }
 
 #wrapper {
-	margin: 20px auto;
+	margin: 20px auto 0px auto;
 	width: 764px;
 }
 
@@ -173,11 +173,14 @@ body {
 #album-mixes {
 	font-family: Gotham Bold;
 	text-align: center;
-	padding: 30px 0 10px 0;
+}
+
+#includes {
+	margin-top: 30px;
 }
 
 #mixes {
-	margin-top: 4px;
+	margin: 4px 0 10px 0;
 }
 
 .mix {

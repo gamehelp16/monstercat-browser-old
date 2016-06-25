@@ -92,6 +92,7 @@
 					var albumid = parseInt(availableAlbums[currentAlbumIndex-1]);
 					var pad = "0";
 					if(albumid > 99) pad = "";
+					else if(albumid < 10) pad = "00";
 					document.getElementById("prev-a").href = "#" + pad + albumid;
 				}
 				
@@ -99,6 +100,7 @@
 					var albumid = parseInt(availableAlbums[currentAlbumIndex+1]);
 					var pad = "0";
 					if(albumid > 99) pad = "";
+					else if(albumid < 10) pad = "00";
 					document.getElementById("next-a").href = "#" + pad + albumid;
 				}
 				
@@ -174,6 +176,7 @@
 				var albumid = parseInt(currentAlbum);
 				var pad = "0";
 				if(albumid > 99) pad = "";
+				else if(albumid < 10) pad = "00";
 				window.location.href = "#" + pad + albumid;
 				document.getElementById("album-artwork").src = data.album_artwork_thumb;
 				alert('Error: Cannot retrieve album data (or album data isn\'t available yet).');
@@ -194,6 +197,7 @@
 			var albumid = parseInt(availableAlbums[currentAlbumIndex+what]);
 			var pad = "0";
 			if(albumid > 99) pad = "";
+			else if(albumid < 10) pad = "00";
 			loadAlbum(pad + albumid);
 			
 		}
