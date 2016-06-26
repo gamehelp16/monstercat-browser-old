@@ -37,7 +37,7 @@
 	<div id="introduction">
 		<h1>WELCOME!</h1>
 		<p>On this Monstercat Album Browser, you can browse tracklists from Monstercat's compilation albums and navigate through them. Click on each track to play them right on this page, or click the genre circles on the top right corner to filter the tracklist by track genres. Right now you can only browse through albums <span id="available-albums"></span> because the data for other albums aren't added yet (<a href="albumdata.html" target="_blank">click here</a> if you want to help with adding album data).</p>
-		<p>This album browser is inspired by <a href="https://www.reddit.com/r/Monstercat/comments/4m0t3q/monstercat_027_cataclysm_bloqs_visual_tracklist/" target="_blank">/u/Bloq's Visual Tracklist</a> from Reddit, go check it out! If you have some feedback about this project feel free to tell me at <a href="https://www.reddit.com/user/gamehelp16/" target="_blank">/u/gamehelp16!</a></p>
+		<p>This album browser is inspired by <a href="https://www.reddit.com/r/Monstercat/comments/4m0t3q/monstercat_027_cataclysm_bloqs_visual_tracklist/" target="_blank">/u/Bloq's Visual Tracklist</a> from Reddit, go check it out! If you have some feedback about this project feel free to tell me at <a href="https://www.reddit.com/user/gamehelp16/" target="_blank">/u/gamehelp16</a> or comment on this project's <a href="https://gamehelp16.github.io/post/monstercat-album-browser/" target="_blank">blog post</a>!</p>
 		<button id="dismiss">CLOSE</button>
 	</div>
 	<div id="modal"></div>
@@ -168,6 +168,12 @@
 				document.getElementById("danyka-nadeau").innerHTML = "Danyka Nadeau is featured " + danykaCounter + " time(s) on this album.";
 				
 				document.getElementById("wrapper").style.opacity = 1;
+				
+				if(selectedGenre < 99) {
+					var asd = selectedGenre;
+					selectedGenre = 99;
+					filter(asd);
+				}
 				
 			};
 			

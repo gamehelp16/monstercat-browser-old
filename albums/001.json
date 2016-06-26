@@ -2,10 +2,11 @@
 	
 	"album_number": "001",
 	"album_title": "Launch Week",
-	"album_artwork_thumb": "http://i.imgur.com/MXbKukMm.jpg",
-	"album_artwork_full": "http://i.imgur.com/MXbKukM.jpg",
+	"album_artwork_thumb": "https://i.imgur.com/MXbKukMm.jpg",
+	"album_artwork_full": "https://i.imgur.com/MXbKukM.jpg",
 
 	"tracks": [
+		
 		{
 			"artist": "Arion",
 			"title": "Cold Blood & Ice Cream Cones",

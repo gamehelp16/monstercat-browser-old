@@ -1,0 +1,134 @@
+{
+	
+	"album_number": "002",
+	"album_title": "Early Stage",
+	"album_artwork_thumb": "https://i.imgur.com/4A9Kqumm.jpg",
+	"album_artwork_full": "https://i.imgur.com/4A9Kqum.jpg",
+
+	"tracks": [
+		
+		{
+			"artist": "Ephixa",
+			"title": "Some Wobbles",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/ephixa-some-wobbles"
+		},
+
+		{
+			"artist": "Arion",
+			"title": "Blow ExXplode",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/arion-blow-exxplode"
+		},
+
+		{
+			"artist": "Project 46 & 15grams",
+			"title": "Dreaming",
+			"genre": 2,
+			"feat": "Matthew Sartori",
+			"soundcloud_url": "https://soundcloud.com/monstercat/project-46-dreaming"
+		},
+
+		{
+			"artist": "TwoThirds",
+			"title": "Lost",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/twothirds-lost"
+		},
+
+		{
+			"artist": "Obsidia",
+			"title": "Another World",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/obsidiamedia/obsidia-another-world"
+		},
+
+		{
+			"artist": "Feint",
+			"title": "We Move",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/feint-we-move"
+		},
+
+		{
+			"artist": "Eminence",
+			"title": "Tanpopo",
+			"genre": 8,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/eminence-tanpopo"
+		},
+
+		{
+			"artist": "Halo Nova",
+			"title": "Totally Radical",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/halo-nova-totally-radical"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Metropolis",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-metropolis"
+		},
+
+		{
+			"artist": "Noisestorm",
+			"title": "Airwaves",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/noisestorm-airwaves"
+		},
+
+		{
+			"artist": "Neilio",
+			"title": "Obsession",
+			"genre": 4,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/djneilio/neilio-obsession"
+		},
+
+		{
+			"artist": "Matduke",
+			"title": "Rock the House",
+			"genre": 4,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/matduke-rock-the-house"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Light Pollution",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-light"
+		},
+
+		{
+			"artist": "Halo Nova",
+			"title": "Triceracops",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/halo-nova-triceracops"
+		},
+
+		{
+			"artist": "Arion",
+			"title": "The BASSEX",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/arion-the-bassex"
+		}
+
+	],
+	
+	"mixes": []
+	
+}

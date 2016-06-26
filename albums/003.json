@@ -1,0 +1,134 @@
+{
+	
+	"album_number": "003",
+	"album_title": "Momentum",
+	"album_artwork_thumb": "https://i.imgur.com/82qlvbEm.jpg",
+	"album_artwork_full": "https://i.imgur.com/82qlvbE.jpg",
+
+	"tracks": [
+		
+		{
+			"artist": "Stephen Walking",
+			"title": "Top of the World",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-top-of-the"
+		},
+
+		{
+			"artist": "Project 46",
+			"title": "Limitless",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/project-46-limitless"
+		},
+
+		{
+			"artist": "Hellberg",
+			"title": "Stockholm",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hellberg-stockholm"
+		},
+
+		{
+			"artist": "Eminence & Alex Farway",
+			"title": "Belgium",
+			"genre": 8,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/eminence-alex-farway-belgium"
+		},
+
+		{
+			"artist": "Obsidia",
+			"title": "Android",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/obsidia-android"
+		},
+
+		{
+			"artist": "Ephixa",
+			"title": "Division",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/ephixa-division"
+		},
+
+		{
+			"artist": "Matduke & Metzen",
+			"title": "Shivers",
+			"genre": 4,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/matduke-metzen-shivers"
+		},
+
+		{
+			"artist": "Matduke",
+			"title": "The Technician (Neilio Remix)",
+			"genre": 4,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/matduke-technician-neilio"
+		},
+
+		{
+			"artist": "Mr. FijiWiji",
+			"title": "Insomnia",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/mrfijiwiji/insomnia-monstercat-release"
+		},
+
+		{
+			"artist": "Going Quantum & Stephen Walking",
+			"title": "Full Grizzly",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/goingquantum/going-quantum-stephen-walking"
+		},
+
+		{
+			"artist": "Feint",
+			"title": "Formless",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/feint-formless"
+		},
+
+		{
+			"artist": "Noisestorm",
+			"title": "Full Focus",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/noisestorm-full-focus"
+		},
+
+		{
+			"artist": "Project 46",
+			"title": "Slide",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/project-46-slide"
+		},
+
+		{
+			"artist": "Arion",
+			"title": "Elements of Sanity",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/arion-elements-of-sanity"
+		},
+		
+		{
+			"artist": "Varien",
+			"title": "Cloak and Dagger",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-cloak-and-dagger"
+		}
+
+	],
+	
+	"mixes": []
+	
+}

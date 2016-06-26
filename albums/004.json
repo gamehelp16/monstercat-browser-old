@@ -1,0 +1,134 @@
+{
+	
+	"album_number": "004",
+	"album_title": "Identity",
+	"album_artwork_thumb": "https://i.imgur.com/tbBcyoYm.jpg",
+	"album_artwork_full": "https://i.imgur.com/tbBcyoY.jpg",
+
+	"tracks": [
+		
+		{
+			"artist": "Project 46 & Gemellini",
+			"title": "Deadline",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/monstercat-media-monstercat-1"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "The Destroyer (TwoThirds Remix)",
+			"genre": 1,
+			"feat": "Trifonic",
+			"soundcloud_url": "https://soundcloud.com/monstercat/monstercat-media-monstercat"
+		},
+
+		{
+			"artist": "DotEXE",
+			"title": "Run Away From Me",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/dotexe-run-away-from-me"
+		},
+
+		{
+			"artist": "Obsidia",
+			"title": "Oblivion",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/obsidia-oblivion"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Riding The Storm",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-riding-the-storm"
+		},
+
+		{
+			"artist": "Project 46 & Gemellini",
+			"title": "Crazy",
+			"genre": 2,
+			"feat": "Corinne Lee",
+			"soundcloud_url": "https://soundcloud.com/monstercat/project-46-gemellini-feat"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Party for the Living",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-party-for-the-living"
+		},
+
+		{
+			"artist": "yh",
+			"title": "Part Two",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/yh-part-two"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Strong Arm",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-strong-arm"
+		},
+
+		{
+			"artist": "DotEXE",
+			"title": "Kill It With Fire",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/musicdotexe/dotexe-kill-it-with-fire"
+		},
+
+		{
+			"artist": "Arion",
+			"title": "Spazz Out",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/arion-spazz-out"
+		},
+
+		{
+			"artist": "Hellberg",
+			"title": "Stereo",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hellberg-stereo"
+		},
+
+		{
+			"artist": "Ephixa",
+			"title": "Audiocidity",
+			"genre": 4,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/ephixa-audiocidity"
+		},
+
+		{
+			"artist": "Neilio",
+			"title": "Outside This World",
+			"genre": 4,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/neilio-outside-this-world"
+		},
+		
+		{
+			"artist": "Rezonate",
+			"title": "Pump It!",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rezonate-pump-it"
+		}
+
+	],
+	
+	"mixes": []
+	
+}
