@@ -1,0 +1,77 @@
+{
+	
+	"album_number": "Two Fold Pt. 2",
+	"album_title": "Haywyre",
+	"album_artwork_thumb": "https://imgur.com/1VAbn5u",
+	"album_artwork_full": "https://imgur.com/GLQ6T03",
+
+	"tracks": [
+
+		{
+			"artist": "Haywyre",
+			"title": "Prologue",
+			"genre": 11,
+			"feat": "Part One",
+			"soundcloud_url": "https://soundcloud.com/haywyre/haywyre-prologue-part-one"
+		},
+
+		{
+			"artist": "Haywyre",
+			"title": "The Schism",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/haywyre/haywyre-the-schism"
+		},
+
+		{
+			"artist": "Haywyre",
+			"title": "Dichotomy",
+			"genre": 7,
+			"feat": "Soft Mix",
+			"soundcloud_url": "https://soundcloud.com/haywyre/haywyre-dichotomy-soft-mix"
+		},
+
+		{
+			"artist": "Haywyre",
+			"title": "Sculpted",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/haywyre/haywyre-sculpted"
+		},
+
+		{
+			"artist": "Haywyre",
+			"title": "Doppelgänger",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/haywyre/haywyre-doppelganger"
+		},
+
+		{
+			"artist": "Haywyre & Zeros",
+			"title": "Permutate",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/haywyre/haywyre-zeros-permutate"
+		},
+
+		{
+			"artist": "Haywyre",
+			"title": "Time",
+			"genre": 11,
+			"feat": "CoMa",
+			"soundcloud_url": "https://soundcloud.com/haywyre/haywyre-time-ft-coma"
+		},
+
+		{
+			"artist": "Haywyre & Galimatias",
+			"title": "Voice Of Reason",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/haywyre/haywyre-galimatias-voice-of-1"
+		},
+
+
+	],
+	
+}
