@@ -1,0 +1,274 @@
+{
+	
+	"album_number": "012",
+	"album_title": "Aftermath",
+	"album_artwork_thumb": "https://imgur.com/Fj5in7K",
+	"album_artwork_full": "https://imgur.com/gkp6TXf",
+
+	"tracks": [
+
+				{
+			"artist": "Tristam & Braken",
+			"title": "Flight",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-braken-flight"
+		},
+
+		{
+			"artist": "Draper",
+			"title": "Night Rider",
+			"genre": 9,
+			"feat": "Phoebe Ray",
+			"soundcloud_url": "https://soundcloud.com/monstercat/draper-night-rider-feat-phoebe"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "We Are One",
+			"genre": 5,
+			"feat": "Splitbreed",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-ft-splitbreed"
+		},
+
+		{
+			"artist": "Vicetone",
+			"title": "Heartbeat",
+			"genre": 2,
+			"feat": "Collin McLoughlin",
+			"soundcloud_url": "https://soundcloud.com/monstercat/vicetone-heartbeat"
+		},
+
+		{
+			"artist": "Droptek",
+			"title": "Chaos Storm",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/droptek-chaos-storm"
+		},
+
+		{
+			"artist": "TVDS",
+			"title": "Another Day",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tvds-another-day-original-mix"
+		},
+
+		{
+			"artist": "Hellberg & TwoThirds",
+			"title": "Farewell",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hellberg-twothirds-farewell"
+		},
+
+		{
+			"artist": "Project 46",
+			"title": "No One",
+			"genre": 2,
+			"feat": "Matthew Steeper",
+			"soundcloud_url": "https://soundcloud.com/monstercat/project-46-no-one"
+		},
+
+		{
+			"artist": "Stereotronique & Sebastian Ivarsson",
+			"title": "Tonight",
+			"genre": 2,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stereotronique-sebastian"
+		},
+
+		{
+			"artist": "Eminence",
+			"title": "United",
+			"genre": 3,
+			"feat": "RedMoon Remix",
+			"soundcloud_url": "https://soundcloud.com/monstercat/eminence-united-redmoon-remix"
+		},
+
+		{
+			"artist": "Soulero",
+			"title": "Break Away",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/soulero-break-away"
+		},
+
+		{
+			"artist": "Hellberg",
+			"title": "Get Up",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hellberg-get-up"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Starlight",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/televisor-starlight"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Cynical",
+			"genre": 11,
+			"feat": "CoMa",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-cynical-feat-coma"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Hummingbird",
+			"genre": 9,
+			"feat": "Augustus Ghost",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-hummingbird"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Lilith",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-lilith"
+		},
+
+		{
+			"artist": "Day One",
+			"title": "World's End",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/day-one-worlds-end"
+		},
+
+		{
+			"artist": "Direct",
+			"title": "Eternity",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/direct-eternity"
+		},
+
+		{
+			"artist": "Day One",
+			"title": "White City",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/day-one-white-city"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Motions",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-motions
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Nights In Bangalore Pt.2",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-nights-in-bangalore-pt"
+		},
+
+		{
+			"artist": "Rezonate",
+			"title": "Ash",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rezonate-ash"
+		},
+
+		{
+			"artist": "Skifonix",
+			"title": "Addicted",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/skifonix-addicted"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Exogenesis",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-exogenesis"
+		},
+
+		{
+			"artist": "I.Y.F.F.E., Au5, & Auratic",
+			"title": "Sweet",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/i-y-f-f-e-au5-auratic-sweet"
+		},
+
+		{
+			"artist": "Stereotronique",
+			"title": "Grind",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stereotronique-grind"
+		},
+
+		{
+			"artist": "Insan3Lik3",
+			"title": "Bliss",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/insan3lik3-bliss"
+		},
+
+		{
+			"artist": "1uP",
+			"title": "Whip-It",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/1up-whip-it"
+		},
+
+		{
+			"artist": "TwoThirds",
+			"title": "Origami",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/twothirds-origami"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Concert Crush",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-concert-crush"
+		},
+
+		{
+			"artist": "Archie",
+			"title": "Famous",
+			"genre": 2,
+			"feat": "[DELETED SONG]",
+			"soundcloud_url": "https://soundcloud.com/samdurott/archie-famous"
+		}
+
+	],
+	
+	"mixes": [
+		
+		{
+			"name": "Chaos Mix",
+			"soundcloud_url": ""
+		},
+		
+		{
+			"name": "Order Mix",
+			"soundcloud_url": ""
+		}
+		
+	]
+	
+}
