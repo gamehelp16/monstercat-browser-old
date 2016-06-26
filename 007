@@ -1,0 +1,182 @@
+{
+	
+	"album_number": "007",
+	"album_title": "Solace",
+	"album_artwork_thumb": "https://imgur.com/0E0FkvG",
+	"album_artwork_full": "https://imgur.com/A9QYIMV",
+
+	"tracks": [
+
+				{
+			"artist": "Feint & Boyinaband",
+			"title": "Time Bomb",
+			"genre": 1,
+			"feat": "Veela",
+			"soundcloud_url": "https://soundcloud.com/monstercat/time-bomb"
+		},
+
+		{
+			"artist": "Project 46",
+			"title": "Reasons",
+			"genre": 2,
+			"feat": "Andrew Allen",
+			"soundcloud_url": "https://soundcloud.com/monstercat/project-46-reasons-feat-andrew"
+		},
+
+		{
+			"artist": "Matduke",
+			"title": "Bloodlip",
+			"genre": 3,
+			"feat": "Veela",
+			"soundcloud_url": "https://soundcloud.com/monstercat/matduke-feat-veela-bloodlip"
+		},
+
+		{
+			"artist": "Throttle",
+			"title": "Next Big Thing",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/throttle-next-big-thing"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Pinup",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/televisor-pinup"
+		},
+
+		{
+			"artist": "Obsidia",
+			"title": "To The Limit",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/obsidia-to-the-limit"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Maelstrom",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/maelstrom"
+		},
+
+		{
+			"artist": "Going Quantum",
+			"title": "Hello?",
+			"genre": 1,
+			"feat": "Centra Remix",
+			"soundcloud_url": "https://soundcloud.com/monstercat/going-quantum-hello-centra"
+		},
+
+		{
+			"artist": "Stephen Walking & Soulero",
+			"title": "Ampersand",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-soulero"
+		},
+
+		{
+			"artist": "Tristam & Rogue",
+			"title": "ReWel",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-rogue-rewel"
+		},
+
+		{
+			"artist": "TwoThirds",
+			"title": "Waking Dreams",
+			"genre": 2,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "https://soundcloud.com/monstercat/twothirds-waking-dreams-feat"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Animal Instinct",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-animal"
+		},
+
+		{
+			"artist": "Ephixa",
+			"title": "Ideekay",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/ephixa-ideekay"
+		},
+
+		{
+			"artist": "Stereotronique",
+			"title": "Gravity",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stereotronique-gravity"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Disconnected",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-disconnected"
+		},
+
+		{
+			"artist": "Insan3Lik3",
+			"title": "The Other Day",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/insan3lik3-the-other-day"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "I Remember",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-i-remember-original"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Dance To It",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-dance-to-it-1"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Seduction",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-seduction-monstercat"
+		},
+		
+		{
+			"artist": "OVERWERK",
+			"title": "House",
+			"genre": 3,
+			"feat": "Nick Nikon [DELETED SONG]",
+			"soundcloud_url": "https://soundcloud.com/overwerk/house"
+		},
+
+
+
+	],
+	
+	"mixes": [
+		
+		{
+			"name": "Solace Album Mix",
+			"soundcloud_url": ""
+		},
+		
+	
+}
