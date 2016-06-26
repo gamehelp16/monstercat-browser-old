@@ -1,0 +1,266 @@
+{
+
+	"album_number": "024",
+	"album_title": "Vanguard",
+	"album_artwork_thumb": "http://i.imgur.com/d42izqJ.jpg",
+	"album_artwork_full": "http://i.imgur.com/lRTtgST.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Feint",
+			"title": "We Won't Be Alone",
+			"genre": 1,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "https://soundcloud.com/monstercat/feint-we-wont-be-alone"
+		},
+
+		{
+			"artist": "Jauz & Pegboard Nerds",
+			"title": "Get On Up",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/jauz-pegboard-nerds-get-on-up"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Crave",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-crave"
+		},
+
+		{
+			"artist": "Grabbitz",
+			"title": "Ballin'",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-ballin"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Ultimatum",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-ultimatum"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Skyline",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/karmafields/karma-fields-skyline"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Emoji",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-emoji"
+		},
+
+		{
+			"artist": "Noisestorm",
+			"title": "Heist",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/noisestorm-heist"
+		},
+
+		{
+			"artist": "WRLD",
+			"title": "Little Too Close",
+			"genre": 6,
+			"feat": "Veronika Redd",
+			"soundcloud_url": "https://soundcloud.com/monstercat/wrld-little-too-close"
+		},
+
+		{
+			"artist": "Au5",
+			"title": "Guardians",
+			"genre": 2,
+			"feat": "Fiora",
+			"soundcloud_url": "https://soundcloud.com/monstercat/au5-guardians-feat-fiora"
+		},
+
+		{
+			"artist": "Stonebank",
+			"title": "Blast From The Past",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stonebank-blast-from-the-past"
+		},
+
+		{
+			"artist": "Deon Custom",
+			"title": "Aloha",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/deon-custom-aloha"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Yours Truly (Aaron Jackson Remix)",
+			"genre": 2,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-yours-truly-aaron-jackson-remix"
+		},
+
+		{
+			"artist": "Summer Was Fun",
+			"title": "Run To You",
+			"genre": 2,
+			"feat": "Meron Ryan",
+			"soundcloud_url": "https://soundcloud.com/monstercat/summer-was-fun-run-to-you"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Pink Cloud",
+			"genre": ,
+			"feat": "Max Collins",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-pink-cloud"
+		},
+
+		{
+			"artist": "Fractal",
+			"title": "Amor",
+			"genre": 9,
+			"feat": "Syrin",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fractal-amor"
+		},
+
+		{
+			"artist": "Richard Caddock & Hyper Potions",
+			"title": "Distance",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/richard-caddock-hyper-potions-distance"
+		},
+
+		{
+			"artist": "PYLOT",
+			"title": "Blurred Vision",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pylot-blurred-vision"
+		},
+
+		{
+			"artist": "Priority One & TwoThirds",
+			"title": "Hunted",
+			"genre": 1,
+			"feat": "Jonny Rose",
+			"soundcloud_url": "https://soundcloud.com/monstercat/priority-one-twothirds-hunted"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Valkyrie III: Atonement",
+			"genre": 11,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-valkyrie-atonement"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Break Loose (Volant Remix)",
+			"genre": 5,
+			"feat": "Splitbreed",
+			"soundcloud_url": "https://soundcloud.com/monstercat/break-loose-volant-remix"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "One Man Moon Band",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-one-man-moon-band"
+		},
+
+		{
+			"artist": "PIXL & Pairanoid",
+			"title": "Bring It",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pixl-pairanoid-bring-it"
+		},
+
+		{
+			"artist": "Nigel Good",
+			"title": "Space Plus One",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nigel-good-space-plus-one"
+		},
+
+		{
+			"artist": "Slips & Slurs",
+			"title": "Restless",
+			"genre": 0,
+			"feat": "Anna Yvette",
+			"soundcloud_url": "https://soundcloud.com/monstercat/slips-slurs-restless"
+		},
+
+		{
+			"artist": "Deon Custom",
+			"title": "Together",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/deon-custom-together"
+		},
+
+		{
+			"artist": "Fractal",
+			"title": "Fire Away",
+			"genre": 11,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fractal-fire-away-feat-danyka-nadeau"
+		},
+
+		{
+			"artist": "Nigel Good",
+			"title": "No Way Back Up",
+			"genre": 2,
+			"feat": "Illuminor",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nigel-good-no-way-back-up"
+		},
+
+		{
+			"artist": "Rameses B",
+			"title": "Faster Than Light",
+			"genre": 5,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rameses-b-faster-than-light"
+		},
+
+		{
+			"artist": "Au5",
+			"title": "Atlantis",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/au5-atlantis"
+		}
+
+	],
+
+	"mixes": [
+
+		{
+			"name": "Forefront",
+			"soundcloud_url": "https://soundcloud.com/monstercat/monstercat-forefront-mix"
+		},
+
+		{
+			"name": "Presage",
+			"soundcloud_url": "https://soundcloud.com/monstercat/monstercat-presage-mix"
+		}
+
+	]
+
+}
