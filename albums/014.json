@@ -1,0 +1,266 @@
+{
+	
+	"album_number": "014",
+	"album_title": "Discovery",
+	"album_artwork_thumb": "https://i.imgur.com/JGUkzjGm.jpg",
+	"album_artwork_full": "https://i.imgur.com/JGUkzjG.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Au5",
+			"title": "Blossom",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/au5-blossom"
+		},
+		
+		{
+			"artist": "Rameses B",
+			"title": "Full Force",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/ramesesb/rameses-b-full-force"
+		},
+		
+		{
+			"artist": "Favright",
+			"title": "Nerve",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/favright-nerve"
+		},
+		
+		{
+			"artist": "7 Minutes Dead",
+			"title": "Delayed Friend Request",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/7-minutes-dead-delayed-friend-request"
+		},
+		
+		{
+			"artist": "Lets Be Friends",
+			"title": "Manslaughter (VIP Mix)",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/lets-be-friends-manslaughter"
+		},
+		
+		{
+			"artist": "Haywyre",
+			"title": "Synergy",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/haywyre-synergy"
+		},
+		
+		{
+			"artist": "Pegboard Nerds",
+			"title": "So What",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-so-what"
+		},
+		
+		{
+			"artist": "Falcon Funk",
+			"title": "Leophant",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/falcon-funk-leophant"
+		},
+		
+		{
+			"artist": "Draper",
+			"title": "Men & Machines",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/drapermusic/men-and-machines"
+		},
+		
+		{
+			"artist": "Razihel & Virtual Riot",
+			"title": "One For All, All For One",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/razihel-virtual-riot"
+		},
+		
+		{
+			"artist": "Televisor",
+			"title": "Old Skool",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/televisor-old-skool"
+		},
+		
+		{
+			"artist": "Bustre",
+			"title": "Riftwalk",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/bustre-riftwalk"
+		},
+		
+		{
+			"artist": "Bustre",
+			"title": "You And Me",
+			"genre": 1,
+			"feat": "Myth",
+			"soundcloud_url": "https://soundcloud.com/monstercat/bustre-you-and-me"
+		},
+		
+		{
+			"artist": "AZEDIA",
+			"title": "Calm Down",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/azedia-calm-down"
+		},
+		
+		{
+			"artist": "Direct",
+			"title": "Lonely Soul",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/direct-lonely-soul"
+		},
+		
+		{
+			"artist": "Fractal",
+			"title": "Atrium",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fractal-atrium"
+		},
+		
+		{
+			"artist": "Mr FijiWiji & Direct",
+			"title": "Hysteria",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-direct-hysteria"
+		},
+		
+		{
+			"artist": "Muzzy",
+			"title": "The Phantom",
+			"genre": 1,
+			"feat": "High Maintenance",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-the-phantom-feat-high"
+		},
+		
+		{
+			"artist": "PIXL",
+			"title": "Sugar Rush",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pixl-sugar-rush"
+		},
+		
+		{
+			"artist": "Razihel",
+			"title": "Bad Boy",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/razihel-bad-boy-monstercat"
+		},
+		
+		{
+			"artist": "Razihel",
+			"title": "Seeking of the Truth",
+			"genre": 9,
+			"feat": "Taryn Manning",
+			"soundcloud_url": "https://soundcloud.com/monstercat/razihel-seeking-of-the-truth"
+		},
+		
+		{
+			"artist": "Soulero",
+			"title": "Video Boy",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/soulero-video-boy"
+		},
+		
+		{
+			"artist": "Stereotronique",
+			"title": "No Holding On",
+			"genre": 3,
+			"feat": "Holly Drummond",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stereotronique-no-holding-on"
+		},
+		
+		{
+			"artist": "Teqq",
+			"title": "Lock In Your Love",
+			"genre": 2,
+			"feat": "Charlotte Haining",
+			"soundcloud_url": "https://soundcloud.com/monstercat/teqq-lock-in-your-love"
+		},
+		
+		{
+			"artist": "Throttle",
+			"title": "Boombox",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/throttle-boombox"
+		},
+		
+		{
+			"artist": "Tut Tut Child",
+			"title": "Eye of the Storm",
+			"genre": 3,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-eye-of-the-storm"
+		},
+		
+		{
+			"artist": "TwoThirds",
+			"title": "Universal",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/twothirds-universal"
+		},
+		
+		{
+			"artist": "Stephen Walking",
+			"title": "Some Kinda Wizard",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-some-kinda-wizard"
+		},
+		
+		{
+			"artist": "Noisestorm",
+			"title": "Eclipse",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/noisestorm-eclipse"
+		},
+		
+		{
+			"artist": "Televisor",
+			"title": "Dream Soda",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/televisor-dream-soda"
+		}
+
+	],
+	
+	"mixes": [
+		
+		{
+			"name": "Journey",
+			"soundcloud_url": ""
+		},
+		
+		{
+			"name": "Odyssey",
+			"soundcloud_url": ""
+		}
+		
+	]
+	
+}

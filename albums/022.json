@@ -1,0 +1,266 @@
+{
+	
+	"album_number": "022",
+	"album_title": "Contact",
+	"album_artwork_thumb": "https://i.imgur.com/7DJVBVhm.jpg",
+	"album_artwork_full": "https://i.imgur.com/7DJVBVh.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "San Holo",
+			"title": "Hold Fast",
+			"genre": 7,
+			"feat": "Tessa Douwstra",
+			"soundcloud_url": "https://soundcloud.com/monstercat/san-holo-hold-fast"
+		},
+
+		{
+			"artist": "Tristam x Karma Fields",
+			"title": "Build the Cities (Empire of Sound)",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/karmafields/tristam-karma-fields-btc"
+		},
+
+		{
+			"artist": "Grabbitz",
+			"title": "Friends (with Faustix)",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-friends"
+		},
+
+		{
+			"artist": "Noisestorm",
+			"title": "Barracuda",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/noisestorm-barracuda"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Try This",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/try-this"
+		},
+
+		{
+			"artist": "Savoy & Sound Remedy",
+			"title": "Leaving You",
+			"genre": 7,
+			"feat": "JoJee",
+			"soundcloud_url": "https://soundcloud.com/monstercat/leaving-you"
+		},
+
+		{
+			"artist": "Puppet & The Eden Project",
+			"title": "The Fire",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/the-fire"
+		},
+
+		{
+			"artist": "Razihel",
+			"title": "Legends",
+			"genre": 0,
+			"feat": "TeamMate",
+			"soundcloud_url": "https://soundcloud.com/monstercat/razihel-legends"
+		},
+
+		{
+			"artist": "F.O.O.L",
+			"title": "Knight",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fool-knight"
+		},
+
+		{
+			"artist": "Trivecta",
+			"title": "Evaporate",
+			"genre": 8,
+			"feat": "Aloma Steele",
+			"soundcloud_url": "https://soundcloud.com/monstercat/trivecta-evaporate"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Deya",
+			"genre": 6,
+			"feat": "Patrick Baker",
+			"soundcloud_url": "https://soundcloud.com/monstercat/televisor-deya"
+		},
+
+		{
+			"artist": "Draper",
+			"title": "Inertia",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/draper-inertia"
+		},
+
+		{
+			"artist": "Aero Chord",
+			"title": "Saiko",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/aero-chord-saiko"
+		},
+
+		{
+			"artist": "Stonebank",
+			"title": "The Pressure",
+			"genre": 4,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stonebank-the-pressure"
+		},
+
+		{
+			"artist": "Hellberg",
+			"title": "Back2You",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/back-2-you"
+		},
+
+		{
+			"artist": "San Holo",
+			"title": "Victory",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/san-holo-victory"
+		},
+
+		{
+			"artist": "Hyper Potions",
+			"title": "Porta Vista",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/porta-vista"
+		},
+
+		{
+			"artist": "Rich Edwards",
+			"title": "We Are",
+			"genre": 2,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rich-edwards-we-are"
+		},
+
+		{
+			"artist": "Protostar",
+			"title": "Genesis",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/protostar-genesis"
+		},
+
+		{
+			"artist": "Volant",
+			"title": "Full Circle",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/volant-full-circle"
+		},
+
+		{
+			"artist": "F.O.O.L",
+			"title": "Fairytaler",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fairytaler"
+		},
+
+		{
+			"artist": "Pegboard Nerds & Excison",
+			"title": "Bring The Madness (Noisestorm Remix)",
+			"genre": 11,
+			"feat": "Mayor Apeshit",
+			"soundcloud_url": "https://soundcloud.com/monstercat/btm-noisestorm-remix"
+		},
+
+		{
+			"artist": "Grabbitz",
+			"title": "Way Too Deep",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-way-too-deep"
+		},
+
+		{
+			"artist": "Bustre",
+			"title": "Combine",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/bustre-combine"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Aether and Light",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-aether-and-light"
+		},
+
+		{
+			"artist": "Direct",
+			"title": "Memory",
+			"genre": 11,
+			"feat": "Holly Drummond",
+			"soundcloud_url": "https://soundcloud.com/monstercat/direct-memory"
+		},
+
+		{
+			"artist": "Stonebank",
+			"title": "The Entity",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/the-entity"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "The Difference Between Us and the Aliens",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-the-difference"
+		},
+
+		{
+			"artist": "Eminence & Soulero",
+			"title": "Invisible",
+			"genre": 2,
+			"feat": "Mari-Anna",
+			"soundcloud_url": "https://soundcloud.com/monstercat/eminence-soulero-invisible"
+		},
+
+		{
+			"artist": "Rezonate",
+			"title": "Rebirth",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rezonate-rebirth"
+		}
+
+	],
+	
+	"mixes": [
+		
+		{
+			"name": "Connection",
+			"soundcloud_url": "https://soundcloud.com/monstercat/connection-album-mix"
+		},
+		
+		{
+			"name": "Essence",
+			"soundcloud_url": "https://soundcloud.com/monstercat/essence-album-mix"
+		}
+		
+	]
+	
+}
