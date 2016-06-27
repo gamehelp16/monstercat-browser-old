@@ -1,0 +1,181 @@
+{
+
+	"album_number": "011",
+	"album_title": "Revolution",
+	"album_artwork_thumb": "https://i.imgur.com/gThQtc8.jpg",
+	"album_artwork_full": "https://i.imgur.com/OSOU7PW.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Hellberg",
+			"title": "Follow My Heart",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hellberg-follow-my-heart"
+		},
+
+		{
+			"artist": "TVDS",
+			"title": "Bumblebee",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tvds-bumblebee"
+		},
+
+		{
+			"artist": "Hot Date! & Chrisson",
+			"title": "To The Sun",
+			"genre": 1,
+			"feat": "Roufaida",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hot-date-chrisson-to-the-sun"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Morphine",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-morphine"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Singularity",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-singularity"
+		},
+
+		{
+			"artist": "Insan3Lik3",
+			"title": "Dat Voices",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/insan3lik3-dat-voices"
+		},
+
+		{
+			"artist": "Stereotronique",
+			"title": "Stock & Pull",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stereotronique-stock-pull"
+		},
+
+		{
+			"artist": "Droptek",
+			"title": "Cosmic Ray",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/droptek-cosmic-ray"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Strut",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/televisor-strut"
+		},
+
+		{
+			"artist": "Eminence",
+			"title": "Falling Stars",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/eminence-falling-stars"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Dreams",
+			"genre": 10,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-dreams-feat-laura-brehm"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Walkers",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-walkers"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "The Mentalist",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-the-mentalist"
+		},
+
+		{
+			"artist": "AZEDIA",
+			"title": "Precipitate",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/azedia/precipitate"
+		},
+
+		{
+			"artist": "Rameses B",
+			"title": "Come & Go",
+			"genre": 2,
+			"feat": "Charlotte Haining",
+			"soundcloud_url": "https://soundcloud.com/ramesesb/rameses-b-come-go-ft-charlotte"
+		},
+
+		{
+			"artist": "Bustre",
+			"title": "Zero-G",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/bustre/bustre-zero-g-dub"
+		},
+
+		{
+			"artist": "Vicetone",
+			"title": "Harmony",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/vicetone-harmony-monstercat"
+		},
+
+		{
+			"artist": "Subformat",
+			"title": "More",
+			"genre": 1,
+			"feat": "Charli Brix",
+			"soundcloud_url": "https://soundcloud.com/elite00/dnb-subformat-more-feat-charli"
+		},
+
+		{
+			"artist": "Teqq",
+			"title": "In A Box",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/sandis-b-balodis/teqq-in-a-box-monstercat"
+		},
+
+		{
+			"artist": "TwoThirds",
+			"title": "Skywards",
+			"genre": 3,
+			"feat": "Lambert McGaughy",
+			"soundcloud_url": "https://soundcloud.com/lewismd/twothirds-skywards-feat-1"
+		}
+
+	],
+
+	"mixes": [
+
+		{
+			"name": "Revolution",
+			"soundcloud_url": "https://soundcloud.com/monstercat/monstercat-011-revolution"
+		}
+
+	]
+
+}

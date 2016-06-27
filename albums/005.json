@@ -1,0 +1,186 @@
+{
+	
+	"album_number": "005",
+	"album_title": "Evolution",
+	"album_artwork_thumb": "https://i.imgur.com/NMCAr1X.jpg",
+	"album_artwork_full": "https://i.imgur.com/cWv2xHg.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Arion",
+			"title": "Internet Rebellion",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/arion-internet-rebellion"
+		},
+
+		{
+			"artist": "Noisestorm",
+			"title": "Backlash",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/noisestorm-backlash-1"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Throne of Ravens",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-throne-of-ravens"
+		},
+
+		{
+			"artist": "Insan3Lik3",
+			"title": "Bad Pitched",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/insan3lik3-bad-pitched"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Dust Devil",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-dust-devil"
+		},
+
+		{
+			"artist": "23",
+			"title": "Fresh",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/23-fresh"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Follow Me",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-follow-me"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Gina",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-gina"
+		},
+
+		{
+			"artist": "Tristam & Rogue",
+			"title": "Pushed Away",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-rogue-pushed-away"
+		},
+
+		{
+			"artist": "Kings of the City",
+			"title": "Make Me Worse (Muzzy Remix)",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/kings-of-the-city-make-me"
+		},
+
+		{
+			"artist": "Noisestorm",
+			"title": "Let It Roar",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/noisestorm-let-it-roar-1"
+		},
+
+		{
+			"artist": "Stephen Walking & Ephixa",
+			"title": "Substance",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/ephixa-stephen-walking"
+		},
+
+		{
+			"artist": "Krewella",
+			"title": "Killin' It",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/krewella/killin-it"
+		},
+
+		{
+			"artist": "Obsidia",
+			"title": "Illusion",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/obsidia-illusion"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Who We Are",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "<https://soundcloud.com/monstercat/tristam-who-we-are"
+		},
+
+		{
+			"artist": "Day One",
+			"title": "Game Changer",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/day-one-game-changer"
+		},
+
+		{
+			"artist": "Noisestorm",
+			"title": "Renegade",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/noisestorm-renegade-1"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Mirrors",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-mirrors"
+		},
+
+		{
+			"artist": "Matduke",
+			"title": "Disco Dancer",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/matduke-disco-dancer"
+		},
+
+		{
+			"artist": "Eminence",
+			"title": "Laguna",
+			"genre": 8,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/eminence-laguna"
+		}
+
+	],
+
+	"mixes": [
+
+		{
+			"name": "PART 1",
+			"soundcloud_url": ""
+		},
+		
+		{
+			"name": "PART 2",
+			"soundcloud_url": ""
+		}
+
+	]
+
+}

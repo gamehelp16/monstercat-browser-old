@@ -1,0 +1,181 @@
+{
+
+	"album_number": "006",
+	"album_title": "Embrace",
+	"album_artwork_thumb": "https://i.imgur.com/qCahpls.jpg",
+	"album_artwork_full": "https://i.imgur.com/Pal6Lw6.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Project 46",
+			"title": "M.O.A.B.",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/project-46-m-o-a-b"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Kill The Silence",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-kill-the-silence"
+		},
+
+		{
+			"artist": "TwoThirds",
+			"title": "Bring It Back",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/twothirds-bring-it-back"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Undercat",
+			"genre": 10,
+			"feat": "Zealot",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-undercat-feat-zealot"
+		},
+
+		{
+			"artist": "Droptek",
+			"title": "Bang",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/droptek-bang"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Birthday Cake",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-birthday-cake"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Gunpoint (VIP Mix)",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-gunpoint-vip"
+		},
+
+		{
+			"artist": "Day One",
+			"title": "For The Stars",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/day-one-for-the-stars"
+		},
+
+		{
+			"artist": "Droptek",
+			"title": "Explode",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/droptek-explode"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "The Alchemist's Nightmare",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-the-alchemists"
+		},
+
+		{
+			"artist": "Insan3Lik3 & Throttle",
+			"title": "Better Than Expected",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/insan3lik3-throttle-better"
+		},
+
+		{
+			"artist": "Hot Date! & Chrisson",
+			"title": "Overcome (This Time)",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hot-date-chrisson-overcome"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Mysterious Stranger",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-mysterious"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Rock The Flock",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/televisor-rock-the-flock"
+		},
+
+		{
+			"artist": "Ephixa",
+			"title": "Trance Chords",
+			"genre": 8,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/ephixa-trance-chords"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "This Is It",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-this-is-it"
+		},
+
+		{
+			"artist": "1uP",
+			"title": "Thundergun",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/1up-thundergun-original-mix"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Talent Goes By",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-talent-goes-by"
+		},
+
+		{
+			"artist": "Rezonate",
+			"title": "Lights",
+			"genre": 3,
+			"feat": "KayoszX",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rezonate-lights-feat-kayoszx"
+		},
+
+		{
+			"artist": "Eminence",
+			"title": "United",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/eminence-united-original-mix"
+		}
+
+	],
+
+	"mixes": [
+
+		{
+			"name": "Embrace",
+			"soundcloud_url": ""
+		}
+
+	]
+
+}

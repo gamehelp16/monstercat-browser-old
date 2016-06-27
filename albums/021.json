@@ -1,0 +1,266 @@
+{
+
+	"album_number": "021",
+	"album_title": "Perspective",
+	"album_artwork_thumb": "https://i.imgur.com/bxUfLk4.jpg",
+	"album_artwork_full": "https://i.imgur.com/SbpqaSC.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Tristam & Braken",
+			"title": "Far Away",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-braken-far-away"
+		},
+
+		{
+			"artist": "Excision & Pegboard Nerds",
+			"title": "Bring the Madness",
+			"genre": 10,
+			"feat": "Mayor Apeshit",
+			"soundcloud_url": "https://soundcloud.com/monstercat/bring-the-madness"
+		},
+
+		{
+			"artist": "Stonebank",
+			"title": "Stronger",
+			"genre": 4,
+			"feat": "EMEL",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stonebank-stronger-feat-emel"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Build the Cities",
+			"genre": 11,
+			"feat": "Kerli",
+			"soundcloud_url": "https://soundcloud.com/karmafields/karma-fields-build-the-cities"
+		},
+
+		{
+			"artist": "Haywyre",
+			"title": "Insight",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/haywyre/insight"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Rattlesnake",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/rogueuk/rattlesnake"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Find That Someone",
+			"genre": 6,
+			"feat": "Richard Judge",
+			"soundcloud_url": "https://soundcloud.com/monstercat/televisor-find-that-someone"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "I Can't",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-i-cant"
+		},
+
+		{
+			"artist": "Hellberg",
+			"title": "The Girl",
+			"genre": 2,
+			"feat": "Cozi Zuehlsdorff",
+			"soundcloud_url": "https://soundcloud.com/monstercat/the-girl"
+		},
+
+		{
+			"artist": "PYLOT",
+			"title": "Flashbacks",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pylot-flashbacks"
+		},
+
+		{
+			"artist": "Rameses B",
+			"title": "Mountains",
+			"genre": 1,
+			"feat": "Veela",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rameses-b-mountains"
+		},
+
+		{
+			"artist": "Astronaut & Far Too Loud",
+			"title": "War (F.O.O.L & Didrick Remix)",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/war-fool-didrick-remix"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Dads in Space",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/dads-in-space"
+		},
+
+		{
+			"artist": "Draper",
+			"title": "Pressure",
+			"genre": 11,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "https://soundcloud.com/monstercat/draper-pressure"
+		},
+
+		{
+			"artist": "Soulero",
+			"title": "Aura",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/soulero-aura"
+		},
+
+		{
+			"artist": "Rich Edwards",
+			"title": "See It All",
+			"genre": 2,
+			"feat": "Jonny Rose",
+			"soundcloud_url": "https://soundcloud.com/monstercat/see-it-all"
+		},
+
+		{
+			"artist": "Case & Point",
+			"title": "Fugitive",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/case-point-fugitive"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Yours Truly",
+			"genre": 11,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-yours-truly"
+		},
+
+		{
+			"artist": "Volant",
+			"title": "Minty",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/volant-minty"
+		},
+
+		{
+			"artist": "Puppet",
+			"title": "Answers",
+			"genre": 2,
+			"feat": "Koo",
+			"soundcloud_url": "https://soundcloud.com/monstercat/puppet-answers"
+		},
+
+		{
+			"artist": "Direct & Labisch",
+			"title": "Make a Move",
+			"genre": 11,
+			"feat": "Openwater",
+			"soundcloud_url": "https://soundcloud.com/monstercat/direct-labisch-make-a-move"
+		},
+
+		{
+			"artist": "Eminence",
+			"title": "Universe",
+			"genre": 2,
+			"feat": "Meron Ryan",
+			"soundcloud_url": "https://soundcloud.com/monstercat/eminence-universe"
+		},
+
+		{
+			"artist": "Razihel",
+			"title": "Children of the Night",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/razihel-children-of-the-night"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Get Crazy",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/get-crazy"
+		},
+
+		{
+			"artist": "7 Minutes Dead",
+			"title": "The Divide",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/the-divide"
+		},
+
+		{
+			"artist": "Rich Edwards",
+			"title": "Inferno",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rich-edwards-inferno"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Champions (WRLD Remix)",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-champions-wrld-remix"
+		},
+
+		{
+			"artist": "WRLD & Richard Caddock",
+			"title": "See You",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/wrld-see-you"
+		},
+
+		{
+			"artist": "PYLOT",
+			"title": "After Dark",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pylot-after-dark"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Growing Up",
+			"genre": 11,
+			"feat": "Openwater",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-growing-up"
+		}
+		
+	],
+
+	"mixes": [
+
+		{
+			"name": "Aspect",
+			"soundcloud_url": "https://soundcloud.com/monstercat/aspect-album-mix"
+		},
+
+		{
+			"name": "Vantage",
+			"soundcloud_url": "https://soundcloud.com/monstercat/vantage-album-mix"
+		}
+		
+	]
+
+}

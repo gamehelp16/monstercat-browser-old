@@ -11,5 +11,5 @@
 - <a href="https://www.reddit.com/user/ItsFlero/" target="_blank">/u/ItsFlero</a> (001 - 004, 015)
 - <a href="https://www.reddit.com/user/tonkku107/" target="_blank">/u/tonkku107</a> (024)
 - <a href="https://www.reddit.com/user/TheFrozenSlime/" target="_blank">/u/TheFrozenSlime</a> (022)
-- 
+- <a href="https://www.reddit.com/user/mtchrs/" target="_blank">/u/mtchrs</a> (005, 006, 008 - 011, 021)
 - <a href="https://www.reddit.com/user/harris_kid/" target="_blank">/u/harris_kid</a> (014)

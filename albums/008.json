@@ -1,0 +1,181 @@
+{
+
+	"album_number": "008",
+	"album_title": "Anniversary",
+	"album_artwork_thumb": "https://i.imgur.com/kiP3xFb.jpg",
+	"album_artwork_full": "https://i.imgur.com/kBtiNz3.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Direct",
+			"title": "Free My World",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/direct-free-my-world"
+		},
+
+		{
+			"artist": "Chris Ramos",
+			"title": "Emergency",
+			"genre": 2,
+			"feat": "Natasha Waterman",
+			"soundcloud_url": "https://soundcloud.com/monstercat/chris-ramos-emergency"
+		},
+
+		{
+			"artist": "DotEXE",
+			"title": "Hipster Cutthroat",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/dotexe-hipster-cutthroat"
+		},
+
+		{
+			"artist": "Skifonix",
+			"title": "People Say",
+			"genre": 3,
+			"feat": "Stella Talpo",
+			"soundcloud_url": "https://soundcloud.com/monstercat/skifonix-people-say"
+		},
+
+		{
+			"artist": "Stereotronique",
+			"title": "Exoskelephone",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stereotronique-exoskelephone"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Pressure Cooker",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-pressure-cooker"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Life",
+			"genre": 6,
+			"feat": "Iris",
+			"soundcloud_url": "https://soundcloud.com/monstercat/televisor-life-feat-iris"
+		},
+
+		{
+			"artist": "Eminence",
+			"title": "Ocean City",
+			"genre": 8,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/eminence-ocean-city"
+		},
+
+		{
+			"artist": "Hot Date! & Insan3Lik3",
+			"title": "Clocks",
+			"genre": 3,
+			"feat": "Chrisson",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hot-date-insan3lik3-clocks"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Daybreak",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-daybreak-free-download"
+		},
+
+		{
+			"artist": "TVDS",
+			"title": "Black Sky",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tvds-black-sky"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Live It Up",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-live-it-up"
+		},
+
+		{
+			"artist": "Direct",
+			"title": "Saga",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/direct-saga"
+		},
+
+		{
+			"artist": "Rezonate",
+			"title": "Revolt",
+			"genre": 9,
+			"feat": "Amelia Rose",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rezonate-revolt-feat-amelia"
+		},
+
+		{
+			"artist": "Droptek",
+			"title": "Vice",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/droptek-vice"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Don't Push Me",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-dont-push-me"
+		},
+
+		{
+			"artist": "Tristam & Stephen Walking",
+			"title": "Too Simple",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-stephen-walking-too-simple"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Dynamite",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-dynamite"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Rocktronik",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-rocktronik"
+		},
+
+		{
+			"artist": "Muzzy & Day One",
+			"title": "Black Magic",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-day-one-black-magic"
+		}
+		
+	],
+
+	"mixes": [
+
+		{
+			"name": "Anniversary",
+			"soundcloud_url": ""
+		}
+
+	]
+
+}

@@ -1,0 +1,181 @@
+{
+
+	"album_number": "010",
+	"album_title": "Conquest",
+	"album_artwork_thumb": "https://i.imgur.com/ULTC152.jpg",
+	"album_artwork_full": "https://i.imgur.com/qjQV0U1.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Run the Show",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-run-the-show"
+		},
+
+		{
+			"artist": "Stereotronique",
+			"title": "Sexy Beast",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stereotronique-sexy-beast"
+		},
+
+		{
+			"artist": "Eminence",
+			"title": "Modern Love",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/eminence-modern-love"
+		},
+
+		{
+			"artist": "Throttle",
+			"title": "French Kiss",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/throttle-french-kiss"
+		},
+
+		{
+			"artist": "Soulero & Hellberg",
+			"title": "Because We Are",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/soulero-hellberg-because-we-are"
+		},
+
+		{
+			"artist": "Rezonate",
+			"title": "The Phoenix",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rezonate-the-phoenix"
+		},
+
+		{
+			"artist": "TVDS",
+			"title": "For You",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tvds-for-you"
+		},
+
+		{
+			"artist": "Rundfunk",
+			"title": "A Dream",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rundfunk-a-dream"
+		},
+
+		{
+			"artist": "Skifonix",
+			"title": "Flatline",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/skifonix-flatline"
+		},
+
+		{
+			"artist": "Soulero",
+			"title": "The World",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/soulero-the-world"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Letz Rock",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-letz-rock"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Self Destruct",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-self-destruct"
+		},
+
+		{
+			"artist": "Feint",
+			"title": "Snake Eyes",
+			"genre": 1,
+			"feat": "CoMa",
+			"soundcloud_url": "https://soundcloud.com/monstercat/feint-snake-eyes-feat-coma"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "The Chase",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/televisor-the-chase"
+		},
+
+		{
+			"artist": "Direct",
+			"title": "Essence",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/direct-essence"
+		},
+
+		{
+			"artist": "Project 46 & Mar!no",
+			"title": "Wut!",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/project-46-mar-no-wut-original"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Truth",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-truth"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Claptrap",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-claptrap"
+		},
+
+		{
+			"artist": "TwoThirds",
+			"title": "Waking Dreams (Drum & Bass VIP Mix)",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/twothirds-waking-dreams-feat-2"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Adventure Time",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-adventure-time"
+		}
+		
+	],
+
+	"mixes": [
+
+		{
+			"name": "Conquest",
+			"soundcloud_url": ""
+		}
+
+	]
+
+}

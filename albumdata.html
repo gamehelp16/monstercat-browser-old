@@ -57,14 +57,17 @@
 	<textarea id="input" style="width:300px;height:200px" placeholder="input field (see input example above)"></textarea><br>
 	<input type="button" value="Process" onclick="process()"><br><br>
 	<textarea id="output" style="width:300px;height:200px" placeholder="output"></textarea><br><br>
+	<i>(Apparently sometimes the data generated doesn't include the last track, so make sure that they do exist!)</i><br><br>
 	
-	5. If you take a look at the generated data there are a lot of text saying "&lt;soundcloud link for '(song name)'&gt;", replace those with the SoundCloud url for the track mentioned (example: https://soundcloud.com/monstercat/unlike-pluto-waiting-for-you). Make sure the url is using https, if it is not simply change http to https.<br>
+	5. If you take a look at the generated data there are a lot of text saying "&lt;soundcloud link for '(song name)'&gt;", replace those with the SoundCloud url for the track mentioned (example: https://soundcloud.com/monstercat/unlike-pluto-waiting-for-you). Make sure the url is using https, if it is not simply change http to https. And also the URL doesn't need to be surrounded by the "&lt;&gt;" brackets.<br>
 	6. After putting the SoundCloud link, copy the data generated to a site like pastebin.com and include the link to the PM.<br>
 	7. Last, include on the PM the name and the SoundCloud URL of album mixes of the album.<br><br>
 
 	That's it, thank you for your contribution!<br><br>
 	
-	PS: If you know what JSON is and have a GitHub account, you can make my job easier by constructing the whole JSON file of the album data and submit a pull request to https://github.com/gamehelp16/monstercat-browser. You can take a look at examples of finished album data (<a href="albums/026.json">026</a> or <a href="albums/027.json">027</a>) or start from a <a href="albums/blank.json">blank</a> template.
+	PS: If you know what JSON is and have a GitHub account, you can make my job easier by constructing the whole JSON file of the album data and submit a pull request to https://github.com/gamehelp16/monstercat-browser. You can take a look at examples of finished album data (<a href="albums/026.json">026</a> or <a href="albums/027.json">027</a>) or start from a <a href="albums/blank.json">blank</a> template.<br><br>
+	Also a tip: actually you only need to upload the large version of the artwork, to get the smaller version simply add "m" before the file extension on the URL (example: https://i.imgur.com/7DJVBVhm.jpg).<br><br>
+	Also, if you're gonna make an album data for an LP / EP, you don't need to send them right now because when I'm typing this I have not "standarized" the JSON format for LPs / EPs yet so you probably will have to change it later.
 	
 	<script>
 		
