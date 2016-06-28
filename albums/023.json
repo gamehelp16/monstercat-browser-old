@@ -1,0 +1,266 @@
+{
+	
+	"album_number": "023",
+	"album_title": "Voyage",
+	"album_artwork_thumb": "https://i.imgur.com/LDzOEG2m.jpg",
+	"album_artwork_full": "https://i.imgur.com/LDzOEG2.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Aero Chord",
+			"title": "4U",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/aero-chord-4u"
+		},
+
+		{
+			"artist": "Nitro Fun",
+			"title": "Final Boss",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nitro-fun-final-boss"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Swamp Thing",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-swamp-thing"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Supercell",
+			"genre": 2,
+			"feat": "Veela",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-supercell"
+		},
+
+		{
+			"artist": "WRLD",
+			"title": "Chase It",
+			"genre": 6,
+			"feat": "Savoi",
+			"soundcloud_url": "https://soundcloud.com/monstercat/wrld-chase-it"
+		},
+
+		{
+			"artist": "Au5",
+			"title": "Inside",
+			"genre": 3,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/au5-inside"
+		},
+
+		{
+			"artist": "Muzzy & Droptek",
+			"title": "Warhead",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-droptek-warhead"
+		},
+
+		{
+			"artist": "Razihel & Aero Chord",
+			"title": "Titans",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/razihel-aero-chord-titans"
+		},
+
+		{
+			"artist": "Hellberg",
+			"title": "The Girl (Color Source Remix)",
+			"genre": 7,
+			"feat": "Cozi Zuehlsdorff",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hellberg-the-girl-color-source-remix-1"
+		},
+
+		{
+			"artist": "Kasbo",
+			"title": "Again",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/kasbo-again"
+		},
+
+		{
+			"artist": "Grant Bowtie",
+			"title": "High Tide",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/grant-bowtie-high-tide"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Aphasia",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-aphasia"
+		},
+
+		{
+			"artist": "Trivecta",
+			"title": "Drift Away",
+			"genre": 2,
+			"feat": "Charlotte Haining",
+			"soundcloud_url": "https://soundcloud.com/monstercat/trivecta-drift-away"
+		},
+
+		{
+			"artist": "Summer Was Fun",
+			"title": "Watching",
+			"genre": 6,
+			"feat": "Colordrive",
+			"soundcloud_url": "https://soundcloud.com/monstercat/summer-was-fun-watching"
+		},
+
+		{
+			"artist": "Draper",
+			"title": "On You",
+			"genre": 11,
+			"feat": "Alby Hobbs",
+			"soundcloud_url": "https://soundcloud.com/monstercat/draper-on-you"
+		},
+
+		{
+			"artist": "Rootkit",
+			"title": "Concrete Jungle",
+			"genre": 2,
+			"feat": "P.Keys",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rootkit-concrete-jungle"
+		},
+
+		{
+			"artist": "Slips & Slurs",
+			"title": "Divided",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/slips-slurs-divided"
+		},
+
+		{
+			"artist": "Laszlo",
+			"title": "Closer",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/laszlo-closer"
+		},
+
+		{
+			"artist": "Stephen Walking & Hyper Potions",
+			"title": "Saturday Morning Space Ride",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/sw-hp-saturday-morning-space-ride"
+		},
+
+		{
+			"artist": "Deon Custom",
+			"title": "Roses",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/deon-custom-roses"
+		},
+
+		{
+			"artist": "Subtact",
+			"title": "Restart",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/subtact-restart"
+		},
+
+		{
+			"artist": "PIXL",
+			"title": "This Time",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pixl-this-time"
+		},
+
+		{
+			"artist": "Protostar & Draper",
+			"title": "Chrysalis",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/protostar-draper-chrysalis"
+		},
+
+		{
+			"artist": "Eminence",
+			"title": "Knock Me Out",
+			"genre": 8,
+			"feat": "Anna Cyzon",
+			"soundcloud_url": "https://soundcloud.com/monstercat/eminence-knock-me-out"
+		},
+
+		{
+			"artist": "Richard Caddock",
+			"title": "Glow",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/richard-caddock-glow"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Feeling Stronger (High Maintenance Remix)",
+			"genre": 1,
+			"feat": "Charlotte Colley",
+			"soundcloud_url": "https://soundcloud.com/monstercat/feeling-stronger-high-maintenance-remix"
+		},
+
+		{
+			"artist": "Droptek",
+			"title": "Colossus",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/droptek-colossus"
+		},
+
+		{
+			"artist": "Hyper Potions & Subtact",
+			"title": "Adventures",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hyper-potions-adventures"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Hypnotique",
+			"genre": 11,
+			"feat": "Charlotte Haining",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-hypnotique"
+		},
+
+		{
+			"artist": "Laszlo",
+			"title": "Law of the Jungle",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/laszlo-law-of-the-jungle"
+		}
+
+	],
+	
+	"mixes": [
+		
+		{
+			"name": "Passage",
+			"soundcloud_url": "https://soundcloud.com/monstercat/monstercat-passage-mix"
+		},
+		
+		{
+			"name": "Excursion",
+			"soundcloud_url": "https://soundcloud.com/monstercat/monstercat-excursion-mix"
+		}
+		
+	]
+	
+}
