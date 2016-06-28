@@ -2,12 +2,12 @@
 	
 	"album_number": "016",
 	"album_title": "Expedition",
-	"album_artwork_thumb": "https://imgur.com/wZiU6iY",
-	"album_artwork_full": "https://imgur.com/VIv4b4e",
+	"album_artwork_thumb": "https://imgur.com/VIv4b4em.jpg",
+	"album_artwork_full": "https://imgur.com/VIv4b4e.jpg",
 
 	"tracks": [
 
-				{
+		{
 			"artist": "Tristam",
 			"title": "Once Again",
 			"genre": 5,
@@ -33,17 +33,17 @@
 
 		{
 			"artist": "Astronaut",
-			"title": "Apollo",
+			"title": "Apollo (Electro Mix)",
 			"genre": 3,
-			"feat": "Electro Mix",
+			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-apollo"
 		},
 
 		{
 			"artist": "7 Minutes Dead",
-			"title": "Peacock",
+			"title": "Peacock (Haywyre Remix)",
 			"genre": 5,
-			"feat": "remixed by Haywyre",
+			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/monstercat/7-minutes-dead-peacock-haywyre"
 		},
 
@@ -57,9 +57,9 @@
 
 		{
 			"artist": "Pegboard Nerds",
-			"title": "Bassline Kickin",
+			"title": "Bassline Kickin (Dzeko & Torres Remix)",
 			"genre": 3,
-			"feat": "remixed by Dzeko & Torres",
+			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/monstercat/bassline-kickin-dzeko-torres-remix"
 		},
 
@@ -233,9 +233,9 @@
 
 		{
 			"artist": "Astronaut",
-			"title": "Rain",
+			"title": "Rain (Stephen Walking Remix)",
 			"genre": 5,
-			"feat": "remixed by Stephen Walking",
+			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-rain-stephen-walking"
 		},
 
@@ -254,12 +254,12 @@
 	"mixes": [
 		
 		{
-			"name": "Arrival Mix",
+			"name": "Arrival",
 			"soundcloud_url": ""
 		},
 		
 		{
-			"name": "Departure Mix",
+			"name": "Departure",
 			"soundcloud_url": ""
 		}
 		
