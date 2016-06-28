@@ -2,8 +2,8 @@
 	
 	"album_number": "007",
 	"album_title": "Solace",
-	"album_artwork_thumb": "https://imgur.com/A9QYIMVm.jpg",
-	"album_artwork_full": "https://imgur.com/A9QYIMV.jpg",
+	"album_artwork_thumb": "https://i.imgur.com/A9QYIMVm.jpg",
+	"album_artwork_full": "https://i.imgur.com/A9QYIMV.jpg",
 
 	"tracks": [
 
@@ -157,26 +157,17 @@
 			"genre": 5,
 			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/monstercat/varien-seduction-monstercat"
-		},
-		
-		{
-			"artist": "OVERWERK",
-			"title": "House (DELETED SONG)",
-			"genre": 3,
-			"feat": "Nick Nikon",
-			"soundcloud_url": "https://soundcloud.com/overwerk/house"
-		},
-
-
+		}
 
 	],
 	
 	"mixes": [
 		
 		{
-			"name": "Solace Album Mix",
+			"name": "Solace",
 			"soundcloud_url": ""
-		},
+		}
 		
+	]
 	
 }

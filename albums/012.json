@@ -2,8 +2,8 @@
 	
 	"album_number": "012",
 	"album_title": "Aftermath",
-	"album_artwork_thumb": "https://imgur.com/gkp6TXfm.jpg",
-	"album_artwork_full": "https://imgur.com/gkp6TXf.jpg",
+	"album_artwork_thumb": "https://i.imgur.com/gkp6TXfm.jpg",
+	"album_artwork_full": "https://i.imgur.com/gkp6TXf.jpg",
 
 	"tracks": [
 
@@ -164,7 +164,7 @@
 			"title": "Motions",
 			"genre": 0,
 			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-motions
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-motions"
 		},
 
 		{
@@ -245,14 +245,6 @@
 			"genre": 1,
 			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-concert-crush"
-		},
-
-		{
-			"artist": "Archie",
-			"title": "Famous [Deleted Song]",
-			"genre": 2,
-			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/samdurott/archie-famous"
 		}
 
 	],

@@ -168,6 +168,7 @@ body {
 	box-sizing: border-box;
 	letter-spacing: -1px;
 	padding-top: 15px;
+	cursor: default;
 }
 
 #album-mixes {
@@ -336,10 +337,3 @@ body {
 	background: black;
 	color: white;
 }
-
-/*#bg {
-	position: absolute;
-	top: 0;
-	opacity: 0;
-	z-index: -1;
-}*/

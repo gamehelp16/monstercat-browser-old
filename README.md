@@ -8,8 +8,9 @@
 
 <b>Thanks to these people who have helped with the album data:</b>
 
-- <a href="https://www.reddit.com/user/ItsFlero/" target="_blank">/u/ItsFlero</a> (001 - 004, 015)
+- <a href="https://www.reddit.com/user/ItsFlero/" target="_blank">/u/ItsFlero</a> (001 - 004, 013, 015)
 - <a href="https://www.reddit.com/user/tonkku107/" target="_blank">/u/tonkku107</a> (024)
 - <a href="https://www.reddit.com/user/TheFrozenSlime/" target="_blank">/u/TheFrozenSlime</a> (022)
 - <a href="https://www.reddit.com/user/mtchrs/" target="_blank">/u/mtchrs</a> (005, 006, 008 - 011, 021)
 - <a href="https://www.reddit.com/user/harris_kid/" target="_blank">/u/harris_kid</a> (014)
+- <a href="https://www.reddit.com/user/Luddest/" target="_blank">/u/Luddest</a> (007, 012, 016 - 018, 023)
