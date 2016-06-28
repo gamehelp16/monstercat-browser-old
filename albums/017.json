@@ -1,0 +1,266 @@
+{
+	
+	"album_number": "017",
+	"album_title": "Ascension",
+	"album_artwork_thumb": "https://i.imgur.com/3opoJoZm.jpg",
+	"album_artwork_full": "https://i.imgur.com/3opoJoZ.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Grant Bowtie",
+			"title": "Reach",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/grant-bowtie-reach"
+		},
+
+		{
+			"artist": "Aero Chord",
+			"title": "Surface",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/aero-chord-surface"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Hero",
+			"genre": 4,
+			"feat": "Elizaveta",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-hero"
+		},
+
+		{
+			"artist": "Tristam & Braken",
+			"title": "Frame of Mind",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-braken-frame-of-mind"
+		},
+
+		{
+			"artist": "Au5",
+			"title": "Follow You",
+			"genre": 2,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/au5-follow-you-danyka"
+		},
+
+		{
+			"artist": "Stonebank",
+			"title": "Eagle Eyes",
+			"genre": 9,
+			"feat": "Emel",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stonebank-eagle-eyes-feat-emel"
+		},
+
+		{
+			"artist": "Trivecta",
+			"title": "One Night Only",
+			"genre": 9,
+			"feat": "Yohamna Solange",
+			"soundcloud_url": "https://soundcloud.com/monstercat/trivecta-one-night-only"
+		},
+
+		{
+			"artist": "Rootkit",
+			"title": "Too Late",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rootkit-too-late"
+		},
+
+		{
+			"artist": "Noisestorm",
+			"title": "Surge",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/noisestorm-surge-original-mix"
+		},
+
+		{
+			"artist": "Direct",
+			"title": "Wanna Know You",
+			"genre": 9,
+			"feat": "Holly Drummond",
+			"soundcloud_url": "https://soundcloud.com/monstercat/direct-wanna-know-you"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Power Fracture",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-power-fracture"
+		},
+
+		{
+			"artist": "Haywyre",
+			"title": "The Schism",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/haywyre-the-schism"
+		},
+
+		{
+			"artist": "SCNDL",
+			"title": "The Munsta",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/scndl-the-munsta"
+		},
+
+		{
+			"artist": "Favright",
+			"title": "Taking Over",
+			"genre": 3,
+			"feat": "Cassandra Kay",
+			"soundcloud_url": "https://soundcloud.com/monstercat/favright-taking-over"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Quantum (Virtual Riot Remix)",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-quantum-virtual-riot"
+		},
+
+		{
+			"artist": "Case & Point",
+			"title": "All On Me",
+			"genre": 3,
+			"feat": "Gamble & Burke",
+			"soundcloud_url": "https://soundcloud.com/monstercat/case-point-all-on-me"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Excellent Choice",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-excellent"
+		},
+
+		{
+			"artist": "Nitro Fun",
+			"title": "Cheat Codes",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nitro-fun-cheat-codes"
+		},
+
+		{
+			"artist": "Eminence",
+			"title": "Halo",
+			"genre": 8,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/eminence-halo"
+		},
+
+		{
+			"artist": "Soulero",
+			"title": "Seconds Away",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/soulero-seconds-away"
+		},
+
+		{
+			"artist": "Rootkit",
+			"title": "Do It",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rootkit-do-it"
+		},
+
+		{
+			"artist": "DotEXE",
+			"title": "Inside Out",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/dotexe-inside-out"
+		},
+
+		{
+			"artist": "Droptek",
+			"title": "The Covenant",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/droptek-the-covenant"
+		},
+
+		{
+			"artist": "Fractal",
+			"title": "Itvara",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fractal-itvara"
+		},
+
+		{
+			"artist": "Bustre",
+			"title": "Don't Forget",
+			"genre": 1,
+			"feat": "LaMeduza",
+			"soundcloud_url": "https://soundcloud.com/monstercat/bustre-dont-forget"
+		},
+
+		{
+			"artist": "Feint",
+			"title": "Phosphor",
+			"genre": 11,
+			"feat": "Miyoki",
+			"soundcloud_url": "https://soundcloud.com/monstercat/feint-phosphor-feat-miyoki"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Drink Up",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-drink-up"
+		},
+
+		{
+			"artist": "Varien & SirensCeol",
+			"title": "Moonlight",
+			"genre": 9,
+			"feat": "Aloma Steele",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-sirensceol"
+		},
+
+		{
+			"artist": "Insan3Lik3 & Rob Gasser",
+			"title": "Open Hour",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/insan3lik3-open-hour"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Out On A Limb",
+			"genre": 2,
+			"feat": "Jonny Rose",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-out-on-a-limb"
+		}
+
+	],
+	
+	"mixes": [
+		
+		{
+			"name": "Abyss",
+			"soundcloud_url": "https://soundcloud.com/monstercat/monstercat-017-abyss-album"
+		},
+		
+		{
+			"name": "Zenith",
+			"soundcloud_url": "https://soundcloud.com/monstercat/monstercat-017-zenith"
+		}
+		
+	]
+	
+}
