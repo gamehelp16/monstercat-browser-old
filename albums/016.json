@@ -1,0 +1,268 @@
+{
+	
+	"album_number": "016",
+	"album_title": "Expedition",
+	"album_artwork_thumb": "https://imgur.com/VIv4b4em.jpg",
+	"album_artwork_full": "https://imgur.com/VIv4b4e.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Tristam",
+			"title": "Once Again",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-once-again"
+		},
+
+		{
+			"artist": "PIXL",
+			"title": "Rat Twist",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pixl-rat-twist"
+		},
+
+		{
+			"artist": "Nitro Fun",
+			"title": "New Game",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nitro-fun-new-game"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Apollo (Electro Mix)",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-apollo"
+		},
+
+		{
+			"artist": "7 Minutes Dead",
+			"title": "Peacock (Haywyre Remix)",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/7-minutes-dead-peacock-haywyre"
+		},
+
+		{
+			"artist": "Droptek",
+			"title": "What's Going On",
+			"genre": 0,
+			"feat": "Isabel Higuero",
+			"soundcloud_url": "https://soundcloud.com/monstercat/droptek-whats-going-on"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Bassline Kickin (Dzeko & Torres Remix)",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/bassline-kickin-dzeko-torres-remix"
+		},
+
+		{
+			"artist": "Case & Point",
+			"title": "Savage",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/case-point-savage"
+		},
+
+		{
+			"artist": "Atmozfears",
+			"title": "State of Mind",
+			"genre": 4,
+			"feat": "In-Phase",
+			"soundcloud_url": "https://soundcloud.com/monstercat/atmozfears-state-of-mind"
+		},
+
+		{
+			"artist": "Lets Be Friends",
+			"title": "FTW",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/lets-be-friends-ftw"
+		},
+
+		{
+			"artist": "Au5 & Fractal",
+			"title": "Blue",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/au5-fractal-blue"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Till It's Over",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-till-its-over"
+		},
+
+		{
+			"artist": "Mr Fijiwiji",
+			"title": "Let Me Out",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-let-me-out"
+		},
+
+		{
+			"artist": "Rameses B",
+			"title": "Transformations",
+			"genre": 9,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rameses-b-transformations"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Endgame",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-endgame"
+		},
+
+		{
+			"artist": "Direct",
+			"title": "Parallax",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/direct-parallax"
+		},
+
+		{
+			"artist": "Razihel",
+			"title": "Renzokuken",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/razihel-renzokuken"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Rain",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/2-astronaut-rain"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "The Scarlet Dawn",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-the-scarlet-dawn"
+		},
+
+		{
+			"artist": "Fractal",
+			"title": "Spection",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fractal-spection"
+		},
+
+		{
+			"artist": "Bustre",
+			"title": "Shadow",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/bustre-shadow"
+		},
+
+		{
+			"artist": "Rezonate",
+			"title": "Canvas",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/02-rezonate-canvas"
+		},
+
+		{
+			"artist": "TwoThirds",
+			"title": "Daydreamer",
+			"genre": 11,
+			"feat": "Bijou",
+			"soundcloud_url": "https://soundcloud.com/monstercat/twothirds-daydreamer"
+		},
+
+		{
+			"artist": "7 Minutes Dead",
+			"title": "Peacock",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/7-minutes-dead-peacock"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Bassline Kickin",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-bassline-kickin"
+		},
+
+		{
+			"artist": "Chris Ramos",
+			"title": "Just Wait For It",
+			"genre": 3,
+			"feat": "Juvon Taylor",
+			"soundcloud_url": "https://soundcloud.com/monstercat/chris-ramos-just-wait-for-it"
+		},
+
+		{
+			"artist": "PIXL",
+			"title": "Buzz Kill",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pixl-buzz-kill"
+		},
+
+		{
+			"artist": "Insan3Lik3",
+			"title": "We Are the Robots",
+			"genre": 6,
+			"feat": "Temu",
+			"soundcloud_url": "https://soundcloud.com/monstercat/insan3lik3-we-are-the-robots"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Rain (Stephen Walking Remix)",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-rain-stephen-walking"
+		},
+
+		{
+			"artist": "Nanobii",
+			"title": "Rainbow Road",
+			"genre": 4,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nanobii-rainbow-road"
+		}
+
+
+
+	],
+	
+	"mixes": [
+		
+		{
+			"name": "Arrival",
+			"soundcloud_url": ""
+		},
+		
+		{
+			"name": "Departure",
+			"soundcloud_url": ""
+		}
+		
+	]
+	
+}
