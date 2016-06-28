@@ -1,0 +1,266 @@
+{
+	
+	"album_number": "018",
+	"album_title": "Frontier",
+	"album_artwork_thumb": "http://i.imgur.com/OxmM8vsm.jpg",
+	"album_artwork_full": "http://i.imgur.com/OxmM8vs.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "New Style",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-new-style"
+		},
+
+		{
+			"artist": "Haywyre",
+			"title": "Everchanging",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/haywyre-everchanging"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Night After Night",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-night-after-night"
+		},
+
+		{
+			"artist": "Noisestorm",
+			"title": "Breakdown VIP",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/noisestorm-breakdown-vip"
+		},
+
+		{
+			"artist": "Grabbitz",
+			"title": "Here With You Now",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-here-with-you-now"
+		},
+
+		{
+			"artist": "Rootkit",
+			"title": "Real Love",
+			"genre": 2,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rootkit-real-love-feat-danyka"
+		},
+
+		{
+			"artist": "WRLD",
+			"title": "Orbit",
+			"genre": 7,
+			"feat": "Richard Caddock",
+			"soundcloud_url": "https://soundcloud.com/monstercat/wrld-orbit-feat-richard"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Champions",
+			"genre": 2,
+			"feat": "Harry Brooks Jnr",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-champions"
+		},
+
+		{
+			"artist": "Hellberg",
+			"title": "This Is Forever",
+			"genre": 2,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hellberg-feat-danyka-nadeau"
+		},
+
+		{
+			"artist": "Stonebank",
+			"title": "Holding On to Sound",
+			"genre": 5,
+			"feat": "Concept",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stonebank-holding-on-to-sound"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Here It Comes",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-here-it-comes"
+		},
+
+		{
+			"artist": "PIXL",
+			"title": "Broken Bones",
+			"genre": 2,
+			"feat": "Cassandra Kay",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pixl-broken-bones"
+		},
+
+		{
+			"artist": "Case & Point",
+			"title": "Prism",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/case-point-prism"
+		},
+
+		{
+			"artist": "Nitro Fun",
+			"title": "Soldiers",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nitro-fun-soldiers"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Valkyrie",
+			"genre": 10,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-valkyrie-feat-laura"
+		},
+
+		{
+			"artist": "Grant Bowtie",
+			"title": "Cloud Nine",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/grant-bowtie-cloud-nine"
+		},
+
+		{
+			"artist": "Au5",
+			"title": "Follow You (VIP Mix)",
+			"genre": 9,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/au5-follow-you-vip"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Neon",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/televisor-neon"
+		},
+
+		{
+			"artist": "Mr FijiWiji, Laura Brehm & AgNO3",
+			"title": "Pure Sunlight",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-laura-brehm-agno3"
+		},
+
+		{
+			"artist": "DotEXE",
+			"title": "Battle Cry",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/dotexe-battle-cry"
+		},
+
+		{
+			"artist": "Direct & Labisch",
+			"title": "Better World",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/direct-labisch-better-world"
+		},
+
+		{
+			"artist": "Rezonate",
+			"title": "Shake It Off",
+			"genre": 2,
+			"feat": "Jeff Sontag",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rezonate-shake-it-off"
+		},
+
+		{
+			"artist": "Stonebank",
+			"title": "Moving On",
+			"genre": 3,
+			"feat": "EMEL",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stonebank-moving-on-feat-emel"
+		},
+
+		{
+			"artist": "Laszlo x WRLD",
+			"title": "You & Me",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/laszlo-x-wrld-you-me"
+		},
+
+		{
+			"artist": "Falcon Funk",
+			"title": "Pounce",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/falcon-funk-pounce"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Gunmetal Black",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-gunmetal-black"
+		},
+
+		{
+			"artist": "SCNDL",
+			"title": "The Munsta (AlphavibeZ Remix)",
+			"genre": 4,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/scndl-the-munsta-alphavibez"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Shark City",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-shark-city"
+		},
+
+		{
+			"artist": "Razihel",
+			"title": "Skybreaker",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/razihel-skybreaker"
+		},
+
+		{
+			"artist": "Trivecta",
+			"title": "Believe",
+			"genre": 9,
+			"feat": "Connor Zwetsch",
+			"soundcloud_url": "https://soundcloud.com/monstercat/trivecta-believe-feat-connor"
+		}
+		
+	],
+	
+	"mixes": [
+		
+		{
+			"name": "Horizon",
+			"soundcloud_url": "https://soundcloud.com/monstercat/monstercat-018-horizon"
+		},
+		
+		{
+			"name": "Pinnacle",
+			"soundcloud_url": "https://soundcloud.com/monstercat/monstercat-018-pinnacle"
+		}
+		
+	]
+	
+}
