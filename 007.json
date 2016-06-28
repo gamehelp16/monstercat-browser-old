@@ -2,12 +2,12 @@
 	
 	"album_number": "007",
 	"album_title": "Solace",
-	"album_artwork_thumb": "https://imgur.com/0E0FkvG",
-	"album_artwork_full": "https://imgur.com/A9QYIMV",
+	"album_artwork_thumb": "https://imgur.com/A9QYIMVm.jpg",
+	"album_artwork_full": "https://imgur.com/A9QYIMV.jpg",
 
 	"tracks": [
 
-				{
+		{
 			"artist": "Feint & Boyinaband",
 			"title": "Time Bomb",
 			"genre": 1,
@@ -65,9 +65,9 @@
 
 		{
 			"artist": "Going Quantum",
-			"title": "Hello?",
+			"title": "Hello? (Centra Remix)",
 			"genre": 1,
-			"feat": "Centra Remix",
+			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/monstercat/going-quantum-hello-centra"
 		},
 
@@ -161,9 +161,9 @@
 		
 		{
 			"artist": "OVERWERK",
-			"title": "House",
+			"title": "House (DELETED SONG)",
 			"genre": 3,
-			"feat": "Nick Nikon [DELETED SONG]",
+			"feat": "Nick Nikon",
 			"soundcloud_url": "https://soundcloud.com/overwerk/house"
 		},
 
