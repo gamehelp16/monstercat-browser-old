@@ -2,16 +2,16 @@
 	
 	"album_number": "Two Fold Pt. 2",
 	"album_title": "Haywyre",
-	"album_artwork_thumb": "https://imgur.com/1VAbn5u",
-	"album_artwork_full": "https://imgur.com/GLQ6T03",
+	"album_artwork_thumb": "https://imgur.com/GLQ6T03m.jpg",
+	"album_artwork_full": "https://imgur.com/GLQ6T03.jpg",
 
 	"tracks": [
 
 		{
 			"artist": "Haywyre",
-			"title": "Prologue",
+			"title": "Prologue (Part One",
 			"genre": 11,
-			"feat": "Part One",
+			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/haywyre/haywyre-prologue-part-one"
 		},
 
@@ -25,9 +25,9 @@
 
 		{
 			"artist": "Haywyre",
-			"title": "Dichotomy",
+			"title": "Dichotomy (Soft Mix)",
 			"genre": 7,
-			"feat": "Soft Mix",
+			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/haywyre/haywyre-dichotomy-soft-mix"
 		},
 
