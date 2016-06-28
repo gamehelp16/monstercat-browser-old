@@ -2,12 +2,12 @@
 	
 	"album_number": "012",
 	"album_title": "Aftermath",
-	"album_artwork_thumb": "https://imgur.com/Fj5in7K",
-	"album_artwork_full": "https://imgur.com/gkp6TXf",
+	"album_artwork_thumb": "https://imgur.com/gkp6TXfm.jpg",
+	"album_artwork_full": "https://imgur.com/gkp6TXf.jpg",
 
 	"tracks": [
 
-				{
+		{
 			"artist": "Tristam & Braken",
 			"title": "Flight",
 			"genre": 10,
@@ -81,9 +81,9 @@
 
 		{
 			"artist": "Eminence",
-			"title": "United",
+			"title": "United (Redmoon Remix)",
 			"genre": 3,
-			"feat": "RedMoon Remix",
+			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/monstercat/eminence-united-redmoon-remix"
 		},
 
@@ -260,12 +260,12 @@
 	"mixes": [
 		
 		{
-			"name": "Chaos Mix",
+			"name": "Chaos",
 			"soundcloud_url": ""
 		},
 		
 		{
-			"name": "Order Mix",
+			"name": "Order",
 			"soundcloud_url": ""
 		}
 		
