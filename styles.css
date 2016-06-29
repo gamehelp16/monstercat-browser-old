@@ -14,6 +14,11 @@ body {
 	color: white;
 	-webkit-font-smoothing: antialiased;
 	overflow-y: scroll;
+	font-family: Gotham Book;
+}
+
+h1 {
+	font-family: Gotham Bold;
 }
 
 #wrapper {
@@ -186,7 +191,7 @@ body {
 
 .mix {
 	border: 2px solid white;
-	width: 161px;
+	width: 175px;
 	height: 37px;
 	display: inline-block;
 	margin: 6px;
@@ -263,7 +268,7 @@ body {
 	margin-left: 422px;
 }
 
-#prev-album:hover, #next-album:hover {
+#prev-album:hover, #next-album:hover, #hamburger-icon:hover {
 	color: #eee;
 }
 
@@ -336,4 +341,17 @@ body {
 #dismiss:hover {
 	background: black;
 	color: white;
+}
+
+#hamburger-icon {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	padding: 5px 10px 10px 10px;
+	border-radius: 2px;
+	cursor: pointer;
+	font-size: 30px;
+	line-height: 35px;
+	z-index: 99999;
+	color: #888;
 }

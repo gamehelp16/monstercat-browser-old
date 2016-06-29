@@ -1,0 +1,266 @@
+{
+	
+	"album_number": "020",
+	"album_title": "Altitude",
+	"album_artwork_thumb": "https://i.imgur.com/ugGd7lom.jpg",
+	"album_artwork_full": "https://i.imgur.com/ugGd7lo.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Vicetone",
+			"title": "What I've Waited For",
+			"genre": 2,
+			"feat": "D. Brown",
+			"soundcloud_url": "https://soundcloud.com/vicetone/vicetone-what-ive-waited-for-ft-d-brown"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "My Friend",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-my-friend"
+		},
+
+		{
+			"artist": "Aero Chord",
+			"title": "Break Them",
+			"genre": 0,
+			"feat": "Anna Yvette",
+			"soundcloud_url": "https://soundcloud.com/monstercat/aero-chord-break-them"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Here It Comes (Snavs & Toby Green Remix)",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/here-it-comes-snavs-toby-green-remix"
+		},
+
+		{
+			"artist": "Au5",
+			"title": "Crossroad",
+			"genre": 8,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/au5-crossroad-feat-danyka-nadeau"
+		},
+
+		{
+			"artist": "Sound Remedy & Nitro Fun",
+			"title": "Turbo Penguin",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/turbo-penguin"
+		},
+
+		{
+			"artist": "Grant Bowtie",
+			"title": "Clockwork",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/grant-bowtie-clockwork"
+		},
+
+		{
+			"artist": "Hellberg & Rich Edwards",
+			"title": "Ashes (Burn Your Love)",
+			"genre": 2,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hellberg-rich-edwards-ashes"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Believe Her",
+			"genre": 2,
+			"feat": "Meron Ryan",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-believe-her"
+		},
+
+		{
+			"artist": "Favright",
+			"title": "Taking Over (Grabbitz Remix)",
+			"genre": 0,
+			"feat": "Cassandra Kay",
+			"soundcloud_url": "https://soundcloud.com/monstercat/favright-grabbitz"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Feronia",
+			"genre": 3,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-feronia-feat-danyka-nadeau"
+		},
+
+		{
+			"artist": "LVTHER",
+			"title": "One Look",
+			"genre": 6,
+			"feat": "Mammals",
+			"soundcloud_url": "https://soundcloud.com/monstercat/lvther-one-look-feat-mammals"
+		},
+
+		{
+			"artist": "Rameses B",
+			"title": "We Love",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rameses-we-love"
+		},
+
+		{
+			"artist": "Laszlo",
+			"title": "Messiah",
+			"genre": 8,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/laszlo-messiah"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Breathe",
+			"genre": 10,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-breathe"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Lost Metropolis",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-lost-metropolis"
+		},
+
+		{
+			"artist": "Puppet",
+			"title": "Scribble",
+			"genre": 2,
+			"feat": "The Eden Project",
+			"soundcloud_url": "https://soundcloud.com/monstercat/scribble-original"
+		},
+
+		{
+			"artist": "Droptek",
+			"title": "Killing Time",
+			"genre": 1,
+			"feat": "Isabel Higuero",
+			"soundcloud_url": "https://soundcloud.com/monstercat/droptek-killing-time"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Top Of The World 2",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-top-of-the-world-2"
+		},
+
+		{
+			"artist": "Hellberg",
+			"title": "I'm Not Over",
+			"genre": 2,
+			"feat": "Tash",
+			"soundcloud_url": "https://soundcloud.com/monstercat/im-not-over-radio"
+		},
+
+		{
+			"artist": "PIXL",
+			"title": "The Escape",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pixl-the-escape"
+		},
+
+		{
+			"artist": "Going Quantum",
+			"title": "Raw",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/raw-sushi"
+		},
+
+		{
+			"artist": "Nitro Fun",
+			"title": "Safe & Sound",
+			"genre": 3,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nitro-fun-safe-sound"
+		},
+
+		{
+			"artist": "Rich Edwards",
+			"title": "Sweetest Addiction",
+			"genre": 2,
+			"feat": "We Ghosts",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rich-edwards-sweetest-addiction"
+		},
+
+		{
+			"artist": "Laszlo",
+			"title": "Supernova",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/laszlo-supernova"
+		},
+
+		{
+			"artist": "Bustre",
+			"title": "Everything's Different",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/bustre-everythings-different"
+		},
+
+		{
+			"artist": "Rootkit",
+			"title": "Carry Me Away",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rootkit-carry-me-away"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Whispers In The Mist",
+			"genre": 9,
+			"feat": "Aloma Steele",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-whispers-in-the-mist"
+		},
+
+		{
+			"artist": "Fractal",
+			"title": "Contact",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fractal-contact"
+		},
+		
+		{
+			"artist": "Direct",
+			"title": "Tranquility",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/direct-tranquility"
+		}
+
+	],
+	
+	"mixes": [
+		
+		{
+			"name": "Elevation",
+			"soundcloud_url": "https://soundcloud.com/monstercat/altitude-elevation-mix"
+		},
+		
+		{
+			"name": "Stratosphere",
+			"soundcloud_url": "https://soundcloud.com/monstercat/altitude-stratosphere"
+		}
+		
+	]
+	
+}

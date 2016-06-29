@@ -7,31 +7,39 @@
 </head>
 <body>
 	
-	<!--img src="027 - Cataclysm.png" id="bg"-->
+	<!--div id="hamburger-icon">&#9776;</div-->
+	<!--div id="sidebar">
+		<a href="#">Tracklist</a>
+		<a href="#">Compilation Albums</a>
+		<a href="#">LPs and EPs</a>
+		<a href="#">About</a>
+	</div-->
 	
 	<div id="player-div">
 		<div id="now-playing"></div>
 		<audio id="soundcloud-player" controls></audio>
 	</div>
 	
-	<a id="prev-a" href="#" onclick="navigate(-1)"><div id="prev-album"><span>&lsaquo;</span></div></a>
-	<a id="next-a" href="#" onclick="navigate(1)"><div id="next-album"><span>&rsaquo;</span></div></a>
-	
-	<div id="wrapper">
-		<div id="album-name">
-			<a href="#" target="_blank" id="artwork-link"><img src="#" id="album-artwork"></a>
-			<div id="album-id">MONSTERCAT 000</div>
-			<div id="album-title">XXX</div>
+	<div id="album-detail">
+		<a id="prev-a" href="#" onclick="navigate(-1)"><div id="prev-album"><span>&lsaquo;</span></div></a>
+		<a id="next-a" href="#" onclick="navigate(1)"><div id="next-album"><span>&rsaquo;</span></div></a>
+		
+		<div id="wrapper">
+			<div id="album-name">
+				<a href="#" target="_blank" id="artwork-link"><img src="#" id="album-artwork"></a>
+				<div id="album-id">MONSTERCAT 000</div>
+				<div id="album-title">XXX</div>
+			</div>
+			<div id="genre-count"></div>
+			<div style="clear: both;"></div>
+			<div id="tracklist"></div>
+			<div id="album-mixes">
+				<div id="includes"></div>
+				<div id="mixes"></div>
+			</div>
+			<div id="danyka-nadeau"></div>
+			<div id="spacer"></div>
 		</div>
-		<div id="genre-count"></div>
-		<div style="clear: both;"></div>
-		<div id="tracklist"></div>
-		<div id="album-mixes">
-			<div id="includes"></div>
-			<div id="mixes"></div>
-		</div>
-		<div id="danyka-nadeau"></div>
-		<div id="spacer"></div>
 	</div>
 	
 	<div id="introduction">
@@ -347,7 +355,6 @@
 
 	  ga('create', 'UA-71788573-3', 'auto');
 	  ga('send', 'pageview');
-
 	</script>
 	
 </body>

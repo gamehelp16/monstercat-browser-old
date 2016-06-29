@@ -1,0 +1,266 @@
+{
+	
+	"album_number": "019",
+	"album_title": "Endeavour",
+	"album_artwork_thumb": "https://i.imgur.com/926X2bym.jpg",
+	"album_artwork_full": "https://i.imgur.com/926X2by.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "BADBOI",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-badboi"
+		},
+
+		{
+			"artist": "Grabbitz",
+			"title": "Turn Around",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-turn-around"
+		},
+
+		{
+			"artist": "Au5",
+			"title": "Snowblind",
+			"genre": 9,
+			"feat": "Tasha Baxter",
+			"soundcloud_url": "https://soundcloud.com/monstercat/au5-snowblind-feat-tasha-baxter"
+		},
+
+		{
+			"artist": "Kasbo",
+			"title": "Kaleidoscope",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/kasbo-kaleidoscope"
+		},
+
+		{
+			"artist": "Astronaut & Far Too Loud",
+			"title": "War",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-war"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Atlantic",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-atlantic"
+		},
+
+		{
+			"artist": "Aero Chord",
+			"title": "Boundless",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/aero-chord-boundless"
+		},
+
+		{
+			"artist": "Noisestorm",
+			"title": "Sentinel",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/noisestorm-sentinel"
+		},
+
+		{
+			"artist": "WRLD",
+			"title": "Triumph",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/wrld-triumph"
+		},
+
+		{
+			"artist": "Rootkit",
+			"title": "Against the Sun",
+			"genre": 10,
+			"feat": "Anna Yvette",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rootkit-against-the-sun"
+		},
+
+		{
+			"artist": "Mr. FijiWiji & Direct",
+			"title": "Entropy",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-direct-entropy"
+		},
+
+		{
+			"artist": "Laszlo",
+			"title": "Interstellar",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/laszlo-interstellar"
+		},
+
+		{
+			"artist": "F.O.O.L",
+			"title": "Throne",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fool-throne"
+		},
+
+		{
+			"artist": "Hellberg & Rich Edwards",
+			"title": "Hands Of Time",
+			"genre": 2,
+			"feat": "Jonny Rose",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hellberg-hands-of-time"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Insignia",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-insignia"
+		},
+
+		{
+			"artist": "Rameses B",
+			"title": "Dream Catcher",
+			"genre": 1,
+			"feat": "Charlotte Haining",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rameses-b-dream-catcher-feat"
+		},
+
+		{
+			"artist": "Case & Point",
+			"title": "Error Code",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/case-point-error-code"
+		},
+
+		{
+			"artist": "Droptek",
+			"title": "Boundaries",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/droptek-boundaries"
+		},
+
+		{
+			"artist": "Varien & 7 Minutes Dead",
+			"title": "Mirai Sekai Pt. 3: Aeon Metropolis (Extended Mix)",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/aeon-metropolis"
+		},
+
+		{
+			"artist": "Draper",
+			"title": "Coloured Glass",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/draper-coloured-glass"
+		},
+
+		{
+			"artist": "Astronaut & Eyes",
+			"title": "Pinball (The McMash Clan Remix)",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pinball-mcmash-clan"
+		},
+
+		{
+			"artist": "Draper",
+			"title": "With You",
+			"genre": 2,
+			"feat": "Alby Hobbs",
+			"soundcloud_url": "https://soundcloud.com/monstercat/draper-with-you"
+		},
+
+		{
+			"artist": "F.O.O.L",
+			"title": "Keep On Rocking",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fool-keep-on-rocking"
+		},
+
+		{
+			"artist": "Didrick",
+			"title": "Monstercat Live Performance (3 Year Anniversary Mix)",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/didrick-monstercat-mashup"
+		},
+
+		{
+			"artist": "Stonebank",
+			"title": "Step Up",
+			"genre": 3,
+			"feat": "Whizzkid",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stonebank-step-up-feat-whizzkid"
+		},
+
+		{
+			"artist": "Hellberg",
+			"title": "Saviors",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hellberg-saviors"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Emergency",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-emergency"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Hot Pursuit",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-hot-pursuit"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Valkyrie II: Lacuna",
+			"genre": 11,
+			"feat": "Cassandra Kay",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-valkyrie-2"
+		},
+
+		{
+			"artist": "Sushi Killer & Kevin Villecco",
+			"title": "Anime Bae",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/anime-bae"
+		}
+
+	],
+	
+	"mixes": [
+		
+		{
+			"name": "Aspire",
+			"soundcloud_url": "https://soundcloud.com/monstercat/monstercat-019-aspire"
+		},
+		
+		{
+			"name": "Venture",
+			"soundcloud_url": "https://soundcloud.com/monstercat/monstercat-019-venture"
+		}
+		
+	]
+	
+}
