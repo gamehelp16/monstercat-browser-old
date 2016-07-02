@@ -1,0 +1,85 @@
+{
+	
+	"album_number": "Two Fold Pt. 2",
+	"album_title": "Haywyre",
+	"album_artwork_thumb": "https://imgur.com/v30Sx5Um.jpg",
+	"album_artwork_full": "https://imgur.com/v30Sx5U.jpg",
+
+	"tracks": [
+
+				{
+			"artist": "Haywyre",
+			"title": "I Am Me",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/haywyre/i-am-me"
+		},
+
+		{
+			"artist": "Haywyre",
+			"title": "I Am You",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/haywyre/i-am-you"
+		},
+
+		{
+			"artist": "Haywyre",
+			"title": "Restraint",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/haywyre/restraint"
+		},
+
+		{
+			"artist": "Haywyre",
+			"title": "Impulse",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/haywyre/impulse"
+		},
+
+		{
+			"artist": "Haywyre",
+			"title": "Do You Don't You",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/haywyre/haywyre-do-you-dont-you"
+		},
+
+		{
+			"artist": "Haywyre",
+			"title": "Moment",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "<soundcloud link for 'Moment'>"
+		},
+
+		{
+			"artist": "Haywyre",
+			"title": "Memory",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/haywyre/moment"
+		},
+
+		{
+			"artist": "Haywyre",
+			"title": "Transient",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/haywyre/transient"
+		},
+		
+		{
+			"artist": "Haywyre",
+			"title": "Endlessly",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/haywyre/endlessly"
+		},
+
+	],
+	
+	
+}
