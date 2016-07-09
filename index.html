@@ -90,7 +90,27 @@
 		section('home');
 		
 		function section(what) {
+			
 			window.scrollTo(0,0);
+			
+			var title = "";
+			if(what == "compilation-albums") title = "Compilation Albums";
+			else if(what == "lps-and-eps") title = "LPs & EPs";
+			else if(what == "album-detail" && currentAlbum !== undefined) {
+				if(mode == "lp") {
+					var title_1 = albumData.lps[currentAlbumIndex].album_artist;
+					var title_2 = albumData.lps[currentAlbumIndex].album_title;
+				}
+				else {
+					var title_1 = "Monstercat " + albumData.compilations[currentAlbumIndex].album_number;
+					var title_2 = albumData.compilations[currentAlbumIndex].album_title;
+				}
+				title = title_1 + " - " + title_2 + " Tracklist";
+			}
+			
+			if(title == "") document.title = "Monstercat Album Browser";
+			else document.title = title + " | Monstercat Album Browser";
+			
 			var sections = document.getElementsByClassName("section");
 			for(var i=0;i<sections.length;i++) {
 				document.getElementsByClassName("section")[i].style.display = 'none';
@@ -103,6 +123,7 @@
 			setTimeout(function() {
 				document.getElementById("modal").style.display = "none";
 			}, 200);
+			
 		}
 		
 		function showGrids() {
@@ -196,9 +217,11 @@
 				
 				if(mode == "compilation") {
 					document.getElementById("album-id").innerHTML = "Monstercat " + data.album_number;
+					document.title = "Monstercat " + data.album_number + " - " + data.album_title + " Tracklist | Monstercat Album Browser";
 				}
 				else {
 					document.getElementById("album-id").innerHTML = data.album_artist;
+					document.title = data.album_artist + " - " + data.album_title + " Tracklist | Monstercat Album Browser";
 				}
 				
 				document.getElementById("album-title").innerHTML = data.album_title;
