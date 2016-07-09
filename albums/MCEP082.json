@@ -1,0 +1,54 @@
+{
+	
+	"album_number": "MCEP082",
+	"album_artist": "Pegboard Nerds",
+	"album_title": "Pink Cloud EP",
+	"album_artwork_thumb": "https://i.imgur.com/3tjfNBYm.jpg",
+	"album_artwork_full": "https://i.imgur.com/3tjfNBY.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Emoji",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-emoji"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Pink Cloud",
+			"genre": 6,
+			"feat": "feat. Max Collins",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-pink-cloud"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Just Like That",
+			"genre": 7,
+			"feat": "feat. Johnny Graves",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-just-like-that"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Downhearted",
+			"genre": 6,
+			"feat": "feat. Jonny Rose",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-downhearted"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "End Is Near (Fire In The Hole VIP)",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-end-is-near"
+		}
+
+	]
+	
+}
+
