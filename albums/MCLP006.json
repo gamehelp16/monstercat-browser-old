@@ -1,13 +1,14 @@
 {
 	
-	"album_number": "Two Fold Pt. 2",
-	"album_title": "Haywyre",
-	"album_artwork_thumb": "https://imgur.com/v30Sx5Um.jpg",
-	"album_artwork_full": "https://imgur.com/v30Sx5U.jpg",
+	"album_number": "MCLP006",
+	"album_artist": "Haywyre",
+	"album_title": "Two Fold Pt. 2",
+	"album_artwork_thumb": "https://i.imgur.com/v30Sx5Um.jpg",
+	"album_artwork_full": "https://i.imgur.com/v30Sx5U.jpg",
 
 	"tracks": [
 
-				{
+		{
 			"artist": "Haywyre",
 			"title": "I Am Me",
 			"genre": 11,
@@ -52,7 +53,7 @@
 			"title": "Moment",
 			"genre": 5,
 			"feat": "",
-			"soundcloud_url": "<soundcloud link for 'Moment'>"
+			"soundcloud_url": "https://soundcloud.com/haywyre/moment"
 		},
 
 		{
@@ -60,7 +61,7 @@
 			"title": "Memory",
 			"genre": 6,
 			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/haywyre/moment"
+			"soundcloud_url": "https://soundcloud.com/haywyre/memory"
 		},
 
 		{
@@ -77,9 +78,9 @@
 			"genre": 5,
 			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/haywyre/endlessly"
-		},
+		}
 
-	],
+	]
 	
 	
 }

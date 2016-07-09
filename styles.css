@@ -17,10 +17,6 @@ body {
 	font-family: Gotham Book;
 }
 
-h1 {
-	font-family: Gotham Bold;
-}
-
 #wrapper {
 	margin: 20px auto 0px auto;
 	width: 764px;
@@ -34,6 +30,7 @@ h1 {
 #album-name {
 	margin-top: 26px;
 	float: left;
+	width: 470px;
 }
 
 #album-artwork {
@@ -48,7 +45,6 @@ h1 {
 	font-size: 31px;
 	letter-spacing: -2px;
 	padding-top: 17px;
-	float: left;
 	text-transform: uppercase;
 }
 
@@ -84,7 +80,7 @@ h1 {
 	border-radius: 100%;
 	width: 33px;
 	height: 33px;
-	background: url(mcat.png) 5px 4px no-repeat;
+	background: url(mcat.svg) 5px 4px no-repeat;
 	background-size: 23px 25px;
 	margin-bottom: 0px;
 }
@@ -254,7 +250,7 @@ h1 {
 	height: 100%;
 	cursor: pointer;
 	margin-top: -25px;
-	color: #888;
+	color: #aaa;
 	font-size: 75px;
 	text-align: center;
 	display: table;
@@ -277,34 +273,18 @@ h1 {
 	vertical-align: middle;
 }
 
-#introduction {
-	font-family: Gotham Book;
+#no-album-selected {
 	position: fixed;
-	top: 50%;
-	left: 50%;
-	background: white;
-	color: black;
-	letter-spacing: -1px;
-	padding: 30px;
-	width: 500px;
-	border-radius: 3px;
-	-webkit-transform: translate(-50%, -50%);
-	   -moz-transform: translate(-50%, -50%);
-	        transform: translate(-50%, -50%);
-	-webkit-transition: .3s linear all;
-	    -moz-transform: .3s linear all;
-	         transform: .3s linear all;
-	z-index: 10001;
-	display: none;
-}
-
-#introduction h1 {
-	font-family: Gotham Bold;
-	margin-top: 0;
-}
-
-#introduction a {
-	color: black;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	z-index: 9998;
+	text-align: center;
+	color: #aaa;
+	font-size: 30px;
+	line-height: 100vh;
 }
 
 #modal {
@@ -316,42 +296,188 @@ h1 {
 	background: rgba(0,0,0,.5);
 	z-index: 10000;
 	display: none;
-	-webkit-transition: .3s linear all;
-	    -moz-transform: .3s linear all;
-	         transform: .3s linear all;
-}
-
-#dismiss {
-	font-family: Gotham Bold;
-	float: right;
-	border: 2px solid black;
-	background: white;
-	width: 161px;
-	height: 37px;
-	font-size: 18px;
-	padding: 6px;
-	text-transform: uppercase;
-	cursor: pointer;
-	box-sizing: border-box;
-	-webkit-transition: .15s all linear;
-	   -moz-transition: .15s all linear;
-	        transition: .15s all linear;
-}
-
-#dismiss:hover {
-	background: black;
-	color: white;
+	-webkit-transition: .2s linear all;
+	    -moz-transform: .2s linear all;
+	         transform: .2s linear all;
 }
 
 #hamburger-icon {
 	position: fixed;
-	top: 20px;
-	left: 20px;
-	padding: 5px 10px 10px 10px;
+	top: 15px;
+	left: 15px;
+	padding: 10px 15px 15px 15px;
 	border-radius: 2px;
 	cursor: pointer;
 	font-size: 30px;
 	line-height: 35px;
+	z-index: 99998;
+	color: #aaa;
+}
+
+#sidebar {
+	position: fixed;
+	top: 0;
+	left: -280px;
+	width: 250px;
+	height: 100%;
+	background: black;
 	z-index: 99999;
-	color: #888;
+	padding-top: 30px;
+	box-shadow: 0 0 20px 5px #000;
+	-webkit-transition: .2s linear all;
+	    -moz-transform: .2s linear all;
+	         transform: .2s linear all;
+}
+
+#sidebar img {
+	width: 120px;
+	height: 150px;
+	padding: 30px 65px;
+}
+
+#sidebar .link {
+	display: block;
+	padding: 20px 30px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+#sidebar .link:hover {
+	background: rgba(255,255,255,.3);
+}
+
+#sidebar .link.active {
+	background: rgba(255,255,255,.4);
+}
+
+.section {
+	margin: 26px 90px 35px 90px;
+	display: none;
+}
+
+#album-detail {
+	margin: 0;
+}
+
+#introductions {
+	width: 800px;
+	margin: 0 auto 80px auto;
+}
+
+.section h1, .section h2 {
+	font-family: Gotham Book;
+	font-weight: normal;
+	text-align: center;
+}
+
+.section a {
+	text-decoration: none;
+	color: #aaa;
+}
+
+.section a:hover {
+	text-decoration: underline;
+}
+
+.section p {
+	line-height: 20px;
+}
+
+.section hr {
+	border: 0;
+	border-bottom: 1px solid rgba(255,255,255,.2);
+	margin: 20px 0;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 50px 0;
+}
+
+.album-view {
+	position: relative;
+	margin: 20px;
+	float: left;
+	background: #333;
+	border-radius: 0 0 3px 3px;
+	cursor: pointer;
+	z-index: 100;
+	box-shadow: 0 0 30px rgba(0,0,0,.7);
+}
+
+.album-view:hover {
+	background: #555;
+}
+
+.album-view img {
+	width: 200px;
+	height: 200px;
+}
+
+.album-info {
+	width: 200px;
+	box-sizing: border-box;
+	padding: 17px;
+}
+
+.album-view .title {
+	font-family: Gotham Bold;
+	text-transform: uppercase;
+	font-size: 15px;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.album-view .subtitle {
+	text-transform: uppercase;
+	font-size: 13px;
+	margin-top: 3px;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.banner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 345px;
+	text-align: center;
+	line-height: 250px;
+	font-size: 40px;
+	z-index: 10;
+	text-shadow: 0 0 25px rgba(0,0,0,.7);
+}
+
+#banner-home {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(banner_home.png) center center no-repeat black;
+	background-size: cover;
+	height: 250px;
+}
+
+#banner-compilation {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(banner_compilation.png) center center no-repeat black;
+	background-size: cover;
+}
+
+#banner-lp {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(banner_lp.png) center center no-repeat black;
+	background-size: cover;
+}
+
+.banner-padding {
+	widtb: 100%;
+	height: 150px;
+}
+
+#banner-home + .banner-padding {
+	height: 250px;
 }

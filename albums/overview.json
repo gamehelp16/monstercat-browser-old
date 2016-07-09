@@ -1,0 +1,264 @@
+{
+
+	"compilations": [
+		
+		{
+			"album_number": "001",
+			"album_title": "Launch Week",
+			"album_artwork_thumb": "https://i.imgur.com/MXbKukMm.jpg",
+			"album_artwork_full": "https://i.imgur.com/MXbKukM.jpg"
+		},
+
+		{
+			"album_number": "002",
+			"album_title": "Early Stage",
+			"album_artwork_thumb": "https://i.imgur.com/4A9Kqumm.jpg",
+			"album_artwork_full": "https://i.imgur.com/4A9Kqum.jpg"
+		},
+
+		{
+			"album_number": "003",
+			"album_title": "Momentum",
+			"album_artwork_thumb": "https://i.imgur.com/82qlvbEm.jpg",
+			"album_artwork_full": "https://i.imgur.com/82qlvbE.jpg"
+		},
+
+		{
+			"album_number": "004",
+			"album_title": "Identity",
+			"album_artwork_thumb": "https://i.imgur.com/tbBcyoYm.jpg",
+			"album_artwork_full": "https://i.imgur.com/tbBcyoY.jpg"
+		},
+
+		{
+			"album_number": "005",
+			"album_title": "Evolution",
+			"album_artwork_thumb": "https://i.imgur.com/NMCAr1X.jpg",
+			"album_artwork_full": "https://i.imgur.com/cWv2xHg.jpg"
+		},
+		
+		{
+			"album_number": "006",
+			"album_title": "Embrace",
+			"album_artwork_thumb": "https://i.imgur.com/qCahpls.jpg",
+			"album_artwork_full": "https://i.imgur.com/Pal6Lw6.jpg"
+		},
+
+		{
+			"album_number": "007",
+			"album_title": "Solace",
+			"album_artwork_thumb": "https://i.imgur.com/A9QYIMVm.jpg",
+			"album_artwork_full": "https://i.imgur.com/A9QYIMV.jpg"
+		},
+
+		{
+			"album_number": "008",
+			"album_title": "Anniversary",
+			"album_artwork_thumb": "https://i.imgur.com/kiP3xFb.jpg",
+			"album_artwork_full": "https://i.imgur.com/kBtiNz3.jpg"
+		},
+
+		{
+			"album_number": "009",
+			"album_title": "Reunion",
+			"album_artwork_thumb": "https://i.imgur.com/fzAWcRa.jpg",
+			"album_artwork_full": "https://i.imgur.com/4ObHbQ7.jpg"
+		},
+
+		{
+			"album_number": "010",
+			"album_title": "Conquest",
+			"album_artwork_thumb": "https://i.imgur.com/ULTC152.jpg",
+			"album_artwork_full": "https://i.imgur.com/qjQV0U1.jpg"
+		},
+
+		{
+			"album_number": "011",
+			"album_title": "Revolution",
+			"album_artwork_thumb": "https://i.imgur.com/gThQtc8.jpg",
+			"album_artwork_full": "https://i.imgur.com/OSOU7PW.jpg"
+		},
+
+		{
+			"album_number": "012",
+			"album_title": "Aftermath",
+			"album_artwork_thumb": "https://i.imgur.com/gkp6TXfm.jpg",
+			"album_artwork_full": "https://i.imgur.com/gkp6TXf.jpg"
+		},
+
+		{
+			"album_number": "013",
+			"album_title": "Awakening",
+			"album_artwork_thumb": "https://i.imgur.com/9tS8Uqem.jpg",
+			"album_artwork_full": "https://i.imgur.com/9tS8Uqe.jpg"
+		},
+
+		{
+			"album_number": "014",
+			"album_title": "Discovery",
+			"album_artwork_thumb": "https://i.imgur.com/JGUkzjGm.jpg",
+			"album_artwork_full": "https://i.imgur.com/JGUkzjG.jpg"
+		},
+
+		{
+			"album_number": "015",
+			"album_title": "Outlook",
+			"album_artwork_thumb": "https://i.imgur.com/zJrtWEDm.jpg",
+			"album_artwork_full": "https://i.imgur.com/zJrtWED.jpg"
+		},
+
+		{
+			"album_number": "016",
+			"album_title": "Expedition",
+			"album_artwork_thumb": "https://i.imgur.com/VIv4b4em.jpg",
+			"album_artwork_full": "https://i.imgur.com/VIv4b4e.jpg"
+		},
+
+		{
+			"album_number": "017",
+			"album_title": "Ascension",
+			"album_artwork_thumb": "https://i.imgur.com/3opoJoZm.jpg",
+			"album_artwork_full": "https://i.imgur.com/3opoJoZ.jpg"
+		},
+
+		{
+			"album_number": "018",
+			"album_title": "Frontier",
+			"album_artwork_thumb": "https://i.imgur.com/OxmM8vsm.jpg",
+			"album_artwork_full": "https://i.imgur.com/OxmM8vs.jpg"
+		},
+
+		{
+			"album_number": "019",
+			"album_title": "Endeavour",
+			"album_artwork_thumb": "https://i.imgur.com/926X2bym.jpg",
+			"album_artwork_full": "https://i.imgur.com/926X2by.jpg"
+		},
+
+		{
+			"album_number": "020",
+			"album_title": "Altitude",
+			"album_artwork_thumb": "https://i.imgur.com/ugGd7lom.jpg",
+			"album_artwork_full": "https://i.imgur.com/ugGd7lo.jpg"
+		},
+
+		{
+			"album_number": "021",
+			"album_title": "Perspective",
+			"album_artwork_thumb": "https://i.imgur.com/bxUfLk4.jpg",
+			"album_artwork_full": "https://i.imgur.com/SbpqaSC.jpg"
+		},
+
+		{
+			"album_number": "022",
+			"album_title": "Contact",
+			"album_artwork_thumb": "https://i.imgur.com/7DJVBVhm.jpg",
+			"album_artwork_full": "https://i.imgur.com/7DJVBVh.jpg"
+		},
+
+		{
+			"album_number": "023",
+			"album_title": "Voyage",
+			"album_artwork_thumb": "https://i.imgur.com/LDzOEG2m.jpg",
+			"album_artwork_full": "https://i.imgur.com/LDzOEG2.jpg"
+		},
+
+		{
+			"album_number": "024",
+			"album_title": "Vanguard",
+			"album_artwork_thumb": "https://i.imgur.com/d42izqJ.jpg",
+			"album_artwork_full": "https://i.imgur.com/lRTtgST.jpg"
+		},
+
+		{
+			"album_number": "025",
+			"album_title": "Threshold",
+			"album_artwork_thumb": "https://i.imgur.com/frLNUaXm.jpg",
+			"album_artwork_full": "https://i.imgur.com/frLNUaX.jpg"
+		},
+
+		{
+			"album_number": "026",
+			"album_title": "Resistance",
+			"album_artwork_thumb": "https://i.imgur.com/KSHsKFMm.jpg",
+			"album_artwork_full": "https://i.imgur.com/KSHsKFM.jpg"
+		},
+
+		{
+			"album_number": "027",
+			"album_title": "Cataclysm",
+			"album_artwork_thumb": "https://i.imgur.com/j1fZsYBm.jpg",
+			"album_artwork_full": "https://i.imgur.com/j1fZsYB.jpg"
+		}
+		
+	],
+	
+	"lps": [
+	
+		{
+			"album_number": "MCLP001",
+			"album_artist": "Haywyre",
+			"album_title": "Two Fold Pt. 1",
+			"album_artwork_thumb": "https://i.imgur.com/GLQ6T03m.jpg",
+			"album_artwork_full": "https://i.imgur.com/GLQ6T03.jpg"
+		},
+
+		{
+			"album_number": "MCLP002",
+			"album_artist": "Varien",
+			"album_title": "The Ancient & The Arcane",
+			"album_artwork_thumb": "https://i.imgur.com/4iD2FGS.jpg",
+			"album_artwork_full": "https://i.imgur.com/uV7Hzrs.jpg"
+		},
+
+		{
+			"album_number": "MCLP003",
+			"album_artist": "Fractal",
+			"album_title": "Gaia",
+			"album_artwork_thumb": "https://i.imgur.com/5bL5wBK.jpg",
+			"album_artwork_full": "https://i.imgur.com/ytJZnBM.jpg"
+		},
+
+		{
+			"album_number": "MCLP004",
+			"album_artist": "Nigel Good",
+			"album_title": "Space Cadet",
+			"album_artwork_thumb": "https://i.imgur.com/hvQ2QZ1.jpg",
+			"album_artwork_full": "https://i.imgur.com/ytu6Rq0.jpg"
+		},
+
+		{
+			"album_number": "MCLP005",
+			"album_artist": "Grabbitz",
+			"album_title": "Better With Time",
+			"album_artwork_thumb": "https://i.imgur.com/3ETz7zV.jpg",
+			"album_artwork_full": "https://i.imgur.com/xReNUkG.jpg"
+		},
+
+		{
+			"album_number": "MCLP006",
+			"album_artist": "Haywyre",
+			"album_title": "Two Fold Pt. 2",
+			"album_artwork_thumb": "https://i.imgur.com/v30Sx5Um.jpg",
+			"album_artwork_full": "https://i.imgur.com/v30Sx5U.jpg"
+		},
+
+		{
+			"album_number": "MCLP007",
+			"album_artist": "Karma Fields",
+			"album_title": "New Age | Dark Age",
+			"album_artwork_thumb": "https://i.imgur.com/MSbPNvR.jpg",
+			"album_artwork_full": "https://i.imgur.com/6uKP0Z9.jpg"
+		},
+
+		{
+			"album_number": "MCLP008",
+			"album_artist": "Tut Tut Child",
+			"album_title": "Come To The End; Then Stop",
+			"album_artwork_thumb": "https://i.imgur.com/9p09XgR.jpg",
+			"album_artwork_full": "https://i.imgur.com/aFGpjmB.jpg"
+		}
+	
+	]
+
+}

@@ -1,0 +1,109 @@
+{
+	
+	"album_number": "MCLP004",
+	"album_artist": "Nigel Good",
+	"album_title": "Space Cadet",
+	"album_artwork_thumb": "https://i.imgur.com/hvQ2QZ1.jpg",
+	"album_artwork_full": "https://i.imgur.com/ytu6Rq0.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Nigel Good",
+			"title": "It Stars",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nigel-good-it-starts"
+		},
+
+		{
+			"artist": "Nigel Good",
+			"title": "This Is Forever",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nigel-good-this-is-forever"
+		},
+
+		{
+			"artist": "Nigel Good",
+			"title": "An Adventure",
+			"genre": 2,
+			"feat": "Davek",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nigel-good-an-adventure"
+		},
+
+		{
+			"artist": "Nigel Good",
+			"title": "No Way Back Up",
+			"genre": 2,
+			"feat": "Illuminor",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nigel-good-no-way-back-up"
+		},
+
+		{
+			"artist": "Nigel Good",
+			"title": "Disappear",
+			"genre": 2,
+			"feat": "Mango, Andre Frauenstein, & Stefan Ludik",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nigel-good-disappear"
+		},
+
+		{
+			"artist": "Nigel Good",
+			"title": "Stellar",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nigel-good-stellar"
+		},
+
+		{
+			"artist": "Nigel Good",
+			"title": "Cliché Lovesong",
+			"genre": 2,
+			"feat": "Fenomenon",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nigel-good-cliche-lovesong"
+		},
+
+		{
+			"artist": "Nigel Good",
+			"title": "Bastion",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nigel-good-bastion"
+		},
+
+		{
+			"artist": "Nigel Good",
+			"title": "Space Plus One",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nigel-good-space-plus-one"
+		},
+
+		{
+			"artist": "Nigel Good",
+			"title": "Nova",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nigel-good-nova"
+		},
+
+		{
+			"artist": "Nigel Good",
+			"title": "Cloudstepper",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nigel-good-cloudstepper"
+		},
+
+		{
+			"artist": "Nigel Good",
+			"title": "Don't Want To Go",
+			"genre": 6,
+			"feat": "Go Periscope",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nigel-good-dont-want-to-go"
+		}
+
+	]
+
+}

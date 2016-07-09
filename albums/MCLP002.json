@@ -1,0 +1,77 @@
+{
+	
+	"album_number": "MCLP002",
+	"album_artist": "Varien",
+	"album_title": "The Ancient & The Arcane",
+	"album_artwork_thumb": "https://i.imgur.com/4iD2FGS.jpg",
+	"album_artwork_full": "https://i.imgur.com/uV7Hzrs.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Varien",
+			"title": "The Ancient & The Arcane",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-the-ancient-arcane"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Snowlight",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-snowlight"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Supercell",
+			"genre": 2,
+			"feat": "Veela",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-supercell"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Transmissions from Lemuria",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-transmissions-from-lemuria"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Hypnotique",
+			"genre": 5,
+			"feat": "Charlotte Haining",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-hypnotique"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Firefly",
+			"genre": 11,
+			"feat": "Intermission",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-firefly-intermission"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Kamisama",
+			"genre": 7,
+			"feat": "Miyoki",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-kamisama"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Ghost Spores",
+			"genre": 11,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-ghost-spores"
+		}
+
+	]
+
+}

@@ -7,21 +7,12 @@
 </head>
 <body>
 	
-	<script src="albums.js"></script>
+	Contributing an album data to the site is actually quite simple, simply PM me at <a href="https://www.reddit.com/user/gamehelp16/" target="_blank">/u/gamehelp16</a> and include the needed information:<br><br>
 	
-	<h1>It looks like all albums have been claimed so there is no need for new album data anymore. Thanks to all contributors! This page will be updated when it's ready to add LPs and EPs.</h1>
-	
-	<del>Albums that are available on the browser right now: <span id="available-albums"></span><br>
-	<b>Also make sure to check <a href="https://www.reddit.com/r/Monstercat/comments/4py29z/please_help_adding_album_data_into_the_monstercat/" target="_blank">this reddit post</a> to see what albums people are planning to add so that there won't be any duplicates.</b></del><br><br>
-	
-	<script>
-		document.getElementById("available-albums").innerHTML = availableAlbums.join(", ");
-	</script>
-	
-	Contributing an album data to the site is actually quite simple, simple PM me at <a href="https://www.reddit.com/user/gamehelp16/" target="_blank">/u/gamehelp16</a> and include these information:<br><br>
-	
+	<h3>If you're sending an album data for a compilation album include these information:</h3>
 	1. Album number and name (example: 027 - Cataclysm).<br>
-	2. Upload the large version of the album art to imgur and include the link on the PM (example: https://i.imgur.com/j1fZsYB.jpg). Album art should be at least 1000x1000px in size and make sure it doesn't contain the monstercat logo on the top right corner (make sure the url is using https. If it is not, simply change http to https).<br>
+	2. Upload the large version of the album art to imgur and include the link on the PM (example: https://i.imgur.com/j1fZsYB.jpg). Album art should be at least 1000x1000px in size and make sure it doesn't contain the monstercat logo on the top right corner (make sure the url is using https. If it is not, simply change http to https).<br><br>
+	Tip: actually you only need to upload the large version of the artwork, to get the smaller version simply add "m" before the file extension on the URL (example: https://i.imgur.com/7DJVBVhm.jpg).<br><br>
 	3. Go to the <a href="http://monstercat.wikia.com/" target="_blank">Monstercat Wiki</a> page of the album and copy the table of the tracklist so the copied data looks like what you see below, make sure that you did NOT copy the album mixes!<br><br>
 	Copied data should look like this:<br>
 <pre>1	Grabbitz	Float Away	Indie Dance	3:14	
@@ -68,9 +59,59 @@
 
 	That's it, thank you for your contribution!<br><br>
 	
-	PS: If you know what JSON is and have a GitHub account, you can make my job easier by constructing the whole JSON file of the album data and submit a pull request to https://github.com/gamehelp16/monstercat-browser. You can take a look at examples of finished album data (<a href="albums/026.json">026</a> or <a href="albums/027.json">027</a>) or start from a <a href="albums/blank.json">blank</a> template.<br><br>
-	Also a tip: actually you only need to upload the large version of the artwork, to get the smaller version simply add "m" before the file extension on the URL (example: https://i.imgur.com/7DJVBVhm.jpg).<br><br>
-	Also, if you're gonna make an album data for an LP / EP, you don't need to send them right now because when I'm typing this I have not "standarized" the JSON format for LPs / EPs yet so you probably will have to change it later.
+	PS: If you know what JSON is, you can make my job easier by constructing the whole JSON file of the album data and paste them instead to pastebin. You can take a look at examples of finished album data (<a href="albums/026.json">026</a> or <a href="albums/027.json">027</a>).<br><br>
+	<hr>
+	
+	<h3>If you're sending an album data for an LP / EP include these information:</h3>
+	1. Album name, artist and catalog number (example: Karma Fields - New Age | Dark Age MCLP007).<br>
+	2. Upload the large version of the album art to imgur and include the link on the PM (example: https://i.imgur.com/j1fZsYB.jpg). Album art should be at least 1000x1000px in size (make sure the url is using https. If it is not, simply change http to https).<br><br>
+	Tip: actually you only need to upload the large version of the artwork, to get the smaller version simply add "m" before the file extension on the URL (example: https://i.imgur.com/7DJVBVhm.jpg).<br><br>
+	3. Go to the <a href="http://monstercat.wikia.com/" target="_blank">Monstercat Wiki</a> page of the album and copy the table of the tracklist so the copied data looks like what you see below, make sure that you did NOT copy the album mixes!<br><br>
+	Copied data should look like this:<br>
+<pre>1	Edge of the World	5:13	Electro	
+2	Stickup	4:50	Aggrotech	with MORTEN & feat. Juliette Lewis
+3	For Me	3:42	Moombahcore	
+4	Skyline	4:44	Electronic	
+5	Fixed_	4:59	Electronic / Complextro	
+6	Greatness	4:30	Hip Hop / Electronic / Trap	feat. Talib Kweli
+7	Scandal	3:21	Electronic	feat. CC Sheffield
+8	Build the Cities	3:45	Electronic	feat. Kerli
+9	Skewed	4:06	Breaks	
+10	Faint Echoes	4:41	Future House	feat. Monarchy
+11	A Bright but Distant Future	4:06	Indie Dance / Synthpop	
+12	Build the Cities +	3:59	Electronic	feat. Kerli</pre><br>
+	
+	If you take a look at the copied data, there are some text saying "feat. blablabla". Remove the text "feat." leaving only the name of the artist featured on the track (make sure you don't delete the tab symbols!). Also delete the name of the artist with whom the main album artist collaborates with but is not featured in the song (this one is quite difficult to explain, take a look at how the data should become below).<br><br>After doing some modifications the data should look like this:<br>
+	
+	<pre>1	Edge of the World	5:13	Electro	
+2	Stickup	4:50	Aggrotech	Juliette Lewis
+3	For Me	3:42	Moombahcore	
+4	Skyline	4:44	Electronic	
+5	Fixed_	4:59	Electronic / Complextro	
+6	Greatness	4:30	Hip Hop / Electronic / Trap	Talib Kweli
+7	Scandal	3:21	Electronic	CC Sheffield
+8	Build the Cities	3:45	Electronic	Kerli
+9	Skewed	4:06	Breaks	
+10	Faint Echoes	4:41	Future House	Monarchy
+11	A Bright but Distant Future	4:06	Indie Dance / Synthpop	
+12	Build the Cities +	3:59	Electronic	Kerli</pre><br>
+
+	Notice at the second track MORTEN's name is removed because only Juliette Lewis is "featured" on the track. MORTEN's name will be put beside Karma Fields' name instead on the artist field of the generated data (see more info below).<br><br>
+	
+	4. Insert the data into the input field and press the button.<br><br>
+	
+	<textarea id="input2" style="width:300px;height:200px" placeholder="input field (see input example above)"></textarea><br>
+	<input type="button" value="Process" onclick="process2()"><br><br>
+	<textarea id="output2" style="width:300px;height:200px" placeholder="output"></textarea><br><br>
+	<i>(Apparently sometimes the data generated doesn't include the last track, so make sure that they do exist!)</i><br><br>
+	
+	5. On the generated data, replace all "&lt;artist name for '(song name)'&gt;" with the artist name (in this case it's Karma Fields). On this field you also include the artist whose name was "removed" from the data above. For example, on track #2 above we removed MORTEN's name, now we put it back here so the artist for track #2 is "Karma Fields & MORTEN" instead of Karma Fields only. I hope this makes sense, you can take a look at the <a href="albums/MCLP007.json">complete album data</a> for an example. And also the artist name doesn't need to be surrounded by the "&lt;&gt;" brackets.<br>
+	6. Also replace "&lt;soundcloud link for '(song name)'&gt;" with the SoundCloud url for the track mentioned (example: https://soundcloud.com/monstercat/unlike-pluto-waiting-for-you). Make sure the url is using https, if it is not simply change http to https. And also the URL doesn't need to be surrounded by the "&lt;&gt;" brackets.<br>
+	7. After putting the SoundCloud link, copy the data generated to a site like pastebin.com and include the link to the PM.<br><br>
+
+	That's it, thank you for your contribution!<br><br>
+	
+	PS: If you know what JSON is, you can make my job easier by constructing the whole JSON file of the album data and paste them instead to pastebin. You can take a look at examples of finished album data (<a href="albums/MCLP001.json">MCLP001</a> or <a href="albums/MCLP002.json">MCLP002</a>).<br><br>
 	
 	<script>
 		
@@ -116,6 +157,32 @@
 				if(i==input.length-1) comma = "";
 				
 				document.getElementById("output").value += '\t\t{\n\t\t\t"artist": "'+line[1]+'",\n\t\t\t"title": "'+line[2]+'",\n\t\t\t"genre": '+genre+',\n\t\t\t"feat": "'+line[5].replace("feat. ","")+'",\n\t\t\t"soundcloud_url": "<soundcloud link for \''+line[2]+'\'>"\n\t\t}'+comma+'\n\n';
+				
+			}
+			
+		}
+		
+		function process2() {
+			
+			var input2 = document.getElementById("input2").value.split("\n");
+			document.getElementById("output2").value = "";
+			
+			for(i=0;i<input2.length;i++) {
+				
+				var line = input2[i].split("\t");
+				var genre = line[3].toLowerCase();
+				
+				for(j=0;j<genresearch.length;j++) {
+					if(genre.indexOf(genresearch[j][0]) > -1) {
+						genre = genresearch[j][1];
+						break;
+					}
+				}
+				
+				var comma = ",";
+				if(i==input2.length-1) comma = "";
+				
+				document.getElementById("output2").value += '\t\t{\n\t\t\t"artist": "<artist name for \''+line[1]+'\'>",\n\t\t\t"title": "'+line[1]+'",\n\t\t\t"genre": '+genre+',\n\t\t\t"feat": "'+line[4]+'",\n\t\t\t"soundcloud_url": "<soundcloud link for \''+line[1]+'\'>"\n\t\t}'+comma+'\n\n';
 				
 			}
 			

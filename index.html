@@ -7,20 +7,60 @@
 </head>
 <body>
 	
-	<!--div id="hamburger-icon">&#9776;</div-->
-	<!--div id="sidebar">
-		<a href="#">Tracklist</a>
-		<a href="#">Compilation Albums</a>
-		<a href="#">LPs and EPs</a>
-		<a href="#">About</a>
-	</div-->
+	<div id="hamburger-icon">&#9776;</div>
+	<div id="sidebar">
+		<a href="https://www.monstercat.com/" target="_blank"><img src="mcat.svg"></a>
+		<div id="link-home" class="link" onclick="section('home')">Home</div>
+		<div id="link-compilation-albums" class="link" onclick="section('compilation-albums')">Compilation Albums</div>
+		<div id="link-lps-and-eps" class="link" onclick="section('lps-and-eps')">LPs & EPs</div>
+		<div id="link-album-detail" class="link" onclick="section('album-detail')">Tracklist</div>
+	</div>
 	
 	<div id="player-div">
 		<div id="now-playing"></div>
 		<audio id="soundcloud-player" controls></audio>
 	</div>
 	
-	<div id="album-detail">
+	<div id="home" class="section">
+		
+		<div class="banner" id="banner-home">Monstercat Album Browser</div>
+		<div class="banner-padding"></div>
+		
+		<div id="introductions">
+			<p>Welcome! Here you can browse tracklists from albums released by Monstercat. Click on each track to play them right on this site, or click the genre circles on the top right corner of the tracklist to filter it by track genres. Use the sidebar to navigate through the site.</p>
+			<p>This album browser is inspired by <a href="https://www.reddit.com/r/Monstercat/comments/4m0t3q/monstercat_027_cataclysm_bloqs_visual_tracklist/" target="_blank">/u/Bloq's Visual Tracklist</a> from Reddit, go check it out! If you have some feedback about this project feel free to tell me at <a href="https://www.reddit.com/user/gamehelp16/" target="_blank">/u/gamehelp16</a> or comment on this project's <a href="https://gamehelp16.github.io/post/monstercat-album-browser/" target="_blank">blog post</a>.</p>
+		</div>
+		
+		<h2>Latest Compilation Albums</h2>
+		<div class="grid" id="latest-compilation"></div>
+		<div style="clear:both"></div><br><br>
+		
+		<h2>Latest LPs</h2>
+		<div class="grid" id="latest-lp"></div>
+		<div style="clear:both"></div><br><br>
+		
+	</div>
+	
+	<div id="compilation-albums" class="section">
+		<div class="banner" id="banner-compilation">Compilation Albums</div>
+		<div class="banner-padding"></div>
+		<div id="compilations-grid" class="grid"></div>
+		<div style="clear:both"></div>
+	</div>
+	
+	<div id="lps-and-eps" class="section">
+		<div class="banner" id="banner-lp">LPs & EPs</div>
+		<div class="banner-padding"></div>
+		<div id="lp-grid" class="grid"></div>
+		<div style="clear:both"></div>
+		<hr>
+		<p style="text-align:center; color:#aaa; padding:20px;">No EP data are added yet, <a href="albumdata.html" target="_blank" style="text-decoration:underline;">click here</a> to help with adding album data.</p>
+		<div style="clear:both"></div>
+		<div style="clear:both"></div>
+	</div>
+	
+	<div id="album-detail" class="section">
+		<div id="no-album-selected">No album selected yet.</div>
 		<a id="prev-a" href="#" onclick="navigate(-1)"><div id="prev-album"><span>&lsaquo;</span></div></a>
 		<a id="next-a" href="#" onclick="navigate(1)"><div id="next-album"><span>&rsaquo;</span></div></a>
 		
@@ -42,16 +82,56 @@
 		</div>
 	</div>
 	
-	<div id="introduction">
-		<h1>WELCOME!</h1>
-		<p>On this Monstercat Album Browser, you can browse tracklists from Monstercat's compilation albums and navigate through them. Click on each track to play them right on this page, or click the genre circles on the top right corner to filter the tracklist by track genres. Right now you can browse through all compilation albums. Expect LPs and probably also EPs soon!</p>
-		<p>This album browser is inspired by <a href="https://www.reddit.com/r/Monstercat/comments/4m0t3q/monstercat_027_cataclysm_bloqs_visual_tracklist/" target="_blank">/u/Bloq's Visual Tracklist</a> from Reddit, go check it out! If you have some feedback about this project feel free to tell me at <a href="https://www.reddit.com/user/gamehelp16/" target="_blank">/u/gamehelp16</a> or comment on this project's <a href="https://gamehelp16.github.io/post/monstercat-album-browser/" target="_blank">blog post</a>!</p>
-		<button id="dismiss">CLOSE</button>
-	</div>
 	<div id="modal"></div>
 	
 	<script src="albums.js"></script>
 	<script>
+		
+		section('home');
+		
+		function section(what) {
+			window.scrollTo(0,0);
+			var sections = document.getElementsByClassName("section");
+			for(var i=0;i<sections.length;i++) {
+				document.getElementsByClassName("section")[i].style.display = 'none';
+				document.getElementsByClassName("link")[i].className = 'link';
+			}
+			document.getElementById(what).style.display = 'block';
+			document.getElementById("link-" + what).className = 'link active';
+			document.getElementById("sidebar").style.left = "-280px";
+			document.getElementById("modal").style.opacity = 0;
+			setTimeout(function() {
+				document.getElementById("modal").style.display = "none";
+			}, 200);
+		}
+		
+		function showGrids() {
+			for(var i=availableCompilations.length-1;i>=0;i--) document.getElementById("compilations-grid").innerHTML += showAlbumCard(availableCompilations[i]);
+			for(var i=availableCompilations.length-1;i>=availableCompilations.length-3;i--) document.getElementById("latest-compilation").innerHTML += showAlbumCard(availableCompilations[i]);
+			for(var i=availableLPs.length-1;i>=0;i--) document.getElementById("lp-grid").innerHTML += showAlbumCard(availableLPs[i]);
+			for(var i=availableLPs.length-1;i>=availableLPs.length-3;i--) document.getElementById("latest-lp").innerHTML += showAlbumCard(availableLPs[i]);
+		}
+		
+		function showAlbumCard(number) {
+			
+			if(number.indexOf("MCLP") > -1) {
+				var albumIndex2 = arrayIndex(number, availableLPs);
+				var card_image = albumData.lps[albumIndex2].album_artwork_thumb;
+				var card_title = albumData.lps[albumIndex2].album_artist;
+				var card_subtitle = albumData.lps[albumIndex2].album_title;
+			}
+			else {
+				var albumIndex2 = arrayIndex(number, availableCompilations);
+				var card_image = albumData.compilations[albumIndex2].album_artwork_thumb;
+				var card_title = "MONSTERCAT " + albumData.compilations[albumIndex2].album_number;
+				var card_subtitle = albumData.compilations[albumIndex2].album_title;
+			}
+			
+			return '<div class="album-view" onclick="loadAlbum(\''+number+'\'),section(\'album-detail\')"><img src="'+card_image+'"><div class="album-info"><div class="title">'+card_title+'</div><div class="subtitle">'+card_subtitle+'</div></div></div>';
+			
+		}
+		
+		/* TRACKLIST STUFF */
 		
 		var genres = ["trap", "dnb", "house", "electro", "hard-dance", "glitch-hop", "nu-disco", "future-bass", "trance", "dubstep", "drumstep", "electronic"];
 		
@@ -62,24 +142,21 @@
 			selectedTrack,
 			currentAlbum,
 			currentAlbumIndex,
-			loadingAlbum = true;
-		
-		var albumToLoad = document.URL.split("#")[1];
-		if(albumIndex(albumToLoad) < 0) albumToLoad = availableAlbums[availableAlbums.length-1];
-		
-		loadAlbum(albumToLoad);
-		
-		if(localStorage.showintroduction === undefined || new Date().getTime() > localStorage.showintroduction) {
-			document.getElementById("introduction").style.display = "block";
-			document.getElementById("modal").style.display = "block";
-		}
+			availableAlbums = availableCompilations,
+			loadingAlbum = true,
+			mode = "compilation";
 		
 		function loadAlbum(number) {
+			
+			if(number.indexOf("MCLP") > -1) mode = "lp", availableAlbums = availableLPs;
+			else if(number.indexOf("MCEP") > -1) mode = "ep", availableAlbums = availableEPs;
+			else mode = "compilation", availableAlbums = availableCompilations;
 			
 			loadingAlbum = true;
 			
 			document.getElementById("album-artwork").src = "";
 			document.getElementById("wrapper").style.opacity = 0.5;
+			document.getElementById("no-album-selected").style.display = "none";
 			
 			var request = new XMLHttpRequest();
 			request.open('GET', 'albums/' + number + '.json', true);
@@ -94,22 +171,6 @@
 				
 				if(currentAlbumIndex == availableAlbums.length-1) document.getElementById("next-album").style.display = "none";
 				else document.getElementById("next-album").style.display = "table";
-				
-				if(currentAlbumIndex > 0) {
-					var albumid = parseInt(availableAlbums[currentAlbumIndex-1]);
-					var pad = "0";
-					if(albumid > 99) pad = "";
-					else if(albumid < 10) pad = "00";
-					document.getElementById("prev-a").href = "#" + pad + albumid;
-				}
-				
-				if(currentAlbumIndex < availableAlbums.length-1) {
-					var albumid = parseInt(availableAlbums[currentAlbumIndex+1]);
-					var pad = "0";
-					if(albumid > 99) pad = "";
-					else if(albumid < 10) pad = "00";
-					document.getElementById("next-a").href = "#" + pad + albumid;
-				}
 				
 				loadingAlbum = false;
 				data = JSON.parse(request.responseText);
@@ -133,26 +194,34 @@
 				selectedTrack = 99;
 				includesText = "";
 				
-				document.title = "Monstercat " + data.album_number + " - " + data.album_title + " Tracklist";
-				document.getElementById("album-id").innerHTML = "Monstercat " + data.album_number;
+				if(mode == "compilation") {
+					document.getElementById("album-id").innerHTML = "Monstercat " + data.album_number;
+				}
+				else {
+					document.getElementById("album-id").innerHTML = data.album_artist;
+				}
+				
 				document.getElementById("album-title").innerHTML = data.album_title;
 				document.getElementById("album-artwork").src = data.album_artwork_thumb;
 				document.getElementById("artwork-link").href = data.album_artwork_full;
 				document.getElementById("tracklist").innerHTML = "";
 				document.getElementById("genre-count").innerHTML = "";
 				document.getElementById("mixes").innerHTML = "";
+				document.getElementById("includes").innerHTML = "";
 				
-				if(data.album_number == "005") includesText = "INCLUDES 2 PART ALBUM MIX";
-				else if(data.mixes.length == 1) includesText = "INCLUDES 1 HOUR ALBUM MIX";
-				else if(data.mixes.length > 1) includesText = "INCLUDES " + toText(data.mixes.length) + " 1 HOUR ALBUM MIXES";
+				if(mode == "compilation") {
+					if(data.album_number == "005") includesText = "INCLUDES 2 PART ALBUM MIX";
+					else if(data.mixes.length == 1) includesText = "INCLUDES 1 HOUR ALBUM MIX";
+					else if(data.mixes.length > 1) includesText = "INCLUDES " + toText(data.mixes.length) + " 1 HOUR ALBUM MIXES";
 				
-				document.getElementById("includes").innerHTML = includesText;
-				
-				for(z=0;z<data.mixes.length;z++) {
-					var thetrack = z+90;
-					document.getElementById("mixes").innerHTML += '<div class="mix" id="track-' + thetrack + '" onclick="playSoundCloud(' + thetrack + ', \'' + data.mixes[z].soundcloud_url + '\');"></div>';
-					document.getElementById("track-" + thetrack).className = "mix";
-					document.getElementById("track-" + thetrack).innerHTML = data.mixes[z].name;
+					document.getElementById("includes").innerHTML = includesText;
+					
+					for(z=0;z<data.mixes.length;z++) {
+						var thetrack = z+90;
+						document.getElementById("mixes").innerHTML += '<div class="mix" id="track-' + thetrack + '" onclick="playSoundCloud(' + thetrack + ', \'' + data.mixes[z].soundcloud_url + '\');"></div>';
+						document.getElementById("track-" + thetrack).className = "mix";
+						document.getElementById("track-" + thetrack).innerHTML = data.mixes[z].name;
+					}
 				}
 				
 				for(i=0;i<data.tracks.length;i++) {
@@ -186,11 +255,6 @@
 			
 			request.onerror = function() {
 				loadingAlbum = false;
-				var albumid = parseInt(currentAlbum);
-				var pad = "0";
-				if(albumid > 99) pad = "";
-				else if(albumid < 10) pad = "00";
-				window.location.href = "#" + pad + albumid;
 				document.getElementById("album-artwork").src = data.album_artwork_thumb;
 				alert('Error: Cannot retrieve album data (or album data isn\'t available yet).');
 				document.getElementById("wrapper").style.opacity = 1;
@@ -207,10 +271,12 @@
 			if(what == -1 && currentAlbumIndex < 1) return;
 			if(what == 1 && currentAlbumIndex == availableAlbums.length-1) return;
 			
-			var albumid = parseInt(availableAlbums[currentAlbumIndex+what]);
+			var albumid = parseInt(availableAlbums[currentAlbumIndex+what].replace(/MC(L|E)P/g, ""));
 			var pad = "0";
 			if(albumid > 99) pad = "";
 			else if(albumid < 10) pad = "00";
+			if(mode == "lp") pad = "MCLP" + pad;
+			else if(mode == "ep") pad = "MCEP" + pad;
 			loadAlbum(pad + albumid);
 			
 		}
@@ -335,14 +401,28 @@
 			return -1;
 		}
 		
-		document.getElementById("dismiss").onclick = function() {
-			document.getElementById("introduction").style.opacity = 0;
+		function arrayIndex(item, array) {
+			for(i=0;i<array.length;i++) {
+				if(item === array[i]) return i;
+			}
+			return -1;
+		}
+		
+		document.getElementById("hamburger-icon").onclick = function() {
+			document.getElementById("sidebar").style.left = "0px";
+			document.getElementById("modal").style.display = "block";
 			document.getElementById("modal").style.opacity = 0;
-			localStorage.showintroduction = new Date().getTime() + 60 * 60 * 1000;
 			setTimeout(function() {
-				document.getElementById("introduction").style.display = "none";
+				document.getElementById("modal").style.opacity = 1;
+			}, 1);
+		};
+		
+		document.getElementById("modal").onclick = function() {
+			document.getElementById("sidebar").style.left = "-280px";
+			document.getElementById("modal").style.opacity = 0;
+			setTimeout(function() {
 				document.getElementById("modal").style.display = "none";
-			}, 1000);
+			}, 200);
 		};
 		
 	</script>

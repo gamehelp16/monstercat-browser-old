@@ -1,0 +1,101 @@
+{
+	
+	"album_number": "MCLP008",
+	"album_artist": "Tut Tut Child",
+	"album_title": "Come To The End; Then Stop",
+	"album_artwork_thumb": "https://i.imgur.com/9p09XgR.jpg",
+	"album_artwork_full": "https://i.imgur.com/aFGpjmB.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "On The Riverbank",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-on-the-riverbank"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Fell Down",
+			"genre": 11,
+			"feat": "Holly Drummond",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-fell-down"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Talking Of Axes",
+			"genre": 11,
+			"feat": "Jim Davies",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-talking-of-axes"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Queen Of Your Heart",
+			"genre": 9,
+			"feat": "Augustus Ghost",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-queen-of-your-heart"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Eat Me",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-eat-me"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Oracle",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-oracle"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Idyll",
+			"genre": 3,
+			"feat": "Interlude",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-idyll"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Just A Dream",
+			"genre": 9,
+			"feat": "Tasha Baxter",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-just-a-dream"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Autonomy",
+			"genre": 1,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-autonomy"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "The Evidence",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-the-evidence"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "You Hide",
+			"genre": 11,
+			"feat": "Augustus Ghost",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-you-hide"
+		}
+
+	]
+
+}

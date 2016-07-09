@@ -1,0 +1,109 @@
+{
+	
+	"album_number": "MCLP007",
+	"album_artist": "Karma Fields",
+	"album_title": "New Age | Dark Age",
+	"album_artwork_thumb": "https://i.imgur.com/MSbPNvR.jpg",
+	"album_artwork_full": "https://i.imgur.com/6uKP0Z9.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Karma Fields",
+			"title": "Edge Of The World",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/karmafields/edge-of-the-world"
+		},
+
+		{
+			"artist": "Karma Fields & MORTEN",
+			"title": "Stickup",
+			"genre": 3,
+			"feat": "Juliette Lewis",
+			"soundcloud_url": "https://soundcloud.com/karmafields/karma-fields-morten-stickup-ft-juliette-lewis"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "For Me",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/karmafields/for-me"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Skyline",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/karmafields/karma-fields-skyline"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Fixed_",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/karmafields/fixed"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Greatness",
+			"genre": 11,
+			"feat": "Talib Kweli",
+			"soundcloud_url": "https://soundcloud.com/karmafields/greatness"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Scandal",
+			"genre": 11,
+			"feat": "CC Sheffield",
+			"soundcloud_url": "https://soundcloud.com/karmafields/scandal"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Build The Cities",
+			"genre": 5,
+			"feat": "Kerli",
+			"soundcloud_url": "https://soundcloud.com/karmafields/karma-fields-build-the-cities"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Skewed",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/karmafields/skewed"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Faint Echoes",
+			"genre": 3,
+			"feat": "Monarchy",
+			"soundcloud_url": "https://soundcloud.com/karmafields/faint-echoes"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "A Bright But Distant Future",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/karmafields/a-bright-but-distant-future"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Build The Cities+",
+			"genre": 5,
+			"feat": "Kerli",
+			"soundcloud_url": "https://soundcloud.com/karmafields/build-the-cities-extended"
+		}
+
+	]
+
+}

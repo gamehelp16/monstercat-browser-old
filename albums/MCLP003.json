@@ -1,0 +1,85 @@
+{
+	
+	"album_number": "MCLP003",
+	"album_artist": "Fractal",
+	"album_title": "Gaia",
+	"album_artwork_thumb": "https://i.imgur.com/5bL5wBK.jpg",
+	"album_artwork_full": "https://i.imgur.com/ytJZnBM.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Fractal",
+			"title": "Amor",
+			"genre": 9,
+			"feat": "Syrin",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fractal-amor"
+		},
+
+		{
+			"artist": "Fractal",
+			"title": "Collide",
+			"genre": 9,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fractal-collide-feat-danyka-nadeau"
+		},
+
+		{
+			"artist": "Fractal",
+			"title": "Omni",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fractal-omni"
+		},
+
+		{
+			"artist": "Fractal",
+			"title": "Fire Away",
+			"genre": 11,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fractal-fire-away-feat-danyka-nadeau"
+		},
+
+		{
+			"artist": "Fractal",
+			"title": "Escape",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fractal-escape"
+		},
+
+		{
+			"artist": "Fractal",
+			"title": "Voyage",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fractal-voyage1"
+		},
+
+		{
+			"artist": "Fractal",
+			"title": "Sanctum",
+			"genre": 5,
+			"feat": "Amiya Inspiration",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fractal-sanctum-feat-amiya-inspiration"
+		},
+
+		{
+			"artist": "Fractal",
+			"title": "Skyline",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fractal-skyline"
+		},
+
+		{
+			"artist": "Fractal",
+			"title": "Wind Mantras",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fractal-wind-mantras"
+		}
+
+	]
+
+}

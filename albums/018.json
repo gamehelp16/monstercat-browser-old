@@ -2,8 +2,8 @@
 	
 	"album_number": "018",
 	"album_title": "Frontier",
-	"album_artwork_thumb": "http://i.imgur.com/OxmM8vsm.jpg",
-	"album_artwork_full": "http://i.imgur.com/OxmM8vs.jpg",
+	"album_artwork_thumb": "https://i.imgur.com/OxmM8vsm.jpg",
+	"album_artwork_full": "https://i.imgur.com/OxmM8vs.jpg",
 
 	"tracks": [
 
@@ -146,7 +146,7 @@
 		{
 			"artist": "Televisor",
 			"title": "Neon",
-			"genre": 7,
+			"genre": 6,
 			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/monstercat/televisor-neon"
 		},
