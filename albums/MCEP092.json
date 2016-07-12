@@ -1,0 +1,38 @@
+{
+	
+	"album_number": "MCEP092",
+	"album_artist": "WRLD",
+	"album_title": "Awake EP",
+	"album_artwork_thumb": "http://i.imgur.com/Bxgfm78m.jpg",
+	"album_artwork_full": "http://i.imgur.com/Bxgfm78.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "WRLD",
+			"title": "Awake",
+			"genre": 6,
+			"feat": "Colordrive",
+			"soundcloud_url": "https://soundcloud.com/monstercat/wrld-awake"
+		},
+
+		{
+			"artist": "WRLD",
+			"title": "Drowning",
+			"genre": 11,
+			"feat": "Ehiorobo",
+			"soundcloud_url": "https://soundcloud.com/monstercat/wrld-drowning"
+		},
+
+		{
+			"artist": "WRLD",
+			"title": "Discovery",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/wrld-discovery"
+		}
+
+	]
+	
+}
+

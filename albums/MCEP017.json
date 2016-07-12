@@ -1,0 +1,46 @@
+{
+	
+	"album_number": "MCEP017",
+	"album_artist": "Rogue",
+	"album_title": "Dreams EP",
+	"album_artwork_thumb": "https://i.imgur.com/8trzVfFm.jpg",
+	"album_artwork_full": "https://i.imgur.com/8trzVfF.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Rogue",
+			"title": "Dreams",
+			"genre": 10,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-dreams-feat-laura-brehm"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Air",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-air"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Moments",
+			"genre": 2,
+			"feat": "Meg Dean",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-moments"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Escape",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-escape"
+		}
+
+	]
+	
+}
+
