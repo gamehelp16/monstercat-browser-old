@@ -12,13 +12,16 @@
 		<a href="https://www.monstercat.com/" target="_blank"><img src="mcat.svg"></a>
 		<div id="link-home" class="link" onclick="section('home')">Home</div>
 		<div id="link-compilation-albums" class="link" onclick="section('compilation-albums')">Compilation Albums</div>
-		<div id="link-lps-and-eps" class="link" onclick="section('lps-and-eps')">LPs & EPs</div>
+		<div id="link-lps" class="link" onclick="section('lps')">Long Plays (LPs)</div>
+		<div id="link-eps" class="link" onclick="section('eps')">Extended Plays (EPs)</div>
 		<div id="link-album-detail" class="link" onclick="section('album-detail')">Tracklist</div>
 	</div>
 	
 	<div id="player-div">
-		<div id="now-playing"></div>
-		<audio id="soundcloud-player" controls></audio>
+		<div id="player-inner-div">
+			<div id="now-playing"></div>
+			<audio id="soundcloud-player" controls></audio>
+		</div>
 	</div>
 	
 	<div id="home" class="section">
@@ -33,11 +36,15 @@
 		
 		<h2>Latest Compilation Albums</h2>
 		<div class="grid" id="latest-compilation"></div>
-		<div style="clear:both"></div><br><br>
+		<div style="clear:both"></div><br>
 		
 		<h2>Latest LPs</h2>
 		<div class="grid" id="latest-lp"></div>
-		<div style="clear:both"></div><br><br>
+		<div style="clear:both"></div><br>
+		
+		<h2>Latest EPs (which are available on the browser)</h2>
+		<div class="grid" id="latest-ep"></div>
+		<div style="clear:both"></div>
 		
 	</div>
 	
@@ -48,14 +55,17 @@
 		<div style="clear:both"></div>
 	</div>
 	
-	<div id="lps-and-eps" class="section">
-		<div class="banner" id="banner-lp">LPs & EPs</div>
+	<div id="lps" class="section">
+		<div class="banner" id="banner-lp">Long Plays (LPs)</div>
 		<div class="banner-padding"></div>
 		<div id="lp-grid" class="grid"></div>
 		<div style="clear:both"></div>
-		<hr>
-		<p style="text-align:center; color:#aaa; padding:20px;">No EP data are added yet, <a href="albumdata.html" target="_blank" style="text-decoration:underline;">click here</a> to help with adding album data.</p>
-		<div style="clear:both"></div>
+	</div>
+	
+	<div id="eps" class="section">
+		<div class="banner" id="banner-ep">Extended Plays (EPs)</div>
+		<div class="banner-padding"></div>
+		<div id="ep-grid" class="grid"></div>
 		<div style="clear:both"></div>
 	</div>
 	
@@ -67,8 +77,10 @@
 		<div id="wrapper">
 			<div id="album-name">
 				<a href="#" target="_blank" id="artwork-link"><img src="#" id="album-artwork"></a>
-				<div id="album-id">MONSTERCAT 000</div>
-				<div id="album-title">XXX</div>
+				<div id="album-text">
+					<div id="album-id">MONSTERCAT 000</div>
+					<div id="album-title">XXX</div>
+				</div>
 			</div>
 			<div id="genre-count"></div>
 			<div style="clear: both;"></div>
@@ -78,9 +90,10 @@
 				<div id="mixes"></div>
 			</div>
 			<div id="danyka-nadeau"></div>
-			<div id="spacer"></div>
 		</div>
 	</div>
+	
+	<div id="spacer"></div>
 	
 	<div id="modal"></div>
 	
@@ -95,8 +108,9 @@
 			
 			var title = "";
 			if(what == "compilation-albums") title = "Compilation Albums";
-			else if(what == "lps-and-eps") title = "LPs & EPs";
-			else if(what == "album-detail" && currentAlbum !== undefined) {
+			else if(what == "lps") title = "Long Plays (LPs)";
+			else if(what == "eps") title = "Extended Plays (EPs)";
+			else if(what == "album-detail" && currentAlbum !== undefined && !loadingAlbum) {
 				if(mode == "lp") {
 					var title_1 = albumData.lps[currentAlbumIndex].album_artist;
 					var title_2 = albumData.lps[currentAlbumIndex].album_title;
@@ -127,10 +141,31 @@
 		}
 		
 		function showGrids() {
+			
 			for(var i=availableCompilations.length-1;i>=0;i--) document.getElementById("compilations-grid").innerHTML += showAlbumCard(availableCompilations[i]);
 			for(var i=availableCompilations.length-1;i>=availableCompilations.length-3;i--) document.getElementById("latest-compilation").innerHTML += showAlbumCard(availableCompilations[i]);
+			
 			for(var i=availableLPs.length-1;i>=0;i--) document.getElementById("lp-grid").innerHTML += showAlbumCard(availableLPs[i]);
 			for(var i=availableLPs.length-1;i>=availableLPs.length-3;i--) document.getElementById("latest-lp").innerHTML += showAlbumCard(availableLPs[i]);
+			
+			for(var i=availableEPs.length-1;i>=0;i--) document.getElementById("ep-grid").innerHTML += showAlbumCard(availableEPs[i]);
+			for(var i=availableEPs.length-1;i>=availableEPs.length-3;i--) document.getElementById("latest-ep").innerHTML += showAlbumCard(availableEPs[i]);
+			
+			/*var r = Math.random();
+			if(r<1) {
+				document.getElementById("banner-home").style.background = bannerBg(randomIndex(albumData.compilations).album_artwork_full);
+			}
+			else if(r<.6) {
+				document.getElementById("banner-home").style.background = bannerBg(randomIndex(albumData.lps).album_artwork_full);
+			}
+			else {
+				document.getElementById("banner-home").style.background = bannerBg(randomIndex(albumData.eps).album_artwork_full);
+			}
+			
+			document.getElementById("banner-compilation").style.background = bannerBg(randomIndex(albumData.compilations).album_artwork_full);
+			document.getElementById("banner-lp").style.background = bannerBg(randomIndex(albumData.lps).album_artwork_full);
+			document.getElementById("banner-ep").style.background = bannerBg(randomIndex(albumData.eps).album_artwork_full);*/
+			
 		}
 		
 		function showAlbumCard(number) {
@@ -141,6 +176,12 @@
 				var card_title = albumData.lps[albumIndex2].album_artist;
 				var card_subtitle = albumData.lps[albumIndex2].album_title;
 			}
+			else if(number.indexOf("MCEP") > -1) {
+				var albumIndex2 = arrayIndex(number, availableEPs);
+				var card_image = albumData.eps[albumIndex2].album_artwork_thumb;
+				var card_title = albumData.eps[albumIndex2].album_artist;
+				var card_subtitle = albumData.eps[albumIndex2].album_title;
+			}
 			else {
 				var albumIndex2 = arrayIndex(number, availableCompilations);
 				var card_image = albumData.compilations[albumIndex2].album_artwork_thumb;
@@ -150,6 +191,14 @@
 			
 			return '<div class="album-view" onclick="loadAlbum(\''+number+'\'),section(\'album-detail\')"><img src="'+card_image+'"><div class="album-info"><div class="title">'+card_title+'</div><div class="subtitle">'+card_subtitle+'</div></div></div>';
 			
+		}
+		
+		function bannerBg(url) {
+			return "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("+url+") center center no-repeat black";
+		}
+		
+		function randomIndex(array) {
+			return array[Math.round(Math.random()*array.length)];
 		}
 		
 		/* TRACKLIST STUFF */
@@ -335,13 +384,13 @@
 		
 			var output = "";
 			var info = "";
-			var title = track.title.replace(/\((([a-zA-Z0-9 _\-\&'\.]* (Remix|Mix))|with [a-zA-Z0-9 _\-\&]*)\)/g, "");
+			var title = track.title.replace(/\((([a-zA-Z0-9 _\-\&'\.]* (Remix|Mix|VIP))|with [a-zA-Z0-9 _\-\&]*)\)/g, "");
 			
 			if(i == selectedTrack) active = " active";
 			else active = "";
 			if(track.feat != "") info = '(feat. ' + track.feat + ')<br>';
 			
-			var search = track.title.search(/\((([a-zA-Z0-9 _\-\&'\.]* (Remix|Mix))|with [a-zA-Z0-9 _\-\&]*)\)/g);
+			var search = track.title.search(/\((([a-zA-Z0-9 _\-\&'\.]* (Remix|Mix|VIP))|with [a-zA-Z0-9 _\-\&]*)\)/g);
 			if(search > -1) info += " " + track.title.substr(search);
 			
 			output = '<div class="track' + active + '" onclick="playSoundCloud(' + i + ', \'' + track.soundcloud_url + '\')" id="track-' + i + '">\n\

@@ -7,6 +7,30 @@
 </head>
 <body>
 	
+	<!-- I know the code below is an "unprofessional code", but screw it as long as it works -->
+	
+	<!--pre id="z"></pre>
+	<script>
+	
+	function asd(num) {
+		var request = new XMLHttpRequest();
+		//console.log(availableEPs[i]);
+		request.open('GET', 'albums/'+num+'.json', true);
+
+		request.onload = function() {
+			result = JSON.parse(request.responseText);
+			document.getElementById("z").innerHTML += '{\n\t"album_number": "'+result.album_number+'",\n\t"album_artist": "'+result.album_artist+'",\n\t"album_title": "'+result.album_title+'",\n\t"album_artwork_thumb": "'+result.album_artwork_thumb+'",\n\t"album_artwork_full": "'+result.album_artwork_full+'"\n},\n\n';
+		};
+
+		request.send();
+	}
+	
+	availableEPs = ["MCEP017", "MCEP037", "MCEP042", "MCEP054", "MCEP062", "MCEP072", "MCEP074", "MCEP079", "MCEP082", "MCEP092", "MCEP094", "MCEP096"];
+	for(var i=0;i<availableEPs.length;i++) {
+		asd(availableEPs[i]);
+	}
+	</script-->
+	
 	Contributing an album data to the site is actually quite simple, simply PM me at <a href="https://www.reddit.com/user/gamehelp16/" target="_blank">/u/gamehelp16</a> and include the needed information:<br><br>
 	
 	<h3>If you're sending an album data for a compilation album include these information:</h3>

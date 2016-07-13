@@ -1,0 +1,46 @@
+{
+	
+	"album_number": "MCEP096",
+	"album_artist": "Muzzy",
+	"album_title": "F Minor Factory EP",
+	"album_artwork_thumb": "https://i.imgur.com/TDvwcWcm.jpg",
+	"album_artwork_full": "https://i.imgur.com/TDvwcWc.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Muzzy",
+			"title": "The Factory",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-the-factory"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Junction Seven",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-junction-seven"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Play",
+			"genre": 1,
+			"feat": "UK:ID",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-play"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Children of Hell",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-children-of-hell"
+		}
+
+	]
+	
+}
+

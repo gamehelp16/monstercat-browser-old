@@ -259,6 +259,106 @@
 			"album_artwork_full": "https://i.imgur.com/aFGpjmB.jpg"
 		}
 	
+	],
+	
+	"eps": [
+	
+		{
+			"album_number": "MCEP017",
+			"album_artist": "Rogue",
+			"album_title": "Dreams EP",
+			"album_artwork_thumb": "https://i.imgur.com/8trzVfFm.jpg",
+			"album_artwork_full": "https://i.imgur.com/8trzVfF.jpg"
+		},
+
+		{
+			"album_number": "MCEP037",
+			"album_artist": "Muzzy",
+			"album_title": "The Takeover EP",
+			"album_artwork_thumb": "https://i.imgur.com/s4xLBKpm.jpg",
+			"album_artwork_full": "https://i.imgur.com/s4xLBKp.jpg"
+		},
+
+		{
+			"album_number": "MCEP042",
+			"album_artist": "Astronaut",
+			"album_title": "Destination: Apollo EP",
+			"album_artwork_thumb": "https://i.imgur.com/qDMUqRZm.jpg",
+			"album_artwork_full": "https://i.imgur.com/qDMUqRZ.jpg"
+		},
+
+		{
+			"album_number": "MCEP054",
+			"album_artist": "Falcon Funk",
+			"album_title": "Pounce EP",
+			"album_artwork_thumb": "https://i.imgur.com/eyq1KlJm.jpg",
+			"album_artwork_full": "https://i.imgur.com/eyq1KlJ.jpg"
+		},
+
+		{
+			"album_number": "MCEP062",
+			"album_artist": "Astronaut",
+			"album_title": "Destination: Champions EP",
+			"album_artwork_thumb": "https://i.imgur.com/ZbpFKHbm.jpg",
+			"album_artwork_full": "https://i.imgur.com/ZbpFKHb.jpg"
+		},
+
+		{
+			"album_number": "MCEP072",
+			"album_artist": "Hellberg",
+			"album_title": "This Is Me EP",
+			"album_artwork_thumb": "https://i.imgur.com/242lnCjm.jpg",
+			"album_artwork_full": "https://i.imgur.com/242lnCj.jpg"
+		},
+
+		{
+			"album_number": "MCEP074",
+			"album_artist": "Karma Fields",
+			"album_title": "Build The Cites (Reconstructions)",
+			"album_artwork_thumb": "https://i.imgur.com/f1K7KNBm.jpg",
+			"album_artwork_full": "https://i.imgur.com/f1K7KNB.jpg"
+		},
+
+		{
+			"album_number": "MCEP079",
+			"album_artist": "WRLD",
+			"album_title": "Chase It EP",
+			"album_artwork_thumb": "https://i.imgur.com/GuK2DhNm.jpg",
+			"album_artwork_full": "https://i.imgur.com/GuK2DhN.jpg"
+		},
+
+		{
+			"album_number": "MCEP082",
+			"album_artist": "Pegboard Nerds",
+			"album_title": "Pink Cloud EP",
+			"album_artwork_thumb": "https://i.imgur.com/3tjfNBYm.jpg",
+			"album_artwork_full": "https://i.imgur.com/3tjfNBY.jpg"
+		},
+
+		{
+			"album_number": "MCEP092",
+			"album_artist": "WRLD",
+			"album_title": "Awake EP",
+			"album_artwork_thumb": "https://i.imgur.com/Bxgfm78m.jpg",
+			"album_artwork_full": "https://i.imgur.com/Bxgfm78.jpg"
+		},
+
+		{
+			"album_number": "MCEP094",
+			"album_artist": "Hush",
+			"album_title": "Vonk EP",
+			"album_artwork_thumb": "https://i.imgur.com/25g9gsGm.jpg",
+			"album_artwork_full": "https://i.imgur.com/25g9gsG.jpg"
+		},
+
+		{
+			"album_number": "MCEP096",
+			"album_artist": "Muzzy",
+			"album_title": "F Minor Factory EP",
+			"album_artwork_thumb": "https://i.imgur.com/TDvwcWcm.jpg",
+			"album_artwork_full": "https://i.imgur.com/TDvwcWc.jpg"
+		}
+		
 	]
 
 }

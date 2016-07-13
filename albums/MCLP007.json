@@ -19,7 +19,7 @@
 		{
 			"artist": "Karma Fields & MORTEN",
 			"title": "Stickup",
-			"genre": 3,
+			"genre": 11,
 			"feat": "Juliette Lewis",
 			"soundcloud_url": "https://soundcloud.com/karmafields/karma-fields-morten-stickup-ft-juliette-lewis"
 		},
@@ -43,7 +43,7 @@
 		{
 			"artist": "Karma Fields",
 			"title": "Fixed_",
-			"genre": 3,
+			"genre": 11,
 			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/karmafields/fixed"
 		},
@@ -67,7 +67,7 @@
 		{
 			"artist": "Karma Fields",
 			"title": "Build The Cities",
-			"genre": 5,
+			"genre": 3,
 			"feat": "Kerli",
 			"soundcloud_url": "https://soundcloud.com/karmafields/karma-fields-build-the-cities"
 		},
@@ -83,7 +83,7 @@
 		{
 			"artist": "Karma Fields",
 			"title": "Faint Echoes",
-			"genre": 3,
+			"genre": 11,
 			"feat": "Monarchy",
 			"soundcloud_url": "https://soundcloud.com/karmafields/faint-echoes"
 		},
@@ -91,7 +91,7 @@
 		{
 			"artist": "Karma Fields",
 			"title": "A Bright But Distant Future",
-			"genre": 6,
+			"genre": 11,
 			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/karmafields/a-bright-but-distant-future"
 		},
@@ -99,7 +99,7 @@
 		{
 			"artist": "Karma Fields",
 			"title": "Build The Cities+",
-			"genre": 5,
+			"genre": 3,
 			"feat": "Kerli",
 			"soundcloud_url": "https://soundcloud.com/karmafields/build-the-cities-extended"
 		}

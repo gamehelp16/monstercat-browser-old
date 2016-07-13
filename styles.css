@@ -22,12 +22,8 @@ body {
 	width: 764px;
 }
 
-#spacer {
-	height: 80px;
-	display: none;
-}
-
 #album-name {
+	display: table;
 	margin-top: 26px;
 	float: left;
 	width: 470px;
@@ -40,11 +36,16 @@ body {
 	height: 103px;
 }
 
+#album-text {
+	display: table-cell;
+	vertical-align: middle;
+	width: 365px;
+}
+
 #album-id {
 	font-family: Gotham Bold;
 	font-size: 31px;
 	letter-spacing: -2px;
-	padding-top: 17px;
 	text-transform: uppercase;
 }
 
@@ -214,15 +215,27 @@ body {
 }
 
 #player-div {
-	width: 764px;
-	margin-left: -382px;
+	width: 100%;
 	background: rgb(18, 21, 23);
-	padding-top: 5px;
+	padding: 5px 10px;
 	position: fixed;
-	left: 50%;
+	left: 0;
 	bottom: 0;
 	display: none;
-	z-index: 1000;
+	z-index: 9999;
+	box-shadow: 0 0 10px rgba(0,0,0,.7);
+}
+
+#player-inner-div {
+	width: 784px;
+	position: relative;
+	left: 50%;
+	margin-left: -382px;
+}
+
+#spacer {
+	height: 80px;
+	display: none;
 }
 
 #now-playing {
@@ -362,7 +375,7 @@ body {
 }
 
 #introductions {
-	width: 800px;
+	width: 764px;
 	margin: 0 auto 80px auto;
 }
 
@@ -470,6 +483,11 @@ body {
 
 #banner-lp {
 	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(banner_lp.png) center center no-repeat black;
+	background-size: cover;
+}
+
+#banner-ep {
+	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(banner_ep.png) center center no-repeat black;
 	background-size: cover;
 }
 

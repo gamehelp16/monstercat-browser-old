@@ -32,3 +32,5 @@ for(var i=1;i<=lps;i++) {
 	else if(i < 10) pad = "00";
 	availableLPs.push("MCLP" + pad + i);
 }
+
+availableEPs = ["MCEP017", "MCEP037", "MCEP042", "MCEP054", "MCEP062", "MCEP072", "MCEP074", "MCEP079", "MCEP082", "MCEP092", "MCEP094", "MCEP096"];
