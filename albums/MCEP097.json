@@ -1,0 +1,53 @@
+{
+	
+	"album_number": "MCEP097",
+	"album_artist": "Mr FijiWiji",
+	"album_title": "Dogma EP",
+	"album_artwork_thumb": "https://i.imgur.com/j7z287Mm.jpg",
+	"album_artwork_full": "https://i.imgur.com/j7z287M.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Thought Police",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-thought-police"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Hostage",
+			"genre": 11,
+			"feat": "Anna Yvette",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-hostage"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Stop At Nothing",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-stop-at-nothing"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Surrounded",
+			"genre": 11,
+			"feat": "Lucas Marx",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-surrounded"
+		},
+
+		{
+			"artist": "Mr FijiWiji, Direct & Aruna",
+			"title": "Time To Say Goodbye",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-direct-aruna-time-to-say-goodbye"
+		}
+
+	]
+	
+}
