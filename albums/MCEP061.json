@@ -1,0 +1,45 @@
+{
+	
+	"album_number": "MCEP061",
+	"album_artist": "Pegboard Nerds",
+	"album_title": "The Uncaged Remixes EP",
+	"album_artwork_thumb": "https://i.imgur.com/D2Fcg7om.jpg",
+	"album_artwork_full": "https://i.imgur.com/D2Fcg7o.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Here It Comes (Snavs and Toby Green Remix)",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/here-it-comes-snavs-toby-green-remix"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Badboi (Snavs Remix)",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/badboi-snavs-remix"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Badboi (Dani Deahl Remix)",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/badboi-dani-deahl-remix"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Badboi (VIP Mix)",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/badboi-vip"
+		}
+
+	]
+	
+}

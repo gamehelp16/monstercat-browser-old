@@ -9,7 +9,7 @@
 	
 	<!-- I know the code below is an "unprofessional code", but screw it as long as it works -->
 	
-	<!--pre id="z"></pre>
+	<!--textarea id="z" style="width:500px;height:300px;"></textarea><br><br>
 	<script>
 	
 	function asd(num) {
@@ -20,12 +20,18 @@
 		request.onload = function() {
 			result = JSON.parse(request.responseText);
 			document.getElementById("z").innerHTML += '{\n\t"album_number": "'+result.album_number+'",\n\t"album_artist": "'+result.album_artist+'",\n\t"album_title": "'+result.album_title+'",\n\t"album_artwork_thumb": "'+result.album_artwork_thumb+'",\n\t"album_artwork_full": "'+result.album_artwork_full+'"\n},\n\n';
+			
+			var num2 = parseInt(num.replace(/MC(L|E)P/g, ""));
+			if(num2 < before && !wrong) alert('Wrong positioning!'), wrong = true;
+			before = num2;
 		};
 
 		request.send();
 	}
 	
-	availableEPs = ["MCEP017", "MCEP037", "MCEP042", "MCEP054", "MCEP062", "MCEP072", "MCEP074", "MCEP079", "MCEP082", "MCEP092", "MCEP094", "MCEP096"];
+	availableEPs = ["MCEP017", "MCEP037", "MCEP042", "MCEP054", "MCEP061", "MCEP062", "MCEP072", "MCEP074", "MCEP079", "MCEP080", "MCEP082", "MCEP086", "MCEP092", "MCEP094", "MCEP096", "MCEP097"];
+	before = 0;
+	wrong = false;
 	for(var i=0;i<availableEPs.length;i++) {
 		asd(availableEPs[i]);
 	}

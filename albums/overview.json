@@ -296,6 +296,14 @@
 		},
 
 		{
+			"album_number": "MCEP061",
+			"album_artist": "Pegboard Nerds",
+			"album_title": "The Uncaged Remixes EP",
+			"album_artwork_thumb": "https://i.imgur.com/D2Fcg7om.jpg",
+			"album_artwork_full": "https://i.imgur.com/D2Fcg7o.jpg"
+		},
+
+		{
 			"album_number": "MCEP062",
 			"album_artist": "Astronaut",
 			"album_title": "Destination: Champions EP",
@@ -328,11 +336,27 @@
 		},
 
 		{
+			"album_number": "MCEP080",
+			"album_artist": "Grabbitz",
+			"album_title": "Ballin' / Don't Stop EP",
+			"album_artwork_thumb": "https://i.imgur.com/4In8TxOm.jpg",
+			"album_artwork_full": "https://i.imgur.com/4In8TxO.jpg"
+		},
+
+		{
 			"album_number": "MCEP082",
 			"album_artist": "Pegboard Nerds",
 			"album_title": "Pink Cloud EP",
 			"album_artwork_thumb": "https://i.imgur.com/3tjfNBYm.jpg",
 			"album_artwork_full": "https://i.imgur.com/3tjfNBY.jpg"
+		},
+
+		{
+			"album_number": "MCEP086",
+			"album_artist": "Savoy",
+			"album_title": "1000 Years EP",
+			"album_artwork_thumb": "https://i.imgur.com/0rqe8HWm.jpg",
+			"album_artwork_full": "https://i.imgur.com/0rqe8HW.jpg"
 		},
 
 		{
@@ -358,7 +382,7 @@
 			"album_artwork_thumb": "https://i.imgur.com/TDvwcWcm.jpg",
 			"album_artwork_full": "https://i.imgur.com/TDvwcWc.jpg"
 		},
-		
+
 		{
 			"album_number": "MCEP097",
 			"album_artist": "Mr FijiWiji",

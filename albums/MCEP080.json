@@ -1,0 +1,29 @@
+{
+	
+	"album_number": "MCEP080",
+	"album_artist": "Grabbitz",
+	"album_title": "Ballin' / Don't Stop EP",
+	"album_artwork_thumb": "https://i.imgur.com/4In8TxOm.jpg",
+	"album_artwork_full": "https://i.imgur.com/4In8TxO.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Grabbitz",
+			"title": "Ballin'",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-ballin"
+		},
+
+		{
+			"artist": "Grabbitz",
+			"title": "Don't Stop",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-dont-stop-1"
+		}
+
+	]
+	
+}

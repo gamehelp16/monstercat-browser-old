@@ -8,11 +8,27 @@
     src: url(gotham_book.ttf);
 }
 
+::-webkit-scrollbar {
+    width: 7px;
+	position: absolute;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,.3);
+	border-radius: 10px;
+	-webkit-transition: .15s all linear;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255,255,255,.7);
+}
+
 body {
 	margin: 0;
 	background: rgb(18, 21, 23);
 	color: white;
 	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
 	overflow-y: scroll;
 	font-family: Gotham Book;
 }
@@ -217,13 +233,12 @@ body {
 #player-div {
 	width: 100%;
 	background: rgb(18, 21, 23);
-	padding: 5px 10px;
+	padding: 5px 0;
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	display: none;
 	z-index: 9999;
-	box-shadow: 0 0 10px rgba(0,0,0,.7);
 }
 
 #player-inner-div {
@@ -461,7 +476,7 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 100vw;
 	height: 345px;
 	text-align: center;
 	line-height: 250px;
@@ -471,23 +486,23 @@ body {
 }
 
 #banner-home {
-	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(banner_home.png) center center no-repeat black;
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(banner_home.png) center center no-repeat rgb(18, 21, 23);
 	background-size: cover;
 	height: 250px;
 }
 
 #banner-compilation {
-	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(banner_compilation.png) center center no-repeat black;
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(banner_compilation.png) center center no-repeat rgb(18, 21, 23);
 	background-size: cover;
 }
 
 #banner-lp {
-	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(banner_lp.png) center center no-repeat black;
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(banner_lp.png) center center no-repeat rgb(18, 21, 23);
 	background-size: cover;
 }
 
 #banner-ep {
-	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(banner_ep.png) center center no-repeat black;
+	background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url(banner_ep.png) center center no-repeat rgb(18, 21, 23);
 	background-size: cover;
 }
 

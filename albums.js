@@ -33,4 +33,4 @@ for(var i=1;i<=lps;i++) {
 	availableLPs.push("MCLP" + pad + i);
 }
 
-availableEPs = ["MCEP017", "MCEP037", "MCEP042", "MCEP054", "MCEP062", "MCEP072", "MCEP074", "MCEP079", "MCEP082", "MCEP092", "MCEP094", "MCEP096", "MCEP097"];
+availableEPs = ["MCEP017", "MCEP037", "MCEP042", "MCEP054", "MCEP061", "MCEP062", "MCEP072", "MCEP074", "MCEP079", "MCEP080", "MCEP082", "MCEP086", "MCEP092", "MCEP094", "MCEP096", "MCEP097"];
