@@ -296,6 +296,22 @@
 		},
 
 		{
+			"album_number": "MCEP056",
+			"album_artist": "Varien & 7 Minutes Dead",
+			"album_title": "Mirai Sekai EP",
+			"album_artwork_thumb": "https://i.imgur.com/qHunAtHm.jpg",
+			"album_artwork_full": "https://i.imgur.com/qHunAtH.jpg"
+		},
+		
+		{
+			"album_number": "MCEP058",
+			"album_artist": "Astronaut & EYES",
+			"album_title": "Destination: Pinball EP",
+			"album_artwork_thumb": "https://i.imgur.com/bCENjeRm.jpg",
+			"album_artwork_full": "https://i.imgur.com/bCENjeR.jpg"
+		},
+
+		{
 			"album_number": "MCEP061",
 			"album_artist": "Pegboard Nerds",
 			"album_title": "The Uncaged Remixes EP",
@@ -312,6 +328,14 @@
 		},
 
 		{
+			"album_number": "MCEP065",
+			"album_artist": "Eminence",
+			"album_title": "Universe EP",
+			"album_artwork_thumb": "https://i.imgur.com/GWGYmtNm.jpg",
+			"album_artwork_full": "https://i.imgur.com/GWGYmtN.jpg"
+		},
+
+		{
 			"album_number": "MCEP072",
 			"album_artist": "Hellberg",
 			"album_title": "This Is Me EP",
@@ -320,11 +344,27 @@
 		},
 
 		{
+			"album_number": "MCEP073",
+			"album_artist": "San Holo",
+			"album_title": "Victory EP",
+			"album_artwork_thumb": "https://i.imgur.com/f3GTitRm.jpg",
+			"album_artwork_full": "https://i.imgur.com/f3GTitR.jpg"
+		},
+
+		{
 			"album_number": "MCEP074",
 			"album_artist": "Karma Fields",
 			"album_title": "Build The Cites (Reconstructions)",
 			"album_artwork_thumb": "https://i.imgur.com/f1K7KNBm.jpg",
 			"album_artwork_full": "https://i.imgur.com/f1K7KNB.jpg"
+		},
+
+		{
+			"album_number": "MCEP076",
+			"album_artist": "Muzzy",
+			"album_title": "Get Crazy / Feeling Stronger (The Remixes)",
+			"album_artwork_thumb": "https://i.imgur.com/3oNOPA9m.jpg",
+			"album_artwork_full": "https://i.imgur.com/3oNOPA9.jpg"
 		},
 
 		{
@@ -360,11 +400,27 @@
 		},
 
 		{
+			"album_number": "MCEP088",
+			"album_artist": "Karma Fields & MORTEN",
+			"album_title": "Stickup EP",
+			"album_artwork_thumb": "https://i.imgur.com/RKbpbGbm.jpg",
+			"album_artwork_full": "https://i.imgur.com/RKbpbGb.jpg"
+		},
+
+		{
 			"album_number": "MCEP092",
 			"album_artist": "WRLD",
 			"album_title": "Awake EP",
 			"album_artwork_thumb": "https://i.imgur.com/Bxgfm78m.jpg",
 			"album_artwork_full": "https://i.imgur.com/Bxgfm78.jpg"
+		},
+
+		{
+			"album_number": "MCEP093",
+			"album_artist": "San Holo",
+			"album_title": "New Sky EP",
+			"album_artwork_thumb": "https://i.imgur.com/04jQocym.jpg",
+			"album_artwork_full": "https://i.imgur.com/04jQocy.jpg"
 		},
 
 		{

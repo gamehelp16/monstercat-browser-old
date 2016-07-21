@@ -1,0 +1,29 @@
+{
+	
+	"album_number": "MCEP093",
+	"album_artist": "San Holo",
+	"album_title": "New Sky EP",
+	"album_artwork_thumb": "https://i.imgur.com/04jQocym.jpg",
+	"album_artwork_full": "https://i.imgur.com/04jQocy.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "San Holo",
+			"title": "New Sky",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/san-holo-new-sky"
+		},
+
+		{
+			"artist": "San Holo",
+			"title": "They Just Haven't Seen It",
+			"genre": 7,
+			"feat": "The Nicholas",
+			"soundcloud_url": "https://soundcloud.com/monstercat/san-holo-they-just-havent-seen-it"
+		}
+
+	]
+	
+}

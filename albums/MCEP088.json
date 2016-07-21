@@ -1,0 +1,29 @@
+{
+	
+	"album_number": "MCEP088",
+	"album_artist": "Karma Fields & MORTEN",
+	"album_title": "Stickup EP",
+	"album_artwork_thumb": "https://i.imgur.com/RKbpbGbm.jpg",
+	"album_artwork_full": "https://i.imgur.com/RKbpbGb.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Karma Fields & MORTEN",
+			"title": "Stickup",
+			"genre": 3,
+			"feat": "Juliette Lewis",
+			"soundcloud_url": "https://soundcloud.com/karmafields/karma-fields-morten-stickup-ft-juliette-lewis"
+		},
+
+		{
+			"artist": "Karma Fields & MORTEN",
+			"title": "Stickup (Modestep Remix)",
+			"genre": 1,
+			"feat": "Juliette Lewis",
+			"soundcloud_url": "https://soundcloud.com/karmafields/karma-fields-morten-stick-up-modestep-remix"
+		}
+
+	]
+	
+}

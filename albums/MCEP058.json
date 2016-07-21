@@ -1,0 +1,69 @@
+{
+	
+	"album_number": "MCEP058",
+	"album_artist": "Astronaut & EYES",
+	"album_title": "Destination: Pinball EP",
+	"album_artwork_thumb": "https://i.imgur.com/bCENjeRm.jpg",
+	"album_artwork_full": "https://i.imgur.com/bCENjeR.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Astronaut & EYES",
+			"title": "Pinball (The McMash Clan Remix)",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pinball-mcmash-clan"
+		},
+
+		{
+			"artist": "Astronaut & EYES",
+			"title": "Pinball (Skapes & Astronaut Remix)",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pinball-skapes-astronaut"
+		},
+
+		{
+			"artist": "Astronaut & EYES",
+			"title": "Pinball (Bear Grillz Remix)",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-eyes-pinball-bear"
+		},
+
+		{
+			"artist": "Astronaut & EYES",
+			"title": "Pinball (Bluescreens Remix)",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pinball-bluescreens"
+		},
+
+		{
+			"artist": "Astronaut & EYES",
+			"title": "Pinball (Dubsidia Remix)",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pinball-dubsidia"
+		},
+
+		{
+			"artist": "Astronaut & EYES",
+			"title": "Pinball (Twine Remix)",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pinball-twine"
+		},
+
+		{
+			"artist": "Astronaut & EYES",
+			"title": "Pinball",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pinball-original"
+		}
+
+	]
+	
+}

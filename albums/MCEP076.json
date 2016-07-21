@@ -1,0 +1,45 @@
+{
+	
+	"album_number": "MCEP076",
+	"album_artist": "Muzzy",
+	"album_title": "Get Crazy / Feeling Stronger (The Remixes)",
+	"album_artwork_thumb": "https://i.imgur.com/3oNOPA9m.jpg",
+	"album_artwork_full": "https://i.imgur.com/3oNOPA9.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Muzzy",
+			"title": "Get Crazier",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-get-crazier"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Get Crazy (AgNO3 Remix)",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-get-crazy-agno3-remix"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Feeling Stronger (High Maintenance Remix)",
+			"genre": 1,
+			"feat": "Charlotte Colley",
+			"soundcloud_url": "https://soundcloud.com/monstercat/feeling-stronger-high-maintenance-remix"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Feeling Stronger (Priority One & NCT Remix)",
+			"genre": 1,
+			"feat": "Charlotte Colley",
+			"soundcloud_url": "https://soundcloud.com/monstercat/feeling-stronger-priority-one-nct-remix"
+		}
+
+	]
+	
+}

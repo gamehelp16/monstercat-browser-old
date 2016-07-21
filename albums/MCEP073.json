@@ -1,0 +1,37 @@
+{
+	
+	"album_number": "MCEP073",
+	"album_artist": "San Holo",
+	"album_title": "Victory EP",
+	"album_artwork_thumb": "https://i.imgur.com/f3GTitRm.jpg",
+	"album_artwork_full": "https://i.imgur.com/f3GTitR.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "San Holo",
+			"title": "Victory",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/san-holo-victory"
+		},
+
+		{
+			"artist": "San Holo",
+			"title": "Hold Fast",
+			"genre": 7,
+			"feat": "Tessa Douwstra",
+			"soundcloud_url": "https://soundcloud.com/monstercat/san-holo-hold-fast"
+		},
+
+		{
+			"artist": "San Holo",
+			"title": "Shrooms",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/san-holo-shrooms"
+		}
+
+	]
+	
+}

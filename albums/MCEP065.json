@@ -1,0 +1,53 @@
+{
+	
+	"album_number": "MCEP065",
+	"album_artist": "Eminence",
+	"album_title": "Universe EP",
+	"album_artwork_thumb": "https://i.imgur.com/GWGYmtNm.jpg",
+	"album_artwork_full": "https://i.imgur.com/GWGYmtN.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Eminence",
+			"title": "Lost In Time",
+			"genre": 8,
+			"feat": "Memia",
+			"soundcloud_url": "https://soundcloud.com/monstercat/eminence-lost-in-time"
+		},
+
+		{
+			"artist": "Eminence",
+			"title": "Universe",
+			"genre": 2,
+			"feat": "Meron Ryan",
+			"soundcloud_url": "https://soundcloud.com/monstercat/eminence-universe"
+		},
+
+		{
+			"artist": "Eminence",
+			"title": "Shapes & Shifts",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/eminence-shapes-shifts"
+		},
+
+		{
+			"artist": "Eminence",
+			"title": "8889",
+			"genre": 8,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/eminence-8889"
+		},
+
+		{
+			"artist": "Eminence",
+			"title": "Where The Light Is",
+			"genre": 8,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/eminence-where-the-light-is"
+		}
+
+	]
+	
+}

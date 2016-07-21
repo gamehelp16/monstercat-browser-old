@@ -1,0 +1,55 @@
+{
+	
+	"album_number": "MCEP056",
+	"album_artist": "Varien & 7 Minutes Dead",
+	"album_title": "Mirai Sekai EP",
+	"album_artwork_thumb": "https://i.imgur.com/qHunAtHm.jpg",
+	"album_artwork_full": "https://i.imgur.com/qHunAtH.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Varien & 7 Minutes Dead",
+			"title": "Mirai Sekai Pt.1: Neo-Seoul",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/neo-seoul"
+		},
+
+		{
+			"artist": "Varien & 7 Minutes Dead",
+			"title": "Mirai Sekai Pt.2: Neo-Tokyo",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/neo-tokyo"
+		},
+
+		{
+			"artist": "Varien & 7 Minutes Dead",
+			"title": "Mirai Sekai Pt.3: Aeon Metropolis",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/aeon-metropolis"
+		},
+
+		{
+
+			"artist": "Varien & 7 Minutes Dead",
+			"title": "Mirai Sekai Pt.4: Goodnight_Sequence",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/goodnight_sequence"
+		}
+
+	],
+	
+	"mixes": [
+		
+		{
+			"name": "MIRAI SEKAI",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mirai-sekai-continuous-mix"
+		}
+		
+	]
+	
+}

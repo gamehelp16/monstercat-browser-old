@@ -14,6 +14,7 @@
 		<div id="link-compilation-albums" class="link" onclick="section('compilation-albums')">Compilation Albums</div>
 		<div id="link-lps" class="link" onclick="section('lps')">Long Plays (LPs)</div>
 		<div id="link-eps" class="link" onclick="section('eps')">Extended Plays (EPs)</div>
+		<!--div id="link-seasonal" class="link" onclick="section('seasonal')">Seasonal Albums</div-->
 		<div id="link-album-detail" class="link" onclick="section('album-detail')">Tracklist</div>
 	</div>
 	
@@ -70,6 +71,13 @@
 		<div style="color:#aaa;text-align:center;">Not all EPs are listed here yet, you can <a href="albumdata.html" target="_blank" style="text-decoration:underline;">go here</a> to help making the site complete.</div><br><br>
 	</div>
 	
+	<!--div id="seasonal" class="section">
+		<div class="banner" id="banner-ep">Seasonal Albums</div>
+		<div class="banner-padding"></div>
+		<div id="seasonal-grid" class="grid"></div>
+		<div style="clear:both"></div>
+	</div-->
+	
 	<div id="album-detail" class="section">
 		<div id="no-album-selected">No album selected yet.</div>
 		<a id="prev-a" href="#" onclick="navigate(-1)"><div id="prev-album"><span>&lsaquo;</span></div></a>
@@ -111,6 +119,7 @@
 			if(what == "compilation-albums") title = "Compilation Albums";
 			else if(what == "lps") title = "Long Plays (LPs)";
 			else if(what == "eps") title = "Extended Plays (EPs)";
+			else if(what == "seasonal") title = "Seasonal Albums";
 			else if(what == "album-detail" && currentAlbum !== undefined && !loadingAlbum) {
 				if(mode == "lp") {
 					var title_1 = albumData.lps[currentAlbumIndex].album_artist;
@@ -294,6 +303,18 @@
 						document.getElementById("mixes").innerHTML += '<div class="mix" id="track-' + thetrack + '" onclick="playSoundCloud(' + thetrack + ', \'' + data.mixes[z].soundcloud_url + '\');"></div>';
 						document.getElementById("track-" + thetrack).className = "mix";
 						document.getElementById("track-" + thetrack).innerHTML = data.mixes[z].name;
+					}
+				}
+				else {
+					if(data.album_number == "MCEP056") {
+						includesText = "INCLUDES A CONTINUOUS ALBUM MIX";
+						document.getElementById("includes").innerHTML = includesText;
+						for(z=0;z<data.mixes.length;z++) {
+							var thetrack = z+90;
+							document.getElementById("mixes").innerHTML += '<div class="mix" id="track-' + thetrack + '" onclick="playSoundCloud(' + thetrack + ', \'' + data.mixes[z].soundcloud_url + '\');"></div>';
+							document.getElementById("track-" + thetrack).className = "mix";
+							document.getElementById("track-" + thetrack).innerHTML = data.mixes[z].name;
+						}
 					}
 				}
 				
