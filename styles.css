@@ -1,11 +1,11 @@
 @font-face {
     font-family: Gotham Bold;
-    src: url(gotham_bold.ttf);
+    src: url(assets/gotham_bold.ttf);
 }
 
 @font-face {
     font-family: Gotham Book;
-    src: url(gotham_book.ttf);
+    src: url(assets/gotham_book.ttf);
 }
 
 ::-webkit-scrollbar {
@@ -97,7 +97,7 @@ body {
 	border-radius: 100%;
 	width: 33px;
 	height: 33px;
-	background: url(mcat.svg) 5px 4px no-repeat;
+	background: url(assets/mcat.svg) 5px 4px no-repeat;
 	background-size: 23px 25px;
 	margin-bottom: 0px;
 }
@@ -486,23 +486,23 @@ body {
 }
 
 #banner-home {
-	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(banner_home.png) center center no-repeat rgb(18, 21, 23);
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(assets/banner_home.png) center center no-repeat rgb(18, 21, 23);
 	background-size: cover;
 	height: 250px;
 }
 
 #banner-compilation {
-	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(banner_compilation.png) center center no-repeat rgb(18, 21, 23);
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(assets/banner_compilation.png) center center no-repeat rgb(18, 21, 23);
 	background-size: cover;
 }
 
 #banner-lp {
-	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(banner_lp.png) center center no-repeat rgb(18, 21, 23);
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(assets/banner_lp.png) center center no-repeat rgb(18, 21, 23);
 	background-size: cover;
 }
 
 #banner-ep {
-	background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url(banner_ep.png) center center no-repeat rgb(18, 21, 23);
+	background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)), url(assets/banner_ep.png) center center no-repeat rgb(18, 21, 23);
 	background-size: cover;
 }
 
