@@ -358,7 +358,15 @@
 			"album_artwork_thumb": "https://i.imgur.com/f1K7KNBm.jpg",
 			"album_artwork_full": "https://i.imgur.com/f1K7KNB.jpg"
 		},
-
+		
+		{
+			"album_number": "MCEP075",
+			"album_artist": "Laszlo",
+			"album_title": "Closer EP",
+			"album_artwork_thumb": "https://i.imgur.com/28tfsz3m.jpg",
+			"album_artwork_full": "https://i.imgur.com/28tfsz3.jpg"
+		},
+		
 		{
 			"album_number": "MCEP076",
 			"album_artist": "Muzzy",
@@ -445,6 +453,34 @@
 			"album_title": "Dogma EP",
 			"album_artwork_thumb": "https://i.imgur.com/j7z287Mm.jpg",
 			"album_artwork_full": "https://i.imgur.com/j7z287M.jpg"
+		}
+		
+	],
+	
+	"seasonals": [
+	
+		{
+			"album_number": "MCH001",
+			"album_artist": "Monstercat",
+			"album_title": "Trick or Treat EP",
+			"album_artwork_thumb": "https://i.imgur.com/88hZJtSm.jpg",
+			"album_artwork_full": "https://i.imgur.com/88hZJtS.jpg"
+		},
+		
+		{
+			"album_number": "xmas11",
+			"album_artist": "Monstercat",
+			"album_title": "Monstercat Christmas Album 2011",
+			"album_artwork_thumb": "https://i.imgur.com/saCXOoam.jpg",
+			"album_artwork_full": "https://i.imgur.com/saCXOoa.jpg"
+		},
+		
+		{
+			"album_number": "xmas12",
+			"album_artist": "Monstercat",
+			"album_title": "Monstercat Christmas Album 2012",
+			"album_artwork_thumb": "https://i.imgur.com/mHSzX4Ym.jpg",
+			"album_artwork_full": "https://i.imgur.com/mHSzX4Y.jpg"
 		}
 		
 	]

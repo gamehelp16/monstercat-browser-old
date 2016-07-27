@@ -1,0 +1,53 @@
+{
+	
+	"album_number": "MCEP075",
+	"album_artist": "Laszlo",
+	"album_title": "Closer EP",
+	"album_artwork_thumb": "https://i.imgur.com/28tfsz3m.jpg",
+	"album_artwork_full": "https://i.imgur.com/28tfsz3.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Laszlo",
+			"title": "Closer",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/laszlo-closer"
+		},
+
+		{
+			"artist": "Laszlo",
+			"title": "Our Arrival",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/laszlo-our-arrival"
+		},
+
+		{
+			"artist": "Laszlo",
+			"title": "A King's Life",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/laszlo-a-kings-life"
+		},
+
+		{
+			"artist": "Laszlo",
+			"title": "Destination",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/laszlo-destination"
+		},
+
+		{
+			"artist": "Laszlo",
+			"title": "Law of the Jungle",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/laszlo-law-of-the-jungle"
+		}
+
+	]
+	
+}

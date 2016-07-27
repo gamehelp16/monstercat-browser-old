@@ -1,9 +1,13 @@
 <!doctype html>
 <html>
 <head>
+	
+	<meta name="theme-color" content="#000000">
+	<meta name="description" content="Browse tracklists from albums released by Monstercat and play each track right on this site.">
 	<title>Monstercat Album Browser</title>
 	<link rel="icon" href="assets/logo.png">
 	<link rel="stylesheet" href="styles.css">
+	
 </head>
 <body>
 	
@@ -14,7 +18,7 @@
 		<div id="link-compilation-albums" class="link" onclick="section('compilation-albums')">Compilation Albums</div>
 		<div id="link-lps" class="link" onclick="section('lps')">Long Plays (LPs)</div>
 		<div id="link-eps" class="link" onclick="section('eps')">Extended Plays (EPs)</div>
-		<!--div id="link-seasonal" class="link" onclick="section('seasonal')">Seasonal Albums</div-->
+		<div id="link-seasonal" class="link" onclick="section('seasonal')">Seasonal Albums</div>
 		<div id="link-album-detail" class="link" onclick="section('album-detail')">Tracklist</div>
 	</div>
 	
@@ -47,6 +51,10 @@
 		<div class="grid" id="latest-ep"></div>
 		<div style="clear:both"></div>
 		
+		<h2>Latest Seasonal Albums (which are available on the browser)</h2>
+		<div class="grid" id="latest-seasonal"></div>
+		<div style="clear:both"></div>
+		
 	</div>
 	
 	<div id="compilation-albums" class="section">
@@ -71,12 +79,13 @@
 		<div style="color:#aaa;text-align:center;">Not all EPs are listed here yet, you can <a href="albumdata.html" target="_blank" style="text-decoration:underline;">go here</a> to help making the site complete.</div><br><br>
 	</div>
 	
-	<!--div id="seasonal" class="section">
-		<div class="banner" id="banner-ep">Seasonal Albums</div>
+	<div id="seasonal" class="section">
+		<div class="banner" id="banner-seasonal">Seasonal Albums</div>
 		<div class="banner-padding"></div>
 		<div id="seasonal-grid" class="grid"></div>
 		<div style="clear:both"></div>
-	</div-->
+		<div style="color:#aaa;text-align:center;">Not all seasonal albums are listed here yet, you can <a href="albumdata.html" target="_blank" style="text-decoration:underline;">go here</a> to help making the site complete.</div><br><br>
+	</div>
 	
 	<div id="album-detail" class="section">
 		<div id="no-album-selected">No album selected yet.</div>
@@ -161,6 +170,9 @@
 			for(var i=availableEPs.length-1;i>=0;i--) document.getElementById("ep-grid").innerHTML += showAlbumCard(availableEPs[i]);
 			for(var i=availableEPs.length-1;i>=availableEPs.length-3;i--) document.getElementById("latest-ep").innerHTML += showAlbumCard(availableEPs[i]);
 			
+			for(var i=availableSeasonals.length-1;i>=0;i--) document.getElementById("seasonal-grid").innerHTML += showAlbumCard(availableSeasonals[i]);
+			for(var i=availableSeasonals.length-1;i>=availableSeasonals.length-3;i--) document.getElementById("latest-seasonal").innerHTML += showAlbumCard(availableSeasonals[i]);
+			
 			/*var r = Math.random();
 			if(r<1) {
 				document.getElementById("banner-home").style.background = bannerBg(randomIndex(albumData.compilations).album_artwork_full);
@@ -191,6 +203,12 @@
 				var card_image = albumData.eps[albumIndex2].album_artwork_thumb;
 				var card_title = albumData.eps[albumIndex2].album_artist;
 				var card_subtitle = albumData.eps[albumIndex2].album_title;
+			}
+			else if(number.indexOf("MCH") > -1 || number.indexOf("xmas") > -1) {
+				var albumIndex2 = arrayIndex(number, availableSeasonals);
+				var card_image = albumData.seasonals[albumIndex2].album_artwork_thumb;
+				var card_title = albumData.seasonals[albumIndex2].album_artist;
+				var card_subtitle = albumData.seasonals[albumIndex2].album_title;
 			}
 			else {
 				var albumIndex2 = arrayIndex(number, availableCompilations);
@@ -230,6 +248,7 @@
 			
 			if(number.indexOf("MCLP") > -1) mode = "lp", availableAlbums = availableLPs;
 			else if(number.indexOf("MCEP") > -1) mode = "ep", availableAlbums = availableEPs;
+			else if(number.indexOf("MCH") > -1 || number.indexOf("xmas") > -1) mode = "seasonal", availableAlbums = availableSeasonals;
 			else mode = "compilation", availableAlbums = availableCompilations;
 			
 			loadingAlbum = true;
@@ -291,30 +310,34 @@
 				document.getElementById("mixes").innerHTML = "";
 				document.getElementById("includes").innerHTML = "";
 				
+				var includeMix = false;
+				
 				if(mode == "compilation") {
 					if(data.album_number == "005") includesText = "INCLUDES 2 PART ALBUM MIX";
 					else if(data.mixes.length == 1) includesText = "INCLUDES 1 HOUR ALBUM MIX";
 					else if(data.mixes.length > 1) includesText = "INCLUDES " + toText(data.mixes.length) + " 1 HOUR ALBUM MIXES";
-				
 					document.getElementById("includes").innerHTML = includesText;
-					
-					for(z=0;z<data.mixes.length;z++) {
-						var thetrack = z+90;
-						document.getElementById("mixes").innerHTML += '<div class="mix" id="track-' + thetrack + '" onclick="playSoundCloud(' + thetrack + ', \'' + data.mixes[z].soundcloud_url + '\');"></div>';
-						document.getElementById("track-" + thetrack).className = "mix";
-						document.getElementById("track-" + thetrack).innerHTML = data.mixes[z].name;
-					}
+					includeMix = true;
 				}
 				else {
 					if(data.album_number == "MCEP056") {
 						includesText = "INCLUDES A CONTINUOUS ALBUM MIX";
 						document.getElementById("includes").innerHTML = includesText;
-						for(z=0;z<data.mixes.length;z++) {
-							var thetrack = z+90;
-							document.getElementById("mixes").innerHTML += '<div class="mix" id="track-' + thetrack + '" onclick="playSoundCloud(' + thetrack + ', \'' + data.mixes[z].soundcloud_url + '\');"></div>';
-							document.getElementById("track-" + thetrack).className = "mix";
-							document.getElementById("track-" + thetrack).innerHTML = data.mixes[z].name;
-						}
+						includeMix = true;
+					}
+					else if(data.album_number == "xmas12") {
+						includesText = "INCLUDES AN ALBUM MIX";
+						document.getElementById("includes").innerHTML = includesText;
+						includeMix = true;
+					}
+				}
+				
+				if(includeMix) {
+					for(z=0;z<data.mixes.length;z++) {
+						var thetrack = z+90;
+						document.getElementById("mixes").innerHTML += '<div class="mix" id="track-' + thetrack + '" onclick="playSoundCloud(' + thetrack + ', \'' + data.mixes[z].soundcloud_url + '\');"></div>';
+						document.getElementById("track-" + thetrack).className = "mix";
+						document.getElementById("track-" + thetrack).innerHTML = data.mixes[z].name;
 					}
 				}
 				
@@ -365,13 +388,7 @@
 			if(what == -1 && currentAlbumIndex < 1) return;
 			if(what == 1 && currentAlbumIndex == availableAlbums.length-1) return;
 			
-			var albumid = parseInt(availableAlbums[currentAlbumIndex+what].replace(/MC(L|E)P/g, ""));
-			var pad = "0";
-			if(albumid > 99) pad = "";
-			else if(albumid < 10) pad = "00";
-			if(mode == "lp") pad = "MCLP" + pad;
-			else if(mode == "ep") pad = "MCEP" + pad;
-			loadAlbum(pad + albumid);
+			loadAlbum(availableAlbums[currentAlbumIndex+what]);
 			
 		}
 		
