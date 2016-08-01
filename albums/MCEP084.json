@@ -1,0 +1,29 @@
+{
+	
+	"album_number": "MCEP084",
+	"album_artist": "Au5 & Fractal",
+	"album_title": "Ison / Pavonine EP",
+	"album_artwork_thumb": "https://i.imgur.com/rrBvKamm.jpg",
+	"album_artwork_full": "https://i.imgur.com/rrBvKam.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Au5 & Fractal",
+			"title": "Ison",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/au5-fractal-ison"
+		},
+
+		{
+			"artist": "Au5 & Fractal",
+			"title": "Pavonine",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/au5-fractal-pavonine"
+		}
+
+	]
+	
+}

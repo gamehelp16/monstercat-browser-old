@@ -15,4 +15,4 @@
 - <a href="https://www.reddit.com/user/harris_kid/" target="_blank">/u/harris_kid</a> (014)
 - <a href="https://www.reddit.com/user/Luddest/" target="_blank">/u/Luddest</a> (007, 012, 016 - 018, 023, MCLP001, MCLP006, MCEP017, MCEP037, MCEP042, MCEP054, MCEP062, MCEP072, MCEP074, MCEP079, MCEP082, MCEP092, MCEP094)
 - <a href="https://www.reddit.com/user/xXTheRacerXx/" target="_blank">/u/xXTheRacerXx</a> (019, 020)
-- <a href="https://www.reddit.com/user/DJLuckyLuke/" target="_blank">/u/DJLuckyLuke</a> (MCEP056, MCEP058, MCEP061, MCEP065, MCEP073, MCEP075, MCEP076, MCEP080, MCEP086, MCEP088, MCEP093, MCEP096, MCEP097, MCH001, xmas11, xmas12)
+- <a href="https://www.reddit.com/user/DJLuckyLuke/" target="_blank">/u/DJLuckyLuke</a> (MCEP056, MCEP058, MCEP061, MCEP065, MCEP073, MCEP075, MCEP076, MCEP080, MCEP084, MCEP086, MCEP088, MCEP093, MCEP096, MCEP097, MCX001, MCX002, MCX004, MCH001)

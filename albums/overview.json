@@ -398,6 +398,16 @@
 			"album_artwork_thumb": "https://i.imgur.com/3tjfNBYm.jpg",
 			"album_artwork_full": "https://i.imgur.com/3tjfNBY.jpg"
 		},
+		
+		{
+		
+			"album_number": "MCEP084",
+			"album_artist": "Au5 & Fractal",
+			"album_title": "Ison / Pavonine EP",
+			"album_artwork_thumb": "https://i.imgur.com/rrBvKamm.jpg",
+			"album_artwork_full": "https://i.imgur.com/rrBvKam.jpg"
+		
+		},
 
 		{
 			"album_number": "MCEP086",
@@ -458,7 +468,23 @@
 	],
 	
 	"seasonals": [
-	
+		
+		{
+			"album_number": "MCX001",
+			"album_artist": "Monstercat",
+			"album_title": "Monstercat Christmas Album 2011",
+			"album_artwork_thumb": "https://i.imgur.com/saCXOoam.jpg",
+			"album_artwork_full": "https://i.imgur.com/saCXOoa.jpg"
+		},
+		
+		{
+			"album_number": "MCX002",
+			"album_artist": "Monstercat",
+			"album_title": "Monstercat Christmas Album 2012",
+			"album_artwork_thumb": "https://i.imgur.com/mHSzX4Ym.jpg",
+			"album_artwork_full": "https://i.imgur.com/mHSzX4Y.jpg"
+		},
+		
 		{
 			"album_number": "MCH001",
 			"album_artist": "Monstercat",
@@ -468,19 +494,13 @@
 		},
 		
 		{
-			"album_number": "xmas11",
-			"album_artist": "Monstercat",
-			"album_title": "Monstercat Christmas Album 2011",
-			"album_artwork_thumb": "https://i.imgur.com/saCXOoam.jpg",
-			"album_artwork_full": "https://i.imgur.com/saCXOoa.jpg"
-		},
 		
-		{
-			"album_number": "xmas12",
+			"album_number": "MCX004",
 			"album_artist": "Monstercat",
-			"album_title": "Monstercat Christmas Album 2012",
-			"album_artwork_thumb": "https://i.imgur.com/mHSzX4Ym.jpg",
-			"album_artwork_full": "https://i.imgur.com/mHSzX4Y.jpg"
+			"album_title": "Monstercat 5 Year Anniversary",
+			"album_artwork_thumb": "https://i.imgur.com/NhHf2S3m.jpg",
+			"album_artwork_full": "https://i.imgur.com/NhHf2S3.jpg"
+		
 		}
 		
 	]

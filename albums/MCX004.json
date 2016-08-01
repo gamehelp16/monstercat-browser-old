@@ -1,0 +1,93 @@
+{
+	
+	"album_number": "MCX004",
+	"album_artist": "Monstercat",
+	"album_title": "Monstercat 5 Year Anniversary",
+	"album_artwork_thumb": "https://i.imgur.com/NhHf2S3m.jpg",
+	"album_artwork_full": "https://i.imgur.com/NhHf2S3.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Stephen Walking & Ephixa",
+			"title": "Matches",
+			"genre": 6,
+			"feat": "Aaron Richards",
+			"soundcloud_url": "https://soundcloud.com/monstercat/ephixa-stephen-walking-matches"
+		},
+
+		{
+			"artist": "Stonebank",
+			"title": "Lift You Up",
+			"genre": 8,
+			"feat": "EMEL",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stonebank-lift-you-up"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Blackout",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboardnerds-blackout"
+		},
+
+		{
+			"artist": "Slips & Slurs",
+			"title": "Divided VIP",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/slips-slurs-divided-vip"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Imperfect Views",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-imperfect-views"
+		},
+
+		{
+			"artist": "Noisestorm",
+			"title": "This Feeling",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/noisestorm-this-feeling"
+		},
+
+		{
+			"artist": "Laszlo",
+			"title": "Tribal",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/laszlo-tribal"
+		},
+
+		{
+			"artist": "Richard Caddock, WRLD, Nitro Fun, Slips & Slurs & Subtact",
+			"title": "Break the Silence",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/richard-caddock-wrld-nitro-fun-slips-slurs-subtact-break-the-silence"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Crescendo",
+			"genre": 1,
+			"feat": "MYLK",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-crescendo"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Before We Fade",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-before-we-fade"
+		}
+
+	]
+	
+}
