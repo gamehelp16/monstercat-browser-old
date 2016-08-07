@@ -1,0 +1,54 @@
+{
+	
+	"album_number": "MCEP044",
+	"album_artist": "Rezonate",
+	"album_title": "Prelude EP",
+	"album_artwork_thumb": "https://i.imgur.com/6Y8Qo8Lm.jpg",
+	"album_artwork_full": "https://i.imgur.com/6Y8Qo8L.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Rezonate",
+			"title": "Prelude (Performed by Austin Rafuse)",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/01-rezonate-prelude-performed"
+		},
+
+		{
+			"artist": "Rezonate",
+			"title": "Canvas",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/02-rezonate-canvas"
+		},
+
+		{
+			"artist": "Rezonate",
+			"title": "Elemental",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/03-rezonate-elemental"
+		},
+
+		{
+			"artist": "Rezonate",
+			"title": "The Journey",
+			"genre": 6,
+			"feat": "Austin Rafuse & Lauren Neate",
+			"soundcloud_url": "https://soundcloud.com/monstercat/04-rezonate-the-journey"
+		},
+
+		{
+			"artist": "Rezonate",
+			"title": "Recovery",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/05-rezonate-recovery"
+		}
+
+	]
+	
+}
+

@@ -1,0 +1,46 @@
+{
+	
+	"album_number": "MCEP069",
+	"album_artist": "Rezonate",
+	"album_title": "Rebirth EP",
+	"album_artwork_thumb": "https://i.imgur.com/dhnBYXwm.jpg",
+	"album_artwork_full": "https://i.imgur.com/dhnBYXw.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Rezonate",
+			"title": "Rebirth",
+			"genre": 5,
+			"feat": "Ashley Apollodor",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rezonate-rebirth"
+		},
+
+		{
+			"artist": "Rezonate",
+			"title": "The Only Road",
+			"genre": 2,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rezonate-the-only-road"
+		},
+
+		{
+			"artist": "Rezonate",
+			"title": "What We Want",
+			"genre": 11,
+			"feat": "Aloma Steele",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rezonate-what-we-want"
+		},
+
+		{
+			"artist": "Rezonate",
+			"title": "Outro (Performed by Austin Rafuse)",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rezonate-outro"
+		}
+
+	]
+	
+}
+

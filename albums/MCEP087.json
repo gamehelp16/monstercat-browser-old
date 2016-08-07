@@ -1,0 +1,54 @@
+{
+	
+	"album_number": "MCEP087",
+	"album_artist": "Stonebank",
+	"album_title": "Monument EP",
+	"album_artwork_thumb": "https://i.imgur.com/RcrbKFOm.jpg",
+	"album_artwork_full": "https://i.imgur.com/RcrbKFO.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Stonebank",
+			"title": "Lost Without You",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stonebank-lost-without-you"
+		},
+
+		{
+			"artist": "Stonebank",
+			"title": "Ready",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stonebank-ready"
+		},
+
+		{
+			"artist": "Stonebank",
+			"title": "Finally",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stonebank-finally"
+		},
+
+		{
+			"artist": "Stonebank",
+			"title": "Another Day",
+			"genre": 5,
+			"feat": "EMEL",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stonebank-another-day"
+		},
+
+		{
+			"artist": "Stonebank",
+			"title": "Chokehold",
+			"genre": 5,
+			"feat": "Concept",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stonebank-chokehold"
+		}
+
+	]
+	
+}
+
