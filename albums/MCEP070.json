@@ -1,0 +1,45 @@
+{
+	
+	"album_number": "MCEP070",
+	"album_artist": "F.O.O.L",
+	"album_title": "Knight EP",
+	"album_artwork_thumb": "https://i.imgur.com/dtJ0qzZm.jpg",
+	"album_artwork_full": "https://i.imgur.com/dtJ0qzZ.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "F.O.O.L",
+			"title": "Knight",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fool-knight"
+		},
+
+		{
+			"artist": "F.O.O.L",
+			"title": "Bounty Hunter",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/bounty-hunter"
+		},
+
+		{
+			"artist": "F.O.O.L",
+			"title": "Fairytaler",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fairytaler"
+		},
+
+		{
+			"artist": "F.O.O.L",
+			"title": "Distorted Reality",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/distorted-reality"
+		}
+		
+	]
+	
+}

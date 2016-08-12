@@ -1,0 +1,53 @@
+{
+	
+	"album_number": "MCEP091",
+	"album_artist": "Botnek & I See Monstas",
+	"album_title": "Deeper Love (The Remixes)",
+	"album_artwork_thumb": "https://i.imgur.com/MPkGZhVm.jpg",
+	"album_artwork_full": "https://i.imgur.com/MPkGZhV.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Botnek & I See Monstas",
+			"title": "Deeper Love (Snavs Remix)",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/botnek-i-see-monstas-deeper-love-snavs-remix"
+		},
+
+		{
+			"artist": "Botnek & I See Monstas",
+			"title": "Deeper Love (Xan Griffin Remix)",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/botnek-i-see-monstas-deeper-love-xan-griffin-remix"
+		},
+
+		{
+			"artist": "Botnek & I See Monstas",
+			"title": "Deeper Love (Stonebank Remix)",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/botnek-i-see-monstas-deeper-love-stonebank-remix"
+		},
+
+		{
+			"artist": "Botnek & I See Monstas",
+			"title": "Deeper Love (DOTH Remix)",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/botnek-i-see-monstas-deeper-love-doth-remix"
+		},
+
+		{
+			"artist": "Botnek & I See Monstas",
+			"title": "Deeper Love (Duko Remix)",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/botnek-i-see-monstas-deeper-love-duko-remix"
+		}
+
+	]
+	
+}

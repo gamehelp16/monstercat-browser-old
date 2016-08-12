@@ -1,0 +1,29 @@
+{
+	
+	"album_number": "MCEP066",
+	"album_artist": "Muzzy",
+	"album_title": "Get Crazy / Feeling Stronger EP",
+	"album_artwork_thumb": "https://i.imgur.com/8hxqEOmm.jpg",
+	"album_artwork_full": "https://i.imgur.com/8hxqEOm.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Muzzy",
+			"title": "Get Crazy",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/get-crazy"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Feeling Stronger",
+			"genre": 1,
+			"feat": "Charlotte Colley",
+			"soundcloud_url": "https://soundcloud.com/monstercat/feeling-stronger"
+		}
+		
+	]
+	
+}

@@ -1,0 +1,45 @@
+{
+	
+	"album_number": "MCEP059",
+	"album_artist": "Tut Tut Child",
+	"album_title": "Ask Your Friends First EP",
+	"album_artwork_thumb": "https://i.imgur.com/7pQmpyYm.jpg",
+	"album_artwork_full": "https://i.imgur.com/7pQmpyY.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Tut Tut Child",
+			"title": "Hot Pursuit",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-hot-pursuit"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Breathe",
+			"genre": 10,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-breathe"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Plain Sight",
+			"genre": 9,
+			"feat": "Rachel Hirons",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-plain-sight"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Birds on the Wire",
+			"genre": 11,
+			"feat": "Augustus Ghost",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-birds"
+		}
+
+	]
+	
+}

@@ -1,0 +1,261 @@
+{
+	
+	"album_number": "MCX003",
+	"album_artist": "Monstercat",
+	"album_title": "Monstercat 3 Year Anniversary",
+	"album_artwork_thumb": "https://i.imgur.com/uCbZDvLm.jpg",
+	"album_artwork_full": "https://i.imgur.com/uCbZDvL.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Didrick",
+			"title": "Monstercat Live Performance (3 Year Anniversary Mix)",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/didrick-monstercat-mashup"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Here It Comes",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-here-it-comes"
+		},
+
+		{
+			"artist": "Grabbitz",
+			"title": "Here With You Now",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-here-with-you-now"
+		},
+
+		{
+			"artist": "Tristam & Braken",
+			"title": "Flight",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-braken-flight"
+		},
+
+		{
+			"artist": "Lets Be Friends",
+			"title": "FTW",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/lets-be-friends-ftw"
+		},
+
+		{
+			"artist": "Aero Chord",
+			"title": "Surface",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/aero-chord-surface"
+		},
+
+		{
+			"artist": "Haywyre",
+			"title": "The Schism",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/haywyre-the-schism"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Night After Night",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-night-after-night"
+		},
+
+		{
+			"artist": "Haywyre",
+			"title": "Back and Forth",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/haywyre-back-and-forth"
+		},
+
+		{
+			"artist": "Stephen Walking & Soulero",
+			"title": "Ampersand",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-soulero"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Truth",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-truth"
+		},
+
+		{
+			"artist": "Hellberg",
+			"title": "This Is Forever",
+			"genre": 2,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hellberg-feat-danyka-nadeau"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Apollo",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-apollo"
+		},
+
+		{
+			"artist": "Au5",
+			"title": "Follow You",
+			"genre": 2,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/au5-follow-you-danyka"
+		},
+
+		{
+			"artist": "Hellberg & Deutgen vs Splitbreed",
+			"title": "Collide",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hellberg-deutgen-vs-splitbreed-collide"
+		},
+
+		{
+			"artist": "Trivecta",
+			"title": "One Night Only",
+			"genre": 9,
+			"feat": "Yohamna Solange",
+			"soundcloud_url": "https://soundcloud.com/monstercat/trivecta-one-night-only"
+		},
+
+		{
+			"artist": "Case & Point",
+			"title": "All On Me",
+			"genre": 3,
+			"feat": "Gamble & Burke",
+			"soundcloud_url": "https://soundcloud.com/monstercat/case-point-all-on-me"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Adventure Time",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-adventure-time"
+		},
+
+		{
+			"artist": "Throttle",
+			"title": "Next Big Thing",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/throttle-next-big-thing"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Disconnected",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-disconnected"
+		},
+
+		{
+			"artist": "Varien & Razihel",
+			"title": "Toothless Hawkins (And His Robot Jazz Band)",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/varien-razihel-toothless-hawkins"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Strut",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/televisor-strut"
+		},
+
+		{
+			"artist": "Rezonate",
+			"title": "Pump It!",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rezonate-pump-it"
+		},
+
+		{
+			"artist": "Braken",
+			"title": "To The Stars",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/braken-to-the-stars"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Close Encounter",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-close-encounter"
+		},
+
+		{
+			"artist": "nanobii",
+			"title": "Rainbow Road",
+			"genre": 4,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/nanobii-rainbow-road"
+		},
+
+		{
+			"artist": "Mr FijiWiji, Laura Brehm, & AgNO3",
+			"title": "Pure Sunlight",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-laura-brehm-agno3"
+		},
+
+		{
+			"artist": "Going Quantum",
+			"title": "Hello?",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/going-quantum-hello"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "From The Dust",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-from-the-dust"
+		},
+
+		{
+			"artist": "Ephixa",
+			"title": "Dubstep Killed Rock 'n' Roll",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/ephixa-dubstep-killed-rock-n"
+		},
+
+		{
+			"artist": "Pegboard Nerds & Tristam",
+			"title": "Razor Sharp",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-tristam-razor"
+		}
+
+	]
+	
+}

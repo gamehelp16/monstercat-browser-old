@@ -1,0 +1,45 @@
+{
+	
+	"album_number": "MCEP067",
+	"album_artist": "Televisor",
+	"album_title": "Venture EP",
+	"album_artwork_thumb": "https://i.imgur.com/bUtVmeAm.jpg",
+	"album_artwork_full": "https://i.imgur.com/bUtVmeA.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Televisor",
+			"title": "Find That Someone",
+			"genre": 6,
+			"feat": "Richard Judge",
+			"soundcloud_url": "https://soundcloud.com/monstercat/televisor-find-that-someone"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Deya",
+			"genre": 6,
+			"feat": "Patrick Baker",
+			"soundcloud_url": "https://soundcloud.com/monstercat/televisor-deya"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Break Loose",
+			"genre": 6,
+			"feat": "Splitbreed",
+			"soundcloud_url": "https://soundcloud.com/monstercat/televisor-break-loose"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Deluxe",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/televisor-deluxe"
+		}
+		
+	]
+	
+}

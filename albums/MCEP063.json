@@ -1,0 +1,53 @@
+{
+	
+	"album_number": "MCEP063",
+	"album_artist": "Mr FijiWiji",
+	"album_title": "Growing Up EP",
+	"album_artwork_thumb": "https://i.imgur.com/jUhkJhrm.jpg",
+	"album_artwork_full": "https://i.imgur.com/jUhkJhr.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Growing Up",
+			"genre": 11,
+			"feat": "Openwater",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-growing-up"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Beautiful",
+			"genre": 11,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-beautiful"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Evolution",
+			"genre": 11,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-evolution"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Believe Her",
+			"genre": 2,
+			"feat": "Meron Ryan",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-believe-her"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Yours Truly",
+			"genre": 11,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-yours-truly"
+		}
+		
+	]
+	
+}

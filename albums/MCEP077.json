@@ -1,0 +1,45 @@
+{
+	
+	"album_number": "MCEP077",
+	"album_artist": "Televisor",
+	"album_title": "Venture (The Remixes)",
+	"album_artwork_thumb": "https://i.imgur.com/EHGK3GTm.jpg",
+	"album_artwork_full": "https://i.imgur.com/EHGK3GT.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Televisor",
+			"title": "Find That Someone (Tobtok Remix)",
+			"genre": 2,
+			"feat": "Richard Judge",
+			"soundcloud_url": "https://soundcloud.com/monstercat/find-that-someone-tobtok-remix1"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Deya (Osmo Remix)",
+			"genre": 6,
+			"feat": "Patrick Baker",
+			"soundcloud_url": "https://soundcloud.com/monstercat/deya-osmo-remix"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Break Loose (Volant Remix)",
+			"genre": 5,
+			"feat": "Splitbreed",
+			"soundcloud_url": "https://soundcloud.com/monstercat/break-loose-volant-remix"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Deluxe (Duskus Remix)",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/deluxe-duskus-remix"
+		}
+		
+	]
+	
+}

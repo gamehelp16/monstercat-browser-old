@@ -1,0 +1,69 @@
+{
+	
+	"album_number": "MCEP071",
+	"album_artist": "Grabbitz",
+	"album_title": "Friends EP",
+	"album_artwork_thumb": "https://i.imgur.com/Iu27IVsm.jpg",
+	"album_artwork_full": "https://i.imgur.com/Iu27IVs.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Grabbitz",
+			"title": "7.6.14 (Intro)",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-7614"
+		},
+
+		{
+			"artist": "Grabbitz",
+			"title": "Here With You Now",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-here-with-you-now"
+		},
+
+		{
+			"artist": "Grabbitz & Faustix",
+			"title": "Friends",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-friends"
+		},
+
+		{
+			"artist": "Grabbitz",
+			"title": "Transition (Short)",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-transition"
+		},
+
+		{
+			"artist": "Grabbitz",
+			"title": "Turn Around",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-turn-around"
+		},
+
+		{
+			"artist": "Grabbitz",
+			"title": "Way Too Deep",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-way-too-deep"
+		},
+
+		{
+			"artist": "Grabbitz",
+			"title": "A Walk To The Gallows",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/a-walk-to-the-gallows"
+		}
+		
+	]
+	
+}

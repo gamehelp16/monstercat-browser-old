@@ -1,0 +1,29 @@
+{
+	
+	"album_number": "MCEP099",
+	"album_artist": "Hellberg",
+	"album_title": "Synchronize (VIP Mix / Acoustic) EP",
+	"album_artwork_thumb": "https://i.imgur.com/S1uMtsMm.jpg",
+	"album_artwork_full": "https://i.imgur.com/S1uMtsM.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Hellberg",
+			"title": "Synchronize (VIP Mix)",
+			"genre": 7,
+			"feat": "Aaron Richards",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hellberg-synchronize-vip-mix"
+		},
+
+		{
+			"artist": "Hellberg",
+			"title": "Synchronize (Acoustic Mix)",
+			"genre": 11,
+			"feat": "Aaron Richards",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hellberg-aaron-richards-synchronize-acoustic"
+		}
+		
+	]
+	
+}

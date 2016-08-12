@@ -1,0 +1,29 @@
+{
+	
+	"album_number": "MCEP055",
+	"album_artist": "Rameses B",
+	"album_title": "Dream Catcher EP",
+	"album_artwork_thumb": "https://i.imgur.com/LcAe9x1m.jpg",
+	"album_artwork_full": "https://i.imgur.com/LcAe9x1.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Rameses B",
+			"title": "Dream Catcher",
+			"genre": 1,
+			"feat": "Charlotte Haining",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rameses-b-dream-catcher-feat"
+		},
+
+		{
+			"artist": "Rameses B",
+			"title": "Broken Trust",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rameses-b-broken-trust"
+		}
+
+	]
+	
+}

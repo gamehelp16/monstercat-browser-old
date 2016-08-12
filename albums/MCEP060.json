@@ -1,0 +1,37 @@
+{
+	
+	"album_number": "MCEP060",
+	"album_artist": "Favright",
+	"album_title": "Taking Over (The Remixes)",
+	"album_artwork_thumb": "https://i.imgur.com/0UAQr8Om.jpg",
+	"album_artwork_full": "https://i.imgur.com/0UAQr8O.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Favright",
+			"title": "Taking Over (Grabbitz Remix)",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/favright-grabbitz"
+		},
+
+		{
+			"artist": "Favright",
+			"title": "Taking Over (Synchronice Remix)",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/favright-synchronice"
+		},
+
+		{
+			"artist": "Favright",
+			"title": "Taking Over (SirensCeol Remix)",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/favright-sirensceol"
+		}
+		
+	]
+	
+}

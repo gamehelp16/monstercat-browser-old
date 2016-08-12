@@ -1,0 +1,45 @@
+{
+	
+	"album_number": "MCEP057",
+	"album_artist": "Draper",
+	"album_title": "Perspectives EP",
+	"album_artwork_thumb": "https://i.imgur.com/cI5YXSem.jpg",
+	"album_artwork_full": "https://i.imgur.com/cI5YXSe.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Draper",
+			"title": "Coloured Glass",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/draper-coloured-glass"
+		},
+
+		{
+			"artist": "Draper",
+			"title": "New Rules",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/draper-new-rules"
+		},
+
+		{
+			"artist": "Draper",
+			"title": "Joyride",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/draper-joyride"
+		},
+
+		{
+			"artist": "Draper",
+			"title": "With You",
+			"genre": 2,
+			"feat": "Alby Hobbs",
+			"soundcloud_url": "https://soundcloud.com/monstercat/draper-with-you"
+		}
+
+	]
+	
+}

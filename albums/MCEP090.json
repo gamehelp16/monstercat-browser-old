@@ -1,0 +1,61 @@
+{
+	
+	"album_number": "MCEP090",
+	"album_artist": "Puppet",
+	"album_title": "Soft Spoken EP",
+	"album_artwork_thumb": "https://i.imgur.com/nyEaZPtm.jpg",
+	"album_artwork_full": "https://i.imgur.com/nyEaZPt.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Puppet",
+			"title": "Without Me",
+			"genre": 11,
+			"feat": "EDEN & Telepathics",
+			"soundcloud_url": "https://soundcloud.com/monstercat/puppet-without-me"
+		},
+
+		{
+			"artist": "Puppet",
+			"title": "Soft Spoken",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/puppet-soft-spoken"
+		},
+
+		{
+			"artist": "Puppet & Cormak",
+			"title": "Enough Is Enough",
+			"genre": 6,
+			"feat": "Richard Caddock",
+			"soundcloud_url": "https://soundcloud.com/monstercat/puppet-cormak-enough-is-enough"
+		},
+
+		{
+			"artist": "Puppet & Pierce Fulton",
+			"title": "Boy and the Beast",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pierce-fulton-puppet-boy-and-the-beast"
+		},
+
+		{
+			"artist": "Puppet",
+			"title": "Vagrant",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/puppet-vagrant"
+		},
+
+		{
+			"artist": "Puppet",
+			"title": "Vagabond",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/puppet-vagabond"
+		}
+
+	]
+	
+}

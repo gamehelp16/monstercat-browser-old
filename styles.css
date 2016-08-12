@@ -63,6 +63,7 @@ body {
 	font-size: 31px;
 	letter-spacing: -2px;
 	text-transform: uppercase;
+	width: 340px;
 }
 
 #album-title {
@@ -70,6 +71,7 @@ body {
 	font-size: 24px;
 	letter-spacing: -2.3px;
 	text-transform: uppercase;
+	width: 340px;
 }
 
 #genre-count {

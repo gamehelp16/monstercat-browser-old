@@ -1,0 +1,29 @@
+{
+	
+	"album_number": "MCEP083",
+	"album_artist": "Slips and Slurs",
+	"album_title": "Restless / Vicimus EP",
+	"album_artwork_thumb": "https://i.imgur.com/IlvRR9em.jpg",
+	"album_artwork_full": "https://i.imgur.com/IlvRR9e.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Slips & Slurs",
+			"title": "Restless",
+			"genre": 0,
+			"feat": "Anna Yvette",
+			"soundcloud_url": "https://soundcloud.com/monstercat/slips-slurs-restless"
+		},
+
+		{
+			"artist": "Slips & Slurs",
+			"title": "Vicimus",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/slips-slurs-vicimus"
+		}
+
+	]
+	
+}

@@ -1,0 +1,53 @@
+{
+	
+	"album_number": "MCEP064",
+	"album_artist": "Astronaut & Far Too Loud",
+	"album_title": "Destination: War EP",
+	"album_artwork_thumb": "https://i.imgur.com/mD78D1fm.jpg",
+	"album_artwork_full": "https://i.imgur.com/mD78D1f.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Astronaut & Far Too Loud",
+			"title": "War (Teddy Killerz Remix)",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/war-teddy-killerz-remix"
+		},
+
+		{
+			"artist": "Astronaut & Far Too Loud",
+			"title": "War (F.O.O.L & Didrick Remix)",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/war-fool-didrick-remix"
+		},
+
+		{
+			"artist": "Astronaut & Far Too Loud",
+			"title": "War (Diskord Remix)",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/war-the-frederik-remix"
+		},
+
+		{
+			"artist": "Astronaut & Far Too Loud",
+			"title": "War (The Frederik Remix)",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/war-the-frederik-remix"
+		},
+
+		{
+			"artist": "Astronaut & Far Too Loud",
+			"title": "War (Zuko Remix)",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/war-zuko-remix"
+		}
+
+	]
+	
+}
