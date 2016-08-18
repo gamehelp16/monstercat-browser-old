@@ -1,0 +1,29 @@
+{
+	
+	"album_number": "MCEP046",
+	"album_artist": "7 Minutes Dead",
+	"album_title": "Peacock EP",
+	"album_artwork_thumb": "https://i.imgur.com/WLIA2Lvm.jpg",
+	"album_artwork_full": "https://i.imgur.com/WLIA2Lv.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "7 Minutes Dead",
+			"title": "Peacock",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/7-minutes-dead-peacock"
+		},
+
+		{
+			"artist": "7 Minutes Dead",
+			"title": "Peacock (Haywyre Remix)",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/7-minutes-dead-peacock-haywyre"
+		}
+
+	]
+	
+}

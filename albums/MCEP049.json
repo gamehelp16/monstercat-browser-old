@@ -1,0 +1,37 @@
+{
+	
+	"album_number": "MCEP049",
+	"album_artist": "Direct",
+	"album_title": "Wanna Know You EP",
+	"album_artwork_thumb": "https://i.imgur.com/eN6l8pPm.jpg",
+	"album_artwork_full": "https://i.imgur.com/eN6l8pP.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Direct",
+			"title": "Wanna Know You",
+			"genre": 9,
+			"feat": "Holly Drummond",
+			"soundcloud_url": "https://soundcloud.com/monstercat/direct-wanna-know-you"
+		},
+
+		{
+			"artist": "Direct",
+			"title": "Scars",
+			"genre": 11,
+			"feat": "Devin Santi",
+			"soundcloud_url": "https://soundcloud.com/monstercat/direct-scars-ft-devin-santi"
+		},
+
+		{
+			"artist": "Direct",
+			"title": "False Dawn",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/direct-false-dawn"
+		}
+
+	]
+	
+}

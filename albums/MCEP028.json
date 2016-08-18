@@ -1,0 +1,45 @@
+{
+	
+	"album_number": "MCEP028",
+	"album_artist": "Pegboard Nerds",
+	"album_title": "Guilty Pleasures EP",
+	"album_artwork_thumb": "https://i.imgur.com/acD160Qm.jpg",
+	"album_artwork_full": "https://i.imgur.com/acD160Q.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Pegboard Nerds & Tristam",
+			"title": "Razor Sharp VIP",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-tristam-razor-2"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "High Roller",
+			"genre": 0,
+			"feat": "Splitbreed",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-high-roller"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "How U Feelin'",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-how-u-feelin"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "So What",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-so-what"
+		}
+
+	]
+	
+}

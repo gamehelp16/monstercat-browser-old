@@ -1,0 +1,37 @@
+{
+	
+	"album_number": "MCEP031",
+	"album_artist": "PIXL",
+	"album_title": "Sugar Rush EP",
+	"album_artwork_thumb": "https://i.imgur.com/TOQ1kdfm.jpg",
+	"album_artwork_full": "https://i.imgur.com/TOQ1kdf.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "PIXL",
+			"title": "Sugar Rush",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pixl-sugar-rush"
+		},
+
+		{
+			"artist": "PIXL & Dead Robot",
+			"title": "Dream Of You",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pixl-dead-robot-dream-of-you"
+		},
+
+		{
+			"artist": "PIXL",
+			"title": "Promises",
+			"genre": 9,
+			"feat": "Nessakay",
+			"soundcloud_url": "https://soundcloud.com/monstercat/03-pixl-promises-feat-nessakay"
+		}
+
+	]
+	
+}

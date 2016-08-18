@@ -1,0 +1,29 @@
+{
+	
+	"album_number": "MCEP050",
+	"album_artist": "Noisestorm",
+	"album_title": "Surge EP",
+	"album_artwork_thumb": "https://i.imgur.com/UNNvHahm.jpg",
+	"album_artwork_full": "https://i.imgur.com/UNNvHah.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Noisestorm",
+			"title": "Surge",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/noisestorm-surge-original-mix"
+		},
+
+		{
+			"artist": "Noisestorm",
+			"title": "Surge (Drum & Bass Mix)",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/noisestorm-surge-drum-bass-mix"
+		}
+
+	]
+	
+}

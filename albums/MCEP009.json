@@ -1,0 +1,37 @@
+{
+	
+	"album_number": "MCEP009",
+	"album_artist": "Tut Tut Child",
+	"album_title": "Dance To It EP",
+	"album_artwork_thumb": "https://i.imgur.com/7p3PdTHm.jpg",
+	"album_artwork_full": "https://i.imgur.com/7p3PdTH.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Dance To It",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-dance-to-it"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Dragon Pirates",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-dragon-pirates"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Fat Cat Adventures",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-fat-cat"
+		}
+
+	]
+	
+}

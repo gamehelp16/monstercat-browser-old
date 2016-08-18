@@ -1,0 +1,45 @@
+{
+	
+	"album_number": "MCEP007",
+	"album_artist": "Going Quantum",
+	"album_title": "Hello EP",
+	"album_artwork_thumb": "https://i.imgur.com/sbHPvGfm.jpg",
+	"album_artwork_full": "https://i.imgur.com/sbHPvGf.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Going Quantum",
+			"title": "Hello",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/going-quantum-hello"
+		},
+
+		{
+			"artist": "Going Quantum",
+			"title": "Hello (Centra Remix)",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/going-quantum-hello-centra"
+		},
+
+		{
+			"artist": "Going Quantum",
+			"title": "Hello (Stephen Walking Remix)",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat-tracks/hello-stephen-walking-remix"
+		},
+
+		{
+			"artist": "Going Quantum",
+			"title": "Hello (Ephixa Remix)",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat-tracks/hello-ephixa-remix"
+		}
+
+	]
+	
+}

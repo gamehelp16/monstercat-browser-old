@@ -1,0 +1,69 @@
+{
+	
+	"album_number": "MCEP039",
+	"album_artist": "Hellberg & Deutgen vs. Splitbreed",
+	"album_title": "Collide (The Remixes)",
+	"album_artwork_thumb": "https://i.imgur.com/KVULtiVm.jpg",
+	"album_artwork_full": "https://i.imgur.com/KVULtiV.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Hellberg & Deutgen vs. Splitbreed",
+			"title": "Collide (Astronaut & Barely Alive Remix)",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/collide-astronaut-barely-alive-remix"
+		},
+
+		{
+			"artist": "Hellberg & Deutgen vs. Splitbreed",
+			"title": "Collide (Revolvr Remix)",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/collide-revolvr-remix"
+		},
+
+		{
+			"artist": "Hellberg & Deutgen vs. Splitbreed",
+			"title": "Collide (Stiletto Remix)",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/collide-stiletto-remix"
+		},
+
+		{
+			"artist": "Hellberg & Deutgen vs. Splitbreed",
+			"title": "Collide (Charity Strike Remix)",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/collide-charity-strike-remix"
+		},
+
+		{
+			"artist": "Hellberg & Deutgen vs. Splitbreed",
+			"title": "Collide (Insan3Lik3 Remix)",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/collide-insan3lik3-remix"
+		},
+
+		{
+			"artist": "Hellberg & Deutgen vs. Splitbreed",
+			"title": "Collide (Tut Tut Child Remix)",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/collide-tuttutchild-remix"
+		},
+
+		{
+			"artist": "Hellberg & Deutgen vs. Splitbreed",
+			"title": "Collide (Instrumental Mix)",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/collide-instrumental-mix"
+		}
+
+	]
+	
+}

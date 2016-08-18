@@ -1,0 +1,61 @@
+{
+	
+	"album_number": "MCEP032",
+	"album_artist": "Pegboard Nerds",
+	"album_title": "The Lost Tracks EP",
+	"album_artwork_thumb": "https://i.imgur.com/pLG4j5km.jpg",
+	"album_artwork_full": "https://i.imgur.com/pLG4j5k.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "FrainBreeze",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-frainbreeze"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Close Encounter",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-close-encounter"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "20K",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-20k"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Lawless",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-lawless"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Revenge Of The Nerds (VIP Mix)",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-revenge-of-the"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Rocktronik",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-rocktronik-1"
+		}
+
+	]
+	
+}

@@ -1,0 +1,53 @@
+{
+	
+	"album_number": "MCEP033",
+	"album_artist": "Televisor",
+	"album_title": "Old Skool (The Remixes)",
+	"album_artwork_thumb": "https://i.imgur.com/HfvJiF7m.jpg",
+	"album_artwork_full": "https://i.imgur.com/HfvJiF7.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Televisor",
+			"title": "Old Skool (Nitro Fun Remix)",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/01-televisor-old-skool-nitro"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Old Skool (Fractal Remix)",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/02-televisor-old-skool-fractal"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Old Skool (Alex Mind Remix)",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/03-televisor-old-skool-alex"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Old Skool (Different Heaven Remix)",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/04-televisor-old-skool"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "Old Skool (Aero Chord Remix)",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/05-televisor-old-skool-aero"
+		}
+
+	]
+	
+}

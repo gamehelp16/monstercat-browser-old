@@ -1,0 +1,37 @@
+{
+	
+	"album_number": "MCEP001",
+	"album_artist": "Project 46",
+	"album_title": "Limitless EP",
+	"album_artwork_thumb": "https://i.imgur.com/lDPWNs1m.jpg",
+	"album_artwork_full": "https://i.imgur.com/lDPWNs1.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Project 46 & Gemellini",
+			"title": "Crazy",
+			"genre": 2,
+			"feat": "Corinne Lee",
+			"soundcloud_url": "https://soundcloud.com/monstercat/project-46-gemellini-feat"
+		},
+
+		{
+			"artist": "Project 46",
+			"title": "Limitless",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/project-46-limitless"
+		},
+
+		{
+			"artist": "Project 46",
+			"title": "Slide",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/project-46-slide"
+		}
+
+	]
+	
+}

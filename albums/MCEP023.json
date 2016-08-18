@@ -1,0 +1,29 @@
+{
+	
+	"album_number": "MCEP023",
+	"album_artist": "PIXL",
+	"album_title": "Astrocat EP",
+	"album_artwork_thumb": "https://i.imgur.com/HStGrC3m.jpg",
+	"album_artwork_full": "https://i.imgur.com/HStGrC3.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "PIXL",
+			"title": "Astrocat",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pixl-astrocat"
+		},
+
+		{
+			"artist": "PIXL",
+			"title": "Galactic Voyage",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pixl-galactic-voyage"
+		}
+
+	]
+	
+}

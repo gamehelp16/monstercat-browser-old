@@ -1,0 +1,53 @@
+{
+	
+	"album_number": "MCEP015",
+	"album_artist": "TwoThirds",
+	"album_title": "Waking Dreams EP",
+	"album_artwork_thumb": "https://i.imgur.com/OmyQ80Sm.jpg",
+	"album_artwork_full": "https://i.imgur.com/OmyQ80S.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "TwoThirds",
+			"title": "Waking Dreams",
+			"genre": 2,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "https://soundcloud.com/monstercat/twothirds-waking-dreams-feat-1"
+		},
+
+		{
+			"artist": "TwoThirds",
+			"title": "Waking Dreams (Drum & Bass VIP)",
+			"genre": 1,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "https://soundcloud.com/monstercat/twothirds-waking-dreams-feat-2"
+		},
+
+		{
+			"artist": "TwoThirds",
+			"title": "Waking Dreams (Insan3Lik3 Remix)",
+			"genre": 6,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "https://soundcloud.com/monstercat/twothirds-waking-dreams-feat-3"
+		},
+
+		{
+			"artist": "TwoThirds",
+			"title": "Waking Dreams (Hellberg Remix)",
+			"genre": 2,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "https://soundcloud.com/monstercat/twothirds-waking-dreams-feat-4"
+		},
+
+		{
+			"artist": "TwoThirds",
+			"title": "Waking Dreams (Soulero Remix)",
+			"genre": 2,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "https://soundcloud.com/monstercat/twothirds-waking-dreams-feat-5"
+		}
+
+	]
+	
+}

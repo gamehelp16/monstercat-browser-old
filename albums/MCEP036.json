@@ -1,0 +1,45 @@
+{
+	
+	"album_number": "MCEP036",
+	"album_artist": "Rameses B",
+	"album_title": "Timeless EP",
+	"album_artwork_thumb": "https://i.imgur.com/uwZ7H0Bm.jpg",
+	"album_artwork_full": "https://i.imgur.com/uwZ7H0B.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Rameses B",
+			"title": "Underwater",
+			"genre": 9,
+			"feat": "Meron Ryan",
+			"soundcloud_url": "https://soundcloud.com/monstercat/01-rameses-b-ft-meron-ryan"
+		},
+
+		{
+			"artist": "Rameses B",
+			"title": "Serenity",
+			"genre": 10,
+			"feat": "Charlotte Haining",
+			"soundcloud_url": "https://soundcloud.com/monstercat/02-rameses-b-ft-charlotte"
+		},
+
+		{
+			"artist": "Rameses B",
+			"title": "Timeless",
+			"genre": 1,
+			"feat": "Veela",
+			"soundcloud_url": "https://soundcloud.com/monstercat/03-rameses-b-ft-veela-timeless"
+		},
+
+		{
+			"artist": "Rameses B",
+			"title": "Never Forget",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/04-rameses-b-never-forget"
+		}
+
+	]
+	
+}

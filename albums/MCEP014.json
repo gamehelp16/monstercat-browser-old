@@ -1,0 +1,29 @@
+{
+	
+	"album_number": "MCEP014",
+	"album_artist": "Muzzy",
+	"album_title": "Letz Rock EP",
+	"album_artwork_thumb": "https://i.imgur.com/ViVp1jhm.jpg",
+	"album_artwork_full": "https://i.imgur.com/ViVp1jh.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Muzzy",
+			"title": "Letz Rock",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-letz-rock"
+		},
+
+		{
+			"artist": "Muzzy & Roniit",
+			"title": "Pegasus",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-roniit-pegasus"
+		}
+
+	]
+	
+}

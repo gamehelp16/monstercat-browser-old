@@ -1,0 +1,45 @@
+{
+	
+	"album_number": "MCEP022",
+	"album_artist": "7 Minutes Dead",
+	"album_title": "7 Minutes Dead EP",
+	"album_artwork_thumb": "https://i.imgur.com/BziqJCQm.jpg",
+	"album_artwork_full": "https://i.imgur.com/BziqJCQ.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "7 Minutes Dead",
+			"title": "Sidewinder",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/7-minutes-dead-sidewinder"
+		},
+
+		{
+			"artist": "7 Minutes Dead",
+			"title": "The Follower",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/7-minutes-dead-the-follower"
+		},
+
+		{
+			"artist": "7 Minutes Dead",
+			"title": "The Passing",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/7-minutes-dead-the-passing"
+		},
+
+		{
+			"artist": "7 Minutes Dead",
+			"title": "Free",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/7-minutes-dead-free"
+		}
+
+	]
+	
+}

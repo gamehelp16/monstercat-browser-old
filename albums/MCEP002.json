@@ -1,0 +1,53 @@
+{
+	
+	"album_number": "MCEP002",
+	"album_artist": "Stephen Walking",
+	"album_title": "Christian The Lion EP",
+	"album_artwork_thumb": "https://i.imgur.com/382dk6im.jpg",
+	"album_artwork_full": "https://i.imgur.com/382dk6i.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Astronaut Funk",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-astronaut-funk"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Strong Arm",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-strong-arm"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Knuckles and Broken Goggles",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-knuckles-and"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Supercool!",
+			"genre": 6,
+			"feat": "CoMa",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-supercool-feat"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Winter",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-winter"
+		}
+
+	]
+	
+}

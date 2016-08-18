@@ -1,0 +1,37 @@
+{
+	
+	"album_number": "MCEP010",
+	"album_artist": "Chris Ramos",
+	"album_title": "Emergency EP",
+	"album_artwork_thumb": "https://i.imgur.com/CYHXVaZm.jpg",
+	"album_artwork_full": "https://i.imgur.com/CYHXVaZ.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Chris Ramos",
+			"title": "Emergency",
+			"genre": 2,
+			"feat": "Natasha Waterman",
+			"soundcloud_url": "https://soundcloud.com/monstercat/chris-ramos-emergency"
+		},
+
+		{
+			"artist": "Chris Ramos",
+			"title": "Emergency (Instrumental Mix)",
+			"genre": 2,
+			"feat": "Natasha Waterman",
+			"soundcloud_url": "https://soundcloud.com/monstercat-tracks/emergency-instrumental-mix"
+		},
+
+		{
+			"artist": "Chris Ramos",
+			"title": "Emergency (Radio Edit)",
+			"genre": 2,
+			"feat": "Natasha Waterman",
+			"soundcloud_url": "https://soundcloud.com/monstercat-tracks/emergency-radio-edit"
+		}
+
+	]
+	
+}

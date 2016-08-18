@@ -1,0 +1,37 @@
+{
+	
+	"album_number": "MCEP029",
+	"album_artist": "Tut Tut Child",
+	"album_title": "Impossible Things Before Breakfast EP",
+	"album_artwork_thumb": "https://i.imgur.com/kVaNFQLm.jpg",
+	"album_artwork_full": "https://i.imgur.com/kVaNFQL.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Eye Of The Storm",
+			"genre": 3,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-eye-of-the-storm"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Gravity",
+			"genre": 9,
+			"feat": "Isabel Higuero",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-gravity-feat"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Barghest",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-barghest"
+		}
+
+	]
+	
+}

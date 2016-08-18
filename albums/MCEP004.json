@@ -1,0 +1,61 @@
+{
+	
+	"album_number": "MCEP004",
+	"album_artist": "Tristam",
+	"album_title": "Smashing Newbs EP",
+	"album_artwork_thumb": "https://i.imgur.com/fWQ4usim.jpg",
+	"album_artwork_full": "https://i.imgur.com/fWQ4usi.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Tristam & Rogue",
+			"title": "Pushed Away",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-rogue-pushed-away"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Guardian",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat-tracks/tristam-guardian"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Young And Free",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat-tracks/tristam-young-and-free"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Blood Money",
+			"genre": 9,
+			"feat": "Clean Kill",
+			"soundcloud_url": "https://soundcloud.com/monstercat-tracks/tristam-blood-money"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Hawkling Street",
+			"genre": 9,
+			"feat": "Miggel",
+			"soundcloud_url": "https://soundcloud.com/monstercat-tracks/tristam-hawkling-street"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "You Clearly Let It Show",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat-tracks/tristam-you-clearly-let-it-show"
+		}
+
+	]
+	
+}

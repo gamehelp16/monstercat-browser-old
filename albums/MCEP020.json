@@ -1,0 +1,45 @@
+{
+	
+	"album_number": "MCEP020",
+	"album_artist": "Pegboard Nerds",
+	"album_title": "We Are One EP",
+	"album_artwork_thumb": "https://i.imgur.com/zZSU9TMm.jpg",
+	"album_artwork_full": "https://i.imgur.com/zZSU9TM.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "We Are One (Original Vocal Mix)",
+			"genre": 5,
+			"feat": "Splitbreed",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-ft-splitbreed"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "We Are One (Original Mix)",
+			"genre": 5,
+			"feat": "Splitbreed",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-ft-splitbreed-1"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "We Are One (Original Radio Edit)",
+			"genre": 5,
+			"feat": "Splitbreed",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-ft-splitbreed-2"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "We Are One (Acapella)",
+			"genre": 11,
+			"feat": "Splitbreed",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-ft-splitbreed-3"
+		}
+
+	]
+	
+}

@@ -1,0 +1,45 @@
+{
+	
+	"album_number": "MCEP013",
+	"album_artist": "Droptek",
+	"album_title": "Polygon EP",
+	"album_artwork_thumb": "https://i.imgur.com/txb4gjkm.jpg",
+	"album_artwork_full": "https://i.imgur.com/txb4gjk.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Droptek",
+			"title": "Polygon",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/droptek-polygon"
+		},
+
+		{
+			"artist": "Droptek",
+			"title": "Madness",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/droptek-madness"
+		},
+
+		{
+			"artist": "Droptek",
+			"title": "Night Bus",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/droptek-night-bus"
+		},
+
+		{
+			"artist": "Droptek",
+			"title": "Vice",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/droptek-vice"
+		}
+
+	]
+	
+}

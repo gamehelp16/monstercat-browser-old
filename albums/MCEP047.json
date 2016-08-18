@@ -1,0 +1,61 @@
+{
+	
+	"album_number": "MCEP047",
+	"album_artist": "Astronaut",
+	"album_title": "Destination: Rain EP",
+	"album_artwork_thumb": "https://i.imgur.com/Z9oVCiem.jpg",
+	"album_artwork_full": "https://i.imgur.com/Z9oVCie.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Astronaut",
+			"title": "Rain (MitiS Remix)",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-rain-mitis-remix"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Rain (Calvertron Remix)",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-rain-calvertron"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Rain (Stephen Walking Remix)",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-rain-stephen-walking"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Rain (Raise Spirit Remix)",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-rain-raise-spirit"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Rain (Centron Remix)",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-rain-centron-remix"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Rain (DFlent Remix)",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-rain-dflent-remix"
+		}
+
+	]
+	
+}

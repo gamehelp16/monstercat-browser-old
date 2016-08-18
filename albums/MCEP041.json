@@ -1,0 +1,45 @@
+{
+	
+	"album_number": "MCEP041",
+	"album_artist": "Au5 & Fractal",
+	"album_title": "Secret Weapon EP",
+	"album_artwork_thumb": "https://i.imgur.com/SM1Eh3im.jpg",
+	"album_artwork_full": "https://i.imgur.com/SM1Eh3i.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Au5 & Fractal",
+			"title": "Blue",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/au5-fractal-blue"
+		},
+
+		{
+			"artist": "Au5 & Fractal",
+			"title": "Dreaming",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/au5-fractal-dreaming"
+		},
+
+		{
+			"artist": "Au5 & Fractal",
+			"title": "Secret Weapon",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/au5-fractal-secret-weapon"
+		},
+
+		{
+			"artist": "Au5 & Fractal",
+			"title": "Smoke",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/au5-fractal-smoke"
+		}
+
+	]
+	
+}

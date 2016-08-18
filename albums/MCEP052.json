@@ -1,0 +1,45 @@
+{
+	
+	"album_number": "MCEP052",
+	"album_artist": "SCNDL",
+	"album_title": "The Munsta (The Remixes)",
+	"album_artwork_thumb": "https://i.imgur.com/z8mwaCwm.jpg",
+	"album_artwork_full": "https://i.imgur.com/z8mwaCw.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "SCNDL",
+			"title": "The Munsta (Aero Chord Remix)",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/scndl-the-munsta-aero-chord"
+		},
+
+		{
+			"artist": "SCNDL",
+			"title": "The Munsta (Nitro Fun Remix)",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/scndl-the-munsta-nitro-fun"
+		},
+
+		{
+			"artist": "SCNDL",
+			"title": "The Munsta (AlphavibeZ Remix)",
+			"genre": 4,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/scndl-the-munsta-alphavibez"
+		},
+
+		{
+			"artist": "SCNDL",
+			"title": "The Munsta (Aaron Jackson Remix)",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/scndl-the-munsta-aaron-jackson"
+		}
+
+	]
+	
+}

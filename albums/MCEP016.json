@@ -1,0 +1,61 @@
+{
+	
+	"album_number": "MCEP016",
+	"album_artist": "Tut Tut Child",
+	"album_title": "We're All Mad Here EP",
+	"album_artwork_thumb": "https://i.imgur.com/p3jFj95m.jpg",
+	"album_artwork_full": "https://i.imgur.com/p3jFj95.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Singularity",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-singularity"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Alive",
+			"genre": 1,
+			"feat": "Emily Underhill",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-alive-feat-emily"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Card Shark",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-card-shark"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Made It For Me",
+			"genre": 3,
+			"feat": "Kendall Morgan",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-made-it-for-me"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "Yockenthwaite",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-yockenthwaite"
+		},
+
+		{
+			"artist": "Tut Tut Child",
+			"title": "A Jester Affair",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tut-tut-child-a-jester-affair"
+		}
+
+	]
+	
+}

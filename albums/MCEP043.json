@@ -1,0 +1,37 @@
+{
+	
+	"album_number": "MCEP043",
+	"album_artist": "Astronaut",
+	"album_title": "Quantum EP",
+	"album_artwork_thumb": "https://i.imgur.com/AkrAln3m.jpg",
+	"album_artwork_full": "https://i.imgur.com/AkrAln3.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Astronaut",
+			"title": "Quantum",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/1-astronaut-quantum"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Rain",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/2-astronaut-rain"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Rain (MitiS Remix)",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/3-astronaut-rain-mitis-remix"
+		}
+
+	]
+	
+}

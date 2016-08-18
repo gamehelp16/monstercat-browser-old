@@ -264,11 +264,291 @@ var albumData = {
 	"eps": [
 	
 		{
+			"album_number": "MCEP001",
+			"album_artist": "Project 46",
+			"album_title": "Limitless EP",
+			"album_artwork_thumb": "https://i.imgur.com/lDPWNs1m.jpg",
+			"album_artwork_full": "https://i.imgur.com/lDPWNs1.jpg"
+		},
+
+		{
+			"album_number": "MCEP002",
+			"album_artist": "Stephen Walking",
+			"album_title": "Christian The Lion EP",
+			"album_artwork_thumb": "https://i.imgur.com/382dk6im.jpg",
+			"album_artwork_full": "https://i.imgur.com/382dk6i.jpg"
+		},
+
+		{
+			"album_number": "MCEP003",
+			"album_artist": "Mr FijiWiji",
+			"album_title": "Keeping It Surreal EP",
+			"album_artwork_thumb": "https://i.imgur.com/nmwhuGAm.jpg",
+			"album_artwork_full": "https://i.imgur.com/nmwhuGA.jpg"
+		},
+
+		{
+			"album_number": "MCEP004",
+			"album_artist": "Tristam",
+			"album_title": "Smashing Newbs EP",
+			"album_artwork_thumb": "https://i.imgur.com/fWQ4usim.jpg",
+			"album_artwork_full": "https://i.imgur.com/fWQ4usi.jpg"
+		},
+
+		{
+			"album_number": "MCEP005",
+			"album_artist": "Noisestorm",
+			"album_title": "Renegade EP",
+			"album_artwork_thumb": "https://i.imgur.com/23yWw70m.jpg",
+			"album_artwork_full": "https://i.imgur.com/23yWw70.jpg"
+		},
+
+		{
+			"album_number": "MCEP006",
+			"album_artist": "1uP",
+			"album_title": "Thundergun EP",
+			"album_artwork_thumb": "https://i.imgur.com/qWj1Bzum.jpg",
+			"album_artwork_full": "https://i.imgur.com/qWj1Bzu.jpg"
+		},
+
+		{
+			"album_number": "MCEP007",
+			"album_artist": "Going Quantum",
+			"album_title": "Hello EP",
+			"album_artwork_thumb": "https://i.imgur.com/sbHPvGfm.jpg",
+			"album_artwork_full": "https://i.imgur.com/sbHPvGf.jpg"
+		},
+
+		{
+			"album_number": "MCEP008",
+			"album_artist": "Rogue & Tristam",
+			"album_title": "Catalyst EP",
+			"album_artwork_thumb": "https://i.imgur.com/7hesc6cm.jpg",
+			"album_artwork_full": "https://i.imgur.com/7hesc6c.jpg"
+		},
+
+		{
+			"album_number": "MCEP009",
+			"album_artist": "Tut Tut Child",
+			"album_title": "Dance To It EP",
+			"album_artwork_thumb": "https://i.imgur.com/7p3PdTHm.jpg",
+			"album_artwork_full": "https://i.imgur.com/7p3PdTH.jpg"
+		},
+
+		{
+			"album_number": "MCEP010",
+			"album_artist": "Chris Ramos",
+			"album_title": "Emergency EP",
+			"album_artwork_thumb": "https://i.imgur.com/CYHXVaZm.jpg",
+			"album_artwork_full": "https://i.imgur.com/CYHXVaZ.jpg"
+		},
+
+		{
+			"album_number": "MCEP011",
+			"album_artist": "DotEXE",
+			"album_title": "Hipster Cutthroat EP",
+			"album_artwork_thumb": "https://i.imgur.com/igPh4HEm.jpg",
+			"album_artwork_full": "https://i.imgur.com/igPh4HE.jpg"
+		},
+
+		{
+			"album_number": "MCEP012",
+			"album_artist": "TVDS",
+			"album_title": "Black Sky EP",
+			"album_artwork_thumb": "https://i.imgur.com/zFf5hEQm.png",
+			"album_artwork_full": "https://i.imgur.com/zFf5hEQ.png"
+		},
+
+		{
+			"album_number": "MCEP013",
+			"album_artist": "Droptek",
+			"album_title": "Polygon EP",
+			"album_artwork_thumb": "https://i.imgur.com/txb4gjkm.jpg",
+			"album_artwork_full": "https://i.imgur.com/txb4gjk.jpg"
+		},
+
+		{
+			"album_number": "MCEP014",
+			"album_artist": "Muzzy",
+			"album_title": "Letz Rock EP",
+			"album_artwork_thumb": "https://i.imgur.com/ViVp1jhm.jpg",
+			"album_artwork_full": "https://i.imgur.com/ViVp1jh.jpg"
+		},
+
+		{
+			"album_number": "MCEP015",
+			"album_artist": "TwoThirds",
+			"album_title": "Waking Dreams EP",
+			"album_artwork_thumb": "https://i.imgur.com/OmyQ80Sm.jpg",
+			"album_artwork_full": "https://i.imgur.com/OmyQ80S.jpg"
+		},
+
+		{
+			"album_number": "MCEP016",
+			"album_artist": "Tut Tut Child",
+			"album_title": "We're All Mad Here EP",
+			"album_artwork_thumb": "https://i.imgur.com/p3jFj95m.jpg",
+			"album_artwork_full": "https://i.imgur.com/p3jFj95.jpg"
+		},
+
+		{
 			"album_number": "MCEP017",
 			"album_artist": "Rogue",
 			"album_title": "Dreams EP",
 			"album_artwork_thumb": "https://i.imgur.com/8trzVfFm.jpg",
 			"album_artwork_full": "https://i.imgur.com/8trzVfF.jpg"
+		},
+
+		{
+			"album_number": "MCEP018",
+			"album_artist": "Ephixa",
+			"album_title": "Some Wobbles EP",
+			"album_artwork_thumb": "https://i.imgur.com/TLvcNkHm.png",
+			"album_artwork_full": "https://i.imgur.com/TLvcNkH.png"
+		},
+
+		{
+			"album_number": "MCEP019",
+			"album_artist": "TVDS",
+			"album_title": "Another Day EP",
+			"album_artwork_thumb": "https://i.imgur.com/gOYPEUWm.jpg",
+			"album_artwork_full": "https://i.imgur.com/gOYPEUW.jpg"
+		},
+
+		{
+			"album_number": "MCEP020",
+			"album_artist": "Pegboard Nerds",
+			"album_title": "We Are One EP",
+			"album_artwork_thumb": "https://i.imgur.com/zZSU9TMm.jpg",
+			"album_artwork_full": "https://i.imgur.com/zZSU9TM.jpg"
+		},
+
+		{
+			"album_number": "MCEP021",
+			"album_artist": "Stereotronique & Sebastian Ivarsson",
+			"album_title": "Tonight (The Remixes)",
+			"album_artwork_thumb": "https://i.imgur.com/uzZWOMCm.jpg",
+			"album_artwork_full": "https://i.imgur.com/uzZWOMC.jpg"
+		},
+
+		{
+			"album_number": "MCEP022",
+			"album_artist": "7 Minutes Dead",
+			"album_title": "7 Minutes Dead EP",
+			"album_artwork_thumb": "https://i.imgur.com/BziqJCQm.jpg",
+			"album_artwork_full": "https://i.imgur.com/BziqJCQ.jpg"
+		},
+
+		{
+			"album_number": "MCEP023",
+			"album_artist": "PIXL",
+			"album_title": "Astrocat EP",
+			"album_artwork_thumb": "https://i.imgur.com/HStGrC3m.jpg",
+			"album_artwork_full": "https://i.imgur.com/HStGrC3.jpg"
+		},
+
+		{
+			"album_number": "MCEP024",
+			"album_artist": "Vicetone",
+			"album_title": "Heartbeat (The Remixes)",
+			"album_artwork_thumb": "https://i.imgur.com/TmB9PqXm.jpg",
+			"album_artwork_full": "https://i.imgur.com/TmB9PqX.jpg"
+		},
+
+		{
+			"album_number": "MCEP025",
+			"album_artist": "Project 46",
+			"album_title": "Continuum EP",
+			"album_artwork_thumb": "https://i.imgur.com/cgea4Umm.jpg",
+			"album_artwork_full": "https://i.imgur.com/cgea4Um.jpg"
+		},
+
+		{
+			"album_number": "MCEP026",
+			"album_artist": "Tristam",
+			"album_title": "Truth (The Remixes)",
+			"album_artwork_thumb": "https://i.imgur.com/Q9yWC8ym.jpg",
+			"album_artwork_full": "https://i.imgur.com/Q9yWC8y.jpg"
+		},
+
+		{
+			"album_number": "MCEP027",
+			"album_artist": "Falcon Funk",
+			"album_title": "Falcon Funk EP",
+			"album_artwork_thumb": "https://i.imgur.com/LcsM4Sim.jpg",
+			"album_artwork_full": "https://i.imgur.com/LcsM4Si.jpg"
+		},
+
+		{
+			"album_number": "MCEP028",
+			"album_artist": "Pegboard Nerds",
+			"album_title": "Guilty Pleasures EP",
+			"album_artwork_thumb": "https://i.imgur.com/acD160Qm.jpg",
+			"album_artwork_full": "https://i.imgur.com/acD160Q.jpg"
+		},
+
+		{
+			"album_number": "MCEP029",
+			"album_artist": "Tut Tut Child",
+			"album_title": "Impossible Things Before Breakfast EP",
+			"album_artwork_thumb": "https://i.imgur.com/kVaNFQLm.jpg",
+			"album_artwork_full": "https://i.imgur.com/kVaNFQL.jpg"
+		},
+
+		{
+			"album_number": "MCEP030",
+			"album_artist": "Au5",
+			"album_title": "Blossom EP",
+			"album_artwork_thumb": "https://i.imgur.com/20O33Omm.jpg",
+			"album_artwork_full": "https://i.imgur.com/20O33Om.jpg"
+		},
+
+		{
+			"album_number": "MCEP031",
+			"album_artist": "PIXL",
+			"album_title": "Sugar Rush EP",
+			"album_artwork_thumb": "https://i.imgur.com/TOQ1kdfm.jpg",
+			"album_artwork_full": "https://i.imgur.com/TOQ1kdf.jpg"
+		},
+
+		{
+			"album_number": "MCEP032",
+			"album_artist": "Pegboard Nerds",
+			"album_title": "The Lost Tracks EP",
+			"album_artwork_thumb": "https://i.imgur.com/pLG4j5km.jpg",
+			"album_artwork_full": "https://i.imgur.com/pLG4j5k.jpg"
+		},
+
+		{
+			"album_number": "MCEP033",
+			"album_artist": "Televisor",
+			"album_title": "Old Skool (The Remixes)",
+			"album_artwork_thumb": "https://i.imgur.com/HfvJiF7m.jpg",
+			"album_artwork_full": "https://i.imgur.com/HfvJiF7.jpg"
+		},
+
+		{
+			"album_number": "MCEP034",
+			"album_artist": "Protostar",
+			"album_title": "Scorpion Pit (The Remixes)",
+			"album_artwork_thumb": "https://i.imgur.com/xU2C6ibm.jpg",
+			"album_artwork_full": "https://i.imgur.com/xU2C6ib.jpg"
+		},
+
+		{
+			"album_number": "MCEP035",
+			"album_artist": "Mr FijiWji",
+			"album_title": "Friends EP",
+			"album_artwork_thumb": "https://i.imgur.com/YF9oHbJm.jpg",
+			"album_artwork_full": "https://i.imgur.com/YF9oHbJ.jpg"
+		},
+
+		{
+			"album_number": "MCEP036",
+			"album_artist": "Rameses B",
+			"album_title": "Timeless EP",
+			"album_artwork_thumb": "https://i.imgur.com/uwZ7H0Bm.jpg",
+			"album_artwork_full": "https://i.imgur.com/uwZ7H0B.jpg"
 		},
 
 		{
@@ -280,6 +560,38 @@ var albumData = {
 		},
 
 		{
+			"album_number": "MCEP038",
+			"album_artist": "Rogue",
+			"album_title": "Earth EP",
+			"album_artwork_thumb": "https://i.imgur.com/gZgEYgSm.jpg",
+			"album_artwork_full": "https://i.imgur.com/gZgEYgS.jpg"
+		},
+
+		{
+			"album_number": "MCEP039",
+			"album_artist": "Hellberg & Deutgen vs. Splitbreed",
+			"album_title": "Collide (The Remixes)",
+			"album_artwork_thumb": "https://i.imgur.com/KVULtiVm.jpg",
+			"album_artwork_full": "https://i.imgur.com/KVULtiV.jpg"
+		},
+
+		{
+			"album_number": "MCEP040",
+			"album_artist": "Fractal",
+			"album_title": "Elements EP",
+			"album_artwork_thumb": "https://i.imgur.com/ZmQkCSXm.jpg",
+			"album_artwork_full": "https://i.imgur.com/ZmQkCSX.jpg"
+		},
+
+		{
+			"album_number": "MCEP041",
+			"album_artist": "Au5 & Fractal",
+			"album_title": "Secret Weapon EP",
+			"album_artwork_thumb": "https://i.imgur.com/SM1Eh3im.jpg",
+			"album_artwork_full": "https://i.imgur.com/SM1Eh3i.jpg"
+		},
+
+		{
 			"album_number": "MCEP042",
 			"album_artist": "Astronaut",
 			"album_title": "Destination: Apollo EP",
@@ -288,11 +600,83 @@ var albumData = {
 		},
 
 		{
+			"album_number": "MCEP043",
+			"album_artist": "Astronaut",
+			"album_title": "Quantum EP",
+			"album_artwork_thumb": "https://i.imgur.com/AkrAln3m.jpg",
+			"album_artwork_full": "https://i.imgur.com/AkrAln3.jpg"
+		},
+
+		{
 			"album_number": "MCEP044",
+			"album_artist": "Fractal",
+			"album_title": "Spection EP",
+			"album_artwork_thumb": "https://i.imgur.com/oFsDaXGm.jpg",
+			"album_artwork_full": "https://i.imgur.com/oFsDaXG.jpg"
+		},
+
+		{
+			"album_number": "MCEP045",
 			"album_artist": "Rezonate",
 			"album_title": "Prelude EP",
 			"album_artwork_thumb": "https://i.imgur.com/6Y8Qo8Lm.jpg",
 			"album_artwork_full": "https://i.imgur.com/6Y8Qo8L.jpg"
+		},
+
+		{
+			"album_number": "MCEP046",
+			"album_artist": "7 Minutes Dead",
+			"album_title": "Peacock EP",
+			"album_artwork_thumb": "https://i.imgur.com/WLIA2Lvm.jpg",
+			"album_artwork_full": "https://i.imgur.com/WLIA2Lv.jpg"
+		},
+
+		{
+			"album_number": "MCEP047",
+			"album_artist": "Astronaut",
+			"album_title": "Destination: Rain EP",
+			"album_artwork_thumb": "https://i.imgur.com/Z9oVCiem.jpg",
+			"album_artwork_full": "https://i.imgur.com/Z9oVCie.jpg"
+		},
+
+		{
+			"album_number": "MCEP048",
+			"album_artist": "Pegboard Nerds",
+			"album_title": "Bassline Kickin (The Remixes)",
+			"album_artwork_thumb": "https://i.imgur.com/d0Wrubbm.jpg",
+			"album_artwork_full": "https://i.imgur.com/d0Wrubb.jpg"
+		},
+
+		{
+			"album_number": "MCEP049",
+			"album_artist": "Direct",
+			"album_title": "Wanna Know You EP",
+			"album_artwork_thumb": "https://i.imgur.com/eN6l8pPm.jpg",
+			"album_artwork_full": "https://i.imgur.com/eN6l8pP.jpg"
+		},
+
+		{
+			"album_number": "MCEP050",
+			"album_artist": "Noisestorm",
+			"album_title": "Surge EP",
+			"album_artwork_thumb": "https://i.imgur.com/UNNvHahm.jpg",
+			"album_artwork_full": "https://i.imgur.com/UNNvHah.jpg"
+		},
+
+		{
+			"album_number": "MCEP051",
+			"album_artist": "Astronaut",
+			"album_title": "Destination: Quantum EP",
+			"album_artwork_thumb": "https://i.imgur.com/9m9wXt4m.jpg",
+			"album_artwork_full": "https://i.imgur.com/9m9wXt4.jpg"
+		},
+
+		{
+			"album_number": "MCEP052",
+			"album_artist": "SCNDL",
+			"album_title": "The Munsta (The Remixes)",
+			"album_artwork_thumb": "https://i.imgur.com/z8mwaCwm.jpg",
+			"album_artwork_full": "https://i.imgur.com/z8mwaCw.jpg"
 		},
 
 		{

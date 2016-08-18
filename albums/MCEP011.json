@@ -1,0 +1,29 @@
+{
+	
+	"album_number": "MCEP011",
+	"album_artist": "DotEXE",
+	"album_title": "Hipster Cutthroat EP",
+	"album_artwork_thumb": "https://i.imgur.com/igPh4HEm.jpg",
+	"album_artwork_full": "https://i.imgur.com/igPh4HE.jpg",
+
+	"tracks": [
+
+        {
+			"artist": "DotEXE",
+			"title": "Hipster Cutthroat",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/dotexe-hipster-cutthroat"
+		},
+
+		{
+			"artist": "DotEXE",
+			"title": "Gibberish",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/dotexe-gibberish"
+		}
+
+	]
+	
+}

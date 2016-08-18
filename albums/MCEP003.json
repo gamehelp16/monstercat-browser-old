@@ -1,0 +1,69 @@
+{
+	
+	"album_number": "MCEP003",
+	"album_artist": "Mr FijiWiji",
+	"album_title": "Keeping It Surreal EP",
+	"album_artwork_thumb": "https://i.imgur.com/nmwhuGAm.jpg",
+	"album_artwork_full": "https://i.imgur.com/nmwhuGA.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Gina",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-gina"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Insecurities",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat-tracks/mr-fijiwiji-insecurities"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Destroying My World 2",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat-tracks/mr-fijiwiji-destroying-my-world-2"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Insomnia",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-insomnia"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Insomnia (F-777 Remix)",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat-tracks/insomnia-f-777-remix"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Insomnia (Niuby Remix)",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat-tracks/insomnia-niuby-remix"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Insomnia (MAKRO Remix)",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat-tracks/insomnia-makro-remix"
+		}
+
+	]
+	
+}

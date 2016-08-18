@@ -1,0 +1,53 @@
+{
+	
+	"album_number": "MCEP021",
+	"album_artist": "Stereotronique & Sebastian Ivarsson",
+	"album_title": "Tonight (The Remixes)",
+	"album_artwork_thumb": "https://i.imgur.com/uzZWOMCm.jpg",
+	"album_artwork_full": "https://i.imgur.com/uzZWOMC.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Stereotronique & Sebastian Ivarsson",
+			"title": "Tonight (Au5 & I.Y.F.F.E)",
+			"genre": 2,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stereotronique-sebastian-1"
+		},
+
+		{
+			"artist": "Stereotronique & Sebastian Ivarsson",
+			"title": "Tonight (CPT Remix)",
+			"genre": 2,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stereotronique-sebastian-2"
+		},
+
+		{
+			"artist": "Stereotronique & Sebastian Ivarsson",
+			"title": "Tonight (Flumer Remix)",
+			"genre": 2,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stereotronique-sebastian-3"
+		},
+
+		{
+			"artist": "Stereotronique & Sebastian Ivarsson",
+			"title": "Tonight (Lush & Simon Remix)",
+			"genre": 2,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stereotronique-sebastian-4"
+		},
+
+		{
+			"artist": "Stereotronique & Sebastian Ivarsson",
+			"title": "Tonight",
+			"genre": 2,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stereotronique-sebastian-5"
+		}
+
+	]
+	
+}

@@ -1,0 +1,29 @@
+{
+	
+	"album_number": "MCEP018",
+	"album_artist": "Ephixa",
+	"album_title": "Some Wobbles EP",
+	"album_artwork_thumb": "https://i.imgur.com/TLvcNkHm.png",
+	"album_artwork_full": "https://i.imgur.com/TLvcNkH.png",
+
+	"tracks": [
+
+        {
+			"artist": "Ephixa",
+			"title": "Some Wobbles",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/ephixa-some-wobbles"
+		},
+
+		{
+			"artist": "Ephixa",
+			"title": "Some Wobbles (Noisestorm Remix)",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat-tracks/some-wobbles-noisestorm-remix"
+		}
+
+	]
+	
+}

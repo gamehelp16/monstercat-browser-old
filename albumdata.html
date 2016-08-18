@@ -23,6 +23,7 @@
 			document.getElementById("z").innerHTML += '{\n\t"album_number": "'+result.album_number+'",\n\t"album_artist": "'+result.album_artist+'",\n\t"album_title": "'+result.album_title+'",\n\t"album_artwork_thumb": "'+result.album_artwork_thumb+'",\n\t"album_artwork_full": "'+result.album_artwork_full+'"\n},\n\n';
 			
 			var num2 = parseInt(num.replace(/MC(L|E)P/g, ""));
+			document.title = result.album_number;
 			if(num2 < before && !wrong) alert('Wrong positioning!'), wrong = true;
 			before = num2;
 		};
@@ -30,13 +31,19 @@
 		request.send();
 	}
 	
-	availableEPs = ["MCEP017", "MCEP037", "MCEP042", "MCEP044", "MCEP054", "MCEP055", "MCEP056", "MCEP057", "MCEP058", "MCEP059", "MCEP060", "MCEP061", "MCEP062", "MCEP063", "MCEP064", "MCEP065", "MCEP066", "MCEP067", "MCEP069", "MCEP070", "MCEP071", "MCEP072", "MCEP073", "MCEP074", "MCEP075", "MCEP076", "MCEP077", "MCEP079", "MCEP080", "MCEP082", "MCEP083", "MCEP084", "MCEP086", "MCEP087", "MCEP088", "MCEP090", "MCEP091", "MCEP092", "MCEP093", "MCEP094", "MCEP096", "MCEP097", "MCEP099"];
+	availableEPs = ["MCEP001", "MCEP002", "MCEP003", "MCEP004", "MCEP005", "MCEP006", "MCEP007", "MCEP008", "MCEP009", "MCEP010", "MCEP011", "MCEP012", "MCEP013", "MCEP014", "MCEP015", "MCEP016", "MCEP017", "MCEP018", "MCEP019", "MCEP020", "MCEP021", "MCEP022", "MCEP023", "MCEP024", "MCEP025", "MCEP026", "MCEP027", "MCEP028", "MCEP029", "MCEP030", "MCEP031", "MCEP032", "MCEP033", "MCEP034", "MCEP035", "MCEP036", "MCEP037", "MCEP038", "MCEP039", "MCEP040", "MCEP041", "MCEP042", "MCEP043", "MCEP044", "MCEP045", "MCEP046", "MCEP047", "MCEP048", "MCEP049", "MCEP050", "MCEP051", "MCEP052", "MCEP054", "MCEP055", "MCEP056", "MCEP057", "MCEP058", "MCEP059", "MCEP060", "MCEP061", "MCEP062", "MCEP063", "MCEP064", "MCEP065", "MCEP066", "MCEP067", "MCEP069", "MCEP070", "MCEP071", "MCEP072", "MCEP073", "MCEP074", "MCEP075", "MCEP076", "MCEP077", "MCEP079", "MCEP080", "MCEP082", "MCEP083", "MCEP084", "MCEP086", "MCEP087", "MCEP088", "MCEP090", "MCEP091", "MCEP092", "MCEP093", "MCEP094", "MCEP096", "MCEP097", "MCEP099"]
 	before = 0;
 	wrong = false;
 	for(var i=0;i<availableEPs.length;i++) {
-		asd(availableEPs[i]);
+		dsa(i);
+	}
+	
+	function dsa(i) {
+		setTimeout(function(){asd(availableEPs[i]);},100*i);
 	}
 	</script-->
+	
+	<h1>It looks like everything's good for now, there's no more help needed to add some albums.</h1>
 	
 	Contributing an album data to the site is actually quite simple, simply PM me at <a href="https://www.reddit.com/user/gamehelp16/" target="_blank">/u/gamehelp16</a> and include the needed information:<br><br>
 	

@@ -1,0 +1,45 @@
+{
+	
+	"album_number": "MCEP034",
+	"album_artist": "Protostar",
+	"album_title": "Scorpion Pit (The Remixes)",
+	"album_artwork_thumb": "https://i.imgur.com/xU2C6ibm.jpg",
+	"album_artwork_full": "https://i.imgur.com/xU2C6ib.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Protostar",
+			"title": "Scorpion Pit (VIP Mix)",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/01-scorpion-pit-vip-mix"
+		},
+
+		{
+			"artist": "Protostar",
+			"title": "Scorpion Pit (Disprove Remix)",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/02-scorpion-pit-disprove-remix"
+		},
+
+		{
+			"artist": "Protostar",
+			"title": "Scorpion Pit (Audeka Remix)",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/03-scorpion-pit-audeka-remix"
+		},
+
+		{
+			"artist": "Protostar",
+			"title": "Scorpion Pit (Mandorli Remix)",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/04-scorpion-pit-mandorli-remix"
+		}
+
+	]
+	
+}

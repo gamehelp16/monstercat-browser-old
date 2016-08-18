@@ -1,0 +1,45 @@
+{
+	
+	"album_number": "MCEP038",
+	"album_artist": "Rogue",
+	"album_title": "Earth EP",
+	"album_artwork_thumb": "https://i.imgur.com/gZgEYgSm.jpg",
+	"album_artwork_full": "https://i.imgur.com/gZgEYgS.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Rogue",
+			"title": "From The Dust",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-from-the-dust"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Cataclysm",
+			"genre": 5,
+			"feat": "Meg Dean",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-cataclysm-feat-meg-dean"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Perfect Views",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-perfect-views"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Through The Dark",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-through-the-dark"
+		}
+
+	]
+	
+}

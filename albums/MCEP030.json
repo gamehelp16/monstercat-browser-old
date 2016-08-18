@@ -1,0 +1,29 @@
+{
+	
+	"album_number": "MCEP030",
+	"album_artist": "Au5",
+	"album_title": "Blossom EP",
+	"album_artwork_thumb": "https://i.imgur.com/20O33Omm.jpg",
+	"album_artwork_full": "https://i.imgur.com/20O33Om.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Au5",
+			"title": "Blossom",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/au5-blossom"
+		},
+
+		{
+			"artist": "Au5",
+			"title": "Moonland",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/au5-moonland"
+		}
+
+	]
+	
+}

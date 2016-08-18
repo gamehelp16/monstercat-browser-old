@@ -1,0 +1,61 @@
+{
+	
+	"album_number": "MCEP026",
+	"album_artist": "Tristam",
+	"album_title": "Truth (The Remixes)",
+	"album_artwork_thumb": "https://i.imgur.com/Q9yWC8ym.jpg",
+	"album_artwork_full": "https://i.imgur.com/Q9yWC8y.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Tristam",
+			"title": "Truth (Candyland Remix)",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-truth-candyland-remix"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Truth (Dabin Remix)",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-truth-dabin-remix"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Truth (xKore Remix)",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-truth-xkore-remix"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Truth (Filtercrush Remix)",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-truth-filtercrush"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Truth (Anna Yvette Remix)",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-truth-anna-yvette"
+		},
+
+		{
+			"artist": "Tristam",
+			"title": "Truth (The Dirty Tees Remix)",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-truth-the-dirty-tees"
+		}
+
+	]
+	
+}

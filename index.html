@@ -76,7 +76,7 @@
 		<div class="banner-padding"></div>
 		<div id="ep-grid" class="grid"></div>
 		<div style="clear:both"></div>
-		<div style="color:#aaa;text-align:center;">Not all EPs are listed here yet, you can <a href="albumdata.html" target="_blank" style="text-decoration:underline;">go here</a> to help making the site complete.</div><br><br>
+		<!--div style="color:#aaa;text-align:center;">Not all EPs are listed here yet, you can <a href="albumdata.html" target="_blank" style="text-decoration:underline;">go here</a> to help making the site complete.</div><br><br-->
 	</div>
 	
 	<div id="seasonal" class="section">
@@ -84,7 +84,7 @@
 		<div class="banner-padding"></div>
 		<div id="seasonal-grid" class="grid"></div>
 		<div style="clear:both"></div>
-		<div style="color:#aaa;text-align:center;">Not all seasonal albums are listed here yet, you can <a href="albumdata.html" target="_blank" style="text-decoration:underline;">go here</a> to help making the site complete.</div><br><br>
+		<!--div style="color:#aaa;text-align:center;">Not all seasonal albums are listed here yet, you can <a href="albumdata.html" target="_blank" style="text-decoration:underline;">go here</a> to help making the site complete.</div><br><br-->
 	</div>
 	
 	<div id="album-detail" class="section">
@@ -424,13 +424,13 @@
 		
 			var output = "";
 			var info = "";
-			var title = track.title.replace(/\((([a-zA-Z0-9 _\-\&'\.]* (Remix|Mix|VIP))|(with|Performed by) [a-zA-Z0-9 _\-\&]*)\)/g, "");
+			var title = track.title.replace(/\((([a-zA-Z0-9 _\-\&'\.]* (Remix|Mix|VIP|Edit))|(with|Performed by) [a-zA-Z0-9 _\-\&]*)\)/g, "");
 			
 			if(i == selectedTrack) active = " active";
 			else active = "";
 			if(track.feat != "") info = '(feat. ' + track.feat + ')<br>';
 			
-			var search = track.title.search(/\((([a-zA-Z0-9 _\-\&'\.]* (Remix|Mix|VIP))|(with|Performed by) [a-zA-Z0-9 _\-\&]*)\)/g);
+			var search = track.title.search(/\((([a-zA-Z0-9 _\-\&'\.]* (Remix|Mix|VIP|Edit))|(with|Performed by) [a-zA-Z0-9 _\-\&]*)\)/g);
 			if(search > -1) info += " " + track.title.substr(search);
 			
 			output = '<div class="track' + active + '" onclick="playSoundCloud(' + i + ', \'' + track.soundcloud_url + '\')" id="track-' + i + '">\n\
@@ -479,7 +479,9 @@
 							if(track.feat != "") nowplaying += " (feat. " + track.feat + ")";
 						}
 						
-						var stream = response.stream_url + "?client_id=aa5f438c7671dcdd963f0161b2ca5ad7";
+						var stream;
+						if(response.sharing == "public") stream = response.stream_url + "?client_id=aa5f438c7671dcdd963f0161b2ca5ad7";
+						else stream = response.stream_url + "&client_id=aa5f438c7671dcdd963f0161b2ca5ad7";
 						document.getElementById("soundcloud-player").src = stream;
 						document.getElementById("soundcloud-player").play();
 						document.getElementById("now-playing").innerHTML = "Now Playing: <b>" + nowplaying + "</b>";

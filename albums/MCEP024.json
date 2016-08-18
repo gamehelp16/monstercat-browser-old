@@ -1,0 +1,69 @@
+{
+	
+	"album_number": "MCEP024",
+	"album_artist": "Vicetone",
+	"album_title": "Heartbeat (The Remixes)",
+	"album_artwork_thumb": "https://i.imgur.com/TmB9PqXm.jpg",
+	"album_artwork_full": "https://i.imgur.com/TmB9PqX.jpg",
+
+	"tracks": [
+
+        {
+			"artist": "Vicetone",
+			"title": "Heartbeat (Cash Cash Remix)",
+			"genre": 2,
+			"feat": "Collin McLoughlin",
+			"soundcloud_url": "https://soundcloud.com/monstercat/vicetone-feat-collin-1"
+		},
+
+		{
+			"artist": "Vicetone",
+			"title": "Heartbeat (Rogue Remix)",
+			"genre": 2,
+			"feat": "Collin McLoughlin",
+			"soundcloud_url": "https://soundcloud.com/monstercat/vicetone-feat-collin-2"
+		},
+
+		{
+			"artist": "Vicetone",
+			"title": "Heartbeat (Ramses B Remix)",
+			"genre": 9,
+			"feat": "Collin McLoughlin",
+			"soundcloud_url": "https://soundcloud.com/monstercat/vicetone-feat-collin-3"
+		},
+
+		{
+			"artist": "Vicetone",
+			"title": "Heartbeat (DMNDZ Remix)",
+			"genre": 11,
+			"feat": "Collin McLoughlin",
+			"soundcloud_url": "https://soundcloud.com/monstercat/vicetone-feat-collin-4"
+		},
+
+		{
+			"artist": "Vicetone",
+			"title": "Heartbeat (PIXL Remix)",
+			"genre": 2,
+			"feat": "Collin McLoughlin",
+			"soundcloud_url": "https://soundcloud.com/monstercat/vicetone-feat-collin-5"
+		},
+
+		{
+			"artist": "Vicetone",
+			"title": "Heartbeat (Popeska Remix)",
+			"genre": 2,
+			"feat": "Collin McLoughlin",
+			"soundcloud_url": "https://soundcloud.com/monstercat/vicetone-feat-collin-6"
+		},
+
+		{
+			"artist": "Vicetone",
+			"title": "Heartbeat (Xristo Remix)",
+			"genre": 2,
+			"feat": "Collin McLoughlin",
+			"soundcloud_url": "https://soundcloud.com/monstercat/vicetone-feat-collin-7"
+		}
+
+	]
+	
+}

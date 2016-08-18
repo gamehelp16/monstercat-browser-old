@@ -1,0 +1,37 @@
+{
+	
+	"album_number": "MCEP025",
+	"album_artist": "Project 46",
+	"album_title": "Continuum EP",
+	"album_artwork_thumb": "https://i.imgur.com/cgea4Umm.jpg",
+	"album_artwork_full": "https://i.imgur.com/cgea4Um.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Project 46 & Soundwell",
+			"title": "Waiting",
+			"genre": 2,
+			"feat": "KORY",
+			"soundcloud_url": "https://soundcloud.com/monstercat/project-46-soundwell-feat-kory"
+		},
+
+		{
+			"artist": "Project 46",
+			"title": "Catalyst",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/project-46-catalyst"
+		},
+
+		{
+			"artist": "Project 46",
+			"title": "Ekho",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/project-46-ekho"
+		}
+
+	]
+	
+}

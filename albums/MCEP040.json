@@ -1,0 +1,29 @@
+{
+	
+	"album_number": "MCEP040",
+	"album_artist": "Fractal",
+	"album_title": "Elements EP",
+	"album_artwork_thumb": "https://i.imgur.com/ZmQkCSXm.jpg",
+	"album_artwork_full": "https://i.imgur.com/ZmQkCSX.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Fractal",
+			"title": "Elements",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fractal-elements"
+		},
+
+		{
+			"artist": "Fractal",
+			"title": "Cosm",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/fractal-cosm"
+		}
+
+	]
+	
+}

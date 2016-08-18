@@ -1,0 +1,45 @@
+{
+	
+	"album_number": "MCEP019",
+	"album_artist": "TVDS",
+	"album_title": "Another Day EP",
+	"album_artwork_thumb": "https://i.imgur.com/gOYPEUWm.jpg",
+	"album_artwork_full": "https://i.imgur.com/gOYPEUW.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "TVDS",
+			"title": "Another Day",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tvds-another-day-original-mix"
+		},
+
+		{
+			"artist": "TVDS",
+			"title": "Another Day (Dub Mix)",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tvds-another-day-dub-mix"
+		},
+
+		{
+			"artist": "TVDS",
+			"title": "Another Day (Radio Mix)",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tvds-another-day-radio-mix"
+		},
+
+		{
+			"artist": "TVDS",
+			"title": "Another Day (Alternate Mix)",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tvds-another-day-alternate-mix"
+		}
+
+	]
+	
+}

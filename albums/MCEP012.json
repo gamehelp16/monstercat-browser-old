@@ -1,0 +1,37 @@
+{
+	
+	"album_number": "MCEP012",
+	"album_artist": "TVDS",
+	"album_title": "Black Sky EP",
+	"album_artwork_thumb": "https://i.imgur.com/zFf5hEQm.png",
+	"album_artwork_full": "https://i.imgur.com/zFf5hEQ.png",
+
+	"tracks": [
+
+		{
+			"artist": "TVDS",
+			"title": "Black Sky",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tvds-black-sky"
+		},
+
+		{
+			"artist": "TVDS",
+			"title": "Rada",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tvds-rada"
+		},
+
+		{
+			"artist": "TVDS",
+			"title": "Soulseeker",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/tvds-soulseeker"
+		}
+
+	]
+	
+}

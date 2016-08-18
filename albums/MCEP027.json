@@ -1,0 +1,45 @@
+{
+	
+	"album_number": "MCEP027",
+	"album_artist": "Falcon Funk",
+	"album_title": "Falcon Funk EP",
+	"album_artwork_thumb": "https://i.imgur.com/LcsM4Sim.jpg",
+	"album_artwork_full": "https://i.imgur.com/LcsM4Si.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Falcon Funk",
+			"title": "Bust",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/falcon-funk-bust"
+		},
+
+		{
+			"artist": "Falcon Funk",
+			"title": "Easy",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/falcon-funk-easy"
+		},
+
+		{
+			"artist": "Falcon Funk",
+			"title": "Arcade Love",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/falcon-funk-arcade-love"
+		},
+
+		{
+			"artist": "Falcon Funk",
+			"title": "Leophant",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/falcon-funk-leophant"
+		}
+
+	]
+	
+}

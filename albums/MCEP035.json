@@ -1,0 +1,37 @@
+{
+	
+	"album_number": "MCEP035",
+	"album_artist": "Mr FijiWji",
+	"album_title": "Friends EP",
+	"album_artwork_thumb": "https://i.imgur.com/YF9oHbJm.jpg",
+	"album_artwork_full": "https://i.imgur.com/YF9oHbJ.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Mr FijiWji & Tülpa",
+			"title": "Sentient",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/01-mr-fijiwiji-tu-lpa-sentient"
+		},
+
+		{
+			"artist": "Mr FijiWji & Soulero",
+			"title": "Nebula",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/02-mr-fijiwiji-soulero-nebula"
+		},
+
+		{
+			"artist": "Mr FijiWji & Exist Strategy",
+			"title": "Voyager",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/03-mr-fijiwiji-exist-strategy"
+		}
+
+	]
+	
+}
