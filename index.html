@@ -327,6 +327,11 @@
 					includeMix = true;
 				}
 				else {
+					if(data.album_number == "MCLP005") {
+						includesText = "INCLUDES A CONTINUOUS ALBUM MIX";
+						document.getElementById("includes").innerHTML = includesText;
+						includeMix = true;
+					}
 					if(data.album_number == "MCEP056") {
 						includesText = "INCLUDES A CONTINUOUS ALBUM MIX";
 						document.getElementById("includes").innerHTML = includesText;

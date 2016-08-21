@@ -1,69 +1,64 @@
 {
-	
-	"album_number": "MCLP005",
-	"album_artist": "Grabbitz",
-	"album_title": "Better With Time",
-	"album_artwork_thumb": "https://i.imgur.com/3ETz7zV.jpg",
-	"album_artwork_full": "https://i.imgur.com/xReNUkG.jpg",
-
-	"tracks": [
-
-		{
-			"artist": "Grabbitz",
-			"title": "Hope",
-			"genre": 11,
-			"feat": "Intro",
-			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-hope-intro"
-		},
-
-		{
-			"artist": "Grabbitz",
-			"title": "Better With Time",
-			"genre": 11,
-			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/monstercat/better-with-time"
-		},
-
-		{
-			"artist": "Grabbitz",
-			"title": "Make You Mine",
-			"genre": 11,
-			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-make-you-mine"
-		},
-
-		{
-			"artist": "Grabbitz",
-			"title": "Intermission",
-			"genre": 11,
-			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-intermission"
-		},
-
-		{
-			"artist": "Grabbitz",
-			"title": "Get Out",
-			"genre": 9,
-			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-get-out"
-		},
-
-		{
-			"artist": "Grabbitz",
-			"title": "Float Away",
-			"genre": 6,
-			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-float-away"
-		},
-
-		{
-			"artist": "Grabbitz",
-			"title": "Cold",
-			"genre": 7,
-			"feat": "LAYNE",
-			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-cold-feat-layne"
-		}
-
-	]
-
+  "album_number": "MCLP005",
+  "album_artist": "Grabbitz",
+  "album_title": "Better With Time",
+  "album_artwork_thumb": "https://i.imgur.com/3ETz7zV.jpg",
+  "album_artwork_full": "https://i.imgur.com/xReNUkG.jpg",
+  "tracks": [
+    {
+      "artist": "Grabbitz",
+      "title": "Hope",
+      "genre": 11,
+      "feat": "Intro",
+      "soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-hope-intro"
+    },
+    {
+      "artist": "Grabbitz",
+      "title": "Better With Time",
+      "genre": 11,
+      "feat": "",
+      "soundcloud_url": "https://soundcloud.com/monstercat/better-with-time"
+    },
+    {
+      "artist": "Grabbitz",
+      "title": "Make You Mine",
+      "genre": 11,
+      "feat": "",
+      "soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-make-you-mine"
+    },
+    {
+      "artist": "Grabbitz",
+      "title": "Intermission",
+      "genre": 11,
+      "feat": "",
+      "soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-intermission"
+    },
+    {
+      "artist": "Grabbitz",
+      "title": "Get Out",
+      "genre": 9,
+      "feat": "",
+      "soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-get-out"
+    },
+    {
+      "artist": "Grabbitz",
+      "title": "Float Away",
+      "genre": 6,
+      "feat": "",
+      "soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-float-away"
+    },
+    {
+      "artist": "Grabbitz",
+      "title": "Cold",
+      "genre": 7,
+      "feat": "LAYNE",
+      "soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-cold-feat-layne"
+    }
+  ],
+  "mixes": [
+    {
+      "name": "BETTER WITH TIME",
+      "soundcloud_url": "https://soundcloud.com/grabbitz/betterwithtimecontinuous"
+    }
+  ]
 }
