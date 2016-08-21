@@ -1,0 +1,37 @@
+{
+  "album_number": "MCEP100",
+  "album_artist": "Project 46",
+  "album_title": "Summer Feels EP",
+  "album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/f1b653f1c21a26befa78b2634a84f072f06465ac",
+  "album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/bfe3197bfec5610226d1f60e7170b619",
+  "tracks": [
+    {
+      "artist": "Project 46",
+      "title": "Stars",
+      "genre": 2,
+      "feat": "Haley",
+      "soundcloud_url": ""
+    },
+    {
+      "artist": "Project 46",
+      "title": "Signs",
+      "genre": 2,
+      "feat": "Shantee",
+      "soundcloud_url": "https://soundcloud.com/monstercat/project-46-signs"
+    },
+    {
+      "artist": "Project 46",
+      "title": "Summer",
+      "genre": 2,
+      "feat": "",
+      "soundcloud_url": ""
+    },
+    {
+      "artist": "Project 46 & Felicity",
+      "title": "Falling",
+      "genre": 2,
+      "feat": "",
+      "soundcloud_url": "https://soundcloud.com/monstercat/project-46-felicity-falling"
+    }
+  ]
+}

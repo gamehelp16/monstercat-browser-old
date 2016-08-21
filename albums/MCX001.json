@@ -1,61 +1,51 @@
 {
-	
-	"album_number": "MCX001",
-	"album_artist": "Various Artists",
-	"album_title": "Monstercat Christmas Album 2011",
-	"album_artwork_thumb": "https://i.imgur.com/saCXOoam.jpg",
-	"album_artwork_full": "https://i.imgur.com/saCXOoa.jpg",
-	
-	"tracks": [
-	
-		{
-			"artist": "Varien",
-			"title": "Throne of Ravens",
-			"genre": 9,
-			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/monstercat/varien-throne-of-ravens"
-		},
-
-		{
-			"artist": "Mr FijiWiji & Jason Horecky",
-			"title": "Doesn't Feel Like Christmas",
-			"genre": 9,
-			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/name-you-probably-hate/mrfijiwiji-jason-horecky-doesnt-feel-like-christmas"
-		},
-
-		{
-			"artist": "Stephen Walking & Tristam",
-			"title": "Jingle Bells",
-			"genre": 10,
-			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/soundkill-official/tristam-stephen-walking-jingle-bells"
-		},
-
-		{
-			"artist": "Noisestorm",
-			"title": "Wipeout",
-			"genre": 5,
-			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/noisestorm/noisestorm-wipeout"
-		},
-
-		{
-			"artist": "DotEXE",
-			"title": "Come Back To Me",
-			"genre": 10,
-			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/tresspaser64/dotexe-come-back-to-me"
-		},
-
-		{
-			"artist": "Matduke",
-			"title": "Forgotten Kingdom",
-			"genre": 8,
-			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/name-you-probably-hate/matduke-forgotten-kingdom"
-		}
-
-	]
-	
+  "album_number": "MCX001",
+  "album_artist": "Various Artists",
+  "album_title": "Monstercat Christmas Album 2011",
+  "album_artwork_thumb": "https://i.imgur.com/saCXOoam.jpg",
+  "album_artwork_full": "https://i.imgur.com/saCXOoa.jpg",
+  "tracks": [
+    {
+      "artist": "Varien",
+      "title": "Throne of Ravens",
+      "genre": 9,
+      "feat": "",
+      "soundcloud_url": "https://soundcloud.com/monstercat/varien-throne-of-ravens"
+    },
+    {
+      "artist": "Mr FijiWiji & Jason Horecky",
+      "title": "Doesn't Feel Like Christmas",
+      "genre": 9,
+      "feat": "",
+      "soundcloud_url": "https://soundcloud.com/name-you-probably-hate/mrfijiwiji-jason-horecky-doesnt-feel-like-christmas"
+    },
+    {
+      "artist": "Stephen Walking & Tristam",
+      "title": "Jingle Bells",
+      "genre": 10,
+      "feat": "",
+      "soundcloud_url": "https://soundcloud.com/soundkill-official/tristam-stephen-walking-jingle-bells"
+    },
+    {
+      "artist": "Noisestorm",
+      "title": "Wipeout",
+      "genre": 5,
+      "feat": "",
+      "soundcloud_url": "https://soundcloud.com/noisestorm/noisestorm-wipeout"
+    },
+    {
+      "artist": "DotEXE",
+      "title": "Come Back To Me",
+      "genre": 10,
+      "feat": "",
+      "soundcloud_url": "https://soundcloud.com/tresspaser64/dotexe-come-back-to-me"
+    },
+    {
+      "artist": "Matduke",
+      "title": "Forgotten Kingdom",
+      "genre": 8,
+      "feat": "",
+      "soundcloud_url": "https://soundcloud.com/name-you-probably-hate/matduke-forgotten-kingdom"
+    }
+  ]
 }

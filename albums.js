@@ -989,8 +989,23 @@ var albumData = {
 			"album_title": "Synchronize (VIP Mix / Acoustic) EP",
 			"album_artwork_thumb": "https://i.imgur.com/S1uMtsMm.jpg",
 			"album_artwork_full": "https://i.imgur.com/S1uMtsM.jpg"
+		},
+
+		{
+			"album_number": "MCEP098",
+			"album_artist": "Eminence",
+			"album_title": "Hollow Mind EP",
+			"album_artwork_thumb": "https://i1.sndcdn.com/artworks-000176562852-p8ey8l-t500x500.jpg",
+			"album_artwork_full": "https://i1.sndcdn.com/artworks-000176562852-p8ey8l-original.jpg"
+		},
+
+		{
+			"album_number": "MCEP100",
+			"album_artist": "Project 46",
+			"album_title": "Summer Feels EP",
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/f1b653f1c21a26befa78b2634a84f072f06465ac",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/bfe3197bfec5610226d1f60e7170b619"
 		}
-		
 	],
 	
 	"seasonals": [

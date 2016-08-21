@@ -1,45 +1,37 @@
 {
-	
-	"album_number": "MCH001",
-	"album_artist": "Various Artists",
-	"album_title": "Trick or Treat EP",
-	"album_artwork_thumb": "https://i.imgur.com/88hZJtSm.jpg",
-	"album_artwork_full": "https://i.imgur.com/88hZJtS.jpg",
-	
-	"tracks": [
-	
-		{
-			"artist": "Rogue",
-			"title": "Welcome to the Zombie Disco",
-			"genre": 9,
-			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-welcome-to-the-zombie/s-EgmO6"
-		},
-
-		{
-			"artist": "Hellberg",
-			"title": "The Man Who Laughs",
-			"genre": 2,
-			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/monstercat/hellberg-the-man-who-laughs/s-PcWZb"
-		},
-
-		{
-			"artist": "TwoThirds",
-			"title": "Glimmer",
-			"genre": 9,
-			"feat": "CoMa",
-			"soundcloud_url": "https://soundcloud.com/monstercat/twothirds-glimmer-feat-coma/s-kzLlc"
-		},
-
-		{
-			"artist": "Muzzy",
-			"title": "Shank",
-			"genre": 10,
-			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-shank/s-MY0Pv"
-		}
-
-	]
-	
+  "album_number": "MCH001",
+  "album_artist": "Various Artists",
+  "album_title": "Trick or Treat EP",
+  "album_artwork_thumb": "https://i.imgur.com/88hZJtSm.jpg",
+  "album_artwork_full": "https://i.imgur.com/88hZJtS.jpg",
+  "tracks": [
+    {
+      "artist": "Rogue",
+      "title": "Welcome to the Zombie Disco",
+      "genre": 9,
+      "feat": "",
+      "soundcloud_url": "https://soundcloud.com/monstercat/rogue-welcome-to-the-zombie/s-EgmO6"
+    },
+    {
+      "artist": "Hellberg",
+      "title": "The Man Who Laughs",
+      "genre": 2,
+      "feat": "",
+      "soundcloud_url": "https://soundcloud.com/monstercat/hellberg-the-man-who-laughs/s-PcWZb"
+    },
+    {
+      "artist": "TwoThirds",
+      "title": "Glimmer",
+      "genre": 9,
+      "feat": "CoMa",
+      "soundcloud_url": "https://soundcloud.com/monstercat/twothirds-glimmer-feat-coma/s-kzLlc"
+    },
+    {
+      "artist": "Muzzy",
+      "title": "Shank",
+      "genre": 10,
+      "feat": "",
+      "soundcloud_url": "https://soundcloud.com/monstercat/muzzy-shank/s-MY0Pv"
+    }
+  ]
 }
