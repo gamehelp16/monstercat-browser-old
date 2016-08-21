@@ -1018,6 +1018,14 @@ var albumData = {
 			"album_artwork_thumb": "https://i.imgur.com/88hZJtSm.jpg",
 			"album_artwork_full": "https://i.imgur.com/88hZJtS.jpg"
 		},
+
+		{
+			"album_number": "MCF003",
+			"album_artist": "Hellberg, Televisor & Tut Tut Child",
+			"album_title": "Free Remix Week",
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/482751b83ad9c082819028ad4808cd70952a34b0",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/482751b83ad9c082819028ad4808cd70952a34b0",
+		},
 		
 		{
 			"album_number": "MCX003",

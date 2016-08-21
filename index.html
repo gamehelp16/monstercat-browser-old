@@ -211,6 +211,12 @@
 				var card_title = albumData.seasonals[albumIndex2].album_artist;
 				var card_subtitle = albumData.seasonals[albumIndex2].album_title;
 			}
+			else if(number.indexOf("MCF") > -1 || number.indexOf("MCX") > -1) {
+				var albumIndex2 = arrayIndex(number, availableSeasonals);
+				var card_image = albumData.seasonals[albumIndex2].album_artwork_thumb;
+				var card_title = albumData.seasonals[albumIndex2].album_artist;
+				var card_subtitle = albumData.seasonals[albumIndex2].album_title;
+			}
 			else {
 				var albumIndex2 = arrayIndex(number, availableCompilations);
 				var card_image = albumData.compilations[albumIndex2].album_artwork_thumb;
@@ -249,7 +255,7 @@
 
 			if(number.indexOf("MCLP") > -1) mode = "lp", availableAlbums = availableLPs;
 			else if(number.indexOf("MCEP") > -1) mode = "ep", availableAlbums = availableEPs;
-			else if(number.indexOf("MCH") > -1 || number.indexOf("MCX") > -1) mode = "seasonal", availableAlbums = availableSeasonals;
+			else if(number.indexOf("MCH") > -1 || number.indexOf("MCF") > -1 || number.indexOf("MCX") > -1) mode = "seasonal", availableAlbums = availableSeasonals;
 			else mode = "compilation", availableAlbums = availableCompilations;
 
 			loadingAlbum = true;
