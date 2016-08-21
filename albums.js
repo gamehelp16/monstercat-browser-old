@@ -997,7 +997,7 @@ var albumData = {
 		
 		{
 			"album_number": "MCX001",
-			"album_artist": "Monstercat",
+			"album_artist": "Various Artists",
 			"album_title": "Monstercat Christmas Album 2011",
 			"album_artwork_thumb": "https://i.imgur.com/saCXOoam.jpg",
 			"album_artwork_full": "https://i.imgur.com/saCXOoa.jpg"
@@ -1005,7 +1005,7 @@ var albumData = {
 		
 		{
 			"album_number": "MCX002",
-			"album_artist": "Monstercat",
+			"album_artist": "Various Artists",
 			"album_title": "Monstercat Christmas Album 2012",
 			"album_artwork_thumb": "https://i.imgur.com/mHSzX4Ym.jpg",
 			"album_artwork_full": "https://i.imgur.com/mHSzX4Y.jpg"
@@ -1013,7 +1013,7 @@ var albumData = {
 		
 		{
 			"album_number": "MCH001",
-			"album_artist": "Monstercat",
+			"album_artist": "Various Artists",
 			"album_title": "Trick or Treat EP",
 			"album_artwork_thumb": "https://i.imgur.com/88hZJtSm.jpg",
 			"album_artwork_full": "https://i.imgur.com/88hZJtS.jpg"
@@ -1021,7 +1021,7 @@ var albumData = {
 		
 		{
 			"album_number": "MCX003",
-			"album_artist": "Monstercat",
+			"album_artist": "Various Artists",
 			"album_title": "Monstercat 3 Year Anniversary",
 			"album_artwork_thumb": "https://i.imgur.com/uCbZDvLm.jpg",
 			"album_artwork_full": "https://i.imgur.com/uCbZDvL.jpg"
@@ -1030,7 +1030,7 @@ var albumData = {
 		{
 		
 			"album_number": "MCX004",
-			"album_artist": "Monstercat",
+			"album_artist": "Various Artists",
 			"album_title": "Monstercat 5 Year Anniversary",
 			"album_artwork_thumb": "https://i.imgur.com/NhHf2S3m.jpg",
 			"album_artwork_full": "https://i.imgur.com/NhHf2S3.jpg"
