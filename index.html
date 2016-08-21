@@ -346,7 +346,7 @@
 
 				if(includeMix) {
 					for(z=0;z<data.mixes.length;z++) {
-						var thetrack = z+100;
+						var thetrack = z+90;
 						document.getElementById("mixes").innerHTML += '<div class="mix" id="track-' + thetrack + '" onclick="playSoundCloud(' + thetrack + ', \'' + data.mixes[z].soundcloud_url + '\');"></div>';
 						document.getElementById("track-" + thetrack).className = "mix";
 						document.getElementById("track-" + thetrack).innerHTML = data.mixes[z].name;
