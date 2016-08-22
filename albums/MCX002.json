@@ -1,64 +1,78 @@
 {
-  "album_number": "MCX002",
-  "album_artist": "Various Artists",
-  "album_title": "Monstercat Christmas Album 2012",
-  "album_artwork_thumb": "https://i.imgur.com/mHSzX4Ym.jpg",
-  "album_artwork_full": "https://i.imgur.com/mHSzX4Y.jpg",
-  "tracks": [
-    {
-      "artist": "Hellberg",
-      "title": "Jingle Bells",
-      "genre": 3,
-      "feat": "",
-      "soundcloud_url": "https://soundcloud.com/monstercat/hellberg-jingle-bells"
-    },
-    {
-      "artist": "Muzzy",
-      "title": "Snowman Swag",
-      "genre": 5,
-      "feat": "",
-      "soundcloud_url": "https://soundcloud.com/monstercat/muzzy-snowman-swag"
-    },
-    {
-      "artist": "Insan3Lik3",
-      "title": "Reindeer Everywhere",
-      "genre": 3,
-      "feat": "",
-      "soundcloud_url": "https://soundcloud.com/monstercat/insan3lik3-reindeer-everywhere"
-    },
-    {
-      "artist": "Stephen Walking",
-      "title": "Sleigh Ride",
-      "genre": 0,
-      "feat": "",
-      "soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-sleigh-ride"
-    },
-    {
-      "artist": "Mr FijiWiji",
-      "title": "Imaginary Friend",
-      "genre": 9,
-      "feat": "Brenton Mattheus",
-      "soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-imaginary-friend"
-    },
-    {
-      "artist": "Televisor",
-      "title": "We Wish You A Merry Christmas",
-      "genre": 6,
-      "feat": "",
-      "soundcloud_url": "https://soundcloud.com/monstercat/televisor-we-wish-you-a-merry"
-    },
-    {
-      "artist": "Rogue",
-      "title": "Goodbye (Winter Chords)",
-      "genre": 9,
-      "feat": "",
-      "soundcloud_url": "https://soundcloud.com/monstercat/rogue-goodbye-winter-chords"
-    }
-  ],
-  "mixes": [
-    {
-      "name": "XMAS 2012",
-      "soundcloud_url": "https://soundcloud.com/jonaslives/monstercat-christmas-album-mix"
-    }
-  ]
+
+	"album_number": "MCX002",
+	"album_artist": "Monstercat",
+	"album_title": "Christmas Album 2012",
+	"album_artwork_thumb": "https://i.imgur.com/mHSzX4Ym.jpg",
+	"album_artwork_full": "https://i.imgur.com/mHSzX4Y.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Hellberg",
+			"title": "Jingle Bells",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/hellberg-jingle-bells"
+		},
+
+		{
+			"artist": "Muzzy",
+			"title": "Snowman Swag",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-snowman-swag"
+		},
+
+		{
+			"artist": "Insan3Lik3",
+			"title": "Reindeer Everywhere",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/insan3lik3-reindeer-everywhere"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Sleigh Ride",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/stephen-walking-sleigh-ride"
+		},
+
+		{
+			"artist": "Mr FijiWiji",
+			"title": "Imaginary Friend",
+			"genre": 9,
+			"feat": "Brenton Mattheus",
+			"soundcloud_url": "https://soundcloud.com/monstercat/mr-fijiwiji-imaginary-friend"
+		},
+
+		{
+			"artist": "Televisor",
+			"title": "We Wish You A Merry Christmas",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/televisor-we-wish-you-a-merry"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Goodbye (Winter Chords)",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-goodbye-winter-chords"
+		}
+
+	],
+
+	"mixes": [
+
+		{
+			"name": "XMAS 2012",
+			"soundcloud_url": "https://soundcloud.com/jonaslives/monstercat-christmas-album-mix"
+		}
+
+	]
+
 }

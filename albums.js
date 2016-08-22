@@ -262,6 +262,14 @@ var albumData = {
 	],
 	
 	"eps": [
+
+	    {
+			"album_number": "MCEP018",
+			"album_artist": "Ephixa",
+			"album_title": "Some Wobbles EP",
+			"album_artwork_thumb": "https://i.imgur.com/TLvcNkHm.png",
+			"album_artwork_full": "https://i.imgur.com/TLvcNkH.png"
+		},
 	
 		{
 			"album_number": "MCEP001",
@@ -387,8 +395,8 @@ var albumData = {
 			"album_number": "MCEP016",
 			"album_artist": "Tut Tut Child",
 			"album_title": "We're All Mad Here EP",
-			"album_artwork_thumb": "https://i.imgur.com/p3jFj95m.jpg",
-			"album_artwork_full": "https://i.imgur.com/p3jFj95.jpg"
+			"album_artwork_thumb": "https://d3rt1990lpmkn.cloudfront.net/320/8bf41b97ed86482d132556635774d21a8563026b",
+			"album_artwork_full": "https://d3rt1990lpmkn.cloudfront.net/6400/8bf41b97ed86482d132556635774d21a8563026b"
 		},
 
 		{
@@ -397,14 +405,6 @@ var albumData = {
 			"album_title": "Dreams EP",
 			"album_artwork_thumb": "https://i.imgur.com/8trzVfFm.jpg",
 			"album_artwork_full": "https://i.imgur.com/8trzVfF.jpg"
-		},
-
-		{
-			"album_number": "MCEP018",
-			"album_artist": "Ephixa",
-			"album_title": "Some Wobbles EP",
-			"album_artwork_thumb": "https://i.imgur.com/TLvcNkHm.png",
-			"album_artwork_full": "https://i.imgur.com/TLvcNkH.png"
 		},
 
 		{
@@ -437,6 +437,14 @@ var albumData = {
 			"album_title": "7 Minutes Dead EP",
 			"album_artwork_thumb": "https://i.imgur.com/BziqJCQm.jpg",
 			"album_artwork_full": "https://i.imgur.com/BziqJCQ.jpg"
+		},
+
+		{
+			"album_number": "MCF003",
+			"album_artist": "Hellberg, Televisor & Tut Tut Child",
+			"album_title": "Free Remix Week",
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/482751b83ad9c082819028ad4808cd70952a34b0",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/482751b83ad9c082819028ad4808cd70952a34b0"
 		},
 
 		{
@@ -679,6 +687,14 @@ var albumData = {
 			"album_artwork_full": "https://i.imgur.com/z8mwaCw.jpg"
 		},
 
+		(
+		    "album_number": "MCEP053",
+		    "album_artist": "Au5",
+		    "album_title": "Follow You (The Remixes)",
+		    "album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/4748f5b30f243dfae9b34d39203c6665d48632e5",
+		    "album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/094d3f0d401adc749338f48195cb49fe89c67b9d"
+		),
+
 		{
 			"album_number": "MCEP054",
 			"album_artist": "Falcon Funk",
@@ -784,11 +800,11 @@ var albumData = {
 		},
 
 		{
-			"album_number": "MCEP067",
-			"album_artist": "Televisor",
-			"album_title": "Venture EP",
-			"album_artwork_thumb": "https://i.imgur.com/bUtVmeAm.jpg",
-			"album_artwork_full": "https://i.imgur.com/bUtVmeA.jpg"
+		    "album_number": "MCEP068",
+		    "album_artist": "Excision & Pegboard Nerds",
+		    "album_title": "Bring The Madness (The Remixes)",
+		    "album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/5d475e3478000d85253657043542131e95cdcfa4",
+		    "album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/7ef35697bc5ed458f5aec043fae4d991a3bec24e"
 		},
 
 		{
@@ -797,6 +813,22 @@ var albumData = {
 			"album_title": "Rebirth EP",
 			"album_artwork_thumb": "https://i.imgur.com/dhnBYXwm.jpg",
 			"album_artwork_full": "https://i.imgur.com/dhnBYXw.jpg"
+		},
+
+		{
+			"album_number": "MCEP067",
+			"album_artist": "Televisor",
+			"album_title": "Venture EP",
+			"album_artwork_thumb": "https://i.imgur.com/bUtVmeAm.jpg",
+			"album_artwork_full": "https://i.imgur.com/bUtVmeA.jpg"
+		},
+
+		{
+			"album_number": "MCEP072",
+			"album_artist": "Hellberg",
+			"album_title": "This Is Me EP",
+			"album_artwork_thumb": "https://i.imgur.com/242lnCjm.jpg",
+			"album_artwork_full": "https://i.imgur.com/242lnCj.jpg"
 		},
 
 		{
@@ -815,13 +847,6 @@ var albumData = {
 			"album_artwork_full": "https://i.imgur.com/Iu27IVs.jpg"
 		},
 
-		{
-			"album_number": "MCEP072",
-			"album_artist": "Hellberg",
-			"album_title": "This Is Me EP",
-			"album_artwork_thumb": "https://i.imgur.com/242lnCjm.jpg",
-			"album_artwork_full": "https://i.imgur.com/242lnCj.jpg"
-		},
 
 		{
 			"album_number": "MCEP073",
@@ -856,11 +881,11 @@ var albumData = {
 		},
 
 		{
-			"album_number": "MCEP077",
-			"album_artist": "Televisor",
-			"album_title": "Venture (The Remixes)",
-			"album_artwork_thumb": "https://i.imgur.com/EHGK3GTm.jpg",
-			"album_artwork_full": "https://i.imgur.com/EHGK3GT.jpg"
+		    "album_number": "MCEP078",
+		    "album_artist": "Hellberg",
+		    "album_title": "The Girl (The Remixes)",
+		    "album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/49a9f9290b419b260b200003393ab64c5ce83c4c",
+		    "album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/435bd095fadbd4e286bc4667d9dc377af048b661"
 		},
 
 		{
@@ -878,6 +903,23 @@ var albumData = {
 			"album_artwork_thumb": "https://i.imgur.com/4In8TxOm.jpg",
 			"album_artwork_full": "https://i.imgur.com/4In8TxO.jpg"
 		},
+
+		{
+			"album_number": "MCEP077",
+			"album_artist": "Televisor",
+			"album_title": "Venture (The Remixes)",
+			"album_artwork_thumb": "https://i.imgur.com/EHGK3GTm.jpg",
+			"album_artwork_full": "https://i.imgur.com/EHGK3GT.jpg"
+		},
+
+		{
+			"album_number": "MCEP081",
+			"album_artist": "Mr FijiWiji",
+			"album_title": "Yours Truly (The Remixes)",
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/695d5a7491000dc4f11ddfbbae6814f047369478",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/e5db1b883b85ab68c376cee9a4ec730e2073bc75"
+		},
+
 
 		{
 			"album_number": "MCEP082",
@@ -904,6 +946,22 @@ var albumData = {
 		},
 
 		{
+			"album_number": "MCEP085",
+			"album_artist": "Jauz & Pegboard Nerds",
+			"album_title": "Get On Up (The Remixes)",
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/a2be7be596f1bee69f681b15cf731f8c2639d362",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/d2d2eec2242663c7576e522fc60da7b7ffd401ab"
+		},
+
+		{
+			"album_number": "MCF025",
+			"album_artist": "San Holo",
+			"album_title": "Victory (The Remixes)",
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/c206d291bab62a127ddc8188f912aa22e00906df",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/b18560b39a1dcca8c7570375b1012e53d64f5f5a"
+		},
+
+		{
 			"album_number": "MCEP086",
 			"album_artist": "Savoy",
 			"album_title": "1000 Years EP",
@@ -925,6 +983,14 @@ var albumData = {
 			"album_title": "Stickup EP",
 			"album_artwork_thumb": "https://i.imgur.com/RKbpbGbm.jpg",
 			"album_artwork_full": "https://i.imgur.com/RKbpbGb.jpg"
+		},
+
+		{
+			"album_number": "MCEP089",
+			"album_artist": "Pegboard Nerds",
+			"album_title": "Pink Cloud (The Remixes)",
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/6cc9e04f5d8f089a24e015a27cd0b8d15d9d2212",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/7d496557910642a0f284b52850622075"
 		},
 
 		{
@@ -957,6 +1023,14 @@ var albumData = {
 			"album_title": "New Sky EP",
 			"album_artwork_thumb": "https://i.imgur.com/04jQocym.jpg",
 			"album_artwork_full": "https://i.imgur.com/04jQocy.jpg"
+		},
+
+		{
+			"album_number": "MCEP095",
+			"album_artist": "Pegboard Nerds",
+			"album_title": "Heartbit (The Remixes)",
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/17e9cc15f96e4bc5361549bdfdbe3088870696a5",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/86ad542d9e56f1423964dfce0e7333ce"
 		},
 
 		{
@@ -1012,40 +1086,32 @@ var albumData = {
 		
 		{
 			"album_number": "MCX001",
-			"album_artist": "Various Artists",
-			"album_title": "Monstercat Christmas Album 2011",
+			"album_artist": "Monstercat",
+			"album_title": "Christmas Album 2011",
 			"album_artwork_thumb": "https://i.imgur.com/saCXOoam.jpg",
 			"album_artwork_full": "https://i.imgur.com/saCXOoa.jpg"
 		},
-		
-		{
-			"album_number": "MCX002",
-			"album_artist": "Various Artists",
-			"album_title": "Monstercat Christmas Album 2012",
-			"album_artwork_thumb": "https://i.imgur.com/mHSzX4Ym.jpg",
-			"album_artwork_full": "https://i.imgur.com/mHSzX4Y.jpg"
-		},
-		
+
 		{
 			"album_number": "MCH001",
-			"album_artist": "Various Artists",
+			"album_artist": "Monstercat",
 			"album_title": "Trick or Treat EP",
 			"album_artwork_thumb": "https://i.imgur.com/88hZJtSm.jpg",
 			"album_artwork_full": "https://i.imgur.com/88hZJtS.jpg"
 		},
-
-		{
-			"album_number": "MCF003",
-			"album_artist": "Hellberg, Televisor & Tut Tut Child",
-			"album_title": "Free Remix Week",
-			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/482751b83ad9c082819028ad4808cd70952a34b0",
-			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/482751b83ad9c082819028ad4808cd70952a34b0",
-		},
 		
 		{
+			"album_number": "MCX002",
+			"album_artist": "Monstercat",
+			"album_title": "Christmas Album 2012",
+			"album_artwork_thumb": "https://i.imgur.com/mHSzX4Ym.jpg",
+			"album_artwork_full": "https://i.imgur.com/mHSzX4Y.jpg"
+		},
+
+		{
 			"album_number": "MCX003",
-			"album_artist": "Various Artists",
-			"album_title": "Monstercat 3 Year Anniversary",
+			"album_artist": "Monstercat",
+			"album_title": "3 Year Anniversary",
 			"album_artwork_thumb": "https://i.imgur.com/uCbZDvLm.jpg",
 			"album_artwork_full": "https://i.imgur.com/uCbZDvL.jpg"
 		},
@@ -1053,8 +1119,8 @@ var albumData = {
 		{
 		
 			"album_number": "MCX004",
-			"album_artist": "Various Artists",
-			"album_title": "Monstercat 5 Year Anniversary",
+			"album_artist": "Monstercat",
+			"album_title": "5 Year Anniversary",
 			"album_artwork_thumb": "https://i.imgur.com/NhHf2S3m.jpg",
 			"album_artwork_full": "https://i.imgur.com/NhHf2S3.jpg"
 		

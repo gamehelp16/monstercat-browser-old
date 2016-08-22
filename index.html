@@ -13,7 +13,7 @@
 
 	<div id="hamburger-icon">&#9776;</div>
 	<div id="sidebar">
-		<a href="https://www.monstercat.com/" target="_blank"><img src="assets/monstercat-white.png"></a>
+		<a href="https://www.monstercat.com/" target="_blank"><img src="assets/mcat.svg"></a>
 		<div id="link-home" class="link" onclick="section('home')">Home</div>
 		<div id="link-compilation-albums" class="link" onclick="section('compilation-albums')">Compilation Albums</div>
 		<div id="link-lps" class="link" onclick="section('lps')">Long Plays (LPs)</div>
@@ -199,19 +199,13 @@
 				var card_title = albumData.lps[albumIndex2].album_artist;
 				var card_subtitle = albumData.lps[albumIndex2].album_title;
 			}
-			else if(number.indexOf("MCEP") > -1) {
+			else if(number.indexOf("MCEP") > -1 || number.indexOf("MCF") > -1) {
 				var albumIndex2 = arrayIndex(number, availableEPs);
 				var card_image = albumData.eps[albumIndex2].album_artwork_thumb;
 				var card_title = albumData.eps[albumIndex2].album_artist;
 				var card_subtitle = albumData.eps[albumIndex2].album_title;
 			}
 			else if(number.indexOf("MCH") > -1 || number.indexOf("MCX") > -1) {
-				var albumIndex2 = arrayIndex(number, availableSeasonals);
-				var card_image = albumData.seasonals[albumIndex2].album_artwork_thumb;
-				var card_title = albumData.seasonals[albumIndex2].album_artist;
-				var card_subtitle = albumData.seasonals[albumIndex2].album_title;
-			}
-			else if(number.indexOf("MCF") > -1 || number.indexOf("MCX") > -1) {
 				var albumIndex2 = arrayIndex(number, availableSeasonals);
 				var card_image = albumData.seasonals[albumIndex2].album_artwork_thumb;
 				var card_title = albumData.seasonals[albumIndex2].album_artist;
@@ -254,8 +248,8 @@
 		function loadAlbum(number) {
 
 			if(number.indexOf("MCLP") > -1) mode = "lp", availableAlbums = availableLPs;
-			else if(number.indexOf("MCEP") > -1) mode = "ep", availableAlbums = availableEPs;
-			else if(number.indexOf("MCH") > -1 || number.indexOf("MCF") > -1 || number.indexOf("MCX") > -1) mode = "seasonal", availableAlbums = availableSeasonals;
+			else if(number.indexOf("MCEP") > -1 || number.indexOf("MCF") > -1) mode = "ep", availableAlbums = availableEPs;
+			else if(number.indexOf("MCH") > -1 || number.indexOf("MCX") > -1) mode = "seasonal", availableAlbums = availableSeasonals;
 			else mode = "compilation", availableAlbums = availableCompilations;
 
 			loadingAlbum = true;

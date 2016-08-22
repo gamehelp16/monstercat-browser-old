@@ -1,0 +1,181 @@
+{
+
+	"album_number": "MCEP089",
+	"album_artist": "Pegboard Nerds",
+	"album_title": "Pink Cloud (The Remixes)",
+	"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/6cc9e04f5d8f089a24e015a27cd0b8d15d9d2212",
+	"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/7d496557910642a0f284b52850622075",
+
+	"tracks": [
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Emoji ($unday $ervice Remix)",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/emoji-sunday-service-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "Emoji (Faustix & Fat Pony Remix)",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/emoji-faustix-fat-pony-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "Emoji (Party Thieves & Dr. Fresch Remix)",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/emoji-party-thieves-dr-fresch-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "Emoji (Prismo & Dirtystack Remix)",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/emoji-prismo-dirtystack-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "Emoji (Rogue Remix)",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/emoji-rogue-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "Pink Cloud (FKYA Remix)",
+			"genre": 11,
+			"feat": "Max Collins",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pink-cloud-fkya-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "Pink Cloud (JumoDaddy Remix)",
+			"genre": 0,
+			"feat": "Max Collins",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pink-cloud-jumodaddy-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "Pink Cloud (Madnap Remix)",
+			"genre": 7,
+			"feat": "Max Collins",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pink-cloud-madnap-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "Pink Cloud (Toby Green Remix)",
+			"genre": 3,
+			"feat": "Max Collins",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pink-cloud-toby-green-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "Just Like That (Rusko Remix)",
+			"genre": 1,
+			"feat": "Jonny Graves",
+			"soundcloud_url": "https://soundcloud.com/monstercat/just-like-that-rusko-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "Just Like That (Terravita Remix)",
+			"genre": 9,
+			"feat": "Jonny Graves",
+			"soundcloud_url": "https://soundcloud.com/monstercat/just-like-that-terravita-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "Just Like That (Tumult Remix)",
+			"genre": 0,
+			"feat": "Jonny Graves",
+			"soundcloud_url": "https://soundcloud.com/monstercat/just-like-that-tumult-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "Just Like That (Two Friends Remix)",
+			"genre": 2,
+			"feat": "Jonny Graves",
+			"soundcloud_url": "https://soundcloud.com/monstercat/just-like-that-two-friends-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "Downhearted (Chimeric Remix)",
+			"genre": 3,
+			"feat": "Jonny Rose",
+			"soundcloud_url": "https://soundcloud.com/monstercat/downhearted-chimeric-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "Downhearted (MIU Remix)",
+			"genre": 9,
+			"feat": "Jonny Rose",
+			"soundcloud_url": "https://soundcloud.com/monstercat/downhearted-miu-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "Downhearted (Morgan Page Remix)",
+			"genre": 2,
+			"feat": "Jonny Rose",
+			"soundcloud_url": "https://soundcloud.com/monstercat/downhearted-morgan-page-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "Downhearted (Quiet Disorder Remix)",
+			"genre": 2,
+			"feat": "Jonny Rose",
+			"soundcloud_url": "https://soundcloud.com/monstercat/downhearted-quiet-disorder-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "Downhearted (Ryos Remix)",
+			"genre": 2,
+			"feat": "Jonny Rose",
+			"soundcloud_url": "https://soundcloud.com/monstercat/downhearted-ryos-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "Downhearted (Topi Remix)",
+			"genre": 9,
+			"feat": "Jonny Rose",
+			"soundcloud_url": "https://soundcloud.com/monstercat/downhearted-topi-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "End Is Near (Fire In The Hole VIP) (Bear Grillz Remix)",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/end-is-near-bear-grillz-remix"
+		},
+
+        {
+            "artist": "Pegboard Nerds",
+			"title": "End Is Near (Fire In The Hole VIP) (Castor Troy Remix)",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/end-is-near-castor-troy-remix"
+		}
+
+	]
+
+}
