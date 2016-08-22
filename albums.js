@@ -687,13 +687,13 @@ var albumData = {
 			"album_artwork_full": "https://i.imgur.com/z8mwaCw.jpg"
 		},
 
-		(
+		{
 		    "album_number": "MCEP053",
 		    "album_artist": "Au5",
 		    "album_title": "Follow You (The Remixes)",
 		    "album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/4748f5b30f243dfae9b34d39203c6665d48632e5",
 		    "album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/094d3f0d401adc749338f48195cb49fe89c67b9d"
-		),
+		},
 
 		{
 			"album_number": "MCEP054",
