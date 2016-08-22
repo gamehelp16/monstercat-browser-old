@@ -728,14 +728,6 @@ var albumData = {
 		},
 
 		{
-			"album_number": "MCEP058",
-			"album_artist": "Astronaut & EYES",
-			"album_title": "Destination: Pinball EP",
-			"album_artwork_thumb": "https://i.imgur.com/bCENjeRm.jpg",
-			"album_artwork_full": "https://i.imgur.com/bCENjeR.jpg"
-		},
-
-		{
 			"album_number": "MCEP059",
 			"album_artist": "Tut Tut Child",
 			"album_title": "Ask Your Friends First EP",
