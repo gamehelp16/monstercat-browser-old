@@ -726,6 +726,14 @@ var albumData = {
 			"album_artwork_thumb": "https://i.imgur.com/cI5YXSem.jpg",
 			"album_artwork_full": "https://i.imgur.com/cI5YXSe.jpg"
 		},
+		
+		{
+		    "album_number": "MCEP058",
+		    "album_artist": "Astronaut & EYES",
+		    "album_title": "Destination: Pinball EP",
+		    "album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/ce6bca901a5d5d8db3f8329afa4085f49b1f2538",
+		    "album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/30091fafa00bcdeddf4fac073c25777185967bb8"
+		},
 
 		{
 			"album_number": "MCEP059",
