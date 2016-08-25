@@ -1,13 +1,13 @@
 {
-	
+
 	"album_number": "MCX002",
 	"album_artist": "Monstercat",
-	"album_title": "Monstercat Christmas Album 2012",
+	"album_title": "Christmas Album 2012",
 	"album_artwork_thumb": "https://i.imgur.com/mHSzX4Ym.jpg",
 	"album_artwork_full": "https://i.imgur.com/mHSzX4Y.jpg",
-	
+
 	"tracks": [
-	
+
 		{
 			"artist": "Hellberg",
 			"title": "Jingle Bells",
@@ -65,14 +65,14 @@
 		}
 
 	],
-	
+
 	"mixes": [
-		
+
 		{
 			"name": "XMAS 2012",
 			"soundcloud_url": "https://soundcloud.com/jonaslives/monstercat-christmas-album-mix"
 		}
-		
+
 	]
-	
+
 }

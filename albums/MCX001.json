@@ -1,13 +1,13 @@
 {
-	
+
 	"album_number": "MCX001",
 	"album_artist": "Monstercat",
-	"album_title": "Monstercat Christmas Album 2011",
+	"album_title": "Christmas Album 2011",
 	"album_artwork_thumb": "https://i.imgur.com/saCXOoam.jpg",
 	"album_artwork_full": "https://i.imgur.com/saCXOoa.jpg",
-	
+
 	"tracks": [
-	
+
 		{
 			"artist": "Varien",
 			"title": "Throne of Ravens",
@@ -57,5 +57,5 @@
 		}
 
 	]
-	
+
 }
