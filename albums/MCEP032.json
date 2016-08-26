@@ -27,7 +27,7 @@
 		{
 			"artist": "Pegboard Nerds",
 			"title": "20K",
-			"genre": 1,
+			"genre": 10,
 			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-20k"
 		},
@@ -51,7 +51,7 @@
 		{
 			"artist": "Pegboard Nerds",
 			"title": "Rocktronik",
-			"genre": 11,
+			"genre": 3,
 			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-rocktronik-1"
 		}

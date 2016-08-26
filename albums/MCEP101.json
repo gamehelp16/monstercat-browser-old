@@ -1,0 +1,61 @@
+{
+	
+	"album_number": "MCEP101",
+	"album_artist": "Marshmello",
+	"album_title": "Alone (The Remixes)",
+	"album_artwork_thumb": "https://i.imgur.com/1nZsv6Dm.jpg",
+	"album_artwork_full": "https://i.imgur.com/1nZsv6D.jpg",
+
+	"tracks": [
+
+		{
+			"artist": "Marshmello",
+			"title": "Alone (Slushii Remix)",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/slushiimusic/alone"
+		},
+
+		{
+			"artist": "Marshmello",
+			"title": "Alone (Getter Remix)",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/getterofficial/alone"
+		},
+
+		{
+			"artist": "Marshmello",
+			"title": "Alone (DISKORD Remix)",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/diskorduk/marshmello-alone-diskord-remix-1"
+		},
+
+		{
+			"artist": "Marshmello",
+			"title": "Alone (Streex Remake)",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/streexofficial/marshmello-alone-streex-remake-1"
+		},
+
+		{
+			"artist": "Marshmello",
+			"title": "Alone (MRVLZ Remix)",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/mrvlz/marshmello-alone-mrvlz-remix"
+		},
+
+		{
+			"artist": "Marshmello",
+			"title": "Alone (LUCA LUSH Remix)",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/lucalush/marshmello-alone-luca-lush-remix-1"
+		}
+
+	]
+	
+}
