@@ -1072,6 +1072,14 @@ var albumData = {
 			"album_artwork_thumb": "https://i1.sndcdn.com/artworks-000176562852-p8ey8l-t500x500.jpg",
 			"album_artwork_full": "https://i1.sndcdn.com/artworks-000176562852-p8ey8l-original.jpg"
 		},
+		
+		{
+			"album_number": "MCEP101",
+			"album_artist": "Marshmello",
+			"album_title": "Alone (The Remixes)",
+			"album_artwork_thumb": "https://i.imgur.com/1nZsv6Dm.jpg",
+			"album_artwork_full": "https://i.imgur.com/1nZsv6D.jpg"
+		},
 
 		{
 			"album_number": "MCEP100",
@@ -1080,6 +1088,7 @@ var albumData = {
 			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/f1b653f1c21a26befa78b2634a84f072f06465ac",
 			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/bfe3197bfec5610226d1f60e7170b619"
 		}
+		
 	],
 	
 	"seasonals": [
@@ -1141,3 +1150,5 @@ for(var i=0;i<albumData.eps.length;i++) availableEPs.push(albumData.eps[i].album
 
 availableSeasonals = [];
 for(var i=0;i<albumData.seasonals.length;i++) availableSeasonals.push(albumData.seasonals[i].album_number);
+
+latestReleases = ["MCEP100", "MCEP101", "MCEP098", "MCEP099", "MCX004", "027", "MCEP096", "MCEP097"];

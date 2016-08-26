@@ -38,21 +38,9 @@
 			<p>Welcome! Here you can browse tracklists from albums released by Monstercat. Click on each track to play them right on this site, or click the genre circles on the top right corner of the tracklist to filter it by track genres. Use the sidebar to navigate through the site.</p>
 			<p>This album browser is inspired by <a href="https://www.reddit.com/user/Bloq">/u/Bloq's</a> <a href="https://www.reddit.com/r/Monstercat/comments/4m0t3q/monstercat_027_cataclysm_bloqs_visual_tracklist/" target="_blank">Visual Tracklist</a> from Reddit, go check it out! If you have some feedback about this project feel free to tell me at <a href="https://www.reddit.com/user/gamehelp16/" target="_blank">/u/gamehelp16</a> or comment on this project's <a href="https://gamehelp16.github.io/post/monstercat-album-browser/" target="_blank">blog post</a>. You can also check out the GitHub repo of this project <a href="https://github.com/gamehelp16/monstercat-browser" target="_blank">here</a>.</p>
 		</div>
-
-		<h2>Latest Compilation Albums</h2>
-		<div class="grid" id="latest-compilation"></div>
-		<div style="clear:both"></div><br>
-
-		<h2>Latest LPs</h2>
-		<div class="grid" id="latest-lp"></div>
-		<div style="clear:both"></div><br>
-
-		<h2>Latest EPs (which are available on the browser)</h2>
-		<div class="grid" id="latest-ep"></div>
-		<div style="clear:both"></div><br>
-
-		<h2>Latest Seasonal Albums (which are available on the browser)</h2>
-		<div class="grid" id="latest-seasonal"></div>
+		
+		<h2>Latest Releases</h2>
+		<div class="grid" id="latest-releases"></div>
 		<div style="clear:both"></div><br>
 
 	</div>
@@ -76,7 +64,6 @@
 		<div class="banner-padding"></div>
 		<div id="ep-grid" class="grid"></div>
 		<div style="clear:both"></div>
-		<!--div style="color:#aaa;text-align:center;">Not all EPs are listed here yet, you can <a href="albumdata.html" target="_blank" style="text-decoration:underline;">go here</a> to help making the site complete.</div><br><br-->
 	</div>
 
 	<div id="seasonal" class="section">
@@ -84,7 +71,6 @@
 		<div class="banner-padding"></div>
 		<div id="seasonal-grid" class="grid"></div>
 		<div style="clear:both"></div>
-		<!--div style="color:#aaa;text-align:center;">Not all seasonal albums are listed here yet, you can <a href="albumdata.html" target="_blank" style="text-decoration:underline;">go here</a> to help making the site complete.</div><br><br-->
 	</div>
 
 	<div id="album-detail" class="section">
@@ -163,31 +149,14 @@
 		function showGrids() {
 
 			for(var i=availableCompilations.length-1;i>=0;i--) document.getElementById("compilations-grid").innerHTML += showAlbumCard(availableCompilations[i]);
-			for(var i=availableCompilations.length-1;i>=availableCompilations.length-3;i--) document.getElementById("latest-compilation").innerHTML += showAlbumCard(availableCompilations[i]);
 
 			for(var i=availableLPs.length-1;i>=0;i--) document.getElementById("lp-grid").innerHTML += showAlbumCard(availableLPs[i]);
-			for(var i=availableLPs.length-1;i>=availableLPs.length-3;i--) document.getElementById("latest-lp").innerHTML += showAlbumCard(availableLPs[i]);
 
 			for(var i=availableEPs.length-1;i>=0;i--) document.getElementById("ep-grid").innerHTML += showAlbumCard(availableEPs[i]);
-			for(var i=availableEPs.length-1;i>=availableEPs.length-3;i--) document.getElementById("latest-ep").innerHTML += showAlbumCard(availableEPs[i]);
 
 			for(var i=availableSeasonals.length-1;i>=0;i--) document.getElementById("seasonal-grid").innerHTML += showAlbumCard(availableSeasonals[i]);
-			for(var i=availableSeasonals.length-1;i>=availableSeasonals.length-3;i--) document.getElementById("latest-seasonal").innerHTML += showAlbumCard(availableSeasonals[i]);
-
-			/*var r = Math.random();
-			if(r<1) {
-				document.getElementById("banner-home").style.background = bannerBg(randomIndex(albumData.compilations).album_artwork_full);
-			}
-			else if(r<.6) {
-				document.getElementById("banner-home").style.background = bannerBg(randomIndex(albumData.lps).album_artwork_full);
-			}
-			else {
-				document.getElementById("banner-home").style.background = bannerBg(randomIndex(albumData.eps).album_artwork_full);
-			}
-
-			document.getElementById("banner-compilation").style.background = bannerBg(randomIndex(albumData.compilations).album_artwork_full);
-			document.getElementById("banner-lp").style.background = bannerBg(randomIndex(albumData.lps).album_artwork_full);
-			document.getElementById("banner-ep").style.background = bannerBg(randomIndex(albumData.eps).album_artwork_full);*/
+			
+			for(var i=0;i<latestReleases.length;i++) document.getElementById("latest-releases").innerHTML += showAlbumCard(latestReleases[i]);
 
 		}
 
@@ -424,13 +393,13 @@
 
 			var output = "";
 			var info = "";
-			var title = track.title.replace(/\((([a-zA-Z0-9 _\-\&'\.]* (Remix|Mix|VIP|Edit))|(with|Performed by) [a-zA-Z0-9 _\-\&]*)\)/g, "");
+			var title = track.title.replace(/\((([a-zA-Z0-9 _\-\&'\.\$]* (Remix|Mix|VIP|Edit|Remake))|(with|Performed by) [a-zA-Z0-9 _\-\&]*)\)/g, "");
 
 			if(i == selectedTrack) active = " active";
 			else active = "";
 			if(track.feat != "") info = '(feat. ' + track.feat + ')<br>';
 
-			var search = track.title.search(/\((([a-zA-Z0-9 _\-\&'\.]* (Remix|Mix|VIP|Edit))|(with|Performed by) [a-zA-Z0-9 _\-\&]*)\)/g);
+			var search = track.title.search(/\((([a-zA-Z0-9 _\-\&'\.\$]* (Remix|Mix|VIP|Edit|Remake))|(with|Performed by) [a-zA-Z0-9 _\-\&]*)\)/g);
 			if(search > -1) info += " " + track.title.substr(search);
 
 			output = '<div class="track' + active + '" onclick="playSoundCloud(' + i + ', \'' + track.soundcloud_url + '\')" id="track-' + i + '">\n\
