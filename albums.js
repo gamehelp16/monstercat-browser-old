@@ -1,7 +1,7 @@
 var albumData = {
 
 	"compilations": [
-		
+
 		{
 			"album_number": "001",
 			"album_title": "Launch Week",
@@ -36,7 +36,7 @@ var albumData = {
 			"album_artwork_thumb": "https://i.imgur.com/NMCAr1X.jpg",
 			"album_artwork_full": "https://i.imgur.com/cWv2xHg.jpg"
 		},
-		
+
 		{
 			"album_number": "006",
 			"album_title": "Embrace",
@@ -189,12 +189,19 @@ var albumData = {
 			"album_title": "Cataclysm",
 			"album_artwork_thumb": "https://i.imgur.com/j1fZsYBm.jpg",
 			"album_artwork_full": "https://i.imgur.com/j1fZsYB.jpg"
+		},
+
+		{
+			"album_number": "028",
+			"album_title": "Uproar",
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/4ddf9fb72f5bf8f567cd46cc7717780e984a6a37",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/b2e68d35fa00bfaab6d82aa805d3bdf2"
 		}
-		
+
 	],
-	
+
 	"lps": [
-	
+
 		{
 			"album_number": "MCLP001",
 			"album_artist": "Haywyre",
@@ -258,9 +265,9 @@ var albumData = {
 			"album_artwork_thumb": "https://i.imgur.com/9p09XgR.jpg",
 			"album_artwork_full": "https://i.imgur.com/aFGpjmB.jpg"
 		}
-	
+
 	],
-	
+
 	"eps": [
 
 	    {
@@ -270,7 +277,7 @@ var albumData = {
 			"album_artwork_thumb": "https://i.imgur.com/TLvcNkHm.png",
 			"album_artwork_full": "https://i.imgur.com/TLvcNkH.png"
 		},
-	
+
 		{
 			"album_number": "MCEP001",
 			"album_artist": "Project 46",
@@ -726,7 +733,7 @@ var albumData = {
 			"album_artwork_thumb": "https://i.imgur.com/cI5YXSem.jpg",
 			"album_artwork_full": "https://i.imgur.com/cI5YXSe.jpg"
 		},
-		
+
 		{
 		    "album_number": "MCEP058",
 		    "album_artist": "Astronaut & EYES",
@@ -1072,7 +1079,7 @@ var albumData = {
 			"album_artwork_thumb": "https://i1.sndcdn.com/artworks-000176562852-p8ey8l-t500x500.jpg",
 			"album_artwork_full": "https://i1.sndcdn.com/artworks-000176562852-p8ey8l-original.jpg"
 		},
-		
+
 		{
 			"album_number": "MCEP101",
 			"album_artist": "Marshmello",
@@ -1088,11 +1095,11 @@ var albumData = {
 			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/f1b653f1c21a26befa78b2634a84f072f06465ac",
 			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/bfe3197bfec5610226d1f60e7170b619"
 		}
-		
+
 	],
-	
+
 	"seasonals": [
-		
+
 		{
 			"album_number": "MCX001",
 			"album_artist": "Monstercat",
@@ -1108,7 +1115,7 @@ var albumData = {
 			"album_artwork_thumb": "https://i.imgur.com/88hZJtSm.jpg",
 			"album_artwork_full": "https://i.imgur.com/88hZJtS.jpg"
 		},
-		
+
 		{
 			"album_number": "MCX002",
 			"album_artist": "Monstercat",
@@ -1124,17 +1131,17 @@ var albumData = {
 			"album_artwork_thumb": "https://i.imgur.com/uCbZDvLm.jpg",
 			"album_artwork_full": "https://i.imgur.com/uCbZDvL.jpg"
 		},
-		
+
 		{
-		
+
 			"album_number": "MCX004",
 			"album_artist": "Monstercat",
 			"album_title": "5 Year Anniversary",
 			"album_artwork_thumb": "https://i.imgur.com/NhHf2S3m.jpg",
 			"album_artwork_full": "https://i.imgur.com/NhHf2S3.jpg"
-		
+
 		}
-		
+
 	]
 
 }
@@ -1151,4 +1158,4 @@ for(var i=0;i<albumData.eps.length;i++) availableEPs.push(albumData.eps[i].album
 availableSeasonals = [];
 for(var i=0;i<albumData.seasonals.length;i++) availableSeasonals.push(albumData.seasonals[i].album_number);
 
-latestReleases = ["MCEP100", "MCEP101", "MCEP098", "MCEP099", "MCX004", "027", "MCEP096", "MCEP097"];
+latestReleases = ["028", "MCEP100", "MCEP101", "MCEP098", "MCEP099", "MCX004", "027", "MCEP096"];

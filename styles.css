@@ -24,13 +24,13 @@
 }
 
 body {
+    font-family: Gotham Book;
+    -webkit-font-smoothing: antialiased;
 	margin: 0;
 	background: rgb(18, 21, 23);
 	color: white;
-	-webkit-font-smoothing: antialiased;
 	overflow-x: hidden;
 	overflow-y: scroll;
-	font-family: Gotham Book;
 }
 
 #wrapper {

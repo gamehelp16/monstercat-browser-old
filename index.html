@@ -38,7 +38,7 @@
 			<p>Welcome! Here you can browse tracklists from albums released by Monstercat. Click on each track to play them right on this site, or click the genre circles on the top right corner of the tracklist to filter it by track genres. Use the sidebar to navigate through the site.</p>
 			<p>This album browser is inspired by <a href="https://www.reddit.com/user/Bloq">/u/Bloq's</a> <a href="https://www.reddit.com/r/Monstercat/comments/4m0t3q/monstercat_027_cataclysm_bloqs_visual_tracklist/" target="_blank">Visual Tracklist</a> from Reddit, go check it out! If you have some feedback about this project feel free to tell me at <a href="https://www.reddit.com/user/gamehelp16/" target="_blank">/u/gamehelp16</a> or comment on this project's <a href="https://gamehelp16.github.io/post/monstercat-album-browser/" target="_blank">blog post</a>. You can also check out the GitHub repo of this project <a href="https://github.com/gamehelp16/monstercat-browser" target="_blank">here</a>.</p>
 		</div>
-		
+
 		<h2>Latest Releases</h2>
 		<div class="grid" id="latest-releases"></div>
 		<div style="clear:both"></div><br>
@@ -155,7 +155,7 @@
 			for(var i=availableEPs.length-1;i>=0;i--) document.getElementById("ep-grid").innerHTML += showAlbumCard(availableEPs[i]);
 
 			for(var i=availableSeasonals.length-1;i>=0;i--) document.getElementById("seasonal-grid").innerHTML += showAlbumCard(availableSeasonals[i]);
-			
+
 			for(var i=0;i<latestReleases.length;i++) document.getElementById("latest-releases").innerHTML += showAlbumCard(latestReleases[i]);
 
 		}
@@ -433,42 +433,64 @@
 			if(i<90) document.getElementById("track-" + i).className = "track active";
 			else document.getElementById("track-" + i).className = "mix active";
 
-			var request = new XMLHttpRequest();
-			request.open('GET', 'https://api.soundcloud.com/resolve.json?url=' + url + '&client_id=aa5f438c7671dcdd963f0161b2ca5ad7', true);
+			if(url.indexOf("http") < 0) {
 
-			request.onload = function() {
-				if(request.status >= 200 && request.status < 400) {
-					var response = JSON.parse(request.responseText);
-					if(response.kind === "track"){
-
-						if(i > 89) var nowplaying = response.title;
-						else {
-							var track = data.tracks[i];
-							var nowplaying = track.artist + " - " + track.title;
-							if(track.feat != "") nowplaying += " (feat. " + track.feat + ")";
-						}
-
-						var stream;
-						if(response.sharing == "public") stream = response.stream_url + "?client_id=aa5f438c7671dcdd963f0161b2ca5ad7";
-						else stream = response.stream_url + "&client_id=aa5f438c7671dcdd963f0161b2ca5ad7";
-						document.getElementById("soundcloud-player").src = stream;
-						document.getElementById("soundcloud-player").play();
-						document.getElementById("now-playing").innerHTML = "Now Playing: <b>" + nowplaying + "</b>";
-						document.getElementById("player-div").style.display = "block";
-						document.getElementById("spacer").style.display = "block";
-
-					}
+				if(i > 89) {
+					var nowplaying = document.getElementById("album-id").innerHTML + " - " + document.getElementById("album-title").innerHTML + " (" + data.mixes[i-90].name + " Album Mix)";
 				}
 				else {
-					alert('Error: Cannot load music.');
+					var track = data.tracks[i];
+					var nowplaying = track.artist + " - " + track.title;
+					if(track.feat != "") nowplaying += " (feat. " + track.feat + ")";
 				}
-			};
 
-			request.onerror = function() {
-				alert('Error: Cannot connect to SoundCloud server.');
-			};
+				document.getElementById("soundcloud-player").src = 'https://s3.amazonaws.com/data.monstercat.com/blobs/' + url;
+				document.getElementById("soundcloud-player").play();
+				document.getElementById("now-playing").innerHTML = "Now Playing: <b>" + nowplaying + "</b>";
+				document.getElementById("player-div").style.display = "block";
+				document.getElementById("spacer").style.display = "block";
 
-			request.send();
+			}
+			else {
+
+				var request = new XMLHttpRequest();
+				request.open('GET', 'https://api.soundcloud.com/resolve.json?url=' + url + '&client_id=aa5f438c7671dcdd963f0161b2ca5ad7', true);
+
+				request.onload = function() {
+					if(request.status >= 200 && request.status < 400) {
+						var response = JSON.parse(request.responseText);
+						if(response.kind === "track"){
+
+							if(i > 89) var nowplaying = response.title;
+							else {
+								var track = data.tracks[i];
+								var nowplaying = track.artist + " - " + track.title;
+								if(track.feat != "") nowplaying += " (feat. " + track.feat + ")";
+							}
+
+							var stream;
+							if(response.sharing == "public") stream = response.stream_url + "?client_id=aa5f438c7671dcdd963f0161b2ca5ad7";
+							else stream = response.stream_url + "&client_id=aa5f438c7671dcdd963f0161b2ca5ad7";
+							document.getElementById("soundcloud-player").src = stream;
+							document.getElementById("soundcloud-player").play();
+							document.getElementById("now-playing").innerHTML = "Now Playing: <b>" + nowplaying + "</b>";
+							document.getElementById("player-div").style.display = "block";
+							document.getElementById("spacer").style.display = "block";
+
+						}
+					}
+					else {
+						alert('Error: Cannot load music.');
+					}
+				};
+
+				request.onerror = function() {
+					alert('Error: Cannot connect to SoundCloud server.');
+				};
+
+				request.send();
+
+			}
 
 		}
 
