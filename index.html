@@ -24,8 +24,15 @@
 
 	<div id="player-div">
 		<div id="player-inner-div">
-			<div id="now-playing"></div>
-			<audio id="soundcloud-player" controls></audio>
+			<div id="now-playing">Now Playing: <b>Lorem Ipsum - Dolor Sit Amet</b></div>
+			<div id="player-controls" class="noselect">
+				<div id="play-pause" class="play">&#9658;</div>
+				<div id="duration">0:00 / 0:00</div>
+				<div id="seek-bar">
+					<div id="seek-bar-inner"></div>
+					<div id="seek-bar-ghost"></div>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -212,7 +219,8 @@
 			currentAlbumIndex,
 			availableAlbums = availableCompilations,
 			loadingAlbum = true,
-			mode = "compilation";
+			mode = "compilation",
+			audio = new Audio();
 
 		function loadAlbum(number) {
 
@@ -416,14 +424,28 @@
 		function playSoundCloud(i, url) {
 
 			if(url == "") {
-				alert('SoundCloud link for track not added yet.');
+				alert('Link for track not added yet.');
 				return;
 			}
 			if(i == selectedTrack) return;
 
+			if(i > 89) {
+				var nowplaying = document.getElementById("album-id").innerHTML + " - " + document.getElementById("album-title").innerHTML + " (" + data.mixes[i-90].name + " Album Mix)";
+			}
+			else {
+				var track = data.tracks[i];
+				var nowplaying = track.artist + " - " + track.title;
+				if(track.feat != "") nowplaying += " (feat. " + track.feat + ")";
+			}
+
+			document.getElementById("now-playing").innerHTML = "Now Playing: <b>" + nowplaying + "</b>";
+			document.getElementById("player-div").style.display = "block";
+			document.getElementById("spacer").style.display = "block";
+
 			if(selectedTrack<99) {
-				document.getElementById("soundcloud-player").pause();
-				document.getElementById("now-playing").innerHTML = "Now Playing: <b>...</b>";
+				audio.pause();
+				audio.currentTime = 0;
+
 				if(document.getElementById("track-" + selectedTrack) !== null) {
 					if(selectedTrack<90) document.getElementById("track-" + selectedTrack).className = "track";
 					else document.getElementById("track-" + selectedTrack).className = "mix";
@@ -434,22 +456,8 @@
 			else document.getElementById("track-" + i).className = "mix active";
 
 			if(url.indexOf("http") < 0) {
-
-				if(i > 89) {
-					var nowplaying = document.getElementById("album-id").innerHTML + " - " + document.getElementById("album-title").innerHTML + " (" + data.mixes[i-90].name + " Album Mix)";
-				}
-				else {
-					var track = data.tracks[i];
-					var nowplaying = track.artist + " - " + track.title;
-					if(track.feat != "") nowplaying += " (feat. " + track.feat + ")";
-				}
-
-				document.getElementById("soundcloud-player").src = 'https://s3.amazonaws.com/data.monstercat.com/blobs/' + url;
-				document.getElementById("soundcloud-player").play();
-				document.getElementById("now-playing").innerHTML = "Now Playing: <b>" + nowplaying + "</b>";
-				document.getElementById("player-div").style.display = "block";
-				document.getElementById("spacer").style.display = "block";
-
+				audio.src = 'https://s3.amazonaws.com/data.monstercat.com/blobs/' + url;
+				audio.play();
 			}
 			else {
 
@@ -459,24 +467,12 @@
 				request.onload = function() {
 					if(request.status >= 200 && request.status < 400) {
 						var response = JSON.parse(request.responseText);
-						if(response.kind === "track"){
-
-							if(i > 89) var nowplaying = response.title;
-							else {
-								var track = data.tracks[i];
-								var nowplaying = track.artist + " - " + track.title;
-								if(track.feat != "") nowplaying += " (feat. " + track.feat + ")";
-							}
-
+						if(response.kind === "track") {
 							var stream;
 							if(response.sharing == "public") stream = response.stream_url + "?client_id=aa5f438c7671dcdd963f0161b2ca5ad7";
 							else stream = response.stream_url + "&client_id=aa5f438c7671dcdd963f0161b2ca5ad7";
-							document.getElementById("soundcloud-player").src = stream;
-							document.getElementById("soundcloud-player").play();
-							document.getElementById("now-playing").innerHTML = "Now Playing: <b>" + nowplaying + "</b>";
-							document.getElementById("player-div").style.display = "block";
-							document.getElementById("spacer").style.display = "block";
-
+							audio.src = stream;
+							audio.play();
 						}
 					}
 					else {
@@ -491,6 +487,40 @@
 				request.send();
 
 			}
+
+			updatePlayer();
+
+		}
+
+		function updatePlayer() {
+
+			var time = Math.floor(audio.currentTime);
+			var time2 = time3 = Math.floor(audio.duration);
+			if(isNaN(time2)) time2 = 0, time3 = 1;
+
+			document.getElementById('seek-bar-inner').style.width = (audio.currentTime / time3 * 630) + "px";
+
+			var button = document.getElementById("play-pause");
+			if(!audio.paused) {
+				button.className = "pause";
+				button.innerHTML = "&#9612;&#9612;";
+			}
+			else {
+				button.className = "play";
+				button.innerHTML = "&#9658;";
+			}
+
+			var minutes = Math.floor(time / 60);
+			var seconds = time - minutes * 60;
+			if(seconds < 10) seconds = "0" + seconds;
+
+			var minutes2 = Math.floor(time2 / 60);
+			var seconds2 = time2 - minutes2 * 60;
+			if(seconds2 < 10) seconds2 = "0" + seconds2;
+
+			document.getElementById("duration").innerHTML = minutes + ":" + seconds + " / " + minutes2 + ":" + seconds2;
+
+			requestAnimationFrame(updatePlayer);
 
 		}
 
@@ -528,6 +558,28 @@
 			setTimeout(function() {
 				document.getElementById("modal").style.display = "none";
 			}, 200);
+		};
+
+		document.getElementById("play-pause").onclick = function() {
+			if(!audio.paused) audio.pause();
+			else audio.play();
+		};
+
+		document.getElementById("seek-bar").onmousemove = function(e) {
+			var offsetLeft = document.body.clientWidth / 2 - 335;
+			var x = e.pageX - offsetLeft;
+			document.getElementById("seek-bar-ghost").style.width = x + "px";
+		};
+
+		document.getElementById("seek-bar").onmouseout = function(e) {
+			document.getElementById("seek-bar-ghost").style.width = "0px";
+		};
+
+		document.getElementById("seek-bar").onclick = function(e) {
+			var offsetLeft = document.body.clientWidth / 2 - 335;
+			var x = e.pageX - offsetLeft;
+			audio.currentTime = x / 630 * audio.duration;
+			audio.play();
 		};
 
 	</script>
