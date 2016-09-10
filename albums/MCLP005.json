@@ -1,5 +1,5 @@
 {
-	
+
 	"album_number": "MCLP005",
 	"album_artist": "Grabbitz",
 	"album_title": "Better With Time",
@@ -10,9 +10,9 @@
 
 		{
 			"artist": "Grabbitz",
-			"title": "Hope",
+			"title": "Hope (Intro)",
 			"genre": 11,
-			"feat": "Intro",
+			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/monstercat/grabbitz-hope-intro"
 		},
 

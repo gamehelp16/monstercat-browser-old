@@ -312,7 +312,7 @@ body {
 }
 
 #seek-bar-inner {
-    width: 100px;
+    width: 0px;
     height: 7px;
     position: absolute;
     background: #ffffff;

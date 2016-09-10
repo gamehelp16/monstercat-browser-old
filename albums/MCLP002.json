@@ -1,5 +1,5 @@
 {
-	
+
 	"album_number": "MCLP002",
 	"album_artist": "Varien",
 	"album_title": "The Ancient & The Arcane",
@@ -50,9 +50,9 @@
 
 		{
 			"artist": "Varien",
-			"title": "Firefly",
+			"title": "Firefly (Intermission)",
 			"genre": 11,
-			"feat": "Intermission",
+			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/monstercat/varien-firefly-intermission"
 		},
 
