@@ -25,7 +25,14 @@
 	<div id="player-div">
 		<div id="player-inner-div">
 			<div id="now-playing"></div>
-			<audio id="soundcloud-player" controls></audio>
+			<div id="player-controls" class="noselect">
+				<div id="play-pause" class="play">&#9658;</div>
+				<div id="duration">0:00 / 0:00</div>
+				<div id="seek-bar">
+					<div id="seek-bar-inner"></div>
+					<div id="seek-bar-ghost"></div>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -38,7 +45,7 @@
 			<p>Welcome! Here you can browse tracklists from albums released by Monstercat. Click on each track to play them right on this site, or click the genre circles on the top right corner of the tracklist to filter it by track genres. Use the sidebar to navigate through the site.</p>
 			<p>This album browser is inspired by <a href="https://www.reddit.com/user/Bloq">/u/Bloq's</a> <a href="https://www.reddit.com/r/Monstercat/comments/4m0t3q/monstercat_027_cataclysm_bloqs_visual_tracklist/" target="_blank">Visual Tracklist</a> from Reddit, go check it out! If you have some feedback about this project feel free to tell me at <a href="https://www.reddit.com/user/gamehelp16/" target="_blank">/u/gamehelp16</a> or comment on this project's <a href="https://gamehelp16.github.io/post/monstercat-album-browser/" target="_blank">blog post</a>. You can also check out the GitHub repo of this project <a href="https://github.com/gamehelp16/monstercat-browser" target="_blank">here</a>.</p>
 		</div>
-		
+
 		<h2>Latest Releases</h2>
 		<div class="grid" id="latest-releases"></div>
 		<div style="clear:both"></div><br>
@@ -155,7 +162,7 @@
 			for(var i=availableEPs.length-1;i>=0;i--) document.getElementById("ep-grid").innerHTML += showAlbumCard(availableEPs[i]);
 
 			for(var i=availableSeasonals.length-1;i>=0;i--) document.getElementById("seasonal-grid").innerHTML += showAlbumCard(availableSeasonals[i]);
-			
+
 			for(var i=0;i<latestReleases.length;i++) document.getElementById("latest-releases").innerHTML += showAlbumCard(latestReleases[i]);
 
 		}
@@ -212,7 +219,8 @@
 			currentAlbumIndex,
 			availableAlbums = availableCompilations,
 			loadingAlbum = true,
-			mode = "compilation";
+			mode = "compilation",
+			audio = new Audio();
 
 		function loadAlbum(number) {
 
@@ -416,14 +424,28 @@
 		function playSoundCloud(i, url) {
 
 			if(url == "") {
-				alert('SoundCloud link for track not added yet.');
+				alert('Link for track not added yet.');
 				return;
 			}
 			if(i == selectedTrack) return;
 
+			if(i > 89) {
+				var nowplaying = document.getElementById("album-id").innerHTML + " - " + document.getElementById("album-title").innerHTML + " (" + data.mixes[i-90].name + " Album Mix)";
+			}
+			else {
+				var track = data.tracks[i];
+				var nowplaying = track.artist + " - " + track.title;
+				if(track.feat != "") nowplaying += " (feat. " + track.feat + ")";
+			}
+
+			document.getElementById("now-playing").innerHTML = "Now Playing: <b>" + nowplaying + "</b>";
+			document.getElementById("player-div").style.display = "block";
+			document.getElementById("spacer").style.display = "block";
+
 			if(selectedTrack<99) {
-				document.getElementById("soundcloud-player").pause();
-				document.getElementById("now-playing").innerHTML = "Now Playing: <b>...</b>";
+				audio.pause();
+				audio.currentTime = 0;
+
 				if(document.getElementById("track-" + selectedTrack) !== null) {
 					if(selectedTrack<90) document.getElementById("track-" + selectedTrack).className = "track";
 					else document.getElementById("track-" + selectedTrack).className = "mix";
@@ -433,42 +455,72 @@
 			if(i<90) document.getElementById("track-" + i).className = "track active";
 			else document.getElementById("track-" + i).className = "mix active";
 
-			var request = new XMLHttpRequest();
-			request.open('GET', 'https://api.soundcloud.com/resolve.json?url=' + url + '&client_id=aa5f438c7671dcdd963f0161b2ca5ad7', true);
+			if(url.indexOf("http") < 0) {
+				audio.src = 'https://s3.amazonaws.com/data.monstercat.com/blobs/' + url;
+				audio.play();
+			}
+			else {
 
-			request.onload = function() {
-				if(request.status >= 200 && request.status < 400) {
-					var response = JSON.parse(request.responseText);
-					if(response.kind === "track"){
+				var request = new XMLHttpRequest();
+				request.open('GET', 'https://api.soundcloud.com/resolve.json?url=' + url + '&client_id=aa5f438c7671dcdd963f0161b2ca5ad7', true);
 
-						if(i > 89) var nowplaying = response.title;
-						else {
-							var track = data.tracks[i];
-							var nowplaying = track.artist + " - " + track.title;
-							if(track.feat != "") nowplaying += " (feat. " + track.feat + ")";
+				request.onload = function() {
+					if(request.status >= 200 && request.status < 400) {
+						var response = JSON.parse(request.responseText);
+						if(response.kind === "track") {
+							var stream;
+							if(response.sharing == "public") stream = response.stream_url + "?client_id=aa5f438c7671dcdd963f0161b2ca5ad7";
+							else stream = response.stream_url + "&client_id=aa5f438c7671dcdd963f0161b2ca5ad7";
+							audio.src = stream;
+							audio.play();
 						}
-
-						var stream;
-						if(response.sharing == "public") stream = response.stream_url + "?client_id=aa5f438c7671dcdd963f0161b2ca5ad7";
-						else stream = response.stream_url + "&client_id=aa5f438c7671dcdd963f0161b2ca5ad7";
-						document.getElementById("soundcloud-player").src = stream;
-						document.getElementById("soundcloud-player").play();
-						document.getElementById("now-playing").innerHTML = "Now Playing: <b>" + nowplaying + "</b>";
-						document.getElementById("player-div").style.display = "block";
-						document.getElementById("spacer").style.display = "block";
-
 					}
-				}
-				else {
-					alert('Error: Cannot load music.');
-				}
-			};
+					else {
+						alert('Error: Cannot load music.');
+					}
+				};
 
-			request.onerror = function() {
-				alert('Error: Cannot connect to SoundCloud server.');
-			};
+				request.onerror = function() {
+					alert('Error: Cannot connect to SoundCloud server.');
+				};
 
-			request.send();
+				request.send();
+
+			}
+
+			updatePlayer();
+
+		}
+
+		function updatePlayer() {
+
+			var time = Math.floor(audio.currentTime);
+			var time2 = time3 = Math.floor(audio.duration);
+			if(isNaN(time2)) time2 = 0, time3 = 1;
+
+			document.getElementById('seek-bar-inner').style.width = (audio.currentTime / time3 * 630) + "px";
+
+			var button = document.getElementById("play-pause");
+			if(!audio.paused) {
+				button.className = "pause";
+				button.innerHTML = "&#9612;&#9612;";
+			}
+			else {
+				button.className = "play";
+				button.innerHTML = "&#9658;";
+			}
+
+			var minutes = Math.floor(time / 60);
+			var seconds = time - minutes * 60;
+			if(seconds < 10) seconds = "0" + seconds;
+
+			var minutes2 = Math.floor(time2 / 60);
+			var seconds2 = time2 - minutes2 * 60;
+			if(seconds2 < 10) seconds2 = "0" + seconds2;
+
+			document.getElementById("duration").innerHTML = minutes + ":" + seconds + " / " + minutes2 + ":" + seconds2;
+
+			requestAnimationFrame(updatePlayer);
 
 		}
 
@@ -506,6 +558,28 @@
 			setTimeout(function() {
 				document.getElementById("modal").style.display = "none";
 			}, 200);
+		};
+
+		document.getElementById("play-pause").onclick = function() {
+			if(!audio.paused) audio.pause();
+			else audio.play();
+		};
+
+		document.getElementById("seek-bar").onmousemove = function(e) {
+			var offsetLeft = document.body.clientWidth / 2 - 335;
+			var x = e.pageX - offsetLeft;
+			document.getElementById("seek-bar-ghost").style.width = x + "px";
+		};
+
+		document.getElementById("seek-bar").onmouseout = function(e) {
+			document.getElementById("seek-bar-ghost").style.width = "0px";
+		};
+
+		document.getElementById("seek-bar").onclick = function(e) {
+			var offsetLeft = document.body.clientWidth / 2 - 335;
+			var x = e.pageX - offsetLeft;
+			audio.currentTime = x / 630 * audio.duration;
+			audio.play();
 		};
 
 	</script>

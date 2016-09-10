@@ -7,12 +7,12 @@
 	</style>
 </head>
 <body>
-	
+
 	<!-- I know the code below is an "unprofessional code", but screw it as long as it works -->
-	
+
 	<!--textarea id="z" style="width:500px;height:300px;"></textarea><br><br>
 	<script>
-	
+
 	function asd(num) {
 		var request = new XMLHttpRequest();
 		//console.log(availableEPs[i]);
@@ -21,7 +21,7 @@
 		request.onload = function() {
 			result = JSON.parse(request.responseText);
 			document.getElementById("z").innerHTML += '{\n\t"album_number": "'+result.album_number+'",\n\t"album_artist": "'+result.album_artist+'",\n\t"album_title": "'+result.album_title+'",\n\t"album_artwork_thumb": "'+result.album_artwork_thumb+'",\n\t"album_artwork_full": "'+result.album_artwork_full+'"\n},\n\n';
-			
+
 			var num2 = parseInt(num.replace(/MC(L|E)P/g, ""));
 			document.title = result.album_number;
 			if(num2 < before && !wrong) alert('Wrong positioning!'), wrong = true;
@@ -30,132 +30,27 @@
 
 		request.send();
 	}
-	
+
 	availableEPs = ["MCEP001", "MCEP002", "MCEP003", "MCEP004", "MCEP005", "MCEP006", "MCEP007", "MCEP008", "MCEP009", "MCEP010", "MCEP011", "MCEP012", "MCEP013", "MCEP014", "MCEP015", "MCEP016", "MCEP017", "MCEP018", "MCEP019", "MCEP020", "MCEP021", "MCEP022", "MCEP023", "MCEP024", "MCEP025", "MCEP026", "MCEP027", "MCEP028", "MCEP029", "MCEP030", "MCEP031", "MCEP032", "MCEP033", "MCEP034", "MCEP035", "MCEP036", "MCEP037", "MCEP038", "MCEP039", "MCEP040", "MCEP041", "MCEP042", "MCEP043", "MCEP044", "MCEP045", "MCEP046", "MCEP047", "MCEP048", "MCEP049", "MCEP050", "MCEP051", "MCEP052", "MCEP054", "MCEP055", "MCEP056", "MCEP057", "MCEP058", "MCEP059", "MCEP060", "MCEP061", "MCEP062", "MCEP063", "MCEP064", "MCEP065", "MCEP066", "MCEP067", "MCEP069", "MCEP070", "MCEP071", "MCEP072", "MCEP073", "MCEP074", "MCEP075", "MCEP076", "MCEP077", "MCEP079", "MCEP080", "MCEP082", "MCEP083", "MCEP084", "MCEP086", "MCEP087", "MCEP088", "MCEP090", "MCEP091", "MCEP092", "MCEP093", "MCEP094", "MCEP096", "MCEP097", "MCEP099"]
 	before = 0;
 	wrong = false;
 	for(var i=0;i<availableEPs.length;i++) {
 		dsa(i);
 	}
-	
+
 	function dsa(i) {
 		setTimeout(function(){asd(availableEPs[i]);},100*i);
 	}
 	</script-->
-	
-	<h1>It looks like everything's good for now, there's no more help needed to add some albums.</h1>
-	
-	Contributing an album data to the site is actually quite simple, simply PM me at <a href="https://www.reddit.com/user/gamehelp16/" target="_blank">/u/gamehelp16</a> and include the needed information:<br><br>
-	
-	<h3>If you're sending an album data for a compilation album include these information:</h3>
-	1. Album number and name (example: 027 - Cataclysm).<br>
-	2. Upload the large version of the album art to imgur and include the link on the PM (example: https://i.imgur.com/j1fZsYB.jpg). Album art should be at least 1000x1000px in size and make sure it doesn't contain the monstercat logo on the top right corner (make sure the url is using https. If it is not, simply change http to https).<br><br>
-	Tip: actually you only need to upload the large version of the artwork, to get the smaller version simply add "m" before the file extension on the URL (example: https://i.imgur.com/7DJVBVhm.jpg).<br><br>
-	3. Go to the <a href="http://monstercat.wikia.com/" target="_blank">Monstercat Wiki</a> page of the album and copy the table of the tracklist so the copied data looks like what you see below, make sure that you did NOT copy the album mixes!<br><br>
-	Copied data should look like this:<br>
-<pre>1	Grabbitz	Float Away	Indie Dance	3:14	
-2	Tristam	The Vine	Drumstep	3:59	
-3	Project 46	Signs	House	3:15	feat. Shantee
-4	Savoy	Your Time	Dubstep	4:36	feat. KIELY
-5	Haywyre	Endlessly	Glitch Hop	4:59	
-6	Karma Fields & MORTEN	Stickup	Trap	4:48	feat. Juliette Lewis
-7	Botnek & I See Monstas	Deeper Love	Drum & Bass	4:13	
-8	Aero Chord & Klaypex	Be Free	Trap	2:58	
-9	Stonebank	Lost Without You	Electro	4:50	
-10	Pierce Fulton & Puppet	Boy and the Beast	Electro	4:33	
-11	Snavs	Time	Trap	3:06	
-12	Muzzy	Calling Out	Drum & Bass	5:36	feat. KG & Skyelle
-13	Nitro Fun & Subtact	Come With Me	Glitch Hop	3:35	feat. Anna Yvette
-14	WRLD	Fighter	Indie Dance	4:00	
-15	Rogue	Drive Away	Electronic	4:58	
-16	LVTHER	Dots	Indie Dance	3:41	feat. Jenny Broke the Window
-17	F.O.O.L	Need You	Electro	3:33	
-18	Tut Tut Child	Talking of Axes	Electronic	3:18	feat. Jim Davies
-19	Televisor	Dangerous	Nu Disco	4:28	feat. Danyka Nadeau
-20	Savoy	Love Is Killing Me	Electronic	3:49	feat. Chali 2na
-21	Laszlo	Home	House	4:52	feat. Richard Caddock
-22	Rootkit	Elevate	House	4:27	
-23	Case & Point	Paradigm	Electro	4:49	
-24	Mr Fijiwiji & Varien	We Are The Lights	Chillout	4:06	
-25	Stephen Walking	Porkchop Express	Electronic	3:33	
-26	Grabbitz	Better With Time	Electronic	4:03	
-27	PIXL	Here For You	House	4:40	feat. Q'AILA
-28	Openwater & Matt Vice	No Regrets	Chillout	4:35	
-29	Au5 & Fractal	Ison	Dubstep	5:32	
-30	Direct	Lark	Chillout	4:10	</pre><br>
-	
-	4. Insert the data into the input field and press the button.<br><br>
-	
-	<textarea id="input" style="width:300px;height:200px" placeholder="input field (see input example above)"></textarea><br>
-	<input type="button" value="Process" onclick="process()"><br><br>
-	<textarea id="output" style="width:300px;height:200px" placeholder="output"></textarea><br><br>
-	<i>(Apparently sometimes the data generated doesn't include the last track, so make sure that they do exist!)</i><br><br>
-	
-	5. If you take a look at the generated data there are a lot of text saying "&lt;soundcloud link for '(song name)'&gt;", replace those with the SoundCloud url for the track mentioned (example: https://soundcloud.com/monstercat/unlike-pluto-waiting-for-you). Make sure the url is using https, if it is not simply change http to https. And also the URL doesn't need to be surrounded by the "&lt;&gt;" brackets.<br>
-	6. After putting the SoundCloud link, copy the data generated to a site like pastebin.com and include the link to the PM.<br>
-	7. Last, include on the PM the name and the SoundCloud URL of album mixes of the album.<br><br>
 
-	That's it, thank you for your contribution!<br><br>
-	
-	PS: If you know what JSON is, you can make my job easier by constructing the whole JSON file of the album data and paste them instead to pastebin. You can take a look at examples of finished album data (<a href="albums/026.json">026</a> or <a href="albums/027.json">027</a>).<br><br>
-	<hr>
-	
-	<h3>If you're sending an album data for an LP / EP / Seasonal Album include these information:</h3>
-	<b>Make sure that you go <a href="https://www.reddit.com/r/Monstercat/comments/4s0sxn/the_monstercat_album_browser_has_been_updated/?st=iqfc9vxn&sh=13bda474" target="_blank">here</a> first to check what albums people are making to avoid duplicates! (and of course check the browser itself too!)</b><br><br>
-	1. Album name, artist and catalog number (example: Karma Fields - New Age | Dark Age MCLP007).<br>
-	2. Upload the large version of the album art to imgur and include the link on the PM (example: https://i.imgur.com/j1fZsYB.jpg). Album art should be at least 1000x1000px in size (make sure the url is using https. If it is not, simply change http to https).<br><br>
-	Tip: actually you only need to upload the large version of the artwork, to get the smaller version simply add "m" before the file extension on the URL (example: https://i.imgur.com/7DJVBVhm.jpg).<br><br>
-	3. Go to the <a href="http://monstercat.wikia.com/" target="_blank">Monstercat Wiki</a> page of the album and copy the table of the tracklist so the copied data looks like what you see below, make sure that you did NOT copy the album mixes!<br><br>
-	Copied data should look like this:<br>
-<pre>1	Edge of the World	5:13	Electro	
-2	Stickup	4:50	Aggrotech	with MORTEN & feat. Juliette Lewis
-3	For Me	3:42	Moombahcore	
-4	Skyline	4:44	Electronic	
-5	Fixed_	4:59	Electronic / Complextro	
-6	Greatness	4:30	Hip Hop / Electronic / Trap	feat. Talib Kweli
-7	Scandal	3:21	Electronic	feat. CC Sheffield
-8	Build the Cities	3:45	Electronic	feat. Kerli
-9	Skewed	4:06	Breaks	
-10	Faint Echoes	4:41	Future House	feat. Monarchy
-11	A Bright but Distant Future	4:06	Indie Dance / Synthpop	
-12	Build the Cities +	3:59	Electronic	feat. Kerli</pre><br>
-	
-	If you take a look at the copied data, there are some text saying "feat. blablabla". Remove the text "feat." leaving only the name of the artist featured on the track (make sure you don't delete the tab symbols!). Also delete the name of the artist with whom the main album artist collaborates with but is not featured in the song (this one is quite difficult to explain, take a look at how the data should become below).<br><br>After doing some modifications the data should look like this:<br>
-	
-	<pre>1	Edge of the World	5:13	Electro	
-2	Stickup	4:50	Aggrotech	Juliette Lewis
-3	For Me	3:42	Moombahcore	
-4	Skyline	4:44	Electronic	
-5	Fixed_	4:59	Electronic / Complextro	
-6	Greatness	4:30	Hip Hop / Electronic / Trap	Talib Kweli
-7	Scandal	3:21	Electronic	CC Sheffield
-8	Build the Cities	3:45	Electronic	Kerli
-9	Skewed	4:06	Breaks	
-10	Faint Echoes	4:41	Future House	Monarchy
-11	A Bright but Distant Future	4:06	Indie Dance / Synthpop	
-12	Build the Cities +	3:59	Electronic	Kerli</pre><br>
+	<h2>So I have found a way to add album data easily using Monstercat's Connect API, this means that I can add an album data simply by just entering its catalog number (and a little bit editing). The following is the tool to do so just in case you're curious, keep in mind that you don't need to send me any album data anymore since this (obviously) is easy to do. Right now the tool is suitable for compilation albums only, but it will be improved!</h2>
 
-	Notice at the second track MORTEN's name is removed because only Juliette Lewis is "featured" on the track. MORTEN's name will be put beside Karma Fields' name instead on the artist field of the generated data (see more info below).<br><br>
-	
-	4. Insert the data into the input field and press the button.<br><br>
-	
-	<textarea id="input2" style="width:300px;height:200px" placeholder="input field (see input example above)"></textarea><br>
-	<input type="button" value="Process" onclick="process2()"><br><br>
-	<textarea id="output2" style="width:300px;height:200px" placeholder="output"></textarea><br><br>
-	<i>(Apparently sometimes the data generated doesn't include the last track, so make sure that they do exist!)</i><br><br>
-	
-	5. On the generated data, replace all "&lt;artist name for '(song name)'&gt;" with the artist name (in this case it's Karma Fields). On this field you also include the artist whose name was "removed" from the data above. For example, on track #2 above we removed MORTEN's name, now we put it back here so the artist for track #2 is "Karma Fields & MORTEN" instead of Karma Fields only. I hope this makes sense, you can take a look at the <a href="albums/MCLP007.json">complete album data</a> for an example. And also the artist name doesn't need to be surrounded by the "&lt;&gt;" brackets.<br>
-	6. Also replace "&lt;soundcloud link for '(song name)'&gt;" with the SoundCloud url for the track mentioned (example: https://soundcloud.com/monstercat/unlike-pluto-waiting-for-you). Make sure the url is using https, if it is not simply change http to https. And also the URL doesn't need to be surrounded by the "&lt;&gt;" brackets.<br>
-	7. After putting the SoundCloud link, copy the data generated to a site like pastebin.com and include the link to the PM.<br><br>
+	Enter catalog number: <input type="text" id="catalog-number"> <input type="button" value="Process!" onclick="process()"><br><br>
 
-	That's it, thank you for your contribution!<br><br>
-	
-	PS: If you know what JSON is, you can make my job easier by constructing the whole JSON file of the album data and paste them instead to pastebin. You can take a look at examples of finished album data (<a href="albums/MCLP001.json">MCLP001</a> or <a href="albums/MCLP002.json">MCLP002</a>).<br><br>
-	
-	<script>
-		
-		var genres = ["trap", "dnb", "house", "electro", "hard-dance", "glitch-hop", "nu-disco", "future-bass", "trance", "dubstep", "drumstep", "electronic"];
-		
+	<textarea id="output" rows="30" cols="90"></textarea>
+
+	<script type="text/javascript">
+
 		var genresearch = [
 			['trap', 0],
 			['drum & bass', 1],
@@ -174,60 +69,255 @@
 			['electro', 3],
 			['chillout', 11],
 		];
-		
+
 		function process() {
-			
+
+			var catalog = document.getElementById('catalog-number').value;
+			var output = document.getElementById('output');
+
+			var request = new XMLHttpRequest();
+			request.open('GET', 'https://connect.monstercat.com/api/catalog/release/'+catalog, true);
+
+			request.onload = function() {
+
+				result = JSON.parse(request.responseText);
+				//console.log(result);
+
+				album_id = result._id;
+				album_number = result.title.split(" - ")[0].replace("Monstercat ", "");
+				album_title = result.title.split(" - ")[1];
+				album_artwork_thumb = "https://s3.amazonaws.com/data.monstercat.com/blobs/" + result.thumbHashes["256"];
+				album_artwork_full = "https://s3.amazonaws.com/data.monstercat.com/blobs/" + result.imageHashSum;
+
+				output.value = '{\n\n\t"album_number": "'+album_number+'",\n\t"album_title": "'+album_title+'",\n\t"album_artwork_thumb": "'+album_artwork_thumb+'",\n\t"album_artwork_full": "'+album_artwork_full+'",\n\n\t"tracks": [\n';
+
+				var request2 = new XMLHttpRequest();
+				request2.open('GET', 'https://connect.monstercat.com/api/catalog/release/'+album_id+'/tracks', true);
+
+				request2.onload = function() {
+
+					result2 = JSON.parse(request2.responseText).results;
+					//console.log(result2);
+
+					for(i in result2) {
+
+						var genre = result2[i].genre.toLowerCase();
+
+						for(j=0;j<genresearch.length;j++) {
+							if(genre.indexOf(genresearch[j][0]) > -1) {
+								genre = genresearch[j][1];
+								break;
+							}
+						}
+
+						var title = result2[i].title.replace(/ \(feat\. [a-zA-Z0-9 _\-\&'\.\$]*\)/g, "");
+						var search = result2[i].title.search(/\(feat\. [a-zA-Z0-9 _\-\&'\.\$]*\)/g, "");
+						if(search > -1) feat = result2[i].title.substr(search).replace("(feat. ", "").replace("\)", "");
+						else feat = "";
+
+						output.value += '\n\t\t{\n\t\t\t"artist": "'+result2[i].artistsTitle+'",\n\t\t\t"title": "'+title+'",\n\t\t\t"genre": '+genre+',\n\t\t\t"feat": "'+feat+'",\n\t\t\t"soundcloud_url": "'+result2[i].albums[0].streamHash+'"\n\t\t},\n';
+
+					}
+
+					output.value += '\n\t],\n\n\t"mixes": [\n\n\t\t{\n\t\t\t"name": "",\n\t\t\t"soundcloud_url": ""\n\t\t},\n\n\t\t{\n\t\t\t"name": "",\n\t\t\t"soundcloud_url": ""\n\t\t}\n\n\t]\n\n}';
+
+				}
+
+				request2.send();
+
+			};
+
+			request.send();
+
+		}
+
+	</script>
+
+	<!--h1>It looks like everything's good for now, there's no more help needed to add some albums.</h1>
+
+	Contributing an album data to the site is actually quite simple, simply PM me at <a href="https://www.reddit.com/user/gamehelp16/" target="_blank">/u/gamehelp16</a> and include the needed information:<br><br>
+
+	<h3>If you're sending an album data for a compilation album include these information:</h3>
+	1. Album number and name (example: 027 - Cataclysm).<br>
+	2. Upload the large version of the album art to imgur and include the link on the PM (example: https://i.imgur.com/j1fZsYB.jpg). Album art should be at least 1000x1000px in size and make sure it doesn't contain the monstercat logo on the top right corner (make sure the url is using https. If it is not, simply change http to https).<br><br>
+	Tip: actually you only need to upload the large version of the artwork, to get the smaller version simply add "m" before the file extension on the URL (example: https://i.imgur.com/7DJVBVhm.jpg).<br><br>
+	3. Go to the <a href="http://monstercat.wikia.com/" target="_blank">Monstercat Wiki</a> page of the album and copy the table of the tracklist so the copied data looks like what you see below, make sure that you did NOT copy the album mixes!<br><br>
+	Copied data should look like this:<br>
+<pre>1	Grabbitz	Float Away	Indie Dance	3:14
+2	Tristam	The Vine	Drumstep	3:59
+3	Project 46	Signs	House	3:15	feat. Shantee
+4	Savoy	Your Time	Dubstep	4:36	feat. KIELY
+5	Haywyre	Endlessly	Glitch Hop	4:59
+6	Karma Fields & MORTEN	Stickup	Trap	4:48	feat. Juliette Lewis
+7	Botnek & I See Monstas	Deeper Love	Drum & Bass	4:13
+8	Aero Chord & Klaypex	Be Free	Trap	2:58
+9	Stonebank	Lost Without You	Electro	4:50
+10	Pierce Fulton & Puppet	Boy and the Beast	Electro	4:33
+11	Snavs	Time	Trap	3:06
+12	Muzzy	Calling Out	Drum & Bass	5:36	feat. KG & Skyelle
+13	Nitro Fun & Subtact	Come With Me	Glitch Hop	3:35	feat. Anna Yvette
+14	WRLD	Fighter	Indie Dance	4:00
+15	Rogue	Drive Away	Electronic	4:58
+16	LVTHER	Dots	Indie Dance	3:41	feat. Jenny Broke the Window
+17	F.O.O.L	Need You	Electro	3:33
+18	Tut Tut Child	Talking of Axes	Electronic	3:18	feat. Jim Davies
+19	Televisor	Dangerous	Nu Disco	4:28	feat. Danyka Nadeau
+20	Savoy	Love Is Killing Me	Electronic	3:49	feat. Chali 2na
+21	Laszlo	Home	House	4:52	feat. Richard Caddock
+22	Rootkit	Elevate	House	4:27
+23	Case & Point	Paradigm	Electro	4:49
+24	Mr Fijiwiji & Varien	We Are The Lights	Chillout	4:06
+25	Stephen Walking	Porkchop Express	Electronic	3:33
+26	Grabbitz	Better With Time	Electronic	4:03
+27	PIXL	Here For You	House	4:40	feat. Q'AILA
+28	Openwater & Matt Vice	No Regrets	Chillout	4:35
+29	Au5 & Fractal	Ison	Dubstep	5:32
+30	Direct	Lark	Chillout	4:10	</pre><br>
+
+	4. Insert the data into the input field and press the button.<br><br>
+
+	<textarea id="input" style="width:300px;height:200px" placeholder="input field (see input example above)"></textarea><br>
+	<input type="button" value="Process" onclick="process()"><br><br>
+	<textarea id="output" style="width:300px;height:200px" placeholder="output"></textarea><br><br>
+	<i>(Apparently sometimes the data generated doesn't include the last track, so make sure that they do exist!)</i><br><br>
+
+	5. If you take a look at the generated data there are a lot of text saying "&lt;soundcloud link for '(song name)'&gt;", replace those with the SoundCloud url for the track mentioned (example: https://soundcloud.com/monstercat/unlike-pluto-waiting-for-you). Make sure the url is using https, if it is not simply change http to https. And also the URL doesn't need to be surrounded by the "&lt;&gt;" brackets.<br>
+	6. After putting the SoundCloud link, copy the data generated to a site like pastebin.com and include the link to the PM.<br>
+	7. Last, include on the PM the name and the SoundCloud URL of album mixes of the album.<br><br>
+
+	That's it, thank you for your contribution!<br><br>
+
+	PS: If you know what JSON is, you can make my job easier by constructing the whole JSON file of the album data and paste them instead to pastebin. You can take a look at examples of finished album data (<a href="albums/026.json">026</a> or <a href="albums/027.json">027</a>).<br><br>
+	<hr>
+
+	<h3>If you're sending an album data for an LP / EP / Seasonal Album include these information:</h3>
+	<b>Make sure that you go <a href="https://www.reddit.com/r/Monstercat/comments/4s0sxn/the_monstercat_album_browser_has_been_updated/?st=iqfc9vxn&sh=13bda474" target="_blank">here</a> first to check what albums people are making to avoid duplicates! (and of course check the browser itself too!)</b><br><br>
+	1. Album name, artist and catalog number (example: Karma Fields - New Age | Dark Age MCLP007).<br>
+	2. Upload the large version of the album art to imgur and include the link on the PM (example: https://i.imgur.com/j1fZsYB.jpg). Album art should be at least 1000x1000px in size (make sure the url is using https. If it is not, simply change http to https).<br><br>
+	Tip: actually you only need to upload the large version of the artwork, to get the smaller version simply add "m" before the file extension on the URL (example: https://i.imgur.com/7DJVBVhm.jpg).<br><br>
+	3. Go to the <a href="http://monstercat.wikia.com/" target="_blank">Monstercat Wiki</a> page of the album and copy the table of the tracklist so the copied data looks like what you see below, make sure that you did NOT copy the album mixes!<br><br>
+	Copied data should look like this:<br>
+<pre>1	Edge of the World	5:13	Electro
+2	Stickup	4:50	Aggrotech	with MORTEN & feat. Juliette Lewis
+3	For Me	3:42	Moombahcore
+4	Skyline	4:44	Electronic
+5	Fixed_	4:59	Electronic / Complextro
+6	Greatness	4:30	Hip Hop / Electronic / Trap	feat. Talib Kweli
+7	Scandal	3:21	Electronic	feat. CC Sheffield
+8	Build the Cities	3:45	Electronic	feat. Kerli
+9	Skewed	4:06	Breaks
+10	Faint Echoes	4:41	Future House	feat. Monarchy
+11	A Bright but Distant Future	4:06	Indie Dance / Synthpop
+12	Build the Cities +	3:59	Electronic	feat. Kerli</pre><br>
+
+	If you take a look at the copied data, there are some text saying "feat. blablabla". Remove the text "feat." leaving only the name of the artist featured on the track (make sure you don't delete the tab symbols!). Also delete the name of the artist with whom the main album artist collaborates with but is not featured in the song (this one is quite difficult to explain, take a look at how the data should become below).<br><br>After doing some modifications the data should look like this:<br>
+
+	<pre>1	Edge of the World	5:13	Electro
+2	Stickup	4:50	Aggrotech	Juliette Lewis
+3	For Me	3:42	Moombahcore
+4	Skyline	4:44	Electronic
+5	Fixed_	4:59	Electronic / Complextro
+6	Greatness	4:30	Hip Hop / Electronic / Trap	Talib Kweli
+7	Scandal	3:21	Electronic	CC Sheffield
+8	Build the Cities	3:45	Electronic	Kerli
+9	Skewed	4:06	Breaks
+10	Faint Echoes	4:41	Future House	Monarchy
+11	A Bright but Distant Future	4:06	Indie Dance / Synthpop
+12	Build the Cities +	3:59	Electronic	Kerli</pre><br>
+
+	Notice at the second track MORTEN's name is removed because only Juliette Lewis is "featured" on the track. MORTEN's name will be put beside Karma Fields' name instead on the artist field of the generated data (see more info below).<br><br>
+
+	4. Insert the data into the input field and press the button.<br><br>
+
+	<textarea id="input2" style="width:300px;height:200px" placeholder="input field (see input example above)"></textarea><br>
+	<input type="button" value="Process" onclick="process2()"><br><br>
+	<textarea id="output2" style="width:300px;height:200px" placeholder="output"></textarea><br><br>
+	<i>(Apparently sometimes the data generated doesn't include the last track, so make sure that they do exist!)</i><br><br>
+
+	5. On the generated data, replace all "&lt;artist name for '(song name)'&gt;" with the artist name (in this case it's Karma Fields). On this field you also include the artist whose name was "removed" from the data above. For example, on track #2 above we removed MORTEN's name, now we put it back here so the artist for track #2 is "Karma Fields & MORTEN" instead of Karma Fields only. I hope this makes sense, you can take a look at the <a href="albums/MCLP007.json">complete album data</a> for an example. And also the artist name doesn't need to be surrounded by the "&lt;&gt;" brackets.<br>
+	6. Also replace "&lt;soundcloud link for '(song name)'&gt;" with the SoundCloud url for the track mentioned (example: https://soundcloud.com/monstercat/unlike-pluto-waiting-for-you). Make sure the url is using https, if it is not simply change http to https. And also the URL doesn't need to be surrounded by the "&lt;&gt;" brackets.<br>
+	7. After putting the SoundCloud link, copy the data generated to a site like pastebin.com and include the link to the PM.<br><br>
+
+	That's it, thank you for your contribution!<br><br>
+
+	PS: If you know what JSON is, you can make my job easier by constructing the whole JSON file of the album data and paste them instead to pastebin. You can take a look at examples of finished album data (<a href="albums/MCLP001.json">MCLP001</a> or <a href="albums/MCLP002.json">MCLP002</a>).<br><br>
+
+	<script>
+
+		var genres = ["trap", "dnb", "house", "electro", "hard-dance", "glitch-hop", "nu-disco", "future-bass", "trance", "dubstep", "drumstep", "electronic"];
+
+		var genresearch = [
+			['trap', 0],
+			['drum & bass', 1],
+			['house', 2],
+			['hard dance', 4],
+			['hardstyle', 4],
+			['glitch hop', 5],
+			['110 bpm', 5],
+			['nu disco', 6],
+			['indie dance', 6],
+			['future bass', 7],
+			['trance', 8],
+			['dubstep', 9],
+			['drumstep', 10],
+			['electronic', 11],
+			['electro', 3],
+			['chillout', 11],
+		];
+
+		function process() {
+
 			var input = document.getElementById("input").value.split("\n");
 			document.getElementById("output").value = "";
-			
+
 			for(i=0;i<input.length;i++) {
-				
+
 				var line = input[i].split("\t");
 				var genre = line[3].toLowerCase();
-				
+
 				for(j=0;j<genresearch.length;j++) {
 					if(genre.indexOf(genresearch[j][0]) > -1) {
 						genre = genresearch[j][1];
 						break;
 					}
 				}
-				
+
 				var comma = ",";
 				if(i==input.length-1) comma = "";
-				
+
 				document.getElementById("output").value += '\t\t{\n\t\t\t"artist": "'+line[1]+'",\n\t\t\t"title": "'+line[2]+'",\n\t\t\t"genre": '+genre+',\n\t\t\t"feat": "'+line[5].replace("feat. ","")+'",\n\t\t\t"soundcloud_url": "<soundcloud link for \''+line[2]+'\'>"\n\t\t}'+comma+'\n\n';
-				
+
 			}
-			
+
 		}
-		
+
 		function process2() {
-			
+
 			var input2 = document.getElementById("input2").value.split("\n");
 			document.getElementById("output2").value = "";
-			
+
 			for(i=0;i<input2.length;i++) {
-				
+
 				var line = input2[i].split("\t");
 				var genre = line[3].toLowerCase();
-				
+
 				for(j=0;j<genresearch.length;j++) {
 					if(genre.indexOf(genresearch[j][0]) > -1) {
 						genre = genresearch[j][1];
 						break;
 					}
 				}
-				
+
 				var comma = ",";
 				if(i==input2.length-1) comma = "";
-				
+
 				document.getElementById("output2").value += '\t\t{\n\t\t\t"artist": "<artist name for \''+line[1]+'\'>",\n\t\t\t"title": "'+line[1]+'",\n\t\t\t"genre": '+genre+',\n\t\t\t"feat": "'+line[4]+'",\n\t\t\t"soundcloud_url": "<soundcloud link for \''+line[1]+'\'>"\n\t\t}'+comma+'\n\n';
-				
+
 			}
-			
+
 		}
-		
-	</script>
-	
+
+	</script-->
+
 </body>
 </html>

@@ -1,0 +1,266 @@
+{
+
+	"album_number": "028",
+	"album_title": "Uproar",
+	"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/4ddf9fb72f5bf8f567cd46cc7717780e984a6a37",
+	"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/b2e68d35fa00bfaab6d82aa805d3bdf2",
+
+	"tracks": [
+
+		{
+			"artist": "Snails & Pegboard Nerds",
+			"title": "Deep In The Night",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "28173f4801581c9424fdb2e6d33531c053ecb4db"
+		},
+
+		{
+			"artist": "Vicetone",
+			"title": "Nevada",
+			"genre": 2,
+			"feat": "Cozi Zuehlsdorff",
+			"soundcloud_url": "145b0ea1ef403dbaa159f0e04590493abf44e955"
+		},
+
+		{
+			"artist": "Unlike Pluto",
+			"title": "Found You",
+			"genre": 0,
+			"feat": "Michelle Buzz",
+			"soundcloud_url": "a6aa1a362aa4ecfbaf40b8bca7f6752f9b80e190"
+		},
+
+		{
+			"artist": "Project 46",
+			"title": "Stars",
+			"genre": 2,
+			"feat": "Haley",
+			"soundcloud_url": "dcadf7e9e7618078f95dde55413439d8a30b783d"
+		},
+
+		{
+			"artist": "Anevo",
+			"title": "Don't Shoot Me Down",
+			"genre": 11,
+			"feat": "Jae-Mi",
+			"soundcloud_url": "c26ef7eb91002da21b81f15525b0ce3231aabe7d"
+		},
+
+		{
+			"artist": "Conro",
+			"title": "I Wanna Know",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "8c8c2d217e8f7ef89eeb4fa61741e47c22bd413e"
+		},
+
+		{
+			"artist": "Tokyo Machine",
+			"title": "PARTY",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "30415670c8b2d4d537e87d21be4ea3efe805b1c1"
+		},
+
+		{
+			"artist": "Stonebank",
+			"title": "Who's Got Your Love",
+			"genre": 4,
+			"feat": "",
+			"soundcloud_url": "5b1f95d90ebc20dbe66b1a72b06aded06c59b3d2"
+		},
+
+		{
+			"artist": "Topi",
+			"title": "Bad Language",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "c0b19ddd9d8d1dc0543427448d9b84ce67bb5568"
+		},
+
+		{
+			"artist": "Candyland & Shoffy",
+			"title": "Faces",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "8701eb4bdf7fa95305e1801c9163b4e7c0b3282f"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Wake Up, The House Is Underwater!",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "66be25d787f8207455ae369e87bc5f0e4ff4ba77"
+		},
+
+		{
+			"artist": "Puppet & Foria",
+			"title": "I'm Here",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "c30869627c2f648226def1b7892ae54e53b3c35e"
+		},
+
+		{
+			"artist": "Eminence & Alex Klingle",
+			"title": "Altitude",
+			"genre": 8,
+			"feat": "Danyka Nadeau",
+			"soundcloud_url": "57ad020f026cf85bbf0044f405b9f8db29a92553"
+		},
+
+		{
+			"artist": "WRLD",
+			"title": "By Design",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "d9d5c4586257adaa02becb021cc4a6448bd1afef"
+		},
+
+		{
+			"artist": "Laszlo",
+			"title": "Sphere",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "0f579a77fd25a72801b19968d7b8c0c63332a4dd"
+		},
+
+		{
+			"artist": "Topi",
+			"title": "Backup",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "9496bb157a87d4bdacab691d668582e49fe0243e"
+		},
+
+		{
+			"artist": "Pegboard Nerds & MIU",
+			"title": "Weaponize",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "8c63b6c5627baa3dc6b4b333410142436c404460"
+		},
+
+		{
+			"artist": "Anna Yvette & Laura Brehm",
+			"title": "Summer Never Ends",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "f295eb9680ad33b02b360a4cacc0893377df2c55"
+		},
+
+		{
+			"artist": "Draper",
+			"title": "Ready For Us",
+			"genre": 6,
+			"feat": "Sykes",
+			"soundcloud_url": "ea7b162a9e30397a8d15229172ea7cf062227bbf"
+		},
+
+		{
+			"artist": "Rich Edwards",
+			"title": "For You",
+			"genre": 7,
+			"feat": "Park Avenue",
+			"soundcloud_url": "5f3aa3f27ff2599329ef2c8ef56488e08fba834c"
+		},
+
+		{
+			"artist": "Anevo",
+			"title": "Electric Heart",
+			"genre": 11,
+			"feat": "Ameria",
+			"soundcloud_url": "fc5a44b25cfdcf87758038b806150c2e4934c3e3"
+		},
+
+		{
+			"artist": "Stonebank",
+			"title": "Soldier",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "946cfb9204a4028aa23ce4451aa6955ece3563af"
+		},
+
+		{
+			"artist": "Tokyo Machine",
+			"title": "OKAY",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "af66d7b4647bf30f70f73e06239368c66f297316"
+		},
+
+		{
+			"artist": "Glacier",
+			"title": "Dancing By Myself",
+			"genre": 5,
+			"feat": "Q'AILA",
+			"soundcloud_url": "9a4dbaa58b83a128a92be4696a0afeb4179c5fd2"
+		},
+
+		{
+			"artist": "Droptek",
+			"title": "Rupture",
+			"genre": 1,
+			"feat": "",
+			"soundcloud_url": "1c3f375d3d6a8b227a11aa18c7827d8e2fa4d7a2"
+		},
+
+		{
+			"artist": "Laszlo",
+			"title": "Airglow",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "8ba5a62be6a12a74f467aeefc8f8382fb78e8894"
+		},
+
+		{
+			"artist": "Loosid",
+			"title": "Talisman",
+			"genre": 2,
+			"feat": "Raycee Jones & Lyon Hart",
+			"soundcloud_url": "11ec09a38c359bdec06c6ffff154e013b17ed3f8"
+		},
+
+		{
+			"artist": "F.O.O.L",
+			"title": "Showdown",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "b671a4cd3de480cc2d58808b1fe60d4c01ca831f"
+		},
+
+		{
+			"artist": "Rameses B",
+			"title": "Darkest Place",
+			"genre": 1,
+			"feat": "Aloma Steele",
+			"soundcloud_url": "09c4f3f7de1dcab2b610eebac299c1c2ad88fc23"
+		},
+
+		{
+			"artist": "Rezonate",
+			"title": "Highlight",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "c422ed49668cf1056f800c4fa6f2e5d3ad921adf"
+		}
+
+	],
+
+	"mixes": [
+
+		{
+			"name": "Tyranny",
+			"soundcloud_url": "cb7f91613402a56398de480dad7cc54a8c705ce1"
+		},
+
+		{
+			"name": "Supremacy",
+			"soundcloud_url": "f13e14e711482b41e3d660e7180ecd1fb20d5bb5"
+		}
+
+	]
+
+}
