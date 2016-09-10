@@ -1,10 +1,10 @@
 {
-	
+
 	"album_number": "MCEP101",
 	"album_artist": "Marshmello",
 	"album_title": "Alone (The Remixes)",
-	"album_artwork_thumb": "https://i.imgur.com/1nZsv6Dm.jpg",
-	"album_artwork_full": "https://i.imgur.com/1nZsv6D.jpg",
+	"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/a7ff74603f17090b7097f247757cffed8a391673",
+	"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/a72ac95898bbfcdadc720a85c4aa488a",
 
 	"tracks": [
 
@@ -13,7 +13,7 @@
 			"title": "Alone (Slushii Remix)",
 			"genre": 9,
 			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/slushiimusic/alone"
+			"soundcloud_url": "802b7e5d197f6894ce46aad5944fd46e4bd9f502"
 		},
 
 		{
@@ -21,7 +21,7 @@
 			"title": "Alone (Getter Remix)",
 			"genre": 9,
 			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/getterofficial/alone"
+			"soundcloud_url": "499dc3d7b68d01bc1f3eff8149e414cb55f703c7"
 		},
 
 		{
@@ -29,7 +29,7 @@
 			"title": "Alone (DISKORD Remix)",
 			"genre": 0,
 			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/diskorduk/marshmello-alone-diskord-remix-1"
+			"soundcloud_url": "0238adf25d071ac24c7351e2ec37bc0af7b53b40"
 		},
 
 		{
@@ -37,7 +37,7 @@
 			"title": "Alone (Streex Remake)",
 			"genre": 0,
 			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/streexofficial/marshmello-alone-streex-remake-1"
+			"soundcloud_url": "3d37e2ce14ad3dcfda18ddc93ad299e27045fd39"
 		},
 
 		{
@@ -45,7 +45,7 @@
 			"title": "Alone (MRVLZ Remix)",
 			"genre": 7,
 			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/mrvlz/marshmello-alone-mrvlz-remix"
+			"soundcloud_url": "13a2b3e9982150609fd65dfcdb6a5df8a36b5df7"
 		},
 
 		{
@@ -53,9 +53,9 @@
 			"title": "Alone (LUCA LUSH Remix)",
 			"genre": 2,
 			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/lucalush/marshmello-alone-luca-lush-remix-1"
+			"soundcloud_url": "b58b47f403f5afcdd36d1d9e34a6e8dcf1e6d1cb"
 		}
 
 	]
-	
+
 }
