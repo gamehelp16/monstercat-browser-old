@@ -1,19 +1,19 @@
 {
-	
+
 	"album_number": "MCX004",
 	"album_artist": "Monstercat",
 	"album_title": "5 Year Anniversary",
-	"album_artwork_thumb": "https://i.imgur.com/NhHf2S3m.jpg",
-	"album_artwork_full": "https://i.imgur.com/NhHf2S3.jpg",
-	
+	"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/c372a94378fb1bfce79679c8b02cd8a3e50c8ff8",
+	"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/a116dee017514505bcfda6e99c5ec58a",
+
 	"tracks": [
-	
+
 		{
-			"artist": "Stephen Walking & Ephixa",
+			"artist": "Ephixa & Stephen Walking",
 			"title": "Matches",
-			"genre": 6,
+			"genre": 2,
 			"feat": "Aaron Richards",
-			"soundcloud_url": "https://soundcloud.com/monstercat/ephixa-stephen-walking-matches"
+			"soundcloud_url": "d497a97ddcf3ab57760a746dc40fc916b88217de"
 		},
 
 		{
@@ -21,7 +21,7 @@
 			"title": "Lift You Up",
 			"genre": 8,
 			"feat": "EMEL",
-			"soundcloud_url": "https://soundcloud.com/monstercat/stonebank-lift-you-up"
+			"soundcloud_url": "95056253267f5a485e267b96fc270584d8a46c8f"
 		},
 
 		{
@@ -29,7 +29,7 @@
 			"title": "Blackout",
 			"genre": 3,
 			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/monstercat/pegboardnerds-blackout"
+			"soundcloud_url": "206d9d8c559219f706ca285dfb784750946066dc"
 		},
 
 		{
@@ -37,15 +37,15 @@
 			"title": "Divided VIP",
 			"genre": 0,
 			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/monstercat/slips-slurs-divided-vip"
+			"soundcloud_url": "7fe0cd7d2660897f3c7efd9dae1226e7fb5e28f1"
 		},
 
 		{
 			"artist": "Rogue",
 			"title": "Imperfect Views",
-			"genre": 11,
+			"genre": 9,
 			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/monstercat/rogue-imperfect-views"
+			"soundcloud_url": "d2b8a49f05c90608cfb17c74aa53c94329f06e9e"
 		},
 
 		{
@@ -53,7 +53,7 @@
 			"title": "This Feeling",
 			"genre": 3,
 			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/monstercat/noisestorm-this-feeling"
+			"soundcloud_url": "d7637842962708327c15ae12e8a9bcd3c579add6"
 		},
 
 		{
@@ -61,15 +61,15 @@
 			"title": "Tribal",
 			"genre": 2,
 			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/monstercat/laszlo-tribal"
+			"soundcloud_url": "d7ba30b6f24cbed0a52a7a9d6f178a7fbf73886b"
 		},
 
 		{
 			"artist": "Richard Caddock, WRLD, Nitro Fun, Slips & Slurs & Subtact",
-			"title": "Break the Silence",
-			"genre": 7,
+			"title": "Break The Silence",
+			"genre": 6,
 			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/monstercat/richard-caddock-wrld-nitro-fun-slips-slurs-subtact-break-the-silence"
+			"soundcloud_url": "c023fe000b91a4fd02b818fe9a72ee594df03013"
 		},
 
 		{
@@ -77,17 +77,17 @@
 			"title": "Crescendo",
 			"genre": 1,
 			"feat": "MYLK",
-			"soundcloud_url": "https://soundcloud.com/monstercat/muzzy-crescendo"
+			"soundcloud_url": "4d9f980b38ed2af5223da9543b8200c24cf605c3"
 		},
 
 		{
 			"artist": "Tristam",
 			"title": "Before We Fade",
-			"genre": 11,
+			"genre": 10,
 			"feat": "",
-			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-before-we-fade"
+			"soundcloud_url": "98fadab41dcc8781be61a969cfb0a184c1de1172"
 		}
 
 	]
-	
+
 }

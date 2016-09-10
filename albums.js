@@ -1068,31 +1068,31 @@ var albumData = {
 			"album_number": "MCEP099",
 			"album_artist": "Hellberg",
 			"album_title": "Synchronize (VIP Mix / Acoustic) EP",
-			"album_artwork_thumb": "https://i.imgur.com/S1uMtsMm.jpg",
-			"album_artwork_full": "https://i.imgur.com/S1uMtsM.jpg"
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/e54c6c32d84bfe4818e8b11fb0f828b505cf99a2",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/75efe85d1acc6ecc16194232a89db2c1"
 		},
 
 		{
 			"album_number": "MCEP098",
 			"album_artist": "Eminence",
 			"album_title": "Hollow Mind EP",
-			"album_artwork_thumb": "https://i1.sndcdn.com/artworks-000176562852-p8ey8l-t500x500.jpg",
-			"album_artwork_full": "https://i1.sndcdn.com/artworks-000176562852-p8ey8l-original.jpg"
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/1124523f4e662bbe7cd48e7863f17201aaec76b7",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/3071355530dc44175ffad9b374eb35d3"
 		},
 
 		{
 			"album_number": "MCEP101",
 			"album_artist": "Marshmello",
 			"album_title": "Alone (The Remixes)",
-			"album_artwork_thumb": "https://i.imgur.com/1nZsv6Dm.jpg",
-			"album_artwork_full": "https://i.imgur.com/1nZsv6D.jpg"
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/a7ff74603f17090b7097f247757cffed8a391673",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/a72ac95898bbfcdadc720a85c4aa488a"
 		},
 
 		{
 			"album_number": "MCEP100",
 			"album_artist": "Project 46",
 			"album_title": "Summer Feels EP",
-			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/f1b653f1c21a26befa78b2634a84f072f06465ac",
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/134ec1693e41818f797d38c7de29ad26031b608f",
 			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/bfe3197bfec5610226d1f60e7170b619"
 		}
 
@@ -1137,8 +1137,8 @@ var albumData = {
 			"album_number": "MCX004",
 			"album_artist": "Monstercat",
 			"album_title": "5 Year Anniversary",
-			"album_artwork_thumb": "https://i.imgur.com/NhHf2S3m.jpg",
-			"album_artwork_full": "https://i.imgur.com/NhHf2S3.jpg"
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/c372a94378fb1bfce79679c8b02cd8a3e50c8ff8",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/a116dee017514505bcfda6e99c5ec58a"
 
 		}
 
