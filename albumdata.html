@@ -43,7 +43,7 @@
 	}
 	</script-->
 
-	<h2>So I have found a way to add album data easily using Monstercat's Connect API, this means that I can add an album data simply by just entering its catalog number (and a little bit editing). The following is the tool to do so just in case you're curious, keep in mind that you don't need to send me any album data anymore since this (obviously) is easy to do. Right now the tool is suitable for compilation albums only, but it will be improved!</h2>
+	<h2>So I have found a way to add album data easily using Monstercat's Connect API, this means that I can add an album data simply by just entering its catalog number (and a little bit editing). The following is the tool to do so just in case you're curious, keep in mind that you don't need to send me any album data anymore since this (obviously) is easy to do.</h2>
 
 	Enter catalog number: <input type="text" id="catalog-number"> <input type="button" value="Process!" onclick="process()"><br><br>
 
@@ -84,12 +84,25 @@
 				//console.log(result);
 
 				album_id = result._id;
-				album_number = result.title.split(" - ")[0].replace("Monstercat ", "");
-				album_title = result.title.split(" - ")[1];
+
+				if(catalog.indexOf('MC0') > -1) {
+					album_number = result.title.split(" - ")[0].replace("Monstercat ", "");
+					album_title = result.title.split(" - ")[1];
+				}
+				else {
+					album_number = result.catalogId;
+					album_artist = result.renderedArtists;
+					album_title = result.title;
+				}
 				album_artwork_thumb = "https://s3.amazonaws.com/data.monstercat.com/blobs/" + result.thumbHashes["256"];
 				album_artwork_full = "https://s3.amazonaws.com/data.monstercat.com/blobs/" + result.imageHashSum;
 
-				output.value = '{\n\n\t"album_number": "'+album_number+'",\n\t"album_title": "'+album_title+'",\n\t"album_artwork_thumb": "'+album_artwork_thumb+'",\n\t"album_artwork_full": "'+album_artwork_full+'",\n\n\t"tracks": [\n';
+				if(catalog.indexOf('MC0') > -1) {
+					output.value = '{\n\n\t"album_number": "'+album_number+'",\n\t"album_title": "'+album_title+'",\n\t"album_artwork_thumb": "'+album_artwork_thumb+'",\n\t"album_artwork_full": "'+album_artwork_full+'",\n\n\t"tracks": [\n';
+				}
+				else {
+					output.value = '{\n\n\t"album_number": "'+album_number+'",\n\t"album_artist": "'+album_artist+'",\n\t"album_title": "'+album_title+'",\n\t"album_artwork_thumb": "'+album_artwork_thumb+'",\n\t"album_artwork_full": "'+album_artwork_full+'",\n\n\t"tracks": [\n';
+				}
 
 				var request2 = new XMLHttpRequest();
 				request2.open('GET', 'https://connect.monstercat.com/api/catalog/release/'+album_id+'/tracks', true);
@@ -97,7 +110,7 @@
 				request2.onload = function() {
 
 					result2 = JSON.parse(request2.responseText).results;
-					//console.log(result2);
+					console.log(result2);
 
 					for(i in result2) {
 
@@ -119,7 +132,12 @@
 
 					}
 
-					output.value += '\n\t],\n\n\t"mixes": [\n\n\t\t{\n\t\t\t"name": "",\n\t\t\t"soundcloud_url": ""\n\t\t},\n\n\t\t{\n\t\t\t"name": "",\n\t\t\t"soundcloud_url": ""\n\t\t}\n\n\t]\n\n}';
+					if(catalog.indexOf('MC0') > -1) {
+						output.value += '\n\t],\n\n\t"mixes": [\n\n\t\t{\n\t\t\t"name": "",\n\t\t\t"soundcloud_url": ""\n\t\t},\n\n\t\t{\n\t\t\t"name": "",\n\t\t\t"soundcloud_url": ""\n\t\t}\n\n\t]\n\n}';
+					}
+					else {
+						output.value += '\n\t]\n\n}';
+					}
 
 				}
 

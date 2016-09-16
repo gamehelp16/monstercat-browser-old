@@ -401,13 +401,13 @@
 
 			var output = "";
 			var info = "";
-			var title = track.title.replace(/\((([a-zA-Z0-9 _\-\&'\.\$]* (Remix|Mix|VIP|Edit|Remake))|(with|Performed by) [a-zA-Z0-9 _\-\&]*)\)/g, "");
+			var title = track.title.replace(/(\((([a-zA-Z0-9 _\-\&'\.\$]* (Remix|Mix|VIP|Edit|Remake))|(with|Performed by) [a-zA-Z0-9 _\-\&]*)\) | \[[a-zA-Z0-9 _\-\&'\.\$]*\])/g, "");
 
 			if(i == selectedTrack) active = " active";
 			else active = "";
 			if(track.feat != "") info = '(feat. ' + track.feat + ')<br>';
 
-			var search = track.title.search(/\((([a-zA-Z0-9 _\-\&'\.\$]* (Remix|Mix|VIP|Edit|Remake))|(with|Performed by) [a-zA-Z0-9 _\-\&]*)\)/g);
+			var search = track.title.search(/(\((([a-zA-Z0-9 _\-\&'\.\$]* (Remix|Mix|VIP|Edit|Remake))|(with|Performed by) [a-zA-Z0-9 _\-\&]*)\) | \[[a-zA-Z0-9 _\-\&'\.\$]*\])/g);
 			if(search > -1) info += " " + track.title.substr(search);
 
 			output = '<div class="track' + active + '" onclick="playSoundCloud(' + i + ', \'' + track.soundcloud_url + '\')" id="track-' + i + '">\n\
