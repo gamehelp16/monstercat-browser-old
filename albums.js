@@ -1102,6 +1102,14 @@ var albumData = {
 			"album_title": "Summer Feels EP",
 			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/134ec1693e41818f797d38c7de29ad26031b608f",
 			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/bfe3197bfec5610226d1f60e7170b619"
+		},
+
+		{
+			"album_number": "MCEP102",
+			"album_artist": "Direct",
+			"album_title": "Trust In Me EP",
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/3c03e498e735a2da0f4f035857fd6ee9e8a12f87",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/d4fc6c9edc33b0e5abf544d09d8dca32"
 		}
 
 	],
@@ -1166,4 +1174,4 @@ for(var i=0;i<albumData.eps.length;i++) availableEPs.push(albumData.eps[i].album
 availableSeasonals = [];
 for(var i=0;i<albumData.seasonals.length;i++) availableSeasonals.push(albumData.seasonals[i].album_number);
 
-latestReleases = ["MCLP007X", "028", "MCEP100", "MCEP101", "MCEP098", "MCEP099", "MCX004", "027"];
+latestReleases = ["MCEP102", "MCLP007X", "028", "MCEP100", "MCEP101", "MCEP098", "MCEP099", "MCX004"];

@@ -173,7 +173,8 @@ body {
 .track-title {
 	color: rgb(213, 213, 213);
 	font-size: 15px;
-	margin-right: 10px;
+    max-width: 340px;
+    margin-right: 10px;
 }
 
 .track-info {

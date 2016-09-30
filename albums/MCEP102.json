@@ -1,0 +1,53 @@
+{
+
+	"album_number": "MCEP102",
+	"album_artist": "Direct",
+	"album_title": "Trust In Me EP",
+	"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/3c03e498e735a2da0f4f035857fd6ee9e8a12f87",
+	"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/d4fc6c9edc33b0e5abf544d09d8dca32",
+
+	"tracks": [
+
+		{
+			"artist": "Direct, Mr FijiWiji, & Holly Drummond",
+			"title": "Trust In Me ",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "ffeb79ba7b87650fc1c5e19fd062bd823528b0cb"
+		},
+
+		{
+			"artist": "Direct",
+			"title": "Make Me Feel",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "78ab0571b5839143cc86f274fcb81aab7047ca48"
+		},
+
+		{
+			"artist": "Direct",
+			"title": "So Sure",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "b4e828fd1a1c4bf5848e215d43192ec50567bc6a"
+		},
+
+		{
+			"artist": "Direct & Elliot Berger",
+			"title": "Anticipation",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "86478ea801943d837b36d3a4fede7cc02085c24c"
+		},
+
+		{
+			"artist": "Direct",
+			"title": "One Step Forward",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "fea2e422dedfa7aa4d37aac60ce8f7e2dc607be0"
+		}
+
+	]
+
+}
