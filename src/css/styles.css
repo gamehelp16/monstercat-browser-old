@@ -1,11 +1,11 @@
 @font-face {
     font-family: Gotham Bold;
-    src: url(assets/gotham_bold.ttf);
+    src: url(../fonts/gotham_bold.ttf);
 }
 
 @font-face {
     font-family: Gotham Book;
-    src: url(assets/gotham_book.ttf);
+    src: url(../fonts/gotham_book.ttf);
 }
 
 ::-webkit-scrollbar {
@@ -99,23 +99,23 @@ body {
 	border-radius: 100%;
 	width: 33px;
 	height: 33px;
-	background: url(assets/monstercat-white-2.png) 5px 4px no-repeat;
+	background: url(../img/monstercat-white-2.png) 5px 4px no-repeat;
 	background-size: 23px 25px;
 	margin-bottom: 0px;
 }
 
-.trap { background-color: #8C0F27; }
-.dnb { background-color: #F21904; }
-.house { background-color: #EA8C00; }
-.electro { background-color: #E6CE00; }
-.hard-dance { background-color: #019700; }
-.glitch-hop { background-color: #0B9757; }
-.nu-disco { background-color: #1CABB3; }
-.future-bass { background-color: #9A98FC; }
-.trance { background-color: #007EE7; }
-.dubstep { background-color: #8D04E1; }
-.drumstep { background-color: #F32188; }
-.electronic { background-color: #C1C1C1; }
+.trap { background-color: #810029; }
+.dnb { background-color: #F61A03; }
+.house { background-color: #EB8C00; }
+.electro { background-color: #E7CD00; }
+.hard-dance { background-color: #0CB204; }
+.glitch-hop { background-color: #0C9758; }
+.nu-disco { background-color: #1DAAB4; }
+.future-bass { background-color: #9999FB; }
+.trance { background-color: #007FE8; }
+.dubstep { background-color: #961EEA; }
+.drumstep { background-color: #F22189; }
+.electronic { background-color: #C2C1C3; }
 
 .genre-num {
 	text-align: center;
@@ -173,7 +173,8 @@ body {
 .track-title {
 	color: rgb(213, 213, 213);
 	font-size: 15px;
-	margin-right: 10px;
+    max-width: 340px;
+    margin-right: 10px;
 }
 
 .track-info {
@@ -312,7 +313,7 @@ body {
 }
 
 #seek-bar-inner {
-    width: 100px;
+    width: 0px;
     height: 7px;
     position: absolute;
     background: #ffffff;
@@ -564,28 +565,28 @@ body {
 }
 
 #banner-home {
-	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(assets/banner_home.png) center center no-repeat rgb(18, 21, 23);
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/banner_home.png) center center no-repeat rgb(18, 21, 23);
 	background-size: cover;
 	height: 250px;
 }
 
 #banner-compilation {
-	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(assets/banner_compilation.png) center center no-repeat rgb(18, 21, 23);
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/banner_compilation.png) center center no-repeat rgb(18, 21, 23);
 	background-size: cover;
 }
 
 #banner-lp {
-	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(assets/banner_lp.png) center center no-repeat rgb(18, 21, 23);
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/banner_lp.png) center center no-repeat rgb(18, 21, 23);
 	background-size: cover;
 }
 
 #banner-ep {
-	background: url(assets/banner_ep.png) center center no-repeat rgb(18, 21, 23);
+	background: url(../img/banner_ep.png) center center no-repeat rgb(18, 21, 23);
 	background-size: cover;
 }
 
 #banner-seasonal {
-	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(assets/banner_seasonal.png) center center no-repeat rgb(18, 21, 23);
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/banner_seasonal.png) center center no-repeat rgb(18, 21, 23);
 	background-size: cover;
 }
 

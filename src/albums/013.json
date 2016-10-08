@@ -1,5 +1,5 @@
 {
-	
+
 	"album_number": "013",
 	"album_title": "Awakening",
 	"album_artwork_thumb": "https://i.imgur.com/9tS8Uqem.jpg",
@@ -18,7 +18,7 @@
 		{
 			"artist": "Tristam",
 			"title": "Truth (Dabin Remix)",
-			"genre": 3,
+			"genre": 9,
 			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/monstercat/tristam-truth-dabin-remix"
 		},
@@ -26,7 +26,7 @@
 		{
 			"artist": "Vicetone",
 			"title": "Heartbeat (Rameses B Remix)",
-			"genre": 2,
+			"genre": 9,
 			"feat": "Collin McLoughlin",
 			"soundcloud_url": "https://soundcloud.com/ramesesb/vicetone-heartbeat-rameses-b"
 		},
@@ -246,7 +246,7 @@
 			"feat": "",
 			"soundcloud_url": "https://soundcloud.com/monstercat/televisor-the-pressure"
 		}
-		
+
 	],
 
 	"mixes": [

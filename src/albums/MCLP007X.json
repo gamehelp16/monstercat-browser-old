@@ -1,0 +1,141 @@
+{
+
+	"album_number": "MCLP007X",
+	"album_artist": "Karma Fields",
+	"album_title": "New Age | Dark Age (Deluxe Version)",
+	"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/13ab488e4f9878bdc141bb99be5c39a5b1229fa9",
+	"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/57d854559358953913a0fd56b22d6dfb",
+
+	"tracks": [
+
+		{
+			"artist": "Karma Fields",
+			"title": "Edge of the World",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "80cd5b593393bb4b63cb620733b3e00590b87316"
+		},
+
+		{
+			"artist": "Karma Fields & MORTEN",
+			"title": "Stickup",
+			"genre": 3,
+			"feat": "Juliette Lewis",
+			"soundcloud_url": "e692d5d49d4e029bbd97ee0ce1ef03c324f427b0"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "For Me",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "362639a356999b31fa264798cd2374e298c7d26d"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Skyline",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "0f9873394e34ae55b3f82d61f1b9f99d5b3bef32"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Fixed_",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "22979800aa6f9cfbc1b535ea25456a911ca8af78"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Greatness",
+			"genre": 11,
+			"feat": "Talib Kweli",
+			"soundcloud_url": "a7a53cc70f70c330d70d37f5f72c9fa08ff8f6b4"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Scandal",
+			"genre": 11,
+			"feat": "C.C. Sheffield",
+			"soundcloud_url": "cef812489649b0911c253c17ed0f5be476cd253d"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Build The Cities",
+			"genre": 11,
+			"feat": "Kerli",
+			"soundcloud_url": "ca16beac833b66f61f64c5f658e4853e09417efc"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Skewed",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "5413692ad5c10f296978f39774fcd775aa139085"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Faint Echoes",
+			"genre": 3,
+			"feat": "Monarchy",
+			"soundcloud_url": "70ed2648fae77a955098054cc47fd36031c6c27e"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "A Bright But Distant Future",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "d2f3f153631cf191bcdfdf081a182d0f4d746c9a"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Build the Cities [Classical]",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "1399ec984427834e69c1684f94d5f18a9f7a77cd"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "For You [Classical]",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "13cdb2d9b6319ef5f89f7c19efdf44514dc39eba"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Scandal [Classical]",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "f20f4157493241f1c18cbd7278279b548dc5e17c"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Skyline [Classical]",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "a5a1aa23c3c3c91c1cd52633dbf20c513065ea71"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Stickup (Piano Deviation) [Classical]",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "96baf32974e02ab189b1c1bdcf2312b2a96239a4"
+		}
+
+	]
+
+}
