@@ -1,9 +1,23 @@
 showGrids();
-section('home');
+
+var url = window.location.href.split("#");
+if(url.length > 1 && url[1].length > 0 && (url[1].substr(0,2) == "MC" || url[1].substr(0,1) == "0")) {
+    if(url[1].substr(0,3) == "MC0") {
+        url[1] = url[1].substr(2);
+    }
+    setTimeout(function() { // code somehow doesn't work without using setTimeout
+        loadAlbum(url[1]);
+        section('album-detail');
+    }, 0);
+}
+else {
+    section('home');
+}
 
 function section(what) {
 
     window.scrollTo(0,0);
+    window.location = "#";
 
     var title = "";
     if(what == "compilation-albums") title = "Compilation Albums";
@@ -12,6 +26,7 @@ function section(what) {
     else if(what == "seasonal") title = "Seasonal Albums";
     else if(what == "album-detail" && currentAlbum !== undefined && !loadingAlbum) {
         title = albumTitle;
+        window.location = "#" + currentAlbum;
     }
 
     if(title == "") document.title = "Monstercat Album Browser";
@@ -122,6 +137,7 @@ function loadAlbum(number) {
 
         currentAlbum = number;
         currentAlbumIndex = albumIndex(number);
+        window.location = "#" + number;
 
         if(currentAlbumIndex == 0) document.getElementById("prev-album").style.display = "none";
         else document.getElementById("prev-album").style.display = "table";
@@ -231,8 +247,9 @@ function loadAlbum(number) {
 
     request.onerror = function() {
         loadingAlbum = false;
-        document.getElementById("album-artwork").src = data.album_artwork_thumb;
+        section('home');
         alert('Error: Cannot retrieve album data (or album data isn\'t available yet).');
+        document.getElementById("album-artwork").src = data.album_artwork_thumb;
         document.getElementById("wrapper").style.opacity = 1;
     };
 

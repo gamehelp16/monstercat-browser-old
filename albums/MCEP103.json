@@ -1,0 +1,53 @@
+{
+
+	"album_number": "MCEP103",
+	"album_artist": "Aero Chord",
+	"album_title": "Love & Hate EP",
+	"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/7d7db32515a660ee78ccc46c058ef8cacb65bb23",
+	"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/25cc8809262ab7b38293350e9b478402",
+
+	"tracks": [
+
+		{
+			"artist": "Aero Chord",
+			"title": "The 90s",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "1c8baaea76f719dfb678fff380d8f25d1bb84958"
+		},
+
+		{
+			"artist": "Aero Chord",
+			"title": "Wanchu Back",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "3d3a0d74a242d8a60349d98c77836513831a72bb"
+		},
+
+		{
+			"artist": "Aero Chord",
+			"title": "Kid's Play",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "44e84929193f54092438d1ada262ae8d0d16e98c"
+		},
+
+		{
+			"artist": "Aero Chord x Tylor Maurer",
+			"title": "Gone",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "d29bc8dda013be47abce209d9a9e814fa32d1242"
+		},
+
+		{
+			"artist": "Aero Chord x Fractal",
+			"title": "Until The End",
+			"genre": 11,
+			"feat": "Q'AILA",
+			"soundcloud_url": "81496af9406dc7549ea433865f28d34bd435cd8d"
+		}
+
+	]
+
+}

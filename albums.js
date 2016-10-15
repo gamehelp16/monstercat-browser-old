@@ -1110,6 +1110,14 @@ var albumData = {
 			"album_title": "Trust In Me EP",
 			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/3c03e498e735a2da0f4f035857fd6ee9e8a12f87",
 			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/d4fc6c9edc33b0e5abf544d09d8dca32"
+		},
+
+		{
+			"album_number": "MCEP103",
+			"album_artist": "Aero Chord",
+			"album_title": "Love & Hate EP",
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/7d7db32515a660ee78ccc46c058ef8cacb65bb23",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/25cc8809262ab7b38293350e9b478402"
 		}
 
 	],
@@ -1174,4 +1182,4 @@ for(var i=0;i<albumData.eps.length;i++) availableEPs.push(albumData.eps[i].album
 availableSeasonals = [];
 for(var i=0;i<albumData.seasonals.length;i++) availableSeasonals.push(albumData.seasonals[i].album_number);
 
-latestReleases = ["MCEP102", "MCLP007X", "028", "MCEP100", "MCEP101", "MCEP098", "MCEP099", "MCX004"];
+latestReleases = ["MCEP103", "MCEP102", "MCLP007X", "028", "MCEP100", "MCEP101", "MCEP098", "MCEP099"];
