@@ -1118,6 +1118,14 @@ var albumData = {
 			"album_title": "Love & Hate EP",
 			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/7d7db32515a660ee78ccc46c058ef8cacb65bb23",
 			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/25cc8809262ab7b38293350e9b478402"
+		},
+
+		{
+			"album_number": "MCEP104",
+			"album_artist": "Varien",
+			"album_title": "My Prayers Have Become Ghosts EP",
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/eb9109e8ddd387dbfe5c1a3ed2a468d23c5f90fb",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/a5a14bd1babafb3fadd6900e39bea439"
 		}
 
 	],
@@ -1182,4 +1190,4 @@ for(var i=0;i<albumData.eps.length;i++) availableEPs.push(albumData.eps[i].album
 availableSeasonals = [];
 for(var i=0;i<albumData.seasonals.length;i++) availableSeasonals.push(albumData.seasonals[i].album_number);
 
-latestReleases = ["MCEP103", "MCEP102", "MCLP007X", "028", "MCEP100", "MCEP101", "MCEP098", "MCEP099"];
+latestReleases = ["MCEP104", "MCEP103", "MCEP102", "MCLP007X", "028", "MCEP100", "MCEP101", "MCEP098"];

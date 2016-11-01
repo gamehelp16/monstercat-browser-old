@@ -1,0 +1,61 @@
+{
+
+	"album_number": "MCEP104",
+	"album_artist": "Varien",
+	"album_title": "My Prayers Have Become Ghosts EP",
+	"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/eb9109e8ddd387dbfe5c1a3ed2a468d23c5f90fb",
+	"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/a5a14bd1babafb3fadd6900e39bea439",
+
+	"tracks": [
+
+		{
+			"artist": "Varien",
+			"title": "Lest We Resign to Oblivion",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "055958c8db0f20596e4ce516401b9c17ad9cdb03"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Dawn Will Bring Us Death",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "6caca14d9e08ebd320e10b6b4ca7afc83886dbba"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "TEVA833",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "337e87272f0fd0bf1c830f2c619c4301c7345e5e"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "My Prayers Have Become Ghosts",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "552290209c631f2a8b30645dbeab9434fd2c11ef"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "Hear, Smith of Heavens",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "30248c4b2041b200cdb57acaa3265bd68aa1a563"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "The Pink Killing Floor",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "1e94032858b393c513ea991fcb20c7639398c32d"
+		}
+
+	]
+
+}
