@@ -4,7 +4,7 @@
 
 <p>On this Monstercat Album Browser, you can browse tracklists from Monstercat's compilation albums and navigate through them. Click on each track to play them right on this page, or click the genre circles on the top right corner to filter the tracklist by track genres.</p>
 
-<p>This album browser is inspired by <a href="https://www.reddit.com/user/Bloq">/u/Bloq's</a> <a href="https://www.reddit.com/r/Monstercat/comments/50n5hk/monstercat_028_uproar_bloqs_visual_tracklist/" target="_blank">Visual Tracklist</a> from Reddit, go check it out! If you have some feedback about this project feel free to tell me at <a href="https://www.reddit.com/user/gamehelp16/" target="_blank">/u/gamehelp16!</a></p>
+<p>This album browser is inspired by <a href="https://www.reddit.com/r/Monstercat/comments/4m0t3q/monstercat_027_cataclysm_bloqs_visual_tracklist/" target="_blank">/u/Bloq's Visual Tracklist</a> from Reddit, go check it out! If you have some feedback about this project feel free to tell me at <a href="https://www.reddit.com/user/gamehelp16/" target="_blank">/u/gamehelp16!</a></p>
 
 <b>Thanks to these people who have helped with the album data:</b>
 

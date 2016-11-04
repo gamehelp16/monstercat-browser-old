@@ -1,0 +1,62 @@
+{
+	
+	"album_number": "MCEP042",
+	"album_artist": "Astronaut",
+	"album_title": "Destination: Apollo EP",
+	"album_artwork_thumb": "https://i.imgur.com/qDMUqRZm.jpg",
+	"album_artwork_full": "https://i.imgur.com/qDMUqRZ.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Astronaut",
+			"title": "Apollo (Electro Mix)",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-apollo"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Apollo (Dodge & Fuski Remix)",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-apollo-dodge-fuski"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Apollo (SLDGHMR Remix)",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-apollo-sldghmr-remix"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Apollo (DKS Remix)",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-apollo-dks-remix"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Apollo (Barely Alive Remix)",
+			"genre": 5,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-apollo-barely-alive-remix"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Apollo (The Brig Remix)",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-apollo-the-brig-remix"
+		}
+
+	]
+	
+}
+

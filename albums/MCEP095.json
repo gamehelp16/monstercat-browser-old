@@ -1,0 +1,61 @@
+{
+
+	"album_number": "MCEP095",
+	"album_artist": "Pegboard Nerds",
+	"album_title": "Heartbit (The Remixes)",
+	"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/17e9cc15f96e4bc5361549bdfdbe3088870696a5",
+	"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/86ad542d9e56f1423964dfce0e7333ce",
+
+	"tracks": [
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "Heartbit (12th Planet Remix)",
+			"genre": 9,
+			"feat": "Tia Simone",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-heartbit-12th-planet-remix"
+		},
+
+        {
+			"artist": "Pegboard Nerds",
+			"title": "Heartbit (Sikdope Remix)",
+			"genre": 0,
+			"feat": "Tia Simone",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-heartbit-sikdope-remix"
+		},
+
+        {
+			"artist": "Pegboard Nerds",
+			"title": "Heartbit (Tommie Sunshine x Usica Remix)",
+			"genre": 3,
+			"feat": "Tia Simone",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-heartbit-tommie-sunshine-x-usica-remix"
+		},
+
+        {
+			"artist": "Pegboard Nerds",
+			"title": "Heartbit (MIU Remix)",
+			"genre": 9,
+			"feat": "Tia Simone",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-heartbit-miu-remix"
+		},
+
+        {
+			"artist": "Pegboard Nerds",
+			"title": "Heartbit (Quiet Disorder Remix)",
+			"genre": 3,
+			"feat": "Tia Simone",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-heartbit-quiet-disorder-remix"
+		},
+
+        {
+			"artist": "Pegboard Nerds",
+			"title": "Heartbit VIP",
+			"genre": 9,
+			"feat": "Tia Simone",
+			"soundcloud_url": "https://soundcloud.com/monstercat/pegboard-nerds-heartbit-vip"
+		}
+
+	]
+
+}

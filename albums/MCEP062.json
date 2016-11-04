@@ -1,0 +1,46 @@
+{
+	
+	"album_number": "MCEP062",
+	"album_artist": "Astronaut",
+	"album_title": "Destination: Champions EP",
+	"album_artwork_thumb": "https://i.imgur.com/ZbpFKHbm.jpg",
+	"album_artwork_full": "https://i.imgur.com/ZbpFKHb.jpg",
+	
+	"tracks": [
+	
+		{
+			"artist": "Astronaut",
+			"title": "Champions (WRLD Remix)",
+			"genre": 7,
+			"feat": "Harry Brooks JNR",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-champions-wrld-remix"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Champions (Laszlo Remix)",
+			"genre": 3,
+			"feat": "Harry Brooks JNR",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-champions-laslzo-remix"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Champions (Silverback Remix)",
+			"genre": 9,
+			"feat": "Harry Brooks JNR",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-champions-silverback-remix"
+		},
+
+		{
+			"artist": "Astronaut",
+			"title": "Champions (Volant Remix)",
+			"genre": 9,
+			"feat": "Harry Brooks JNR",
+			"soundcloud_url": "https://soundcloud.com/monstercat/astronaut-champions-volant-remix"
+		}
+
+	]
+	
+}
+

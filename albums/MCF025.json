@@ -1,0 +1,29 @@
+{
+
+	"album_number": "MCF025",
+	"album_artist": "San Holo",
+	"album_title": "Victory (The Remixes)",
+	"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/c206d291bab62a127ddc8188f912aa22e00906df",
+	"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/b18560b39a1dcca8c7570375b1012e53d64f5f5a",
+
+	"tracks": [
+
+		{
+			"artist": "San Holo",
+			"title": "Hold Fast (KRNE Remix)",
+			"genre": 7,
+			"feat": "Tessa Doustra",
+			"soundcloud_url": "https://soundcloud.com/monstercat/san-holo-hold-fast-krne-remix?in=monstercat/sets/victory-the-remixes"
+		},
+
+		{
+			"artist": "San Holo",
+			"title": "Victory (Daktyl Remix)",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "https://soundcloud.com/monstercat/san-holo-victory-daktyl-remix?in=monstercat/sets/victory-the-remixes"
+		}
+
+	]
+
+}
