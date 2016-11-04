@@ -42,6 +42,14 @@
 
 		{
 			"artist": "Varien",
+			"title": "The Pink Killing Floor",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "d1405cd386a4692df853972988ec7eae8562cdd1"
+		},
+
+		{
+			"artist": "Varien",
 			"title": "Hear, Smith of Heavens",
 			"genre": 11,
 			"feat": "",
@@ -50,10 +58,10 @@
 
 		{
 			"artist": "Varien",
-			"title": "The Pink Killing Floor",
+			"title": "The Pink Killing Floor (Radio Edit)",
 			"genre": 2,
 			"feat": "",
-			"soundcloud_url": "1e94032858b393c513ea991fcb20c7639398c32d"
+			"soundcloud_url": "0f55f0f76664f77f1896fe0d12f106b079cce84f"
 		}
 
 	]

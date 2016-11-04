@@ -1,11 +1,13 @@
 @font-face {
-    font-family: Gotham Bold;
+    font-family: 'Gotham Bold';
     src: url(assets/gotham_bold.ttf);
+	font-style: normal;
 }
 
 @font-face {
-    font-family: Gotham Book;
+    font-family: 'Gotham Book';
     src: url(assets/gotham_book.ttf);
+	font-style: normal;
 }
 
 ::-webkit-scrollbar {
@@ -24,7 +26,7 @@
 }
 
 body {
-    font-family: Gotham Book;
+	font-family: 'Gotham Book', sans-serif;
     -webkit-font-smoothing: antialiased;
 	margin: 0;
 	background: rgb(18, 21, 23);
@@ -34,7 +36,7 @@ body {
 }
 
 #wrapper {
-	margin: 20px auto 0px auto;
+	margin: 20px auto 0 auto;
 	width: 764px;
 }
 
@@ -59,7 +61,7 @@ body {
 }
 
 #album-id {
-	font-family: Gotham Bold;
+	font-family: 'Gotham Bold', sans-serif;
 	font-size: 31px;
 	letter-spacing: -2px;
 	text-transform: uppercase;
@@ -67,7 +69,7 @@ body {
 }
 
 #album-title {
-	font-family: Gotham Book;
+	font-family: 'Gotham Book', sans-serif;
 	font-size: 24px;
 	letter-spacing: -2.3px;
 	text-transform: uppercase;
@@ -101,25 +103,25 @@ body {
 	height: 33px;
 	background: url(assets/monstercat-white-2.png) 5px 4px no-repeat;
 	background-size: 23px 25px;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
-.trap { background-color: #8C0F27; }
-.dnb { background-color: #F21904; }
-.house { background-color: #EA8C00; }
-.electro { background-color: #E6CE00; }
-.hard-dance { background-color: #019700; }
-.glitch-hop { background-color: #0B9757; }
-.nu-disco { background-color: #1CABB3; }
-.future-bass { background-color: #9A98FC; }
-.trance { background-color: #007EE7; }
-.dubstep { background-color: #8D04E1; }
-.drumstep { background-color: #F32188; }
-.electronic { background-color: #C1C1C1; }
+.trap { background-color: #810029; }
+.dnb { background-color: #F61A03; }
+.house { background-color: #EB8C00; }
+.electro { background-color: #E7CD00; }
+.hard-dance { background-color: #0CB204; }
+.glitch-hop { background-color: #0C9758; }
+.nu-disco { background-color: #1DAAB4; }
+.future-bass { background-color: #9999FB; }
+.trance { background-color: #007FE8; }
+.dubstep { background-color: #961EEA; }
+.drumstep { background-color: #F22189; }
+.electronic { background-color: #C2C1C3; }
 
 .genre-num {
 	text-align: center;
-	font-family: Gotham Book;
+	font-family: Gotham Book, cursive;
 	margin-top: 3px;
 }
 
@@ -147,7 +149,7 @@ body {
 
 .track div {
 	display: inline-block;
-	font-family: Gotham Book;
+	font-family: Gotham Book, cursive;
 	vertical-align: middle;
 	letter-spacing: -1px;
 }
@@ -183,7 +185,7 @@ body {
 }
 
 .no-tracks {
-	font-family: Gotham Book;
+	font-family: Gotham Book, cursive;
 	text-align: center;
 	color: rgb(213, 213, 213);
 	height: 51px;
@@ -194,7 +196,7 @@ body {
 }
 
 #album-mixes {
-	font-family: Gotham Bold;
+	font-family: Gotham Bold, cursive;
 	text-align: center;
 }
 
@@ -228,7 +230,7 @@ body {
 }
 
 #danyka-nadeau {
-	font-family: Gotham Book;
+	font-family: 'Gotham Book', sans-serif;
 	letter-spacing: -1px;
 	text-align: center;
 	color: transparent;
@@ -258,7 +260,7 @@ body {
 }
 
 #now-playing {
-	font-family: Gotham Book;
+	font-family: 'Gotham Book', sans-serif;
 	letter-spacing: -1px;
 	padding: 10px 0;
 }
@@ -271,7 +273,7 @@ body {
 }
 
 #now-playing b {
-	font-family: Gotham Bold;
+	font-family: 'Gotham Bold', sans-serif;
 	font-weight: normal;
 }
 
@@ -290,7 +292,7 @@ body {
 
 #play-pause.play {
     font-size: 25px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 #play-pause.pause {
@@ -308,19 +310,15 @@ body {
     cursor: pointer;
     z-index: 10;
     -webkit-transition: .05s linear all;
-        -moz-transform: .05s linear all;
-             transform: .05s linear all;
 }
 
 #seek-bar-inner {
-    width: 0px;
+    width: 0;
     height: 7px;
     position: absolute;
     background: #ffffff;
     z-index: 30;
     -webkit-transition: .05s linear all;
-        -moz-transform: .05s linear all;
-             transform: .05s linear all;
 }
 
 #seek-bar-ghost {
@@ -330,8 +328,6 @@ body {
     background: #555555;
     z-index: 20;
     -webkit-transition: .05s linear all;
-        -moz-transform: .05s linear all;
-             transform: .05s linear all;
 }
 
 #seek-bar:hover {
@@ -403,9 +399,7 @@ body {
 	background: rgba(0,0,0,.5);
 	z-index: 10000;
 	display: none;
-	-webkit-transition: .2s linear all;
-	    -moz-transform: .2s linear all;
-	         transform: .2s linear all;
+	-webkit-transition: all 0.2s linear;
 }
 
 #hamburger-icon {
@@ -432,8 +426,6 @@ body {
 	padding-top: 30px;
 	box-shadow: 0 0 20px 5px #000;
 	-webkit-transition: .2s linear all;
-	    -moz-transform: .2s linear all;
-	         transform: .2s linear all;
 }
 
 #sidebar img {
@@ -474,7 +466,7 @@ body {
 }
 
 .section h1, .section h2 {
-	font-family: Gotham Book;
+	font-family: 'Gotham Book', sans-serif;
 	font-weight: normal;
 	text-align: center;
 }
@@ -532,7 +524,7 @@ body {
 }
 
 .album-view .title {
-	font-family: Gotham Bold;
+	font-family: 'Gotham Bold', sans-serif;
 	text-transform: uppercase;
 	font-size: 15px;
 	width: 100%;
@@ -591,7 +583,7 @@ body {
 }
 
 .banner-padding {
-	widtb: 100%;
+	width: 100%;
 	height: 150px;
 }
 
@@ -602,7 +594,6 @@ body {
 .noselect {
   -webkit-touch-callout: none;
     -webkit-user-select: none;
-     -khtml-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
