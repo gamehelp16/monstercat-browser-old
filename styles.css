@@ -121,7 +121,7 @@ body {
 
 .genre-num {
 	text-align: center;
-	font-family: Gotham Book, cursive;
+	font-family: 'Gotham Book', sans-serif;
 	margin-top: 3px;
 }
 
@@ -149,7 +149,7 @@ body {
 
 .track div {
 	display: inline-block;
-	font-family: Gotham Book, cursive;
+	font-family: 'Gotham Book', sans-serif;
 	vertical-align: middle;
 	letter-spacing: -1px;
 }
@@ -185,7 +185,7 @@ body {
 }
 
 .no-tracks {
-	font-family: Gotham Book, cursive;
+	font-family: 'Gotham Book', sans-serif;
 	text-align: center;
 	color: rgb(213, 213, 213);
 	height: 51px;
@@ -196,7 +196,7 @@ body {
 }
 
 #album-mixes {
-	font-family: Gotham Bold, cursive;
+	font-family: 'Gotham Bold', sans-serif;
 	text-align: center;
 }
 
@@ -399,7 +399,7 @@ body {
 	background: rgba(0,0,0,.5);
 	z-index: 10000;
 	display: none;
-	-webkit-transition: all 0.2s linear;
+	-webkit-transition: .2s linear all;
 }
 
 #hamburger-icon {
