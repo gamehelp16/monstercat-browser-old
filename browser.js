@@ -69,7 +69,7 @@ function showAlbumCard(number) {
         var card_title = albumData.lps[albumIndex2].album_artist;
         var card_subtitle = albumData.lps[albumIndex2].album_title;
     }
-    else if(number.indexOf("MCEP") > -1 || number.indexOf("MCF") > -1) {
+    else if(number.indexOf("MCEP") > -1 || number.indexOf("MCF") > -1 || number.indexOf("MCS") > -1)  {
         var albumIndex2 = arrayIndex(number, availableEPs);
         var card_image = albumData.eps[albumIndex2].album_artwork_thumb;
         var card_title = albumData.eps[albumIndex2].album_artist;
@@ -90,7 +90,7 @@ function showAlbumCard(number) {
 
     return '<div class="album-view" onclick="loadAlbum(\''+number+'\'),section(\'album-detail\')"><img src="'+card_image+'"><div class="album-info"><div class="title">'+card_title+'</div><div class="subtitle">'+card_subtitle+'</div></div></div>';
 
-}
+};
 
 function bannerBg(url) {
     return "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("+url+") center center no-repeat black";
@@ -120,7 +120,7 @@ var selectedGenre,
 function loadAlbum(number) {
 
     if(number.indexOf("MCLP") > -1) mode = "lp", availableAlbums = availableLPs;
-    else if(number.indexOf("MCEP") > -1 || number.indexOf("MCF") > -1) mode = "ep", availableAlbums = availableEPs;
+    else if(number.indexOf("MCEP") > -1 || number.indexOf("MCF") > -1 || number.indexOf("MCS") > -1) mode = "ep", availableAlbums = availableEPs;
     else if(number.indexOf("MCH") > -1 || number.indexOf("MCX") > -1) mode = "seasonal", availableAlbums = availableSeasonals;
     else mode = "compilation", availableAlbums = availableCompilations;
 

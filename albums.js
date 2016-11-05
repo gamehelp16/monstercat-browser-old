@@ -1121,6 +1121,14 @@ var albumData = {
 		},
 
 		{
+			"album_number": "MCS503",
+			"album_artist": "Karma Fields",
+			"album_title": "Sweat",
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/e83043fd8c998f2e84c71974ea05a91227e6f80d",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/ed6fd9a880a2e22cfdf71acc64f1295c"
+		},
+
+		{
 			"album_number": "MCEP104",
 			"album_artist": "Varien",
 			"album_title": "My Prayers Have Become Ghosts EP",
@@ -1190,4 +1198,4 @@ for(var i=0;i<albumData.eps.length;i++) availableEPs.push(albumData.eps[i].album
 availableSeasonals = [];
 for(var i=0;i<albumData.seasonals.length;i++) availableSeasonals.push(albumData.seasonals[i].album_number);
 
-latestReleases = ["MCEP104", "MCEP103", "MCEP102", "MCLP007X", "028", "MCEP100", "MCEP101", "MCEP098"];
+latestReleases = ["MCEP104", "MCS503", "MCEP103", "MCEP102", "MCLP007X", "028", "MCEP100", "MCEP101"];

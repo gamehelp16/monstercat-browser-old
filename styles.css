@@ -310,6 +310,8 @@ body {
     cursor: pointer;
     z-index: 10;
     -webkit-transition: .05s linear all;
+	    -moz-transform: .05s linear all;
+	         transform: .05s linear all;
 }
 
 #seek-bar-inner {
@@ -319,6 +321,8 @@ body {
     background: #ffffff;
     z-index: 30;
     -webkit-transition: .05s linear all;
+	    -moz-transform: .05s linear all;
+	         transform: .05s linear all;
 }
 
 #seek-bar-ghost {
@@ -328,6 +332,8 @@ body {
     background: #555555;
     z-index: 20;
     -webkit-transition: .05s linear all;
+	    -moz-transform: .05s linear all;
+	         transform: .05s linear all;
 }
 
 #seek-bar:hover {
@@ -400,6 +406,9 @@ body {
 	z-index: 10000;
 	display: none;
 	-webkit-transition: .2s linear all;
+	    -moz-transform: .2s linear all;
+	         transform: .2s linear all;
+
 }
 
 #hamburger-icon {
@@ -426,6 +435,8 @@ body {
 	padding-top: 30px;
 	box-shadow: 0 0 20px 5px #000;
 	-webkit-transition: .2s linear all;
+	    -moz-transform: .2s linear all;
+	         transform: .2s linear all;
 }
 
 #sidebar img {
