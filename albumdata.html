@@ -3,7 +3,7 @@
 <html>
 <head>
 	<style>
-	body { font-family: Helvetica; }
+	body { font-family: Helvetica,serif; }
 	</style>
 </head>
 <body>
@@ -67,7 +67,7 @@
 			['drumstep', 10],
 			['electronic', 11],
 			['electro', 3],
-			['chillout', 11],
+			['chillout', 11]
 		];
 
 		function process() {
@@ -104,7 +104,7 @@
 					output.value = '{\n\n\t"album_number": "'+album_number+'",\n\t"album_artist": "'+album_artist+'",\n\t"album_title": "'+album_title+'",\n\t"album_artwork_thumb": "'+album_artwork_thumb+'",\n\t"album_artwork_full": "'+album_artwork_full+'",\n\n\t"tracks": [\n';
 				}
 
-				var request2 = new XMLHttpRequest();
+				var request2 = new XMLHttpRequest(), i;
 				request2.open('GET', 'https://connect.monstercat.com/api/catalog/release/'+album_id+'/tracks', true);
 
 				request2.onload = function() {
@@ -139,7 +139,7 @@
 						output.value += '\n\t]\n\n}';
 					}
 
-				}
+				};
 
 				request2.send();
 

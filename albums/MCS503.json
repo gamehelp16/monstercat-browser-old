@@ -1,0 +1,37 @@
+{
+
+	"album_number": "MCS503",
+	"album_artist": "Karma Fields",
+	"album_title": "Sweat",
+	"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/e83043fd8c998f2e84c71974ea05a91227e6f80d",
+	"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/ed6fd9a880a2e22cfdf71acc64f1295c",
+
+	"tracks": [
+
+		{
+			"artist": "Karma Fields",
+			"title": "Sweat",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "01b16f3f7ff80a9ac914cb3904920411a52e0b39"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Sweat (Bixel Boys Remix)",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "cec6eff58a8e0fed5287e5457562c81c7ebd258f"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Sweat (Soulji Remix)",
+			"genre": 3,
+			"feat": "",
+			"soundcloud_url": "16f300b591456f52c231e409e7ed5251aae40db8"
+		}
+
+	]
+
+}

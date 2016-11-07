@@ -252,8 +252,13 @@
 	"mixes": [
 
 		{
-			"name": "Awakening",
-			"soundcloud_url": ""
+			"name": "Dawn",
+			"soundcloud_url": "5cf92d4dd263fb6d998067aee9fb85a148f65a1b"
+		},
+
+		{
+			"name": "Dusk",
+			"soundcloud_url": "ba7b5bd23eb6e8a0ee9848feeb6ebf50722d4a60"
 		}
 
 	]
