@@ -1134,6 +1134,14 @@ var albumData = {
 			"album_title": "My Prayers Have Become Ghosts EP",
 			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/eb9109e8ddd387dbfe5c1a3ed2a468d23c5f90fb",
 			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/a5a14bd1babafb3fadd6900e39bea439"
+		},
+
+		{
+			"album_number": "MCEP106",
+			"album_artist": "Ephixa & Stephen Walking",
+			"album_title": "Matches (The Remixes)",
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/9ff39868c3777cbd84bd92b88205df56fccce8b5",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/30fb680d318f215adb5e4588f31c6957",
 		}
 
 	],
@@ -1198,4 +1206,4 @@ for(var i=0;i<albumData.eps.length;i++) availableEPs.push(albumData.eps[i].album
 availableSeasonals = [];
 for(var i=0;i<albumData.seasonals.length;i++) availableSeasonals.push(albumData.seasonals[i].album_number);
 
-latestReleases = ["MCEP104", "MCS503", "MCEP103", "MCEP102", "MCLP007X", "028", "MCEP100", "MCEP101"];
+latestReleases = ["MCEP106", "MCEP104", "MCS503", "MCEP103", "MCEP102", "MCLP007X", "028", "MCEP100"];

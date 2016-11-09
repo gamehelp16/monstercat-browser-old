@@ -92,14 +92,6 @@ function showAlbumCard(number) {
 
 };
 
-function bannerBg(url) {
-    return "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("+url+") center center no-repeat black";
-}
-
-function randomIndex(array) {
-    return array[Math.round(Math.random()*array.length)];
-}
-
 /* TRACKLIST STUFF */
 
 var genres = ["trap", "dnb", "house", "electro", "hard-dance", "glitch-hop", "nu-disco", "future-bass", "trance", "dubstep", "drumstep", "electronic"];
@@ -299,13 +291,13 @@ function showTrack(i, track) {
 
     var output = "";
     var info = "";
-    var title = track.title.replace(/(\((([a-zA-Z0-9 _\-\&'\.\$]* (Remix|Mix|VIP|Edit|Remake))|(with|Performed by) [a-zA-Z0-9 _\-\&]*)\)|\[[a-zA-Z0-9 _\-\&'\.\$]*\])/g, "");
+    var title = track.title.replace(/(\((([a-zA-Z0-9 _\-\&'\.\$]* (Remix|Mix|VIP|Edit|Remake))|(with|Performed by) [a-zA-Z0-9 _\-\&]*)\)|(\[[a-zA-Z0-9 _\-\&'\.\$]*\])|\(Acoustic\))/g, "");
 
     if(i == selectedTrack) active = " active";
     else active = "";
     if(track.feat != "") info = '(feat. ' + track.feat + ')<br>';
 
-    var search = track.title.search(/(\((([a-zA-Z0-9 _\-\&'\.\$]* (Remix|Mix|VIP|Edit|Remake))|(with|Performed by) [a-zA-Z0-9 _\-\&]*)\)|\[[a-zA-Z0-9 _\-\&'\.\$]*\])/g);
+    var search = track.title.search(/(\((([a-zA-Z0-9 _\-\&'\.\$]* (Remix|Mix|VIP|Edit|Remake))|(with|Performed by) [a-zA-Z0-9 _\-\&]*)\)|(\[[a-zA-Z0-9 _\-\&'\.\$]*\])|\(Acoustic\))/g, "");
     if(search > -1) info += " " + track.title.substr(search);
 
     output = '<div class="track' + active + '" onclick="playSoundCloud(' + i + ', \'' + track.soundcloud_url + '\')" id="track-' + i + '">\n\

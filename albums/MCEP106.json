@@ -1,0 +1,61 @@
+{
+
+	"album_number": "MCEP106",
+	"album_artist": "Ephixa & Stephen Walking",
+	"album_title": "Matches (The Remixes)",
+	"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/9ff39868c3777cbd84bd92b88205df56fccce8b5",
+	"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/30fb680d318f215adb5e4588f31c6957",
+
+	"tracks": [
+
+		{
+			"artist": "Ephixa & Stephen Walking",
+			"title": "Matches (Subtact Remix)",
+			"genre": 7,
+			"feat": "Aaron Richards",
+			"soundcloud_url": "7d9756bdc14e0cac975d3483a9bc0594548dd1d1"
+		},
+
+		{
+			"artist": "Ephixa & Stephen Walking",
+			"title": "Matches (Slips & Slurs Remix)",
+			"genre": 9,
+			"feat": "Aaron Richards",
+			"soundcloud_url": "5a38644ce0303472a619133098513f6c6fa364fc"
+		},
+
+		{
+			"artist": "Ephixa & Stephen Walking",
+			"title": "Matches (Mr FijiWiji Remix)",
+			"genre": 2,
+			"feat": "Aaron Richards",
+			"soundcloud_url": "eeb7be1cfa09c175ed4dbb3242cb28bae4479ceb"
+		},
+
+		{
+			"artist": "Ephixa & Stephen Walking",
+			"title": "Matches (Hyper Potions Remix)",
+			"genre": 2,
+			"feat": "Aaron Richards",
+			"soundcloud_url": "9287ab82d386245e0d10d5c76b1506200fd61002"
+		},
+
+		{
+			"artist": "Ephixa & Stephen Walking",
+			"title": "Matches (Dark Cat x VYNYL Remix)",
+			"genre": 6,
+			"feat": "Aaron Richards",
+			"soundcloud_url": "80d17fefd744988baa03a4373c3b272ee06522ac"
+		},
+
+		{
+			"artist": "Ephixa & Stephen Walking",
+			"title": "Matches (Acoustic)",
+			"genre": 11,
+			"feat": "Aaron Richards",
+			"soundcloud_url": "99861956de847bc114e51ac32851b411388f9321"
+		}
+
+	]
+
+}
