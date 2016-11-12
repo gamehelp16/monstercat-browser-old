@@ -1,0 +1,45 @@
+{
+
+	"album_number": "MCEP105",
+	"album_artist": "Koven",
+	"album_title": "Come To Light EP",
+	"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/529c6ddf5d8b8ce4e753684746ad9101e19ef33b",
+	"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/1a9e1fc95f05001595a5b20c01d24f45",
+
+	"tracks": [
+
+		{
+			"artist": "Koven",
+			"title": "Telling Me",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "065606634d42f81e801446802053faacbf3bdeb9"
+		},
+
+		{
+			"artist": "Koven",
+			"title": "Breathing Me In",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "bf8eba5d24ce39cdabfdde32c09feba8bd85c30b"
+		},
+
+		{
+			"artist": "Koven",
+			"title": "Silence",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "e227cc328ebd109948b3d8ead2f4cff15ede6bd8"
+		},
+
+		{
+			"artist": "Koven",
+			"title": "Everything",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "cae2d3eb63cd195675354a2abf1ec52fd6700914"
+		}
+
+	]
+
+}

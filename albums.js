@@ -1142,6 +1142,14 @@ var albumData = {
 			"album_title": "Matches (The Remixes)",
 			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/9ff39868c3777cbd84bd92b88205df56fccce8b5",
 			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/30fb680d318f215adb5e4588f31c6957",
+		},
+
+		{
+			"album_number": "MCEP105",
+			"album_artist": "Koven",
+			"album_title": "Come To Light EP",
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/529c6ddf5d8b8ce4e753684746ad9101e19ef33b",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/1a9e1fc95f05001595a5b20c01d24f45"
 		}
 
 	],
@@ -1206,4 +1214,4 @@ for(var i=0;i<albumData.eps.length;i++) availableEPs.push(albumData.eps[i].album
 availableSeasonals = [];
 for(var i=0;i<albumData.seasonals.length;i++) availableSeasonals.push(albumData.seasonals[i].album_number);
 
-latestReleases = ["MCEP106", "MCEP104", "MCS503", "MCEP103", "MCEP102", "MCLP007X", "028", "MCEP100"];
+latestReleases = ["MCEP105", "MCEP106", "MCEP104", "MCS503", "MCEP103", "MCEP102", "MCLP007X", "028"];
