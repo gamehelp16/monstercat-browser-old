@@ -1,0 +1,266 @@
+{
+
+	"album_number": "029",
+	"album_title": "Havoc",
+	"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/5eb6bf755ad6a9afa0fc950c4b14541244fd6e47",
+	"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/4014646c5072a52ea48d37b72c4a61ab",
+
+	"tracks": [
+
+		{
+			"artist": "Jauz x San Holo",
+			"title": "OK!",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "df612a731903d8ccf563deddb0b6fa0b51f15189"
+		},
+
+		{
+			"artist": "Seven Lions & Echos",
+			"title": "Cold Skin",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "e7f2467ad1200110906caff2adaa45461d42f64b"
+		},
+
+		{
+			"artist": "Nervo",
+			"title": "Anywhere You Go",
+			"genre": 2,
+			"feat": "Timmy Trumpet",
+			"soundcloud_url": "d844a3f84bccfa53fc4cc424345cdc85f57b8ee5"
+		},
+
+		{
+			"artist": "Koven",
+			"title": "Breathing Me In",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "bf8eba5d24ce39cdabfdde32c09feba8bd85c30b"
+		},
+
+		{
+			"artist": "Tokyo Machine",
+			"title": "Fight",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "74cfc61bd48a41b1dc9b8281fca645f2ebc6c9fd"
+		},
+
+		{
+			"artist": "Dirty Audio",
+			"title": "Gorilla Glue",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "ef76fff1ff79ed4137e0f50d4e6a1e4df35d75b1"
+		},
+
+		{
+			"artist": "Aero Chord x Fractal",
+			"title": "Until The End",
+			"genre": 11,
+			"feat": "Q'AILA",
+			"soundcloud_url": "81496af9406dc7549ea433865f28d34bd435cd8d"
+		},
+
+		{
+			"artist": "Grant",
+			"title": "Wake Up",
+			"genre": 7,
+			"feat": "Jessi Mason",
+			"soundcloud_url": "a70d5c315a5a06ebd9e3f2a327ccf8fc54950f89"
+		},
+
+		{
+			"artist": "Pegboard Nerds",
+			"title": "BAMF",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "1333457f10babf0f5b9dbea1043ea1e7b9475a42"
+		},
+
+		{
+			"artist": "Puppet & Murtagh",
+			"title": "Killing Giants",
+			"genre": 11,
+			"feat": "Richard Caddock",
+			"soundcloud_url": "a846a814c814018f0a436b54a8ecb8dd8ebfe70f"
+		},
+
+		{
+			"artist": "KUURO",
+			"title": "Aamon",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "eeb1c28c82755c26987224893498bddc71ca32d8"
+		},
+
+		{
+			"artist": "Dion Timmer",
+			"title": "Panic",
+			"genre": 9,
+			"feat": "",
+			"soundcloud_url": "bff44a8301168508f433d5457428ad24f143c927"
+		},
+
+		{
+			"artist": "Karma Fields",
+			"title": "Sweat",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "01b16f3f7ff80a9ac914cb3904920411a52e0b39"
+		},
+
+		{
+			"artist": "Feint",
+			"title": "Words",
+			"genre": 1,
+			"feat": "Laura Brehm",
+			"soundcloud_url": "7a36c00503381a688ac71df2483317f330fddc9f"
+		},
+
+		{
+			"artist": "DROELOE",
+			"title": "Bon Voyage",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "8e2b8a1d40a6697fd6b71baaa01523b07a1c5891"
+		},
+
+		{
+			"artist": "Going Quantum x Psychic Type",
+			"title": "Rare",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "b88c1e988433f912b15d90a260e00b152440fb00"
+		},
+
+		{
+			"artist": "Rogue",
+			"title": "Nemesis",
+			"genre": 0,
+			"feat": "",
+			"soundcloud_url": "63cf337de71f569dc29449b68c4c59eb883bf956"
+		},
+
+		{
+			"artist": "SMLE",
+			"title": "Halo",
+			"genre": 7,
+			"feat": "Helen Tess",
+			"soundcloud_url": "a3834766a86cb557382c4d49e9853bdb38efbf86"
+		},
+
+		{
+			"artist": "Subtact",
+			"title": "Tunnel Vision",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "cf06eb6250076014200217c283ab32b483c1d50d"
+		},
+
+		{
+			"artist": "Notaker",
+			"title": "Gems",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "b0a8e6c71feca5c5dc3dd9a3263c40e3b5c6d778"
+		},
+
+		{
+			"artist": "Rootkit",
+			"title": "Wildfire",
+			"genre": 10,
+			"feat": "",
+			"soundcloud_url": "70d341b5ab2201e61306657e83d58b8e50e4e862"
+		},
+
+		{
+			"artist": "Stephen Walking",
+			"title": "Hey",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "5b4c71186a46c831dae7019d2aefa5cfcc731547"
+		},
+
+		{
+			"artist": "Stonebank",
+			"title": "The Only One",
+			"genre": 4,
+			"feat": "Ben Clark",
+			"soundcloud_url": "65dd68275c06ad3870678b1e20168f02a7004c9e"
+		},
+
+		{
+			"artist": "Soupandreas",
+			"title": "Over You",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "9d5305c5bdb064dc1d5845409bf7170b83cb0eef"
+		},
+
+		{
+			"artist": "Aero Chord",
+			"title": "The 90s",
+			"genre": 7,
+			"feat": "",
+			"soundcloud_url": "1c8baaea76f719dfb678fff380d8f25d1bb84958"
+		},
+
+		{
+			"artist": "Direct, Mr FijiWiji, & Holly Drummond",
+			"title": "Trust In Me ",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "ffeb79ba7b87650fc1c5e19fd062bd823528b0cb"
+		},
+
+		{
+			"artist": "Candyland & Ricci",
+			"title": "Touch Me",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "007cb7ce9eb1554e6b75a829b905abfba2989de8"
+		},
+
+		{
+			"artist": "Koven",
+			"title": "Silence",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "e227cc328ebd109948b3d8ead2f4cff15ede6bd8"
+		},
+
+		{
+			"artist": "Puppet",
+			"title": "To Be Alive",
+			"genre": 6,
+			"feat": "Aaron Richards",
+			"soundcloud_url": "4cf09c5d455a5c461cef1dc8253e2635d07f21a8"
+		},
+
+		{
+			"artist": "Varien",
+			"title": "TEVA833",
+			"genre": 2,
+			"feat": "",
+			"soundcloud_url": "62950cd471c42e3cbbecfc71c623f4cb719cd7ca"
+		}
+
+	],
+
+	"mixes": [
+
+		{
+			"name": "Fury",
+			"soundcloud_url": "02f0ebc6bae21bcdc83dd21ce9d9e53cc7a81210"
+		},
+
+		{
+			"name": "Retribution",
+			"soundcloud_url": "99dc197b09c16dbd16fdda0e941b4232d4bc89f5"
+		}
+
+	]
+
+}

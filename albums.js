@@ -196,6 +196,13 @@ var albumData = {
 			"album_title": "Uproar",
 			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/4ddf9fb72f5bf8f567cd46cc7717780e984a6a37",
 			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/b2e68d35fa00bfaab6d82aa805d3bdf2"
+		},
+
+		{
+			"album_number": "029",
+			"album_title": "Havoc",
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/5eb6bf755ad6a9afa0fc950c4b14541244fd6e47",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/4014646c5072a52ea48d37b72c4a61ab"
 		}
 
 	],
@@ -1214,4 +1221,4 @@ for(var i=0;i<albumData.eps.length;i++) availableEPs.push(albumData.eps[i].album
 availableSeasonals = [];
 for(var i=0;i<albumData.seasonals.length;i++) availableSeasonals.push(albumData.seasonals[i].album_number);
 
-latestReleases = ["MCEP105", "MCEP106", "MCEP104", "MCS503", "MCEP103", "MCEP102", "MCLP007X", "028"];
+latestReleases = ["029", "MCEP105", "MCEP106", "MCEP104", "MCS503", "MCEP103", "MCEP102", "MCLP007X"];
