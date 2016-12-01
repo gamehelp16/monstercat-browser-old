@@ -1,0 +1,61 @@
+{
+
+	"album_number": "MCEP107",
+	"album_artist": "Puppet",
+	"album_title": "Fear Is Fleeting EP",
+	"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/a980d2f9a955f782dfe104e4615aac50233ee5be",
+	"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/29785595b63f9d93554afe17a2efc24a",
+
+	"tracks": [
+
+		{
+			"artist": "Puppet",
+			"title": "Listen To The Storm",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "805ba46d114b6f421f9575ced4425d47682b2372"
+		},
+
+		{
+			"artist": "Puppet",
+			"title": "To Be Alive",
+			"genre": 6,
+			"feat": "Aaron Richards",
+			"soundcloud_url": "4cf09c5d455a5c461cef1dc8253e2635d07f21a8"
+		},
+
+		{
+			"artist": "Puppet & Foria",
+			"title": "I'm Here",
+			"genre": 6,
+			"feat": "",
+			"soundcloud_url": "c30869627c2f648226def1b7892ae54e53b3c35e"
+		},
+
+		{
+			"artist": "Puppet & Pierce Fulton",
+			"title": "Just You",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "71f99e9cacdab28f0dde77ea297110102c697695"
+		},
+
+		{
+			"artist": "Puppet",
+			"title": "Play Pretend",
+			"genre": 11,
+			"feat": "",
+			"soundcloud_url": "fec766f2be18c4209c458d968583d15793ff7445"
+		},
+
+		{
+			"artist": "Puppet & Murtagh",
+			"title": "Killing Giants",
+			"genre": 11,
+			"feat": "Richard Caddock",
+			"soundcloud_url": "a846a814c814018f0a436b54a8ecb8dd8ebfe70f"
+		}
+
+	]
+
+}

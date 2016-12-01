@@ -1157,6 +1157,14 @@ var albumData = {
 			"album_title": "Come To Light EP",
 			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/529c6ddf5d8b8ce4e753684746ad9101e19ef33b",
 			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/1a9e1fc95f05001595a5b20c01d24f45"
+		},
+
+		{
+			"album_number": "MCEP107",
+			"album_artist": "Puppet",
+			"album_title": "Fear Is Fleeting EP",
+			"album_artwork_thumb": "https://s3.amazonaws.com/data.monstercat.com/blobs/a980d2f9a955f782dfe104e4615aac50233ee5be",
+			"album_artwork_full": "https://s3.amazonaws.com/data.monstercat.com/blobs/29785595b63f9d93554afe17a2efc24a",
 		}
 
 	],
@@ -1221,4 +1229,4 @@ for(var i=0;i<albumData.eps.length;i++) availableEPs.push(albumData.eps[i].album
 availableSeasonals = [];
 for(var i=0;i<albumData.seasonals.length;i++) availableSeasonals.push(albumData.seasonals[i].album_number);
 
-latestReleases = ["029", "MCEP105", "MCEP106", "MCEP104", "MCS503", "MCEP103", "MCEP102", "MCLP007X"];
+latestReleases = ["MCEP107", "029", "MCEP105", "MCEP106", "MCEP104", "MCS503", "MCEP103", "MCEP102"];
