@@ -1,6 +1,8 @@
-# Monstercat Album Browser
+# Monstercat Album Browser (old)
 
-<p>See the site in action <a href="https://gamehelp16.github.io/monstercat-browser/" target="_blank">here</a>!</p>
+## This is the old version of the Monstercat Album Browser, go <a href="https://github.com/gamehelp16/monstercat-browser/" target="_blank">here</a> to take a look at the new one!
+
+<p>See the site in action <a href="https://gamehelp16.github.io/monstercat-browser-old/" target="_blank">here</a>!</p>
 
 <p>On this Monstercat Album Browser, you can browse tracklists from Monstercat's compilation albums and navigate through them. Click on each track to play them right on this page, or click the genre circles on the top right corner to filter the tracklist by track genres.</p>
 
